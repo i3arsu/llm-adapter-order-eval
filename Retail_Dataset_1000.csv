@@ -1,0 +1,1001 @@
+user_input,action,product,quantity
+Can you take out 6 cheese?,remove,cheese,6
+"I changed my mind about those plate, take 5 out.",remove,plate,5
+Wipe out the sweater.,remove,sweater,1
+Remove 6 oranges from the basket.,remove,oranges,6
+Pop 3 milk into my shopping bag.,add,milk,3
+Drop the chocolate completely.,remove,chocolate,1
+I don’t want the jacket anymore.,remove,jacket,1
+"I changed my mind about those chocolate, take 10 out.",remove,chocolate,10
+Let’s add 10 hat to the basket.,add,hat,10
+Can you take out 1 chocolate?,remove,chocolate,1
+Get rid of 2 bananas from my order.,remove,bananas,2
+Please pull out 3 knife.,remove,knife,3
+Pop 4 bananas into my shopping bag.,add,bananas,4
+Include 5 cheese with my order.,add,cheese,5
+Can you take out 10 cheese?,remove,cheese,10
+Include 6 plate with my order.,add,plate,6
+"I changed my mind about those pan, take 5 out.",remove,pan,5
+Remove 5 blanket from the basket.,remove,blanket,5
+Drop the bread completely.,remove,bread,1
+Could you toss 4 toaster into the cart?,add,toaster,4
+Throw in 1 hat for me.,add,hat,1
+Please pull out 4 mug.,remove,mug,4
+Throw in 6 pillow for me.,add,pillow,6
+Forget about the toaster.,remove,toaster,1
+Can you take out 2 toaster?,remove,toaster,2
+Wipe out the apples.,remove,apples,1
+"Nix 6 pillow, please.",remove,pillow,6
+Please pull out 5 scarf.,remove,scarf,5
+Pop 10 apples into my shopping bag.,add,apples,10
+Please pull out 6 water.,remove,water,6
+Let’s add 3 shorts to the basket.,add,shorts,3
+Please pull out 1 toaster.,remove,toaster,1
+Pop 4 shorts into my shopping bag.,add,shorts,4
+Pop 2 oranges into my shopping bag.,add,oranges,2
+Can you take out 1 socks?,remove,socks,1
+Could you toss 3 bread into the cart?,add,bread,3
+Could you toss 5 mug into the cart?,add,mug,5
+Let’s add 2 lamp to the basket.,add,lamp,2
+Wipe out the mug.,remove,mug,1
+Drop the bottle completely.,remove,bottle,1
+Include 1 eggs with my order.,add,eggs,1
+Cancel the mug.,remove,mug,1
+Let’s drop 1 shoes.,remove,shoes,1
+I don’t want the hat anymore.,remove,hat,1
+I don’t need 2 water anymore.,remove,water,2
+I'd like to get 4 cheese.,add,cheese,4
+"I changed my mind about those toaster, take 10 out.",remove,toaster,10
+Let’s drop 5 apples.,remove,apples,5
+Eliminate the bread from my cart.,remove,bread,1
+Drop the water completely.,remove,water,1
+Remove 10 toaster from the basket.,remove,toaster,10
+Eliminate the eggs from my cart.,remove,eggs,1
+Remove 1 pillow from the basket.,remove,pillow,1
+Throw in 1 mug for me.,add,mug,1
+Throw in 5 chocolate for me.,add,chocolate,5
+Scratch the scarf.,remove,scarf,1
+"Grab me 5 t-shirt, please.",add,t-shirt,5
+Forget about the scarf.,remove,scarf,1
+Pop 5 eggs into my shopping bag.,add,eggs,5
+Wipe out the cheese.,remove,cheese,1
+Get rid of 5 toaster from my order.,remove,toaster,5
+I'd like to get 2 jeans.,add,jeans,2
+"Nix 3 knife, please.",remove,knife,3
+Throw in 2 water for me.,add,water,2
+Please pull out 1 chocolate.,remove,chocolate,1
+Include 4 t-shirt with my order.,add,t-shirt,4
+Can you take out 4 bananas?,remove,bananas,4
+Scratch the blender.,remove,blender,1
+"Nix 10 eggs, please.",remove,eggs,10
+Scratch the pillow.,remove,pillow,1
+Cancel the bread.,remove,bread,1
+"Nix 2 bottle, please.",remove,bottle,2
+I'd like to get 3 jeans.,add,jeans,3
+Please pull out 10 chocolate.,remove,chocolate,10
+Forget about the yogurt.,remove,yogurt,1
+I'd like to get 1 apples.,add,apples,1
+Let’s drop 4 sweater.,remove,sweater,4
+Forget about the socks.,remove,socks,1
+Forget about the eggs.,remove,eggs,1
+Please pull out 5 milk.,remove,milk,5
+Throw in 1 shorts for me.,add,shorts,1
+Eliminate the oranges from my cart.,remove,oranges,1
+Remove 2 apples from the basket.,remove,apples,2
+Throw in 2 socks for me.,add,socks,2
+Forget about the blanket.,remove,blanket,1
+Include 4 milk with my order.,add,milk,4
+I don’t want the pan anymore.,remove,pan,1
+Drop the jacket completely.,remove,jacket,1
+"I changed my mind about those sweater, take 5 out.",remove,sweater,5
+Can you take out 10 eggs?,remove,eggs,10
+Let’s add 2 yogurt to the basket.,add,yogurt,2
+I want the blender gone.,remove,blender,1
+I'd like to get 10 bananas.,add,bananas,10
+Please pull out 3 apples.,remove,apples,3
+I don’t want the scarf anymore.,remove,scarf,1
+"Nix 2 yogurt, please.",remove,yogurt,2
+Drop the pillow completely.,remove,pillow,1
+Include 2 eggs with my order.,add,eggs,2
+Pop 1 plate into my shopping bag.,add,plate,1
+"Grab me 5 shoes, please.",add,shoes,5
+Scratch the socks.,remove,socks,1
+"I changed my mind about those socks, take 4 out.",remove,socks,4
+"Grab me 4 knife, please.",add,knife,4
+Pop 10 jacket into my shopping bag.,add,jacket,10
+Forget about the toaster.,remove,toaster,1
+Cancel the knife.,remove,knife,1
+I don’t want the hat anymore.,remove,hat,1
+Could you toss 1 blanket into the cart?,add,blanket,1
+"I changed my mind about those chocolate, take 6 out.",remove,chocolate,6
+"I changed my mind about those shorts, take 1 out.",remove,shorts,1
+Let’s drop 5 lamp.,remove,lamp,5
+Cancel the plate.,remove,plate,1
+Drop the sweater completely.,remove,sweater,1
+I need 10 more milk.,add,milk,10
+Throw in 1 knife for me.,add,knife,1
+"I changed my mind about those knife, take 4 out.",remove,knife,4
+Can you take out 6 bananas?,remove,bananas,6
+I don’t need 5 socks anymore.,remove,socks,5
+I want the plate gone.,remove,plate,1
+Scratch the t-shirt.,remove,t-shirt,1
+Let’s add 1 pan to the basket.,add,pan,1
+"I changed my mind about those socks, take 3 out.",remove,socks,3
+Include 3 shoes with my order.,add,shoes,3
+"Nix 2 backpack, please.",remove,backpack,2
+Can you take out 4 yogurt?,remove,yogurt,4
+Let’s add 10 blanket to the basket.,add,blanket,10
+I need 1 more sweater.,add,sweater,1
+"I changed my mind about those shoes, take 5 out.",remove,shoes,5
+Remove 6 jacket from the basket.,remove,jacket,6
+Let’s add 10 sweater to the basket.,add,sweater,10
+Remove 1 pan from the basket.,remove,pan,1
+I don’t want the bread anymore.,remove,bread,1
+Please pull out 2 backpack.,remove,backpack,2
+Wipe out the bananas.,remove,bananas,1
+Wipe out the hat.,remove,hat,1
+Get rid of 4 eggs from my order.,remove,eggs,4
+Remove 6 hat from the basket.,remove,hat,6
+Eliminate the cheese from my cart.,remove,cheese,1
+Eliminate the pan from my cart.,remove,pan,1
+Can you take out 10 bottle?,remove,bottle,10
+Please pull out 1 scarf.,remove,scarf,1
+"Grab me 5 water, please.",add,water,5
+I want the pillow gone.,remove,pillow,1
+"Grab me 3 knife, please.",add,knife,3
+I need 1 more backpack.,add,backpack,1
+Remove 1 milk from the basket.,remove,milk,1
+Remove 1 yogurt from the basket.,remove,yogurt,1
+Get rid of 10 apples from my order.,remove,apples,10
+Let’s add 2 socks to the basket.,add,socks,2
+"I changed my mind about those cheese, take 6 out.",remove,cheese,6
+Please pull out 4 backpack.,remove,backpack,4
+Include 5 pillow with my order.,add,pillow,5
+Eliminate the knife from my cart.,remove,knife,1
+I don’t want the shorts anymore.,remove,shorts,1
+I need 6 more shoes.,add,shoes,6
+Get rid of 1 knife from my order.,remove,knife,1
+I need 2 more scarf.,add,scarf,2
+Remove 1 plate from the basket.,remove,plate,1
+Drop the milk completely.,remove,milk,1
+I'd like to get 2 mug.,add,mug,2
+Let’s drop 2 bread.,remove,bread,2
+Please pull out 4 apples.,remove,apples,4
+I want the toaster gone.,remove,toaster,1
+I'd like to get 1 yogurt.,add,yogurt,1
+I don’t need 3 eggs anymore.,remove,eggs,3
+"Nix 5 toaster, please.",remove,toaster,5
+Let’s drop 6 pillow.,remove,pillow,6
+Wipe out the blender.,remove,blender,1
+I want the pillow gone.,remove,pillow,1
+Wipe out the plate.,remove,plate,1
+Pop 1 bottle into my shopping bag.,add,bottle,1
+Scratch the plate.,remove,plate,1
+Remove 10 yogurt from the basket.,remove,yogurt,10
+Scratch the backpack.,remove,backpack,1
+Pop 3 pillow into my shopping bag.,add,pillow,3
+Scratch the scarf.,remove,scarf,1
+Drop the chocolate completely.,remove,chocolate,1
+Scratch the blender.,remove,blender,1
+I'd like to get 10 lamp.,add,lamp,10
+Wipe out the blanket.,remove,blanket,1
+"I changed my mind about those eggs, take 1 out.",remove,eggs,1
+"Grab me 5 yogurt, please.",add,yogurt,5
+"I changed my mind about those oranges, take 4 out.",remove,oranges,4
+Could you toss 1 shorts into the cart?,add,shorts,1
+Include 6 chocolate with my order.,add,chocolate,6
+Can you take out 6 pillow?,remove,pillow,6
+I'd like to get 4 bottle.,add,bottle,4
+"Nix 6 bread, please.",remove,bread,6
+Eliminate the cheese from my cart.,remove,cheese,1
+"Grab me 5 scarf, please.",add,scarf,5
+Include 10 scarf with my order.,add,scarf,10
+I want the blender gone.,remove,blender,1
+I want the oranges gone.,remove,oranges,1
+Please pull out 5 milk.,remove,milk,5
+Could you toss 3 blanket into the cart?,add,blanket,3
+"Nix 1 cheese, please.",remove,cheese,1
+Please pull out 3 pillow.,remove,pillow,3
+Pop 3 water into my shopping bag.,add,water,3
+Eliminate the blanket from my cart.,remove,blanket,1
+Drop the t-shirt completely.,remove,t-shirt,1
+Let’s drop 1 pan.,remove,pan,1
+I need 2 more backpack.,add,backpack,2
+Pop 1 cheese into my shopping bag.,add,cheese,1
+Scratch the sweater.,remove,sweater,1
+Get rid of 10 bottle from my order.,remove,bottle,10
+I want the bananas gone.,remove,bananas,1
+Wipe out the lamp.,remove,lamp,1
+Wipe out the pillow.,remove,pillow,1
+Please pull out 5 eggs.,remove,eggs,5
+I don’t need 4 chocolate anymore.,remove,chocolate,4
+Wipe out the water.,remove,water,1
+"Grab me 6 toaster, please.",add,toaster,6
+Can you take out 3 jacket?,remove,jacket,3
+Scratch the apples.,remove,apples,1
+I want the milk gone.,remove,milk,1
+Can you take out 2 toaster?,remove,toaster,2
+Remove 5 knife from the basket.,remove,knife,5
+I want the chocolate gone.,remove,chocolate,1
+Can you take out 2 scarf?,remove,scarf,2
+Get rid of 5 yogurt from my order.,remove,yogurt,5
+Can you take out 4 jacket?,remove,jacket,4
+Cancel the bread.,remove,bread,1
+I'd like to get 4 jeans.,add,jeans,4
+"Grab me 10 blender, please.",add,blender,10
+I don’t need 3 lamp anymore.,remove,lamp,3
+I need 2 more chocolate.,add,chocolate,2
+Can you take out 5 toaster?,remove,toaster,5
+"I changed my mind about those bananas, take 3 out.",remove,bananas,3
+Get rid of 4 blanket from my order.,remove,blanket,4
+I don’t want the mug anymore.,remove,mug,1
+"I changed my mind about those eggs, take 6 out.",remove,eggs,6
+Please pull out 10 blender.,remove,blender,10
+Forget about the milk.,remove,milk,1
+Can you take out 1 bananas?,remove,bananas,1
+Cancel the oranges.,remove,oranges,1
+Eliminate the socks from my cart.,remove,socks,1
+Let’s drop 1 bananas.,remove,bananas,1
+"Grab me 3 jacket, please.",add,jacket,3
+I don’t want the bread anymore.,remove,bread,1
+I need 5 more apples.,add,apples,5
+Scratch the eggs.,remove,eggs,1
+"Nix 10 shoes, please.",remove,shoes,10
+"Grab me 2 pillow, please.",add,pillow,2
+I don’t want the pillow anymore.,remove,pillow,1
+Forget about the blender.,remove,blender,1
+Could you toss 6 hat into the cart?,add,hat,6
+I don’t want the shorts anymore.,remove,shorts,1
+Get rid of 4 hat from my order.,remove,hat,4
+I want the backpack gone.,remove,backpack,1
+I don’t need 4 backpack anymore.,remove,backpack,4
+Get rid of 1 backpack from my order.,remove,backpack,1
+I need 6 more toaster.,add,toaster,6
+I don’t want the sweater anymore.,remove,sweater,1
+I don’t want the shorts anymore.,remove,shorts,1
+Please pull out 3 t-shirt.,remove,t-shirt,3
+Can you take out 10 oranges?,remove,oranges,10
+Drop the oranges completely.,remove,oranges,1
+I want the eggs gone.,remove,eggs,1
+"I changed my mind about those shorts, take 3 out.",remove,shorts,3
+Throw in 1 shoes for me.,add,shoes,1
+Can you take out 4 apples?,remove,apples,4
+Scratch the backpack.,remove,backpack,1
+Could you toss 6 bananas into the cart?,add,bananas,6
+I need 1 more shorts.,add,shorts,1
+"Nix 1 mug, please.",remove,mug,1
+Include 4 yogurt with my order.,add,yogurt,4
+Wipe out the bananas.,remove,bananas,1
+Cancel the blender.,remove,blender,1
+I'd like to get 6 bottle.,add,bottle,6
+I want the bottle gone.,remove,bottle,1
+I want the lamp gone.,remove,lamp,1
+Scratch the lamp.,remove,lamp,1
+Throw in 1 jacket for me.,add,jacket,1
+Pop 6 sweater into my shopping bag.,add,sweater,6
+Eliminate the cheese from my cart.,remove,cheese,1
+"Nix 6 milk, please.",remove,milk,6
+Eliminate the blanket from my cart.,remove,blanket,1
+I need 4 more socks.,add,socks,4
+Please pull out 1 bread.,remove,bread,1
+I don’t need 3 cheese anymore.,remove,cheese,3
+I don’t want the pan anymore.,remove,pan,1
+Eliminate the yogurt from my cart.,remove,yogurt,1
+Let’s drop 4 eggs.,remove,eggs,4
+Eliminate the plate from my cart.,remove,plate,1
+I don’t want the backpack anymore.,remove,backpack,1
+Include 3 shorts with my order.,add,shorts,3
+Forget about the pillow.,remove,pillow,1
+Let’s add 6 water to the basket.,add,water,6
+Cancel the milk.,remove,milk,1
+Drop the bread completely.,remove,bread,1
+Let’s add 3 pan to the basket.,add,pan,3
+Let’s add 10 jeans to the basket.,add,jeans,10
+"Nix 3 pillow, please.",remove,pillow,3
+Throw in 3 plate for me.,add,plate,3
+Wipe out the backpack.,remove,backpack,1
+Cancel the milk.,remove,milk,1
+Cancel the shorts.,remove,shorts,1
+Pop 3 hat into my shopping bag.,add,hat,3
+Cancel the toaster.,remove,toaster,1
+I don’t need 5 milk anymore.,remove,milk,5
+I don’t want the oranges anymore.,remove,oranges,1
+I don’t need 2 blender anymore.,remove,blender,2
+Scratch the hat.,remove,hat,1
+Include 3 bread with my order.,add,bread,3
+Remove 10 pillow from the basket.,remove,pillow,10
+Drop the lamp completely.,remove,lamp,1
+Throw in 2 backpack for me.,add,backpack,2
+Wipe out the cheese.,remove,cheese,1
+Include 1 sweater with my order.,add,sweater,1
+Include 1 mug with my order.,add,mug,1
+"Nix 4 oranges, please.",remove,oranges,4
+Forget about the blender.,remove,blender,1
+Remove 1 blender from the basket.,remove,blender,1
+Remove 4 cheese from the basket.,remove,cheese,4
+Get rid of 1 eggs from my order.,remove,eggs,1
+I want the blender gone.,remove,blender,1
+Cancel the pillow.,remove,pillow,1
+Scratch the shorts.,remove,shorts,1
+I need 3 more milk.,add,milk,3
+Let’s add 6 water to the basket.,add,water,6
+Remove 6 backpack from the basket.,remove,backpack,6
+Throw in 1 scarf for me.,add,scarf,1
+I'd like to get 4 eggs.,add,eggs,4
+I don’t want the toaster anymore.,remove,toaster,1
+Could you toss 6 backpack into the cart?,add,backpack,6
+"I changed my mind about those bread, take 4 out.",remove,bread,4
+Forget about the jeans.,remove,jeans,1
+I don’t need 5 shorts anymore.,remove,shorts,5
+Please pull out 1 jeans.,remove,jeans,1
+"Nix 10 shorts, please.",remove,shorts,10
+I'd like to get 4 water.,add,water,4
+Let’s drop 4 pillow.,remove,pillow,4
+Can you take out 10 knife?,remove,knife,10
+Include 6 blender with my order.,add,blender,6
+"Grab me 4 chocolate, please.",add,chocolate,4
+Could you toss 1 blender into the cart?,add,blender,1
+Cancel the sweater.,remove,sweater,1
+Let’s drop 10 bananas.,remove,bananas,10
+Include 10 jeans with my order.,add,jeans,10
+Wipe out the pillow.,remove,pillow,1
+Throw in 3 jeans for me.,add,jeans,3
+Include 2 yogurt with my order.,add,yogurt,2
+Get rid of 10 knife from my order.,remove,knife,10
+Let’s drop 4 apples.,remove,apples,4
+Please pull out 3 sweater.,remove,sweater,3
+Get rid of 3 toaster from my order.,remove,toaster,3
+Remove 6 mug from the basket.,remove,mug,6
+Throw in 3 bananas for me.,add,bananas,3
+I don’t want the chocolate anymore.,remove,chocolate,1
+"Nix 10 shorts, please.",remove,shorts,10
+Scratch the milk.,remove,milk,1
+Scratch the socks.,remove,socks,1
+I need 6 more pillow.,add,pillow,6
+I don’t need 5 bread anymore.,remove,bread,5
+I want the bananas gone.,remove,bananas,1
+Let’s add 3 bananas to the basket.,add,bananas,3
+Forget about the oranges.,remove,oranges,1
+Remove 5 water from the basket.,remove,water,5
+Throw in 1 milk for me.,add,milk,1
+Remove 1 shorts from the basket.,remove,shorts,1
+Remove 3 milk from the basket.,remove,milk,3
+"Grab me 2 jacket, please.",add,jacket,2
+I want the bananas gone.,remove,bananas,1
+I don’t want the toaster anymore.,remove,toaster,1
+Eliminate the bread from my cart.,remove,bread,1
+Throw in 3 milk for me.,add,milk,3
+Remove 10 mug from the basket.,remove,mug,10
+"Nix 6 blender, please.",remove,blender,6
+Could you toss 2 pan into the cart?,add,pan,2
+"I changed my mind about those bottle, take 3 out.",remove,bottle,3
+Eliminate the backpack from my cart.,remove,backpack,1
+Remove 10 socks from the basket.,remove,socks,10
+Could you toss 2 shorts into the cart?,add,shorts,2
+Wipe out the sweater.,remove,sweater,1
+Get rid of 4 socks from my order.,remove,socks,4
+Throw in 2 eggs for me.,add,eggs,2
+Get rid of 1 water from my order.,remove,water,1
+"I changed my mind about those plate, take 3 out.",remove,plate,3
+Please pull out 2 sweater.,remove,sweater,2
+I want the knife gone.,remove,knife,1
+I need 6 more plate.,add,plate,6
+"Grab me 3 socks, please.",add,socks,3
+Scratch the chocolate.,remove,chocolate,1
+Let’s drop 4 milk.,remove,milk,4
+Please pull out 3 cheese.,remove,cheese,3
+Could you toss 3 jeans into the cart?,add,jeans,3
+Drop the jacket completely.,remove,jacket,1
+Drop the oranges completely.,remove,oranges,1
+Let’s drop 10 blanket.,remove,blanket,10
+Forget about the sweater.,remove,sweater,1
+I don’t want the eggs anymore.,remove,eggs,1
+Throw in 3 pillow for me.,add,pillow,3
+"Grab me 4 apples, please.",add,apples,4
+Please pull out 6 blender.,remove,blender,6
+I'd like to get 4 blender.,add,blender,4
+Forget about the blender.,remove,blender,1
+"I changed my mind about those jeans, take 10 out.",remove,jeans,10
+Get rid of 6 water from my order.,remove,water,6
+Let’s drop 10 apples.,remove,apples,10
+Cancel the lamp.,remove,lamp,1
+Let’s add 1 bananas to the basket.,add,bananas,1
+Scratch the chocolate.,remove,chocolate,1
+Get rid of 3 jacket from my order.,remove,jacket,3
+"Grab me 4 jeans, please.",add,jeans,4
+"Nix 3 shorts, please.",remove,shorts,3
+I need 6 more backpack.,add,backpack,6
+Eliminate the cheese from my cart.,remove,cheese,1
+Could you toss 1 apples into the cart?,add,apples,1
+Wipe out the plate.,remove,plate,1
+Cancel the backpack.,remove,backpack,1
+Throw in 5 pan for me.,add,pan,5
+"Grab me 1 apples, please.",add,apples,1
+Remove 1 jeans from the basket.,remove,jeans,1
+Drop the scarf completely.,remove,scarf,1
+Can you take out 1 sweater?,remove,sweater,1
+"Nix 3 cheese, please.",remove,cheese,3
+Wipe out the blanket.,remove,blanket,1
+"I changed my mind about those bananas, take 4 out.",remove,bananas,4
+"Grab me 3 bottle, please.",add,bottle,3
+Eliminate the oranges from my cart.,remove,oranges,1
+"Grab me 3 pillow, please.",add,pillow,3
+Eliminate the t-shirt from my cart.,remove,t-shirt,1
+Forget about the backpack.,remove,backpack,1
+I'd like to get 1 mug.,add,mug,1
+Pop 6 milk into my shopping bag.,add,milk,6
+I don’t need 10 blanket anymore.,remove,blanket,10
+Forget about the pan.,remove,pan,1
+I want the scarf gone.,remove,scarf,1
+"Grab me 1 blender, please.",add,blender,1
+"Grab me 6 toaster, please.",add,toaster,6
+Cancel the t-shirt.,remove,t-shirt,1
+"I changed my mind about those apples, take 1 out.",remove,apples,1
+Eliminate the apples from my cart.,remove,apples,1
+Pop 2 chocolate into my shopping bag.,add,chocolate,2
+Pop 4 pan into my shopping bag.,add,pan,4
+Let’s drop 6 milk.,remove,milk,6
+"Grab me 3 hat, please.",add,hat,3
+Forget about the apples.,remove,apples,1
+Include 3 t-shirt with my order.,add,t-shirt,3
+Can you take out 3 yogurt?,remove,yogurt,3
+I need 4 more water.,add,water,4
+Can you take out 1 bread?,remove,bread,1
+"Nix 2 blender, please.",remove,blender,2
+Forget about the knife.,remove,knife,1
+Pop 6 blender into my shopping bag.,add,blender,6
+Please pull out 4 plate.,remove,plate,4
+Wipe out the cheese.,remove,cheese,1
+I don’t need 10 sweater anymore.,remove,sweater,10
+Let’s drop 2 t-shirt.,remove,t-shirt,2
+Pop 1 backpack into my shopping bag.,add,backpack,1
+Remove 2 apples from the basket.,remove,apples,2
+Let’s drop 10 blender.,remove,blender,10
+I'd like to get 6 scarf.,add,scarf,6
+Get rid of 10 yogurt from my order.,remove,yogurt,10
+Let’s drop 4 hat.,remove,hat,4
+Include 1 shoes with my order.,add,shoes,1
+"Grab me 10 cheese, please.",add,cheese,10
+Could you toss 4 lamp into the cart?,add,lamp,4
+Scratch the oranges.,remove,oranges,1
+Pop 5 jacket into my shopping bag.,add,jacket,5
+Forget about the knife.,remove,knife,1
+I need 2 more backpack.,add,backpack,2
+Throw in 6 water for me.,add,water,6
+Throw in 6 pillow for me.,add,pillow,6
+Pop 5 jacket into my shopping bag.,add,jacket,5
+Throw in 1 eggs for me.,add,eggs,1
+Could you toss 3 knife into the cart?,add,knife,3
+Can you take out 3 chocolate?,remove,chocolate,3
+I want the bread gone.,remove,bread,1
+I want the shoes gone.,remove,shoes,1
+Drop the blender completely.,remove,blender,1
+I want the mug gone.,remove,mug,1
+Let’s drop 6 hat.,remove,hat,6
+Wipe out the scarf.,remove,scarf,1
+Could you toss 1 bread into the cart?,add,bread,1
+Drop the pan completely.,remove,pan,1
+I need 4 more pan.,add,pan,4
+Please pull out 4 pan.,remove,pan,4
+Remove 6 apples from the basket.,remove,apples,6
+Remove 10 water from the basket.,remove,water,10
+Let’s add 6 lamp to the basket.,add,lamp,6
+Cancel the shorts.,remove,shorts,1
+Scratch the blender.,remove,blender,1
+Can you take out 4 shorts?,remove,shorts,4
+I don’t want the bread anymore.,remove,bread,1
+Wipe out the blanket.,remove,blanket,1
+Wipe out the backpack.,remove,backpack,1
+Can you take out 10 blender?,remove,blender,10
+Can you take out 6 blender?,remove,blender,6
+Cancel the blanket.,remove,blanket,1
+I want the chocolate gone.,remove,chocolate,1
+I don’t want the knife anymore.,remove,knife,1
+Can you take out 6 pan?,remove,pan,6
+"Nix 4 shorts, please.",remove,shorts,4
+Scratch the socks.,remove,socks,1
+Wipe out the hat.,remove,hat,1
+Can you take out 6 hat?,remove,hat,6
+"Grab me 3 t-shirt, please.",add,t-shirt,3
+I'd like to get 3 pillow.,add,pillow,3
+I don’t want the bottle anymore.,remove,bottle,1
+"I changed my mind about those shorts, take 3 out.",remove,shorts,3
+Let’s drop 5 cheese.,remove,cheese,5
+I need 1 more knife.,add,knife,1
+I don’t need 2 eggs anymore.,remove,eggs,2
+Get rid of 10 hat from my order.,remove,hat,10
+I don’t need 6 milk anymore.,remove,milk,6
+Remove 2 scarf from the basket.,remove,scarf,2
+I don’t need 2 bananas anymore.,remove,bananas,2
+Could you toss 4 backpack into the cart?,add,backpack,4
+Get rid of 1 blanket from my order.,remove,blanket,1
+Throw in 3 sweater for me.,add,sweater,3
+Could you toss 2 knife into the cart?,add,knife,2
+Let’s drop 2 jeans.,remove,jeans,2
+Please pull out 5 blender.,remove,blender,5
+Let’s add 5 knife to the basket.,add,knife,5
+Wipe out the t-shirt.,remove,t-shirt,1
+I'd like to get 6 t-shirt.,add,t-shirt,6
+I don’t need 4 plate anymore.,remove,plate,4
+I need 10 more scarf.,add,scarf,10
+Throw in 1 mug for me.,add,mug,1
+Please pull out 5 apples.,remove,apples,5
+Wipe out the blanket.,remove,blanket,1
+Scratch the backpack.,remove,backpack,1
+I'd like to get 4 toaster.,add,toaster,4
+Include 4 pillow with my order.,add,pillow,4
+I need 10 more t-shirt.,add,t-shirt,10
+Drop the bottle completely.,remove,bottle,1
+Forget about the blender.,remove,blender,1
+Drop the apples completely.,remove,apples,1
+"Nix 10 mug, please.",remove,mug,10
+Pop 1 cheese into my shopping bag.,add,cheese,1
+"Grab me 4 bread, please.",add,bread,4
+"I changed my mind about those chocolate, take 6 out.",remove,chocolate,6
+Forget about the sweater.,remove,sweater,1
+Please pull out 10 toaster.,remove,toaster,10
+I don’t need 6 bottle anymore.,remove,bottle,6
+I need 3 more backpack.,add,backpack,3
+Please pull out 4 oranges.,remove,oranges,4
+I don’t want the sweater anymore.,remove,sweater,1
+Let’s add 5 knife to the basket.,add,knife,5
+I need 2 more bottle.,add,bottle,2
+Scratch the pan.,remove,pan,1
+Cancel the bottle.,remove,bottle,1
+Pop 3 blender into my shopping bag.,add,blender,3
+Please pull out 6 shoes.,remove,shoes,6
+Scratch the milk.,remove,milk,1
+Let’s drop 5 knife.,remove,knife,5
+Cancel the oranges.,remove,oranges,1
+Cancel the shoes.,remove,shoes,1
+Can you take out 10 shorts?,remove,shorts,10
+I don’t need 1 knife anymore.,remove,knife,1
+I want the shoes gone.,remove,shoes,1
+Eliminate the jeans from my cart.,remove,jeans,1
+Drop the blender completely.,remove,blender,1
+Cancel the blender.,remove,blender,1
+I don’t need 3 pillow anymore.,remove,pillow,3
+Drop the shoes completely.,remove,shoes,1
+I don’t need 4 eggs anymore.,remove,eggs,4
+"Nix 6 water, please.",remove,water,6
+I'd like to get 1 bottle.,add,bottle,1
+Drop the socks completely.,remove,socks,1
+"I changed my mind about those jeans, take 1 out.",remove,jeans,1
+Include 3 blender with my order.,add,blender,3
+Scratch the toaster.,remove,toaster,1
+Scratch the bananas.,remove,bananas,1
+Drop the cheese completely.,remove,cheese,1
+Eliminate the apples from my cart.,remove,apples,1
+Please pull out 4 plate.,remove,plate,4
+Please pull out 1 backpack.,remove,backpack,1
+I want the shorts gone.,remove,shorts,1
+Drop the socks completely.,remove,socks,1
+Eliminate the blender from my cart.,remove,blender,1
+Pop 6 hat into my shopping bag.,add,hat,6
+Pop 1 t-shirt into my shopping bag.,add,t-shirt,1
+I'd like to get 3 oranges.,add,oranges,3
+I don’t need 3 shoes anymore.,remove,shoes,3
+Cancel the socks.,remove,socks,1
+Forget about the toaster.,remove,toaster,1
+Forget about the water.,remove,water,1
+Wipe out the scarf.,remove,scarf,1
+Throw in 4 yogurt for me.,add,yogurt,4
+Get rid of 4 scarf from my order.,remove,scarf,4
+Please pull out 1 t-shirt.,remove,t-shirt,1
+Let’s add 5 toaster to the basket.,add,toaster,5
+I need 1 more pillow.,add,pillow,1
+Remove 6 t-shirt from the basket.,remove,t-shirt,6
+Get rid of 10 toaster from my order.,remove,toaster,10
+I'd like to get 3 shorts.,add,shorts,3
+I don’t want the mug anymore.,remove,mug,1
+Cancel the lamp.,remove,lamp,1
+I don’t need 10 backpack anymore.,remove,backpack,10
+Please pull out 5 jeans.,remove,jeans,5
+Include 5 socks with my order.,add,socks,5
+Please pull out 2 t-shirt.,remove,t-shirt,2
+Scratch the shoes.,remove,shoes,1
+"I changed my mind about those scarf, take 1 out.",remove,scarf,1
+Scratch the socks.,remove,socks,1
+Get rid of 3 pillow from my order.,remove,pillow,3
+Let’s drop 4 jacket.,remove,jacket,4
+Pop 1 chocolate into my shopping bag.,add,chocolate,1
+Cancel the cheese.,remove,cheese,1
+I need 6 more knife.,add,knife,6
+Include 3 jeans with my order.,add,jeans,3
+Could you toss 3 oranges into the cart?,add,oranges,3
+Throw in 5 sweater for me.,add,sweater,5
+Get rid of 3 eggs from my order.,remove,eggs,3
+Please pull out 2 scarf.,remove,scarf,2
+"Nix 4 sweater, please.",remove,sweater,4
+Remove 5 blanket from the basket.,remove,blanket,5
+Could you toss 6 shoes into the cart?,add,shoes,6
+Forget about the hat.,remove,hat,1
+I want the eggs gone.,remove,eggs,1
+Can you take out 1 lamp?,remove,lamp,1
+Get rid of 4 toaster from my order.,remove,toaster,4
+Drop the apples completely.,remove,apples,1
+"Grab me 2 eggs, please.",add,eggs,2
+I'd like to get 6 bottle.,add,bottle,6
+"I changed my mind about those oranges, take 5 out.",remove,oranges,5
+Please pull out 5 oranges.,remove,oranges,5
+Throw in 10 jacket for me.,add,jacket,10
+Get rid of 4 sweater from my order.,remove,sweater,4
+I don’t need 2 jeans anymore.,remove,jeans,2
+Let’s add 10 jacket to the basket.,add,jacket,10
+I don’t want the yogurt anymore.,remove,yogurt,1
+Drop the bread completely.,remove,bread,1
+Include 2 socks with my order.,add,socks,2
+Remove 4 eggs from the basket.,remove,eggs,4
+Eliminate the pillow from my cart.,remove,pillow,1
+Drop the water completely.,remove,water,1
+Can you take out 5 chocolate?,remove,chocolate,5
+Scratch the bottle.,remove,bottle,1
+Could you toss 6 pan into the cart?,add,pan,6
+Pop 3 mug into my shopping bag.,add,mug,3
+I want the blender gone.,remove,blender,1
+Cancel the socks.,remove,socks,1
+I don’t need 10 milk anymore.,remove,milk,10
+Forget about the blender.,remove,blender,1
+Pop 2 blanket into my shopping bag.,add,blanket,2
+Throw in 2 scarf for me.,add,scarf,2
+Eliminate the plate from my cart.,remove,plate,1
+"Nix 10 mug, please.",remove,mug,10
+Drop the toaster completely.,remove,toaster,1
+Pop 2 water into my shopping bag.,add,water,2
+Drop the bananas completely.,remove,bananas,1
+Drop the apples completely.,remove,apples,1
+Drop the mug completely.,remove,mug,1
+"I changed my mind about those blender, take 10 out.",remove,blender,10
+Let’s drop 10 plate.,remove,plate,10
+I don’t want the jeans anymore.,remove,jeans,1
+Pop 1 pan into my shopping bag.,add,pan,1
+Include 1 blanket with my order.,add,blanket,1
+"Grab me 4 backpack, please.",add,backpack,4
+Please pull out 10 knife.,remove,knife,10
+I don’t want the jacket anymore.,remove,jacket,1
+I'd like to get 10 pan.,add,pan,10
+Please pull out 2 pan.,remove,pan,2
+Get rid of 2 plate from my order.,remove,plate,2
+Let’s add 10 jacket to the basket.,add,jacket,10
+Could you toss 4 bottle into the cart?,add,bottle,4
+Cancel the socks.,remove,socks,1
+"I changed my mind about those mug, take 1 out.",remove,mug,1
+Include 2 backpack with my order.,add,backpack,2
+Wipe out the backpack.,remove,backpack,1
+I need 10 more cheese.,add,cheese,10
+"Nix 6 apples, please.",remove,apples,6
+I need 6 more bottle.,add,bottle,6
+Cancel the blanket.,remove,blanket,1
+Please pull out 2 socks.,remove,socks,2
+Drop the jacket completely.,remove,jacket,1
+I'd like to get 2 pillow.,add,pillow,2
+I'd like to get 3 bananas.,add,bananas,3
+Throw in 5 scarf for me.,add,scarf,5
+"Nix 5 chocolate, please.",remove,chocolate,5
+Cancel the bread.,remove,bread,1
+Cancel the blender.,remove,blender,1
+I don’t need 10 bananas anymore.,remove,bananas,10
+Let’s drop 5 socks.,remove,socks,5
+"Nix 2 scarf, please.",remove,scarf,2
+I want the sweater gone.,remove,sweater,1
+Get rid of 2 chocolate from my order.,remove,chocolate,2
+I'd like to get 1 bottle.,add,bottle,1
+I want the knife gone.,remove,knife,1
+"Nix 3 pan, please.",remove,pan,3
+Cancel the mug.,remove,mug,1
+Remove 10 scarf from the basket.,remove,scarf,10
+I'd like to get 1 apples.,add,apples,1
+"I changed my mind about those socks, take 3 out.",remove,socks,3
+Can you take out 1 jacket?,remove,jacket,1
+Cancel the mug.,remove,mug,1
+Let’s drop 1 knife.,remove,knife,1
+Drop the toaster completely.,remove,toaster,1
+"I changed my mind about those blanket, take 2 out.",remove,blanket,2
+Include 5 cheese with my order.,add,cheese,5
+I don’t want the oranges anymore.,remove,oranges,1
+Could you toss 10 apples into the cart?,add,apples,10
+Let’s drop 5 apples.,remove,apples,5
+Throw in 5 bottle for me.,add,bottle,5
+Scratch the milk.,remove,milk,1
+Please pull out 5 chocolate.,remove,chocolate,5
+Get rid of 2 hat from my order.,remove,hat,2
+Can you take out 6 lamp?,remove,lamp,6
+I'd like to get 2 lamp.,add,lamp,2
+Remove 6 milk from the basket.,remove,milk,6
+Let’s drop 1 bottle.,remove,bottle,1
+Get rid of 5 bananas from my order.,remove,bananas,5
+Drop the scarf completely.,remove,scarf,1
+Include 3 water with my order.,add,water,3
+Include 1 pillow with my order.,add,pillow,1
+"I changed my mind about those pan, take 10 out.",remove,pan,10
+Could you toss 6 jacket into the cart?,add,jacket,6
+Can you take out 5 bottle?,remove,bottle,5
+Drop the water completely.,remove,water,1
+Forget about the knife.,remove,knife,1
+"I changed my mind about those backpack, take 1 out.",remove,backpack,1
+Drop the sweater completely.,remove,sweater,1
+Drop the oranges completely.,remove,oranges,1
+I need 10 more chocolate.,add,chocolate,10
+Can you take out 1 t-shirt?,remove,t-shirt,1
+Can you take out 4 cheese?,remove,cheese,4
+I'd like to get 1 mug.,add,mug,1
+I need 6 more apples.,add,apples,6
+Wipe out the backpack.,remove,backpack,1
+Drop the knife completely.,remove,knife,1
+"Nix 6 backpack, please.",remove,backpack,6
+Cancel the scarf.,remove,scarf,1
+Forget about the yogurt.,remove,yogurt,1
+"I changed my mind about those bread, take 10 out.",remove,bread,10
+Wipe out the yogurt.,remove,yogurt,1
+Can you take out 6 apples?,remove,apples,6
+I need 10 more pillow.,add,pillow,10
+I don’t need 6 jacket anymore.,remove,jacket,6
+Get rid of 6 yogurt from my order.,remove,yogurt,6
+I need 4 more bread.,add,bread,4
+Please pull out 2 t-shirt.,remove,t-shirt,2
+Eliminate the mug from my cart.,remove,mug,1
+Drop the socks completely.,remove,socks,1
+Let’s add 4 sweater to the basket.,add,sweater,4
+I'd like to get 2 blanket.,add,blanket,2
+I need 10 more toaster.,add,toaster,10
+I don’t want the bread anymore.,remove,bread,1
+Remove 2 mug from the basket.,remove,mug,2
+Include 3 cheese with my order.,add,cheese,3
+Drop the yogurt completely.,remove,yogurt,1
+Scratch the knife.,remove,knife,1
+Let’s add 2 knife to the basket.,add,knife,2
+Please pull out 6 chocolate.,remove,chocolate,6
+Please pull out 10 eggs.,remove,eggs,10
+I don’t want the pillow anymore.,remove,pillow,1
+"Nix 2 pan, please.",remove,pan,2
+Could you toss 6 blanket into the cart?,add,blanket,6
+"I changed my mind about those shorts, take 3 out.",remove,shorts,3
+I'd like to get 4 pillow.,add,pillow,4
+Remove 10 pan from the basket.,remove,pan,10
+I'd like to get 6 backpack.,add,backpack,6
+Include 3 water with my order.,add,water,3
+"Grab me 5 jeans, please.",add,jeans,5
+Get rid of 3 bottle from my order.,remove,bottle,3
+Let’s add 1 bread to the basket.,add,bread,1
+Cancel the bread.,remove,bread,1
+Forget about the scarf.,remove,scarf,1
+Get rid of 5 socks from my order.,remove,socks,5
+I'd like to get 2 water.,add,water,2
+"Nix 4 milk, please.",remove,milk,4
+"I changed my mind about those toaster, take 5 out.",remove,toaster,5
+Could you toss 5 pillow into the cart?,add,pillow,5
+Scratch the apples.,remove,apples,1
+Pop 1 hat into my shopping bag.,add,hat,1
+Throw in 2 toaster for me.,add,toaster,2
+Pop 5 water into my shopping bag.,add,water,5
+I want the apples gone.,remove,apples,1
+Forget about the knife.,remove,knife,1
+I'd like to get 4 blanket.,add,blanket,4
+"Nix 4 mug, please.",remove,mug,4
+Throw in 4 bottle for me.,add,bottle,4
+Could you toss 10 sweater into the cart?,add,sweater,10
+Get rid of 4 shoes from my order.,remove,shoes,4
+Pop 1 hat into my shopping bag.,add,hat,1
+Forget about the milk.,remove,milk,1
+Let’s add 10 jacket to the basket.,add,jacket,10
+Include 5 apples with my order.,add,apples,5
+Forget about the sweater.,remove,sweater,1
+I'd like to get 2 sweater.,add,sweater,2
+I'd like to get 10 apples.,add,apples,10
+I don’t want the backpack anymore.,remove,backpack,1
+I want the pan gone.,remove,pan,1
+Scratch the socks.,remove,socks,1
+Throw in 3 shoes for me.,add,shoes,3
+I'd like to get 4 blanket.,add,blanket,4
+"Nix 10 jeans, please.",remove,jeans,10
+Eliminate the bottle from my cart.,remove,bottle,1
+"Nix 3 sweater, please.",remove,sweater,3
+I need 6 more pillow.,add,pillow,6
+I want the bread gone.,remove,bread,1
+Pop 5 blender into my shopping bag.,add,blender,5
+Include 5 pillow with my order.,add,pillow,5
+Get rid of 5 hat from my order.,remove,hat,5
+Can you take out 4 blender?,remove,blender,4
+Drop the shoes completely.,remove,shoes,1
+Get rid of 5 shoes from my order.,remove,shoes,5
+Let’s drop 4 pan.,remove,pan,4
+"Nix 10 cheese, please.",remove,cheese,10
+"Grab me 5 oranges, please.",add,oranges,5
+Cancel the plate.,remove,plate,1
+Scratch the bananas.,remove,bananas,1
+I need 3 more lamp.,add,lamp,3
+Get rid of 3 jeans from my order.,remove,jeans,3
+Eliminate the bread from my cart.,remove,bread,1
+Could you toss 4 sweater into the cart?,add,sweater,4
+Forget about the t-shirt.,remove,t-shirt,1
+Throw in 2 knife for me.,add,knife,2
+Could you toss 3 mug into the cart?,add,mug,3
+Cancel the pillow.,remove,pillow,1
+Throw in 3 chocolate for me.,add,chocolate,3
+Pop 6 cheese into my shopping bag.,add,cheese,6
+Cancel the bottle.,remove,bottle,1
+"Nix 6 toaster, please.",remove,toaster,6
+Wipe out the mug.,remove,mug,1
+Can you take out 1 bread?,remove,bread,1
+Please pull out 1 hat.,remove,hat,1
+Include 6 jeans with my order.,add,jeans,6
+Scratch the pan.,remove,pan,1
+Pop 1 water into my shopping bag.,add,water,1
+I don’t need 5 blanket anymore.,remove,blanket,5
+"I changed my mind about those jacket, take 10 out.",remove,jacket,10
+Wipe out the lamp.,remove,lamp,1
+I don’t need 6 t-shirt anymore.,remove,t-shirt,6
+Can you take out 1 chocolate?,remove,chocolate,1
+Include 5 chocolate with my order.,add,chocolate,5
+I don’t want the mug anymore.,remove,mug,1
+I don’t need 2 blender anymore.,remove,blender,2
+Let’s drop 1 milk.,remove,milk,1
+I'd like to get 1 backpack.,add,backpack,1
+"Grab me 4 milk, please.",add,milk,4
+Pop 3 shoes into my shopping bag.,add,shoes,3
+I want the t-shirt gone.,remove,t-shirt,1
+Scratch the lamp.,remove,lamp,1
+Can you take out 3 eggs?,remove,eggs,3
+Include 4 water with my order.,add,water,4
+Pop 10 knife into my shopping bag.,add,knife,10
+I need 2 more backpack.,add,backpack,2
+Could you toss 6 lamp into the cart?,add,lamp,6
+Throw in 6 oranges for me.,add,oranges,6
+"Grab me 3 jacket, please.",add,jacket,3
+Remove 2 sweater from the basket.,remove,sweater,2
+Pop 6 jacket into my shopping bag.,add,jacket,6
+Could you toss 6 water into the cart?,add,water,6
+"Nix 4 shorts, please.",remove,shorts,4
+Scratch the backpack.,remove,backpack,1
+"Nix 10 bread, please.",remove,bread,10
+I'd like to get 6 milk.,add,milk,6
+Cancel the backpack.,remove,backpack,1
+Throw in 4 lamp for me.,add,lamp,4
+I don’t want the cheese anymore.,remove,cheese,1
+Forget about the blender.,remove,blender,1
+Remove 3 eggs from the basket.,remove,eggs,3
+I want the shoes gone.,remove,shoes,1
+I'd like to get 3 bread.,add,bread,3
+I need 2 more blanket.,add,blanket,2
+Drop the oranges completely.,remove,oranges,1
+Drop the shorts completely.,remove,shorts,1
+Forget about the pillow.,remove,pillow,1
+"Grab me 10 pan, please.",add,pan,10
+"I changed my mind about those yogurt, take 3 out.",remove,yogurt,3
+Forget about the jacket.,remove,jacket,1
+Get rid of 5 jacket from my order.,remove,jacket,5
+Drop the jeans completely.,remove,jeans,1
+I need 4 more pillow.,add,pillow,4
+Cancel the oranges.,remove,oranges,1
+Let’s drop 5 jeans.,remove,jeans,5
+Cancel the shoes.,remove,shoes,1
+Cancel the cheese.,remove,cheese,1
+Cancel the knife.,remove,knife,1
+Drop the bananas completely.,remove,bananas,1
+I don’t want the milk anymore.,remove,milk,1
+Eliminate the lamp from my cart.,remove,lamp,1
+Pop 1 cheese into my shopping bag.,add,cheese,1
+Scratch the shoes.,remove,shoes,1
+I don’t need 1 backpack anymore.,remove,backpack,1
+Include 10 pan with my order.,add,pan,10
+Eliminate the pan from my cart.,remove,pan,1
+I don’t need 3 oranges anymore.,remove,oranges,3
+Drop the oranges completely.,remove,oranges,1
+Could you toss 5 scarf into the cart?,add,scarf,5
+I want the socks gone.,remove,socks,1
+"Grab me 6 backpack, please.",add,backpack,6
+"I changed my mind about those mug, take 1 out.",remove,mug,1
+Please pull out 5 pan.,remove,pan,5
+I don’t want the eggs anymore.,remove,eggs,1
+Please pull out 10 apples.,remove,apples,10
+Let’s drop 1 milk.,remove,milk,1
+I need 1 more plate.,add,plate,1
+Include 3 mug with my order.,add,mug,3
+Drop the mug completely.,remove,mug,1
+Include 1 jacket with my order.,add,jacket,1
+Let’s add 6 bananas to the basket.,add,bananas,6
+Wipe out the shorts.,remove,shorts,1
+Pop 2 bottle into my shopping bag.,add,bottle,2
+Include 3 cheese with my order.,add,cheese,3
+Drop the blanket completely.,remove,blanket,1
+Get rid of 4 socks from my order.,remove,socks,4
+Scratch the milk.,remove,milk,1
+Throw in 5 blanket for me.,add,blanket,5
+Please pull out 6 plate.,remove,plate,6
+Could you toss 6 blender into the cart?,add,blender,6
+Include 5 mug with my order.,add,mug,5
+Forget about the scarf.,remove,scarf,1
+"Grab me 1 eggs, please.",add,eggs,1
+Include 6 pan with my order.,add,pan,6
+Could you toss 1 pan into the cart?,add,pan,1
+Please pull out 5 plate.,remove,plate,5
+Let’s add 6 bread to the basket.,add,bread,6
+Throw in 3 knife for me.,add,knife,3
+Scratch the sweater.,remove,sweater,1
+Include 4 bananas with my order.,add,bananas,4
+Wipe out the shoes.,remove,shoes,1
+Please pull out 5 bread.,remove,bread,5
+I want the toaster gone.,remove,toaster,1
+Include 5 jacket with my order.,add,jacket,5
+Let’s drop 3 cheese.,remove,cheese,3
+"I changed my mind about those eggs, take 4 out.",remove,eggs,4
+I don’t want the cheese anymore.,remove,cheese,1
+Pop 4 toaster into my shopping bag.,add,toaster,4
+Remove 3 socks from the basket.,remove,socks,3
+Let’s drop 2 plate.,remove,plate,2
+Could you toss 4 knife into the cart?,add,knife,4
+Let’s drop 10 lamp.,remove,lamp,10
+"I changed my mind about those blender, take 6 out.",remove,blender,6
+Get rid of 10 yogurt from my order.,remove,yogurt,10
+"Grab me 10 mug, please.",add,mug,10
+Can you take out 3 mug?,remove,mug,3
+Can you take out 2 bread?,remove,bread,2
+I want the bottle gone.,remove,bottle,1
+Scratch the scarf.,remove,scarf,1
+Throw in 3 sweater for me.,add,sweater,3
+I don’t want the toaster anymore.,remove,toaster,1
+"Nix 1 blender, please.",remove,blender,1
+Get rid of 4 sweater from my order.,remove,sweater,4
+Remove 2 bananas from the basket.,remove,bananas,2
+Forget about the blanket.,remove,blanket,1
+I don’t want the plate anymore.,remove,plate,1
+Remove 10 bottle from the basket.,remove,bottle,10
+I want the yogurt gone.,remove,yogurt,1
+I'd like to get 6 chocolate.,add,chocolate,6
+Forget about the chocolate.,remove,chocolate,1
+Scratch the blanket.,remove,blanket,1
+Scratch the cheese.,remove,cheese,1
+Throw in 3 apples for me.,add,apples,3
+"Nix 4 blanket, please.",remove,blanket,4
+Get rid of 10 mug from my order.,remove,mug,10
+Get rid of 6 bread from my order.,remove,bread,6
+Wipe out the eggs.,remove,eggs,1
+Scratch the apples.,remove,apples,1
+Eliminate the blanket from my cart.,remove,blanket,1
+"I changed my mind about those pan, take 3 out.",remove,pan,3
+Pop 2 shoes into my shopping bag.,add,shoes,2
+"Grab me 3 t-shirt, please.",add,t-shirt,3
+"Nix 4 toaster, please.",remove,toaster,4
+Get rid of 2 bottle from my order.,remove,bottle,2
+I don’t want the oranges anymore.,remove,oranges,1
+Eliminate the lamp from my cart.,remove,lamp,1
+Forget about the oranges.,remove,oranges,1
+Could you toss 2 pan into the cart?,add,pan,2
+Forget about the shoes.,remove,shoes,1
+Wipe out the scarf.,remove,scarf,1
+Let’s add 2 shoes to the basket.,add,shoes,2
+Wipe out the shoes.,remove,shoes,1
+I'd like to get 6 mug.,add,mug,6
+Let’s drop 1 blender.,remove,blender,1
+Pop 4 socks into my shopping bag.,add,socks,4
+I want the scarf gone.,remove,scarf,1
+Forget about the water.,remove,water,1
+Could you toss 2 mug into the cart?,add,mug,2
+"Grab me 6 backpack, please.",add,backpack,6
+Could you toss 6 lamp into the cart?,add,lamp,6
+Eliminate the apples from my cart.,remove,apples,1
+Drop the eggs completely.,remove,eggs,1
+I want the oranges gone.,remove,oranges,1
+I want the pan gone.,remove,pan,1
+Please pull out 5 socks.,remove,socks,5
+I want the toaster gone.,remove,toaster,1
+Include 5 scarf with my order.,add,scarf,5
+Let’s add 6 bananas to the basket.,add,bananas,6
+Please pull out 3 sweater.,remove,sweater,3
+Forget about the blanket.,remove,blanket,1
+Pop 1 knife into my shopping bag.,add,knife,1
+I'd like to get 1 blanket.,add,blanket,1
+"I changed my mind about those blanket, take 5 out.",remove,blanket,5
+Let’s drop 4 knife.,remove,knife,4
+"Grab me 5 yogurt, please.",add,yogurt,5
+I don’t need 2 pillow anymore.,remove,pillow,2
+Cancel the cheese.,remove,cheese,1
+Remove 5 jacket from the basket.,remove,jacket,5
+Eliminate the jacket from my cart.,remove,jacket,1
+Let’s add 10 pillow to the basket.,add,pillow,10
+"Nix 1 pan, please.",remove,pan,1
+Get rid of 3 plate from my order.,remove,plate,3
+Get rid of 2 cheese from my order.,remove,cheese,2
+Let’s add 1 sweater to the basket.,add,sweater,1
+Remove 3 jeans from the basket.,remove,jeans,3
+"I changed my mind about those plate, take 1 out.",remove,plate,1
