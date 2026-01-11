@@ -1,114 +1,110 @@
 import pandas as pd
 import torch
+import datetime
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
-    BitsAndBytesConfig,
-    TrainingArguments
+    BitsAndBytesConfig
 )
-from trl import SFTTrainer
+from trl import SFTTrainer, SFTConfig 
 
-# 1. Učitavanje i priprema podataka
-# ---------------------------------------------------------
-filename = "Retail_Dataset_synthetic.csv"
-df = pd.read_csv(filename)
+start_time = datetime.datetime.now()
+print(f"Vrijeme početka: {start_time}")
 
-# (Opcionalno) Filtriranje loših podataka - ovdje samo uzimamo zadnjih 5000 redaka 
-# jer smo vidjeli da je početak dataseta neispravan, a kraj ispravan.
-# U praksi bi trebao napraviti bolju validaciju.
+# --- KONFIGURACIJA ---
+MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"
+OUTPUT_DIR = "./lora-llama3.1-retail"
+
+
+# 1. Priprema podataka (Isto kao prije)
+df = pd.read_csv("Retail_Dataset_synthetic.csv")
 df = df.tail(5000).reset_index(drop=True)
 
-# Formatiranje podataka u instrukcijski format
-# Model učimo da na temelju unosa korisnika generira JSON odgovor
-def format_instruction(row):
-    return f"""### Instruction:
-Analyze the user request and extract action, product, and quantity.
+def format_instruction_llama3(row):
+    return f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
-### Input:
-{row['user_input']}
+Analyze the user request and extract action, product, and quantity into JSON format.<|eot_id|><|start_header_id|>user<|end_header_id|>
 
-### Response:
+{row['user_input']}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
 {{
     "action": "{row['action']}",
     "product": "{row['product']}",
     "quantity": {row['quantity']}
-}}"""
+}}<|eot_id|>"""
 
-df['text'] = df.apply(format_instruction, axis=1)
-
-# Pretvaranje u Hugging Face Dataset objekt
+df['text'] = df.apply(format_instruction_llama3, axis=1)
 dataset = Dataset.from_pandas(df[['text']])
 
-# 2. Konfiguracija Modela (Quantization & Base Model)
-# ---------------------------------------------------------
-# Koristimo npr. TinyLlama ili Mistral-7B kao bazni model. 
-# Zamijeni s "meta-llama/Llama-2-7b-hf" ili "mistralai/Mistral-7B-v0.1" za jače rezultate.
-model_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0" 
-
-# QLoRA konfiguracija (4-bitno učitavanje radi uštede memorije)
+# 2. BitsAndBytes Config
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_quant_type="nf4",
-    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_compute_dtype=torch.bfloat16,
+    bnb_4bit_use_double_quant=True,
 )
 
-tokenizer = AutoTokenizer.from_pretrained(model_id)
-tokenizer.pad_token = tokenizer.eos_token # Fix za padding
+# 3. Model i Tokenizer
+tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
+tokenizer.pad_token = tokenizer.eos_token
 
 model = AutoModelForCausalLM.from_pretrained(
-    model_id,
+    MODEL_ID,
     quantization_config=bnb_config,
-    device_map="auto"
+    device_map="auto",
+    attn_implementation="eager"
 )
 
-# Priprema modela za k-bit trening
 model = prepare_model_for_kbit_training(model)
 
-# 3. LoRA Konfiguracija
-# ---------------------------------------------------------
+# 4. LoRA Config
 peft_config = LoraConfig(
-    r=16,       # Rank - dimenzija matrice adaptera (8, 16, 32, 64)
-    lora_alpha=32, # Skaliranje (obično 2x rank)
+    r=16,
+    lora_alpha=32,
     lora_dropout=0.05,
     bias="none",
     task_type="CAUSAL_LM",
-    target_modules=["q_proj", "v_proj"] # Moduli na koje lijepimo adaptere
+    target_modules=["q_proj", "v_proj", "k_proj", "o_proj"]
 )
 
-model = get_peft_model(model, peft_config)
-model.print_trainable_parameters() # Ispis koliko parametara zapravo treniramo
 
-# 4. Trening (SFTTrainer)
-# ---------------------------------------------------------
-training_args = TrainingArguments(
-    output_dir="./lora-retail-adapter",
+# 5. Trening
+sft_config = SFTConfig(
+    output_dir=OUTPUT_DIR,
+    dataset_text_field="text",
+    max_length=512,
     num_train_epochs=1,
-    per_device_train_batch_size=4,
-    gradient_accumulation_steps=1,
+    per_device_train_batch_size=1,
+    gradient_accumulation_steps=4,
     learning_rate=2e-4,
-    fp16=True,             # Koristi mixed precision
-    logging_steps=50,
+    fp16=False,
+    bf16=True,
+    logging_steps=25,
     save_strategy="epoch",
-    optim="paged_adamw_32bit" # Optimizator za manju potrošnju memorije
+    optim="paged_adamw_32bit",
+    dataloader_num_workers=0,
+    report_to="none",
+    packing=False
 )
 
 trainer = SFTTrainer(
-    model=model,
+    model=model,                  # Šaljemo "običan" model
     train_dataset=dataset,
-    peft_config=peft_config,
-    dataset_text_field="text",
-    max_seq_length=512,
-    tokenizer=tokenizer,
-    args=training_args,
+    peft_config=peft_config,      # Šaljemo config, Trainer će sam napraviti PeftModel
+    processing_class=tokenizer,
+    args=sft_config
 )
 
-print("Počinjem trening...")
+print("Počinjem trening Llama 3.1 (QLoRA)...")
 trainer.train()
 
-# 5. Spremanje Adaptera
-# ---------------------------------------------------------
-new_model_name = "retail-adapter-v1"
+# 6. Spremanje
+new_model_name = "llama3.1-retail-adapter"
 trainer.model.save_pretrained(new_model_name)
-print(f"LoRA adapter spremljen u mapu: {new_model_name}")
+tokenizer.save_pretrained(new_model_name)
+print(f"Gotovo! Adapter spremljen u: {new_model_name}")
+end_time = datetime.datetime.now()
+print(f"Vrijeme završetka: {end_time}")
+print(f"Ukupno trajanje: {end_time - start_time}")
