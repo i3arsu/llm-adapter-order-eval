@@ -211,3 +211,4 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 adapter_v1.zip
+.vscode/settings.json
