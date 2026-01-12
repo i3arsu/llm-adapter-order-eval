@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+#Compiled adapters
+llama3.1-retail-adapter/
+lora-llama3.1-retail/
+
+
 # C extensions
 *.so
 
@@ -205,3 +210,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+adapter_v1.zip
