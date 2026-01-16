@@ -1,110 +1,144 @@
-import pandas as pd
+import os
 import torch
-import datetime
+import pandas as pd
+import logging
 from datasets import Dataset
-from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
+from peft import LoraConfig, get_peft_model, TaskType
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
-    BitsAndBytesConfig
 )
-from trl import SFTTrainer, SFTConfig 
+from trl import SFTTrainer, SFTConfig
 
-start_time = datetime.datetime.now()
-print(f"Vrijeme početka: {start_time}")
+# Konfiguracija logginga
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+logger = logging.getLogger(__name__)
 
-# --- KONFIGURACIJA ---
-MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"
-OUTPUT_DIR = "./lora-llama3.1-retail"
+# Optimizacija memorije za MPS (Apple Silicon)
+os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] = "0.0"
 
+def train_model():
+    logger.info("Inicijalizacija trening skripte na M1 Pro okruženju.")
 
-# 1. Priprema podataka (Isto kao prije)
-df = pd.read_csv("Retail_Dataset_synthetic.csv")
-df = df.tail(5000).reset_index(drop=True)
+    # Provjera hardvera
+    if torch.backends.mps.is_available():
+        device = "mps"
+        logger.info(f"Koristim uređaj: {device} (Metal Performance Shaders)")
+    else:
+        device = "cpu"
+        logger.warning("MPS nije dostupan. Koristim CPU (ovo će biti sporo).")
 
-def format_instruction_llama3(row):
-    return f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+    # KONFIGURACIJA
+    MODEL_ID = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    OUTPUT_DIR = "./lora-retail-mps"
+    
+    # 1. Priprema podataka
+    logger.info("Učitavanje i obrada podataka...")
+    try:
+        df = pd.read_csv("Retail_Dataset_synthetic.csv")
+        # Uzimamo manji set radi demonstracije brzine, prilagoditi po potrebi
+        df = df.tail(2000).reset_index(drop=True) 
+        logger.info(f"Dataset učitan: {len(df)} redaka.")
+    except Exception as e:
+        logger.error(f"Greška kod učitavanja CSV-a: {e}")
+        return
 
-Analyze the user request and extract action, product, and quantity into JSON format.<|eot_id|><|start_header_id|>user<|end_header_id|>
-
-{row['user_input']}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
+    def format_instruction(row):
+        return f"""<|system|>
+Analyze the user request and extract action, product, and quantity into JSON format.</s>
+<|user|>
+{row['user_input']}</s>
+<|assistant|>
 {{
     "action": "{row['action']}",
     "product": "{row['product']}",
     "quantity": {row['quantity']}
-}}<|eot_id|>"""
+}}</s>"""
 
-df['text'] = df.apply(format_instruction_llama3, axis=1)
-dataset = Dataset.from_pandas(df[['text']])
+    df['text'] = df.apply(format_instruction, axis=1)
+    dataset = Dataset.from_pandas(df[['text']])
 
-# 2. BitsAndBytes Config
-bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_compute_dtype=torch.bfloat16,
-    bnb_4bit_use_double_quant=True,
-)
+    # 2. Model i Tokenizer
+    logger.info(f"Učitavanje modela: {MODEL_ID}")
+    
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
+    tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.padding_side = "right" # Potrebno za SFTTrainer
 
-# 3. Model i Tokenizer
-tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
-tokenizer.pad_token = tokenizer.eos_token
+    # Učitavanje u float16 (half precision) - optimalno za M1
+    model = AutoModelForCausalLM.from_pretrained(
+        MODEL_ID,
+        dtype=torch.float16,
+        device_map=None # Isključujemo auto mapiranje radi izbjegavanja grešaka s accelerateom na Macu
+    )
+    model.to(device)
 
-model = AutoModelForCausalLM.from_pretrained(
-    MODEL_ID,
-    quantization_config=bnb_config,
-    device_map="auto",
-    attn_implementation="eager"
-)
+    # Postavke za štednju memorije
+    model.config.use_cache = False
+    model.enable_input_require_grads() 
+    
+    # 3. LoRA Konfiguracija
+    logger.info("Konfiguriranje LoRA adaptera...")
+    peft_config = LoraConfig(
+        r=8, # Manji rank za manju potrošnju memorije
+        lora_alpha=16,
+        lora_dropout=0.05,
+        bias="none",
+        task_type=TaskType.CAUSAL_LM,
+        target_modules=["q_proj", "v_proj"]
+    )
 
-model = prepare_model_for_kbit_training(model)
+    model = get_peft_model(model, peft_config)
+    
+    trainable_params, all_params = model.get_nb_trainable_parameters()
+    logger.info(f"Trainable params: {trainable_params} || All params: {all_params} || %: {100 * trainable_params / all_params:.4f}")
 
-# 4. LoRA Config
-peft_config = LoraConfig(
-    r=16,
-    lora_alpha=32,
-    lora_dropout=0.05,
-    bias="none",
-    task_type="CAUSAL_LM",
-    target_modules=["q_proj", "v_proj", "k_proj", "o_proj"]
-)
+    # 4. Trening Argumenti
+    training_args = SFTConfig(
+        output_dir=OUTPUT_DIR,
+        num_train_epochs=1,
+        per_device_train_batch_size=1, # Batch size 1 je nužan za 16GB RAM-a
+        gradient_accumulation_steps=4, # Kompenzacija za mali batch size
+        learning_rate=2e-4,
+        logging_steps=10,
+        save_strategy="no", # Ne spremamo checkpointove tijekom treninga radi prostora
+        optim="adamw_torch", # Nativni PyTorch optimizator (bitno za MPS)
+        fp16=False, # Isključeno jer MPS može imati problema s mixed precision u Traineru
+        bf16=False, 
+        use_mps_device=True, # Forsiranje MPS-a u Traineru
+        report_to="none",
+        dataloader_pin_memory=False, # Ponekad pomaže kod memory leakova na Macu
+        dataset_text_field="text",
+        max_length=512,
+    )
 
+    trainer = SFTTrainer(
+        model=model,
+        train_dataset=dataset,
+        peft_config=peft_config,
+        processing_class=tokenizer,
+        args=training_args,
+    )
 
-# 5. Trening
-sft_config = SFTConfig(
-    output_dir=OUTPUT_DIR,
-    dataset_text_field="text",
-    max_length=512,
-    num_train_epochs=1,
-    per_device_train_batch_size=1,
-    gradient_accumulation_steps=4,
-    learning_rate=2e-4,
-    fp16=False,
-    bf16=True,
-    logging_steps=25,
-    save_strategy="epoch",
-    optim="paged_adamw_32bit",
-    dataloader_num_workers=0,
-    report_to="none",
-    packing=False
-)
+    # 5. Pokretanje treninga
+    logger.info("Započinjem trening...")
+    try:
+        trainer.train()
+        logger.info("Trening uspješno završen.")
+    except Exception as e:
+        logger.error(f"Greška tijekom treninga: {e}")
+        return
 
-trainer = SFTTrainer(
-    model=model,                  # Šaljemo "običan" model
-    train_dataset=dataset,
-    peft_config=peft_config,      # Šaljemo config, Trainer će sam napraviti PeftModel
-    processing_class=tokenizer,
-    args=sft_config
-)
+    # 6. Spremanje
+    new_model_name = "retail-adapter-mps"
+    logger.info(f"Spremanje adaptera u: {new_model_name}")
+    trainer.model.save_pretrained(new_model_name)
+    tokenizer.save_pretrained(new_model_name)
+    logger.info("Proces završen.")
 
-print("Počinjem trening Llama 3.1 (QLoRA)...")
-trainer.train()
-
-# 6. Spremanje
-new_model_name = "llama3.1-retail-adapter"
-trainer.model.save_pretrained(new_model_name)
-tokenizer.save_pretrained(new_model_name)
-print(f"Gotovo! Adapter spremljen u: {new_model_name}")
-end_time = datetime.datetime.now()
-print(f"Vrijeme završetka: {end_time}")
-print(f"Ukupno trajanje: {end_time - start_time}")
+if __name__ == "__main__":
+    train_model()

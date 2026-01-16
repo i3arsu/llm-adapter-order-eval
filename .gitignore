@@ -6,6 +6,8 @@ __pycache__/
 #Compiled adapters
 llama3.1-retail-adapter/
 lora-llama3.1-retail/
+lora-retail-mps/
+retail-adapter-mps/
 
 
 # C extensions

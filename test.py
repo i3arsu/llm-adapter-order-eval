@@ -5,8 +5,8 @@ import time
 
 # 1. Postavke - moraju biti iste kao kod treniranja
 # ---------------------------------------------------------
-base_model_id = "meta-llama/Llama-3.1-8B-Instruct"
-adapter_path = "./llama3.1-retail-adapter" # Path do adaptera
+base_model_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+adapter_path = "./retail-adapter-mps" # Path do adaptera
 
 # Provjera dostupnosti MPS-a (GPU na Macu)
 if torch.backends.mps.is_available():
