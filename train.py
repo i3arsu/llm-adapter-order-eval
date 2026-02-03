@@ -1,6 +1,8 @@
 import pandas as pd
 import torch
 import datetime
+import os
+from huggingface_hub import login
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from transformers import (
@@ -9,13 +11,23 @@ from transformers import (
     BitsAndBytesConfig
 )
 from trl import SFTTrainer, SFTConfig 
+from dotenv import load_dotenv
+
+load_dotenv()
+hf_token = os.getenv("HF_TOKEN")
+
+if hf_token:
+    login(token=hf_token)
+else:
+    print("Warning: HF_TOKEN environment variable not set. You may need to authenticate.")
 
 start_time = datetime.datetime.now()
 print(f"🚀 Vrijeme početka: {start_time}")
 
+hf_token = os.getenv("HF_TOKEN")
 # --- KONFIGURACIJA ---
-MODEL_ID = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-OUTPUT_DIR = "./lora-tiny-retail-v2"
+MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"
+OUTPUT_DIR = ".adapters/llama3-retail-colab"
 
 # 1. Priprema podataka
 df = pd.read_csv("Retail_Dataset_synthetic.csv")
