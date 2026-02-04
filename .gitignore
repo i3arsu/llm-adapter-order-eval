@@ -6,6 +6,9 @@ __pycache__/
 #Compiled adapters
 llama3.1-retail-adapter/
 lora-llama3.1-retail/
+adapters/
+lora-tiny-llama3.1-retail/
+test_results.txt
 
 
 # C extensions
