@@ -1,0 +1,2001 @@
+User Input,llm_action,llm_product,llm_quantity
+Throw in 20 juice,add,juice,20
+Put 13 onions in my cart,add,onions,13
+Remove 4 beef,remove,beef,4
+Add 6 of fries,add,fries,6
+I want 13 mozzarella,add,mozzarella,13
+Add 5 bread to my cart,add,bread,5
+Remove 17 units of litter,remove,litter,17
+I need 9 gelato,add,gelato,9
+Drop 1 lemonade,remove,lemonade,1
+Put 4 soda in my cart,add,soda,4
+I want to take out 18 mushrooms,remove,mushrooms,18
+Add 5 of detergent,add,detergent,5
+Take away 10 more milk,remove,milk,10
+Add 9 more toothpaste,add,toothpaste,9
+Remove 1 of garlic,remove,garlic,1
+Add 17 packs of chicken,add,chicken,17
+Take away 15 watermelon,remove,watermelon,15
+Remove 9 sunfloweroil,remove,sunfloweroil,9
+Add 20 more milk,add,milk,20
+Delete 18 towels,remove,towels,18
+Remove 5 units of batteries,remove,batteries,5
+I don't need 15 mango,remove,mango,15
+Get rid of 6 broccoli,remove,broccoli,6
+Add 14 onions,add,onions,14
+Take away 19 more diapers,remove,diapers,19
+Add 17 units of pepper,add,pepper,17
+I'll take 10 gelato,add,gelato,10
+Throw in 12 conditioner,add,conditioner,12
+I'll take 17 oranges,add,oranges,17
+Take away 18 more raspberries,remove,raspberries,18
+Remove 9 packs of granola,remove,granola,9
+Add 8 gelato to my cart,add,gelato,8
+Include 18 blueberries in my order,add,blueberries,18
+Add 1 yogurt please,add,yogurt,1
+Take out 19 butter,remove,butter,19
+Remove 2 apples please,remove,apples,2
+Need 8 milk,add,milk,8
+Add 15 pizza,add,pizza,15
+Put in 11 treats,add,treats,11
+Remove 5 bananas please,remove,bananas,5
+Include 13 wrap,add,wrap,13
+I'll take 14 vegetables,add,vegetables,14
+Add 11 packs of tissues,add,tissues,11
+Add 12 pizza for me,add,pizza,12
+Take out 18 cucumbers,remove,cucumbers,18
+I want to remove 6 salmon,remove,salmon,6
+Add 3 units of gelato,add,gelato,3
+Cancel 20 batteries,remove,batteries,20
+Please take away 17 flour,remove,flour,17
+Put 3 wipes in my cart,add,wipes,3
+Add 13 more salt,add,salt,13
+Put 17 towels in the shopping cart,add,towels,17
+Put 8 potatoes in my cart,add,potatoes,8
+I need to remove 2 pepper,remove,pepper,2
+Could you remove 16 treats,remove,treats,16
+I need to remove 20 fries,remove,fries,20
+I want to add 11 cheddar,add,cheddar,11
+I want 8 paper,add,paper,8
+Remove 1 vegetables please,remove,vegetables,1
+Please add 7 wipes,add,wipes,7
+Add 10 of milk,add,milk,10
+Delete 5 eggs from my cart,remove,eggs,5
+Take away 2 more milk,remove,milk,2
+Put 18 tea in my cart,add,tea,18
+Please grab 15 milk,add,milk,15
+Take 7 tea out,remove,tea,7
+Please remove 2 pasta,remove,pasta,2
+Take away 9 more flour,remove,flour,9
+Remove 10 gelato from my cart,remove,gelato,10
+Could you add 12 bread,add,bread,12
+Throw in 7 tea,add,tea,7
+Get rid of 6 raspberries,remove,raspberries,6
+Could you remove 20 pizza,remove,pizza,20
+I need 9 oliveoil added,add,oliveoil,9
+Remove 6 of foil,remove,foil,6
+Add 9 units of spinach,add,spinach,9
+Please delete 18 strawberries,remove,strawberries,18
+Please remove 17 bread,remove,bread,17
+Take away 1 pasta,remove,pasta,1
+I want to take out 15 toothbrush,remove,toothbrush,15
+Remove 8 units of gelato,remove,gelato,8
+Put in 5 yogurt,add,yogurt,5
+Please include 12 tuna,add,tuna,12
+Please remove 12 toothbrush,remove,toothbrush,12
+Could you remove 9 bread,remove,bread,9
+Add 16 brownsugar to my cart,add,brownsugar,16
+Could you remove 6 yogurt,remove,yogurt,6
+Put 17 oliveoil in my cart,add,oliveoil,17
+Put 1 milk in the shopping cart,add,milk,1
+I want 6 paper,add,paper,6
+Delete 2 bellpeppers from my cart,remove,bellpeppers,2
+Take 20 mango out of my cart,remove,mango,20
+Could you add 18 bread,add,bread,18
+I need to remove 2 toothbrush,remove,toothbrush,2
+Can you remove 5 zucchini,remove,zucchini,5
+I need to remove 3 oranges,remove,oranges,3
+I need to remove 14 kibble,remove,kibble,14
+Add 7 units of diapers,add,diapers,7
+I want to take out 13 mushrooms,remove,mushrooms,13
+I want 16 detergent,add,detergent,16
+I'll take 13 lemonade,add,lemonade,13
+Please grab 11 mango,add,mango,11
+I want to take out 2 juice,remove,juice,2
+Throw in 15 potatoes,add,potatoes,15
+Please remove 1 diapers,remove,diapers,1
+Get rid of 13 bags,remove,bags,13
+Throw in 20 gelato,add,gelato,20
+Can you remove 17 juice,remove,juice,17
+Take away 13 more tomatoes,remove,tomatoes,13
+Drop 18 paper,remove,paper,18
+Remove 16 units of bananas,remove,bananas,16
+Can you remove 2 gelato,remove,gelato,2
+Include 5 juice in my order,add,juice,5
+Take 6 lemonade out,remove,lemonade,6
+I want 9 tuna,add,tuna,9
+Please grab 14 soap,add,soap,14
+Throw in 1 diapers,add,diapers,1
+I'll take 15 kibble,add,kibble,15
+Please put 8 juice in my cart,add,juice,8
+Remove 2 units of tea,remove,tea,2
+Get me 3 shampoo,add,shampoo,3
+Add 12 toothbrush for me,add,toothbrush,12
+I'd like to remove 8 oliveoil,remove,oliveoil,8
+Cancel 7 juice,remove,juice,7
+Put in 14 paper,add,paper,14
+Take away 3 bulbs,remove,bulbs,3
+Remove 17 units of sugar,remove,sugar,17
+Could you add 20 cereal,add,cereal,20
+Please add 19 water,add,water,19
+I'd like to add 17 yogurt,add,yogurt,17
+Please take away 2 shampoo,remove,shampoo,2
+Put 17 spaghetti in the shopping cart,add,spaghetti,17
+Take out 19 soap,remove,soap,19
+Please remove 11 soda,remove,soda,11
+Delete 19 towels,remove,towels,19
+Please grab 17 soap,add,soap,17
+Remove 3 of tuna,remove,tuna,3
+Please delete 12 coffee,remove,coffee,12
+Please take away 11 limes,remove,limes,11
+Delete 4 soap,remove,soap,4
+Take 13 mozzarella out of my cart,remove,mozzarella,13
+Can you take out 8 eggplant,remove,eggplant,8
+Put 19 pineapple in the shopping cart,add,pineapple,19
+Can I get 9 lemonade,add,lemonade,9
+Please grab 13 strawberries,add,strawberries,13
+Take 16 shampoo out of my cart,remove,shampoo,16
+Delete 13 oliveoil from my cart,remove,oliveoil,13
+I need 13 chicken,add,chicken,13
+Take out 1 avocados,remove,avocados,1
+I need 20 soda,add,soda,20
+Remove 10 units of yogurt,remove,yogurt,10
+Drop 2 wrap,remove,wrap,2
+Take away 7 more bulbs,remove,bulbs,7
+Take away 18 more cereal,remove,cereal,18
+I want 5 wash,add,wash,5
+Drop 7 mushrooms,remove,mushrooms,7
+Add 12 soda please,add,soda,12
+Remove 1 packs of toothbrush,remove,toothbrush,1
+Remove 17 of quinoa,remove,quinoa,17
+Take 2 pizza out,remove,pizza,2
+I need to remove 2 cola,remove,cola,2
+Remove 19 units of blueberries,remove,blueberries,19
+I need 10 wash,add,wash,10
+Can you add 19 lemons,add,lemons,19
+Can you take out 4 toothpaste,remove,toothpaste,4
+Please remove 11 wash,remove,wash,11
+Cancel 13 spaghetti,remove,spaghetti,13
+Please add 19 cheddar,add,cheddar,19
+Could you remove 16 coffee,remove,coffee,16
+Remove 14 more cheddar,remove,cheddar,14
+I need 9 carrots,add,carrots,9
+Take 14 bulbs out of my cart,remove,bulbs,14
+Can you remove 7 toothpaste,remove,toothpaste,7
+I'd like to add 10 treats,add,treats,10
+I want to take out 2 granola,remove,granola,2
+Remove 14 packs of blueberries,remove,blueberries,14
+I want to add 4 diapers,add,diapers,4
+Add 14 more sugar,add,sugar,14
+Take 18 gelato out,remove,gelato,18
+Take 18 gelato out,remove,gelato,18
+Get rid of 2 chicken,remove,chicken,2
+Delete 1 shampoo from my cart,remove,shampoo,1
+I don't need 11 milk,remove,milk,11
+I want 12 mozzarella,add,mozzarella,12
+Please put 10 water in my cart,add,water,10
+Could you remove 16 cola,remove,cola,16
+Add 14 eggs,add,eggs,14
+I want to take out 15 garlic,remove,garlic,15
+Add 9 of zucchini,add,zucchini,9
+Remove 4 more bread,remove,bread,4
+Get me 12 raspberries,add,raspberries,12
+Can I get 15 sugar,add,sugar,15
+Take away 16 more kibble,remove,kibble,16
+Put in 13 bellpeppers,add,bellpeppers,13
+I want 16 pepper,add,pepper,16
+Put in 6 wipes,add,wipes,6
+Throw in 18 cheddar,add,cheddar,18
+Please take away 14 soda,remove,soda,14
+Put 1 foil in my cart,add,foil,1
+Please include 14 toothpaste,add,toothpaste,14
+Add 6 packs of oatmeal,add,oatmeal,6
+Include 3 sweetpotatoes,add,sweetpotatoes,3
+Delete 9 tomatoes from my cart,remove,tomatoes,9
+Remove 10 bellpeppers,remove,bellpeppers,10
+Add 3 of sunfloweroil,add,sunfloweroil,3
+Can I get 11 sweetpotatoes,add,sweetpotatoes,11
+Drop 17 apples,remove,apples,17
+I want 15 yogurt,add,yogurt,15
+Can you add 1 soda,add,soda,1
+Put in 16 oatmeal,add,oatmeal,16
+Can you remove 18 soda,remove,soda,18
+I don't need 6 oatmeal,remove,oatmeal,6
+Remove 14 more spinach,remove,spinach,14
+Could you remove 9 salmon,remove,salmon,9
+Throw in 19 cheddar,add,cheddar,19
+Remove 15 kibble from my cart,remove,kibble,15
+I'd like to remove 16 avocados,remove,avocados,16
+Throw in 15 batteries,add,batteries,15
+I don't need 15 salt,remove,salt,15
+I want to add 15 toothbrush,add,toothbrush,15
+Delete 19 potatoes,remove,potatoes,19
+I want to remove 9 eggs,remove,eggs,9
+I need 14 blueberries added,add,blueberries,14
+Put in 5 raspberries,add,raspberries,5
+Can you remove 9 toothpaste,remove,toothpaste,9
+Please put 14 pizza in my cart,add,pizza,14
+Put in 1 paper,add,paper,1
+Please grab 9 flour,add,flour,9
+I don't need 8 toothpaste,remove,toothpaste,8
+Please grab 8 bread,add,bread,8
+Remove 14 blueberries,remove,blueberries,14
+I want to add 2 yogurt,add,yogurt,2
+Add 16 litter for me,add,litter,16
+I'd like 14 apples,add,apples,14
+Remove 16 potatoes,remove,potatoes,16
+Put 16 soap in my cart,add,soap,16
+Please grab 19 cheddar,add,cheddar,19
+I need to remove 2 quinoa,remove,quinoa,2
+Can I get 11 raspberries,add,raspberries,11
+I'd like to remove 2 vegetables,remove,vegetables,2
+I'd like to add 9 towels,add,towels,9
+Remove 9 potatoes from my cart,remove,potatoes,9
+Add 8 tea to my cart,add,tea,8
+Take away 4 pepper,remove,pepper,4
+Add 18 soda to my cart,add,soda,18
+Remove 13 of yogurt,remove,yogurt,13
+Please remove 2 bags,remove,bags,2
+Add 6 more cola,add,cola,6
+Drop 13 soda,remove,soda,13
+I'd like 14 gelato,add,gelato,14
+I'd like to remove 16 cucumbers,remove,cucumbers,16
+Add 7 more bread,add,bread,7
+Cancel 14 juice,remove,juice,14
+Take away 5 more tomatoes,remove,tomatoes,5
+Cancel 17 sugar,remove,sugar,17
+I want to remove 17 yogurt,remove,yogurt,17
+I want to remove 3 bananas,remove,bananas,3
+Get me 20 wrap,add,wrap,20
+I'd like 15 eggs,add,eggs,15
+Take away 12 more sweetpotatoes,remove,sweetpotatoes,12
+Can you remove 14 kibble,remove,kibble,14
+Take out 10 watermelon,remove,watermelon,10
+Can you add 4 gelato,add,gelato,4
+Need 1 cola,add,cola,1
+Get rid of 10 pasta,remove,pasta,10
+Add 14 packs of toothpaste,add,toothpaste,14
+Delete 19 watermelon,remove,watermelon,19
+Take away 4 more potatoes,remove,potatoes,4
+Put in 13 toothbrush,add,toothbrush,13
+Drop 3 wash,remove,wash,3
+I'll take 16 avocados,add,avocados,16
+Delete 7 soda,remove,soda,7
+I'll take 5 bulbs,add,bulbs,5
+Please include 8 water,add,water,8
+Put 19 quinoa in the shopping cart,add,quinoa,19
+I want to take out 1 towels,remove,towels,1
+Throw in 6 litter,add,litter,6
+I need to remove 14 gelato,remove,gelato,14
+Include 9 gelato in my order,add,gelato,9
+I don't need 6 vegetables,remove,vegetables,6
+Delete 2 juice from my cart,remove,juice,2
+Remove 12 more blueberries,remove,blueberries,12
+Add 1 apples to my cart,add,apples,1
+Remove 3 units of chicken,remove,chicken,3
+Please remove 9 wipes,remove,wipes,9
+Add 11 pizza for me,add,pizza,11
+Remove 20 pineapple,remove,pineapple,20
+Remove 19 of bulbs,remove,bulbs,19
+Please put 10 cola in my cart,add,cola,10
+Remove 8 units of chicken,remove,chicken,8
+Add 14 flour please,add,flour,14
+Add 9 fries to my cart,add,fries,9
+Add 19 mushrooms,add,mushrooms,19
+Please remove 18 potatoes,remove,potatoes,18
+Please delete 9 avocados,remove,avocados,9
+Take 2 pineapple out of my cart,remove,pineapple,2
+Take away 4 juice,remove,juice,4
+Remove 20 units of milk,remove,milk,20
+Add 4 more batteries,add,batteries,4
+Take away 10 salt,remove,salt,10
+Could you remove 18 diapers,remove,diapers,18
+Please take away 18 juice,remove,juice,18
+Add 15 more wrap,add,wrap,15
+Can you add 14 diapers,add,diapers,14
+Add 15 oliveoil to my cart,add,oliveoil,15
+I want 20 coffee,add,coffee,20
+I want to take out 3 rice,remove,rice,3
+I'd like 8 pasta,add,pasta,8
+Add 14 units of sweetpotatoes,add,sweetpotatoes,14
+Please put 16 treats in my cart,add,treats,16
+I want to remove 7 gelato,remove,gelato,7
+Drop 3 batteries,remove,batteries,3
+Please grab 11 butter,add,butter,11
+Can I get 20 gelato,add,gelato,20
+Remove 20 of lemons,remove,lemons,20
+Add 8 soap please,add,soap,8
+Can you take out 5 salmon,remove,salmon,5
+Remove 12 units of soap,remove,soap,12
+I'd like to add 15 bread,add,bread,15
+Can you take out 3 flour,remove,flour,3
+Remove 8 mushrooms please,remove,mushrooms,8
+Remove 4 packs of oranges,remove,oranges,4
+Add 19 units of raspberries,add,raspberries,19
+Put 12 treats in my cart,add,treats,12
+Put 13 limes in my cart,add,limes,13
+Get me 20 eggs,add,eggs,20
+Add 17 packs of salt,add,salt,17
+I need to remove 19 tomatoes,remove,tomatoes,19
+Remove 15 packs of foil,remove,foil,15
+Remove 14 packs of cheddar,remove,packs of cheddar,14
+Delete 8 sunfloweroil from my cart,remove,sunfloweroil,8
+Need 2 apples,add,apples,2
+Drop 6 tuna,remove,tuna,6
+Please add 19 toothbrush,add,toothbrush,19
+Get me 2 diapers,add,diapers,2
+Throw in 5 bread,add,bread,5
+Take 4 juice out of my cart,remove,juice,4
+Remove 16 more detergent,remove,detergent,16
+Please add 4 oranges,add,oranges,4
+Take 11 broccoli out,remove,broccoli,11
+Drop 12 bags,remove,bags,12
+Add 19 eggplant for me,add,eggplant,19
+Remove 9 limes please,remove,limes,9
+Could you remove 19 chicken,remove,chicken,19
+Remove 7 more pineapple,remove,pineapple,7
+Add 17 water to my cart,add,water,17
+Delete 1 oatmeal,remove,oatmeal,1
+Delete 3 zucchini,remove,zucchini,3
+Take away 6 more water,remove,water,6
+Delete 18 bananas from my cart,remove,bananas,18
+I need 9 eggplant,add,eggplant,9
+Add 20 packs of mango,add,mango,20
+Can you remove 10 salt,remove,salt,10
+Take out 7 tomatoes,remove,tomatoes,7
+Include 10 raspberries in my order,add,raspberries,10
+Remove 10 units of lemonade,remove,lemonade,10
+Need 7 wrap,add,wrap,7
+Please grab 4 cereal,add,cereal,4
+Add 12 more yogurt,add,yogurt,12
+Delete 15 wrap from my cart,remove,wrap,15
+Remove 7 milk please,remove,milk,7
+Need 1 juice,add,juice,1
+Need 14 mango,add,mango,14
+Please put 15 fries in my cart,add,fries,15
+Remove 16 more potatoes,remove,potatoes,16
+Please add 8 foil,add,foil,8
+Take 17 gelato out of my cart,remove,gelato,17
+Take away 9 more raspberries,remove,raspberries,9
+I'd like to remove 5 eggs,remove,eggs,5
+Add 16 garlic,add,garlic,16
+Please remove 5 water,remove,water,5
+Please grab 4 butter,add,butter,4
+Cancel 19 foil,remove,foil,19
+Could you remove 3 vegetables,remove,vegetables,3
+Remove 3 units of fries,remove,fries,3
+Can you remove 17 beef,remove,beef,17
+Remove 5 packs of bananas,remove,bananas,5
+I'd like 4 brownsugar,add,brownsugar,4
+Can you take out 7 soap,remove,soap,7
+Add 9 units of potatoes,add,potatoes,9
+Need 6 tea,add,tea,6
+Put 10 cola in the shopping cart,add,cola,10
+Take away 3 cheddar,remove,cheddar,3
+Can you remove 19 salmon,remove,salmon,19
+Put 1 fries in the shopping cart,add,fries,1
+Remove 1 tea,remove,tea,1
+Take 9 foil out,remove,foil,9
+I want 17 beef,add,beef,17
+Remove 18 milk please,remove,milk,18
+I'd like to add 10 oranges,add,oranges,10
+Include 16 brownsugar in my order,add,brownsugar,16
+Remove 4 tea from my cart,remove,tea,4
+Add 5 packs of kibble,add,kibble,5
+I'll take 16 milk,add,milk,16
+Drop 10 soap,remove,soap,10
+Remove 14 limes please,remove,limes,14
+Please put 13 soap in my cart,add,soap,13
+Get me 15 gelato,add,gelato,15
+Please delete 20 sunfloweroil,remove,sunfloweroil,20
+Can you take out 2 milk,remove,milk,2
+I need 20 tuna,add,tuna,20
+Add 9 units of potatoes,add,potatoes,9
+Please include 3 spaghetti,add,spaghetti,3
+Delete 8 water,remove,water,8
+Take away 12 quinoa,remove,quinoa,12
+Add 20 watermelon please,add,watermelon,20
+Add 6 of watermelon,add,watermelon,6
+Please put 14 pepper in my cart,add,pepper,14
+Please add 17 sunfloweroil,add,sunfloweroil,17
+Drop 19 vegetables,remove,vegetables,19
+Please take away 8 oliveoil,remove,oliveoil,8
+Take away 6 mango,remove,mango,6
+Take away 8 broccoli,remove,broccoli,8
+Add 1 tea please,add,tea,1
+I'd like 1 wipes,add,wipes,1
+Can you add 9 pineapple,add,pineapple,9
+Could you remove 20 detergent,remove,detergent,20
+I don't need 8 pasta,remove,pasta,8
+Can you remove 5 raspberries,remove,raspberries,5
+Please add 7 butter,add,butter,7
+Can you add 16 apples,add,apples,16
+Please remove 7 pepper,remove,pepper,7
+Need 9 pepper,add,pepper,9
+Can you remove 15 soap,remove,soap,15
+Add 2 more pineapple,add,pineapple,2
+Get rid of 10 bellpeppers,remove,bellpeppers,10
+Add 17 more tea,add,tea,17
+Get me 14 wrap,add,wrap,14
+Need 20 beef,add,beef,20
+Remove 5 units of apples,remove,apples,5
+Take 12 litter out,remove,litter,12
+Put 11 pasta in my cart,add,pasta,11
+Remove 7 of strawberries,remove,strawberries,7
+Remove 13 units of cola,remove,cola,13
+Remove 12 of juice,remove,juice,12
+I want to add 2 garlic,add,garlic,2
+Please add 1 potatoes,add,potatoes,1
+Get rid of 11 vegetables,remove,vegetables,11
+Please remove 12 mango,remove,mango,12
+Remove 11 packs of coffee,remove,coffee,11
+Get me 2 bananas,add,bananas,2
+Add 3 lemons please,add,lemons,3
+Add 15 tea please,add,tea,15
+I don't need 20 gelato,remove,gelato,20
+Please take away 17 juice,remove,juice,17
+Take out 7 mozzarella,remove,mozzarella,7
+Delete 9 mango,remove,mango,9
+I want to take out 13 cereal,remove,cereal,13
+Please delete 5 conditioner,remove,conditioner,5
+Add 5 juice for me,add,juice,5
+Add 1 pasta to my cart,add,pasta,1
+I want 5 paper,add,paper,5
+Take 20 cheddar out,remove,cheddar,20
+I want to remove 8 soap,remove,soap,8
+I want to take out 19 mango,remove,mango,19
+Take 6 sweetpotatoes out of my cart,remove,sweetpotatoes,6
+Please include 9 avocados,add,avocados,9
+Delete 14 broccoli from my cart,remove,broccoli,14
+Add 18 fries for me,add,fries,18
+Cancel 12 soap,remove,soap,12
+Please grab 8 bulbs,add,bulbs,8
+Please remove 2 bellpeppers,remove,bellpeppers,2
+Add 7 beef,add,beef,7
+Delete 7 mozzarella from my cart,remove,mozzarella,7
+Get rid of 16 bananas,remove,bananas,16
+Add 17 foil please,add,foil,17
+Put 16 juice in my cart,add,juice,16
+Add 15 more paper,add,paper,15
+Please put 12 bags in my cart,add,bags,12
+Add 15 units of milk,add,milk,15
+I don't need 7 cucumbers,remove,cucumbers,7
+Take out 8 diapers,remove,diapers,8
+I need 7 bellpeppers,add,bellpeppers,7
+Please grab 18 chicken,add,chicken,18
+I need 2 bellpeppers added,add,bellpeppers,2
+Can I get 4 conditioner,add,conditioner,4
+Please remove 20 strawberries,remove,strawberries,20
+Remove 7 units of yogurt,remove,yogurt,7
+I need 6 cereal added,add,cereal,6
+Please include 14 tissues,add,tissues,14
+Can you remove 14 shampoo,remove,shampoo,14
+Delete 5 mango from my cart,remove,mango,5
+Could you add 13 treats,add,treats,13
+Please put 16 treats in my cart,add,treats,16
+Please delete 7 mango,remove,mango,7
+Please include 10 litter,add,litter,10
+I want to add 17 diapers,add,diapers,17
+Remove 10 diapers please,remove,diapers,10
+Throw in 10 gelato,add,gelato,10
+Can you add 15 bellpeppers,add,bellpeppers,15
+Remove 4 oatmeal,remove,oatmeal,4
+I want to take out 4 flour,remove,flour,4
+Could you add 3 paper,add,paper,3
+Please put 16 bread in my cart,add,bread,16
+Remove 14 chicken from my cart,remove,chicken,14
+I want to take out 18 eggplant,remove,eggplant,18
+Remove 7 more wipes,remove,wipes,7
+I want to remove 3 soap,remove,soap,3
+I want 11 broccoli,add,broccoli,11
+Put 2 cereal in my cart,add,cereal,2
+Remove 8 more garlic,remove,garlic,8
+Add 12 of tomatoes,add,tomatoes,12
+Please put 19 cheddar in my cart,add,cheddar,19
+I need 11 paper,add,paper,11
+I want 7 brownsugar,add,brownsugar,7
+Remove 2 yogurt from my cart,remove,yogurt,2
+I want to add 9 watermelon,add,watermelon,9
+Delete 13 tissues,remove,tissues,13
+Please delete 13 milk,remove,milk,13
+Add 10 granola for me,add,granola,10
+Add 12 units of bags,add,bags,12
+Get me 5 rice,add,rice,5
+Take 12 chicken out of my cart,remove,chicken,12
+Need 16 toothbrush,add,toothbrush,16
+I want 1 gelato,add,gelato,1
+Can you add 5 garlic,add,garlic,5
+I'd like 13 avocados,add,avocados,13
+Take out 8 wash,remove,wash,8
+Can I get 3 raspberries,add,raspberries,3
+Please grab 9 shampoo,add,shampoo,9
+Need 11 broccoli,add,broccoli,11
+Please add 20 wipes,add,wipes,20
+Add 1 more eggplant,add,eggplant,1
+Take 10 butter out of my cart,remove,butter,10
+Remove 12 packs of wipes,remove,packs of wipes,12
+Could you add 16 litter,add,litter,16
+Take out 2 juice,remove,juice,2
+Please add 14 spinach,add,spinach,14
+Remove 8 shampoo,remove,shampoo,8
+Please take away 7 coffee,remove,coffee,7
+Cancel 19 kibble,remove,kibble,19
+I want to remove 10 salmon,remove,salmon,10
+Throw in 3 pepper,add,pepper,3
+Take out 10 towels,remove,towels,10
+Can you remove 6 conditioner,remove,conditioner,6
+Drop 15 gelato,remove,gelato,15
+Delete 1 toothpaste from my cart,remove,toothpaste,1
+Take away 10 more brownsugar,remove,brownsugar,10
+I'll take 9 tea,add,tea,9
+Add 5 packs of bulbs,add,bulbs,5
+Please put 19 paper in my cart,add,paper,19
+Remove 10 wipes,remove,wipes,10
+Put 9 kibble in my cart,add,kibble,9
+Add 1 more cola,add,cola,1
+Can I get 8 shampoo,add,shampoo,8
+Please delete 16 rice,remove,rice,16
+I want to remove 18 salmon,remove,salmon,18
+Take away 17 more juice,remove,juice,17
+Please add 5 broccoli,add,broccoli,5
+I'd like to remove 19 tuna,remove,tuna,19
+I need to remove 3 potatoes,remove,potatoes,3
+Add 7 kibble please,add,kibble,7
+Please put 3 soap in my cart,add,soap,3
+I need 11 eggs,add,eggs,11
+Remove 2 packs of soap,remove,soap,2
+I want to remove 5 cheddar,remove,cheddar,5
+Take away 9 pepper,remove,pepper,9
+Remove 17 gelato from my cart,remove,gelato,17
+I need 14 juice added,add,juice,14
+Can I get 9 towels,add,towels,9
+Remove 2 cola please,remove,cola,2
+Could you remove 4 carrots,remove,carrots,4
+Take away 4 bags,remove,bags,4
+Can I get 10 avocados,add,avocados,10
+I need 13 sunfloweroil added,add,sunfloweroil,13
+Delete 2 soap,remove,soap,2
+Get me 6 eggs,add,eggs,6
+Remove 3 units of tea,remove,tea,3
+Get me 4 bulbs,add,bulbs,4
+Put 16 wrap in my cart,add,wrap,16
+I need to remove 20 raspberries,remove,raspberries,20
+Put in 17 spaghetti,add,spaghetti,17
+Take away 18 more cucumbers,remove,cucumbers,18
+Can I get 2 cereal,add,cereal,2
+Need 14 towels,add,towels,14
+Add 12 packs of foil,add,foil,12
+Get rid of 3 batteries,remove,batteries,3
+Add 8 of pineapple,add,pineapple,8
+I want to remove 11 vegetables,remove,vegetables,11
+Remove 9 units of towels,remove,towels,9
+Could you remove 4 sunfloweroil,remove,sunfloweroil,4
+Can you remove 7 mango,remove,mango,7
+I'd like to add 16 sweetpotatoes,add,sweetpotatoes,16
+I'd like to add 9 broccoli,add,broccoli,9
+Can you remove 13 spaghetti,remove,spaghetti,13
+Remove 2 packs of bread,remove,bread,2
+Add 19 rice,add,rice,19
+Can you remove 10 spinach,remove,spinach,10
+Drop 10 mozzarella,remove,mozzarella,10
+Please grab 14 coffee,add,coffee,14
+Add 8 wipes for me,add,wipes,8
+I'd like to add 4 lemons,add,lemons,4
+Remove 9 packs of sugar,remove,sugar,9
+I'd like to add 9 sweetpotatoes,add,sweetpotatoes,9
+Get me 13 wrap,add,wrap,13
+Could you remove 12 vegetables,remove,vegetables,12
+Add 15 of oatmeal,add,oatmeal,15
+Remove 9 milk please,remove,milk,9
+Remove 19 units of mango,remove,mango,19
+Take out 19 cucumbers,remove,cucumbers,19
+Include 3 shampoo,add,shampoo,3
+Remove 18 coffee please,remove,coffee,18
+I'll take 12 toothpaste,add,toothpaste,12
+Put 4 juice in my cart,add,juice,4
+Put 7 sweetpotatoes in the shopping cart,add,sweetpotatoes,7
+Need 13 quinoa,add,quinoa,13
+Please add 20 milk,add,milk,20
+Need 15 potatoes,add,potatoes,15
+I'd like 18 juice,add,juice,18
+Add 7 butter to my cart,add,butter,7
+Delete 6 detergent,remove,detergent,6
+I'd like to remove 16 salmon,remove,salmon,16
+Please grab 11 bulbs,add,bulbs,11
+Include 9 onions in my order,add,onions,9
+I need to remove 3 eggs,remove,eggs,3
+Please include 8 beef,add,beef,8
+I'd like to remove 7 bananas,remove,bananas,7
+Remove 2 salmon please,remove,salmon,2
+Could you remove 19 gelato,remove,gelato,19
+Add 12 butter to my cart,add,butter,12
+Remove 6 units of butter,remove,butter,6
+Remove 2 spaghetti,remove,spaghetti,2
+I want to take out 11 sunfloweroil,remove,sunfloweroil,11
+Delete 19 litter,remove,litter,19
+Put 2 gelato in the shopping cart,add,gelato,2
+Add 19 broccoli for me,add,broccoli,19
+Take out 16 spaghetti,remove,spaghetti,16
+Could you remove 5 spaghetti,remove,spaghetti,5
+Add 18 more bread,add,bread,18
+Cancel 16 pasta,remove,pasta,16
+I want 18 tea,add,tea,18
+I need 6 wrap added,add,wrap,6
+Take 5 garlic out of my cart,remove,garlic,5
+I don't need 2 mozzarella,remove,mozzarella,2
+Take 3 detergent out,remove,detergent,3
+Get me 4 oatmeal,add,oatmeal,4
+Could you add 6 brownsugar,add,brownsugar,6
+Take away 15 more sweetpotatoes,remove,sweetpotatoes,15
+Add 14 foil for me,add,foil,14
+Remove 15 bananas,remove,bananas,15
+Remove 2 more spaghetti,remove,spaghetti,2
+Take out 16 foil,remove,foil,16
+Include 20 oliveoil,add,oliveoil,20
+Remove 13 of rice,remove,rice,13
+Take out 19 apples,remove,apples,19
+Please add 5 oliveoil,add,oliveoil,5
+Remove 13 more lemons,remove,lemons,13
+Get rid of 12 juice,remove,juice,12
+Remove 6 packs of apples,remove,apples,6
+I need 1 tea added,add,tea,1
+Drop 9 coffee,remove,coffee,9
+Remove 6 beef please,remove,beef,6
+Add 17 bulbs for me,add,bulbs,17
+Remove 16 packs of garlic,remove,garlic,16
+I want to add 3 gelato,add,gelato,3
+Can you add 18 shampoo,add,shampoo,18
+Remove 5 more toothpaste,remove,toothpaste,5
+Put 14 rice in the shopping cart,add,rice,14
+Can I get 18 cereal,add,cereal,18
+Remove 5 of cheddar,remove,cheddar,5
+Add 10 units of eggs,add,eggs,10
+I want 17 potatoes,add,potatoes,17
+Take away 4 butter,remove,butter,4
+I'll take 15 towels,add,towels,15
+Add 3 packs of bread,add,bread,3
+Remove 9 juice,remove,juice,9
+I don't need 10 bread,remove,bread,10
+Please grab 20 broccoli,add,broccoli,20
+I'd like to add 19 rice,add,rice,19
+Take away 16 more gelato,remove,gelato,16
+I want to take out 6 foil,remove,foil,6
+Add 3 of blueberries,add,blueberries,3
+Drop 18 treats,remove,treats,18
+Add 9 of cola,add,cola,9
+Get me 16 oliveoil,add,oliveoil,16
+Add 20 units of gelato,add,gelato,20
+I need to remove 17 paper,remove,paper,17
+Add 14 packs of brownsugar,add,brownsugar,14
+Please remove 15 bread,remove,bread,15
+I want to take out 10 potatoes,remove,potatoes,10
+Please take away 3 soda,remove,soda,3
+Get rid of 20 wipes,remove,wipes,20
+Please take away 1 pepper,remove,pepper,1
+Get me 18 oatmeal,add,oatmeal,18
+Could you remove 20 water,remove,water,20
+Remove 19 more onions,remove,onions,19
+Add 4 of litter,add,litter,4
+Can I get 4 eggs,add,eggs,4
+Please include 11 raspberries,add,raspberries,11
+Can you add 14 raspberries,add,raspberries,14
+Please include 5 sweetpotatoes,add,sweetpotatoes,5
+Get me 4 bread,add,bread,4
+Add 18 packs of milk,add,milk,18
+Add 12 tissues for me,add,tissues,12
+Put 6 yogurt in the shopping cart,add,yogurt,6
+Please delete 18 bags,remove,bags,18
+Please include 6 sweetpotatoes,add,sweetpotatoes,6
+Take away 13 more broccoli,remove,broccoli,13
+I need 20 onions,add,onions,20
+Delete 2 pineapple,remove,pineapple,2
+Remove 5 packs of tissues,remove,tissues,5
+I want to take out 5 gelato,remove,gelato,5
+Take 18 lemonade out,remove,lemonade,18
+I want to take out 9 raspberries,remove,raspberries,9
+Drop 4 tuna,remove,tuna,4
+Can you remove 5 apples,remove,apples,5
+I want to add 11 brownsugar,add,brownsugar,11
+Add 18 bellpeppers please,add,bellpeppers,18
+Remove 13 garlic from my cart,remove,garlic,13
+Take 10 oatmeal out,remove,oatmeal,10
+Take away 3 more wash,remove,wash,3
+I'd like to remove 19 potatoes,remove,potatoes,19
+Remove 10 wipes,remove,wipes,10
+Remove 18 eggs from my cart,remove,eggs,18
+Please include 11 beef,add,beef,11
+Delete 8 gelato,remove,gelato,8
+Remove 10 packs of strawberries,remove,strawberries,10
+Remove 20 kibble please,remove,kibble,20
+Add 12 water please,add,water,12
+Get rid of 10 lemonade,remove,lemonade,10
+Take 15 lemons out of my cart,remove,lemons,15
+Add 16 toothpaste for me,add,toothpaste,16
+Delete 11 sweetpotatoes from my cart,remove,sweetpotatoes,11
+Include 13 onions in my order,add,onions,13
+Delete 5 bulbs from my cart,remove,bulbs,5
+Get me 1 chicken,add,chicken,1
+Add 15 units of bananas,add,bananas,15
+I don't need 12 juice,remove,juice,12
+I'd like 5 eggplant,add,eggplant,5
+I'd like to add 11 conditioner,add,conditioner,11
+Can I get 19 batteries,add,batteries,19
+Remove 10 bags please,remove,bags,10
+Add 2 of juice,add,juice,2
+Can you remove 11 conditioner,remove,conditioner,11
+Get me 17 cucumbers,add,cucumbers,17
+Add 10 more lemons,add,lemons,10
+Remove 15 conditioner from my cart,remove,conditioner,15
+I don't need 6 mushrooms,remove,mushrooms,6
+I want to take out 2 apples,remove,apples,2
+Throw in 8 oliveoil,add,oliveoil,8
+Get rid of 2 bulbs,remove,bulbs,2
+Please take away 17 gelato,remove,gelato,17
+Add 15 more bread,add,bread,15
+I'd like to remove 13 strawberries,remove,strawberries,13
+Cancel 15 water,remove,water,15
+Remove 5 units of blueberries,remove,blueberries,5
+I want to take out 7 conditioner,remove,conditioner,7
+Please include 15 mushrooms,add,mushrooms,15
+Add 16 quinoa to my cart,add,quinoa,16
+Remove 9 spaghetti please,remove,spaghetti,9
+Delete 11 pepper,remove,pepper,11
+I want to remove 11 salmon,remove,salmon,11
+Add 9 strawberries,add,strawberries,9
+Please add 2 yogurt,add,yogurt,2
+Remove 9 units of detergent,remove,detergent,9
+I'd like 8 mango,add,mango,8
+Get rid of 13 broccoli,remove,broccoli,13
+Need 2 cola,add,cola,2
+Cancel 10 foil,remove,foil,10
+Please remove 1 blueberries,remove,blueberries,1
+Delete 7 granola from my cart,remove,granola,7
+Add 11 packs of tissues,add,tissues,11
+Can I get 3 salmon,add,salmon,3
+Take 16 onions out of my cart,remove,onions,16
+Remove 2 of sunfloweroil,remove,sunfloweroil,2
+Delete 14 coffee,remove,coffee,14
+Please delete 18 yogurt,remove,yogurt,18
+I'll take 9 towels,add,towels,9
+Put 7 conditioner in the shopping cart,add,conditioner,7
+Can you take out 7 vegetables,remove,vegetables,7
+Put 1 water in the shopping cart,add,water,1
+Add 8 butter to my cart,add,butter,8
+I need 20 bread,add,bread,20
+Throw in 15 oliveoil,add,oliveoil,15
+I'll take 12 watermelon,add,watermelon,12
+Remove 15 bellpeppers,remove,bellpeppers,15
+Can I get 4 tissues,add,tissues,4
+Put in 2 blueberries,add,blueberries,2
+Could you remove 2 lemons,remove,lemons,2
+Put in 13 chicken,add,chicken,13
+Remove 18 more litter,remove,litter,18
+Cancel 10 brownsugar,remove,brownsugar,10
+Add 7 packs of wrap,add,wrap,7
+Add 14 milk to my cart,add,milk,14
+Can you remove 20 bananas,remove,bananas,20
+I'd like to add 17 spaghetti,add,spaghetti,17
+I'll take 9 pepper,add,pepper,9
+I don't need 15 cereal,remove,cereal,15
+Include 8 fries in my order,add,fries,8
+Take away 4 juice,remove,juice,4
+Take away 18 more yogurt,remove,yogurt,18
+Add 3 foil to my cart,add,foil,3
+Could you remove 7 salmon,remove,salmon,7
+Remove 4 more brownsugar,remove,brownsugar,4
+Delete 16 beef from my cart,remove,beef,16
+I want to remove 12 mozzarella,remove,mozzarella,12
+I'd like to add 20 coffee,add,coffee,20
+Include 8 lemons in my order,add,lemons,8
+I want to take out 8 lemonade,remove,lemonade,8
+I don't need 5 onions,remove,onions,5
+Please put 18 bananas in my cart,add,bananas,18
+Get rid of 15 watermelon,remove,watermelon,15
+Add 5 treats for me,add,treats,5
+Cancel 4 bananas,remove,bananas,4
+Delete 2 juice from my cart,remove,juice,2
+I want to add 5 toothbrush,add,toothbrush,5
+Could you add 14 soda,add,soda,14
+Add 2 of tea,add,tea,2
+I don't need 4 paper,remove,paper,4
+Add 7 packs of gelato,add,gelato,7
+I'd like to remove 16 coffee,remove,coffee,16
+Please grab 17 conditioner,add,conditioner,17
+Take away 2 more shampoo,remove,shampoo,2
+Delete 13 milk from my cart,remove,milk,13
+Can I get 6 diapers,add,diapers,6
+Include 12 mushrooms,add,mushrooms,12
+Add 4 of pineapple,add,pineapple,4
+Need 6 tuna,add,tuna,6
+I'd like 2 eggs,add,eggs,2
+Delete 20 limes from my cart,remove,limes,20
+Take out 16 apples,remove,apples,16
+Cancel 10 flour,remove,flour,10
+Remove 3 units of sweetpotatoes,remove,sweetpotatoes,3
+Could you add 13 gelato,add,gelato,13
+Take 13 coffee out of my cart,remove,coffee,13
+Take out 17 watermelon,remove,watermelon,17
+Cancel 19 salt,remove,salt,19
+Cancel 17 diapers,remove,diapers,17
+I don't need 10 oranges,remove,oranges,10
+Can you take out 1 salmon,remove,salmon,1
+Throw in 9 detergent,add,detergent,9
+Add 6 blueberries to my cart,add,blueberries,6
+Take out 20 conditioner,remove,conditioner,20
+Include 9 mango in my order,add,mango,9
+Add 16 more shampoo,add,shampoo,16
+Please delete 15 salmon,remove,salmon,15
+Please include 3 blueberries,add,blueberries,3
+Remove 4 units of spaghetti,remove,spaghetti,4
+Take out 16 lemonade,remove,lemonade,16
+Please take away 10 oranges,remove,oranges,10
+Add 12 bread for me,add,bread,12
+Take away 19 more beef,remove,beef,19
+Add 7 more raspberries,add,raspberries,7
+I need 6 lemons,add,lemons,6
+I need 19 wipes,add,wipes,19
+Remove 2 units of granola,remove,granola,2
+Take 6 toothpaste out,remove,toothpaste,6
+I'll take 1 shampoo,add,shampoo,1
+I need 20 zucchini,add,zucchini,20
+I'll take 17 diapers,add,diapers,17
+Add 2 units of oliveoil,add,oliveoil,2
+Please remove 10 oranges,remove,oranges,10
+Remove 4 packs of wipes,remove,wipes,4
+Add 1 packs of toothpaste,add,toothpaste,1
+Add 20 towels for me,add,towels,20
+Please put 6 vegetables in my cart,add,vegetables,6
+Delete 15 potatoes from my cart,remove,potatoes,15
+Add 13 packs of pizza,add,pizza,13
+Please add 4 potatoes,add,potatoes,4
+Delete 10 kibble,remove,kibble,10
+Could you add 9 flour,add,flour,9
+Remove 20 packs of chicken,remove,chicken,20
+Put 1 sunfloweroil in the shopping cart,add,sunfloweroil,1
+Can I get 18 sugar,add,sugar,18
+Put in 7 detergent,add,detergent,7
+Remove 13 of oranges,remove,oranges,13
+I'll take 19 tea,add,tea,19
+Add 13 potatoes,add,potatoes,13
+Could you remove 9 eggplant,remove,eggplant,9
+Cancel 12 pineapple,remove,pineapple,12
+Add 4 zucchini please,add,zucchini,4
+Put 18 litter in the shopping cart,add,litter,18
+Can you take out 8 onions,remove,onions,8
+Remove 14 bread,remove,bread,14
+I need 20 blueberries added,add,blueberries,20
+Please include 4 sugar,add,sugar,4
+Cancel 16 mozzarella,remove,mozzarella,16
+Take 11 tomatoes out,remove,tomatoes,11
+Could you remove 7 mushrooms,remove,mushrooms,7
+Can I get 12 pepper,add,pepper,12
+I'd like to remove 16 batteries,remove,batteries,16
+Remove 12 packs of tissues,remove,packs of tissues,12
+Take away 17 more blueberries,remove,blueberries,17
+Add 8 of carrots,add,carrots,8
+Drop 4 mozzarella,remove,mozzarella,4
+Take away 10 more mozzarella,remove,mozzarella,10
+Remove 7 tea please,remove,tea,7
+I want to add 1 oranges,add,oranges,1
+Remove 4 units of milk,remove,milk,4
+I'd like 4 salmon,add,salmon,4
+Add 4 zucchini to my cart,add,zucchini,4
+Take out 9 paper,remove,paper,9
+Add 18 packs of batteries,add,batteries,18
+Can you take out 19 mango,remove,mango,19
+Remove 11 water,remove,water,11
+Take 7 bread out,remove,bread,7
+Add 2 tuna for me,add,tuna,2
+Get me 15 gelato,add,gelato,15
+I want to take out 2 soda,remove,soda,2
+Remove 1 soap please,remove,soap,1
+Put 20 conditioner in the shopping cart,add,conditioner,20
+Drop 4 wrap,remove,wrap,4
+Include 17 spaghetti,add,spaghetti,17
+Could you add 7 oatmeal,add,oatmeal,7
+Delete 16 tomatoes from my cart,remove,tomatoes,16
+I want to remove 15 detergent,remove,detergent,15
+I want to add 13 pasta,add,pasta,13
+Take away 2 more water,remove,water,2
+Remove 6 raspberries,remove,raspberries,6
+Please grab 2 toothbrush,add,toothbrush,2
+Take 5 juice out,remove,juice,5
+Remove 15 of spinach,remove,spinach,15
+Remove 18 of mozzarella,remove,mozzarella,18
+I want to take out 15 raspberries,remove,raspberries,15
+Remove 6 carrots,remove,carrots,6
+Please remove 18 cola,remove,cola,18
+Throw in 10 wrap,add,wrap,10
+Remove 7 packs of gelato,remove,gelato,7
+I need 10 wash,add,wash,10
+Need 6 bananas,add,bananas,6
+Include 18 watermelon in my order,add,watermelon,18
+Can you remove 20 blueberries,remove,blueberries,20
+Take away 20 strawberries,remove,strawberries,20
+I want 20 yogurt,add,yogurt,20
+Take 6 quinoa out,remove,quinoa,6
+Add 9 blueberries for me,add,blueberries,9
+Delete 20 wipes,remove,wipes,20
+Delete 18 cheddar from my cart,remove,cheddar,18
+Please take away 9 lemonade,remove,lemonade,9
+Add 2 cola for me,add,cola,2
+Cancel 2 bellpeppers,remove,bellpeppers,2
+Can I get 12 bread,add,bread,12
+Put 7 cheddar in the shopping cart,add,cheddar,7
+Take out 16 tissues,remove,tissues,16
+Cancel 11 vegetables,remove,vegetables,11
+I'd like to remove 12 limes,remove,limes,12
+Remove 12 packs of flour,remove,flour,12
+Take out 14 gelato,remove,gelato,14
+I'd like to remove 6 pepper,remove,pepper,6
+Add 13 more tuna,add,tuna,13
+Can you take out 14 milk,remove,milk,14
+Add 15 soap,add,soap,15
+Drop 11 coffee,remove,coffee,11
+Please put 7 juice in my cart,add,juice,7
+Please add 10 flour,add,flour,10
+I need to remove 9 carrots,remove,carrots,9
+Remove 9 units of spaghetti,remove,spaghetti,9
+Throw in 15 rice,add,rice,15
+Add 11 more mushrooms,add,mushrooms,11
+Cancel 5 strawberries,remove,strawberries,5
+Throw in 7 limes,add,limes,7
+Take away 8 wrap,remove,wrap,8
+Put in 8 sunfloweroil,add,sunfloweroil,8
+Remove 17 bananas,remove,bananas,17
+Add 15 eggplant to my cart,add,eggplant,15
+Add 14 units of shampoo,add,shampoo,14
+Could you add 11 sugar,add,sugar,11
+Remove 19 butter,remove,butter,19
+I want to add 14 salmon,add,salmon,14
+I want to remove 15 butter,remove,butter,15
+Remove 9 units of bulbs,remove,bulbs,9
+I need 4 raspberries,add,raspberries,4
+Can you take out 14 soda,remove,soda,14
+I want to take out 20 mango,remove,mango,20
+Put 1 oliveoil in my cart,add,oliveoil,1
+Add 10 bread please,add,bread,10
+Delete 16 apples,remove,apples,16
+Delete 20 bread from my cart,remove,bread,20
+I'll take 15 yogurt,add,yogurt,15
+Take out 20 bags,remove,bags,20
+Cancel 20 rice,remove,rice,20
+I need to remove 20 pasta,remove,pasta,20
+Can you remove 10 water,remove,water,10
+I want to add 3 paper,add,paper,3
+I want to add 5 bags,add,bags,5
+Drop 8 sweetpotatoes,remove,sweetpotatoes,8
+Please delete 11 gelato,remove,gelato,11
+Remove 20 more litter,remove,litter,20
+Put in 1 wash,add,wash,1
+I'd like to remove 2 strawberries,remove,strawberries,2
+Include 17 mango,add,mango,17
+Remove 19 bulbs from my cart,remove,bulbs,19
+Put 5 foil in my cart,add,foil,5
+Remove 18 of cola,remove,cola,18
+Add 7 cereal,add,cereal,7
+Remove 18 rice from my cart,remove,rice,18
+Add 14 blueberries please,add,blueberries,14
+I want to take out 9 quinoa,remove,quinoa,9
+Please grab 4 toothpaste,add,toothpaste,4
+Take 15 bread out,remove,bread,15
+Take 2 gelato out,remove,gelato,2
+Please delete 20 tea,remove,tea,20
+Add 12 units of soda,add,soda,12
+Add 2 more cheddar,add,cheddar,2
+Remove 3 of treats,remove,treats,3
+I'll take 3 shampoo,add,shampoo,3
+I'd like to remove 9 gelato,remove,gelato,9
+Throw in 1 spinach,add,spinach,1
+Remove 5 units of milk,remove,milk,5
+Remove 16 more wash,remove,wash,16
+Please delete 19 pizza,remove,pizza,19
+Put in 10 milk,add,milk,10
+Remove 12 lemonade from my cart,remove,lemonade,12
+Need 12 lemonade,add,lemonade,12
+Get me 9 bellpeppers,add,bellpeppers,9
+I want to add 19 wipes,add,wipes,19
+I'd like to add 4 yogurt,add,yogurt,4
+Put 8 toothpaste in my cart,add,toothpaste,8
+Remove 12 shampoo please,remove,shampoo,12
+Add 19 juice please,add,juice,19
+Remove 9 bulbs please,remove,bulbs,9
+Please add 9 wrap,add,wrap,9
+I need 16 mozzarella added,add,mozzarella,16
+Take away 5 more avocados,remove,avocados,5
+Add 9 packs of pasta,add,pasta,9
+I want to take out 10 butter,remove,butter,10
+I need 5 salmon added,add,salmon,5
+Add 2 more apples,add,apples,2
+Can you add 19 toothpaste,add,toothpaste,19
+Throw in 12 butter,add,butter,12
+Please take away 3 paper,remove,paper,3
+Remove 20 potatoes,remove,potatoes,20
+Need 20 bellpeppers,add,bellpeppers,20
+Remove 15 packs of coffee,remove,coffee,15
+I'd like to remove 12 yogurt,remove,yogurt,12
+Can you take out 20 wrap,remove,wrap,20
+Put 12 granola in my cart,add,granola,12
+Remove 9 packs of water,remove,water,9
+I need to remove 19 bread,remove,bread,19
+Throw in 14 eggplant,add,eggplant,14
+Can I get 3 toothpaste,add,toothpaste,3
+I'd like to remove 4 blueberries,remove,blueberries,4
+Include 1 batteries in my order,add,batteries,1
+Please delete 10 yogurt,remove,yogurt,10
+I need 16 soap,add,soap,16
+Add 16 packs of avocados,add,avocados,16
+Include 16 tuna,add,tuna,16
+Add 20 of kibble,add,kibble,20
+I don't need 9 quinoa,remove,quinoa,9
+Throw in 15 flour,add,flour,15
+I want 17 avocados,add,avocados,17
+Get rid of 15 sunfloweroil,remove,sunfloweroil,15
+I'd like to add 6 cola,add,cola,6
+Please grab 5 blueberries,add,blueberries,5
+Take away 9 more limes,remove,limes,9
+Put in 20 litter,add,litter,20
+Can you take out 17 rice,remove,rice,17
+Delete 19 soap from my cart,remove,soap,19
+Remove 13 packs of towels,remove,towels,13
+I'd like to remove 4 potatoes,remove,potatoes,4
+Drop 6 mushrooms,remove,mushrooms,6
+Add 3 juice please,add,juice,3
+I want 16 sunfloweroil,add,sunfloweroil,16
+Please take away 17 wash,remove,wash,17
+Need 14 spaghetti,add,spaghetti,14
+Add 2 oatmeal to my cart,add,oatmeal,2
+I'd like to remove 3 mango,remove,mango,3
+Please remove 10 soda,remove,soda,10
+I want 12 coffee,add,coffee,12
+Delete 8 blueberries from my cart,remove,blueberries,8
+Add 19 oliveoil to my cart,add,oliveoil,19
+Cancel 19 oliveoil,remove,oliveoil,19
+Delete 20 brownsugar from my cart,remove,brownsugar,20
+Add 2 eggs please,add,eggs,2
+I want to add 15 lemons,add,lemons,15
+I want to take out 6 cheddar,remove,cheddar,6
+Put 1 oatmeal in the shopping cart,add,oatmeal,1
+Please take away 13 pizza,remove,pizza,13
+Add 13 milk,add,milk,13
+Can you take out 8 wipes,remove,wipes,8
+Could you remove 3 pizza,remove,pizza,3
+Add 5 water for me,add,water,5
+Include 4 limes,add,limes,4
+Can you take out 9 eggs,remove,eggs,9
+Add 20 units of mushrooms,add,mushrooms,20
+I need 1 milk added,add,milk,1
+I'd like to add 3 towels,add,towels,3
+Take out 7 strawberries,remove,strawberries,7
+Please take away 6 spinach,remove,spinach,6
+I want 20 yogurt,add,yogurt,20
+Get rid of 13 tea,remove,tea,13
+I'll take 20 apples,add,apples,20
+Can I get 14 treats,add,treats,14
+Take out 9 rice,remove,rice,9
+Please put 20 spinach in my cart,add,spinach,20
+Add 14 pasta,add,pasta,14
+Can you add 11 bulbs,add,bulbs,11
+Delete 11 soap,remove,soap,11
+Please remove 3 milk,remove,milk,3
+Remove 9 units of gelato,remove,gelato,9
+Add 4 of pepper,add,pepper,4
+Add 19 packs of broccoli,add,broccoli,19
+I'd like 16 onions,add,onions,16
+Take away 19 more sugar,remove,sugar,19
+Cancel 8 juice,remove,juice,8
+Remove 17 units of diapers,remove,diapers,17
+Please delete 14 juice,remove,juice,14
+I'd like 1 bellpeppers,add,bellpeppers,1
+Throw in 11 bread,add,bread,11
+I'll take 5 cereal,add,cereal,5
+Can you take out 16 raspberries,remove,raspberries,16
+Delete 16 butter from my cart,remove,butter,16
+I'd like to add 13 eggs,add,eggs,13
+Add 5 potatoes,add,potatoes,5
+Please remove 14 broccoli,remove,broccoli,14
+Please include 7 blueberries,add,blueberries,7
+Remove 15 units of mushrooms,remove,mushrooms,15
+Put 2 kibble in the shopping cart,add,kibble,2
+I'll take 2 batteries,add,batteries,2
+Add 11 flour to my cart,add,flour,11
+Remove 19 bulbs from my cart,remove,bulbs,19
+I want to take out 6 soda,remove,soda,6
+Remove 16 of salmon,remove,salmon,16
+I need 14 detergent added,add,detergent,14
+I'd like 6 tea,add,tea,6
+Take away 6 more toothbrush,remove,toothbrush,6
+Can you add 1 cucumbers,add,cucumbers,1
+I need to remove 20 oliveoil,remove,oliveoil,20
+Remove 12 packs of kibble,remove,kibble,12
+Add 1 of mushrooms,add,mushrooms,1
+Please put 11 limes in my cart,add,limes,11
+Please take away 12 cucumbers,remove,cucumbers,12
+I need 19 eggs added,add,eggs,19
+I'll take 1 beef,add,beef,1
+Include 5 soap in my order,add,soap,5
+I want 18 gelato,add,gelato,18
+Please include 18 cola,add,cola,18
+Take out 2 coffee,remove,coffee,2
+Remove 1 units of litter,remove,litter,1
+Remove 13 more bread,remove,bread,13
+Drop 11 beef,remove,beef,11
+Delete 14 fries,remove,fries,14
+Please take away 19 foil,remove,foil,19
+Remove 13 more cheddar,remove,cheddar,13
+Add 20 of pepper,add,pepper,20
+Please put 18 coffee in my cart,add,coffee,18
+Cancel 18 bags,remove,bags,18
+Please delete 15 tuna,remove,tuna,15
+Can you remove 13 pepper,remove,pepper,13
+Add 13 units of chicken,add,chicken,13
+Add 13 units of bread,add,bread,13
+Drop 3 apples,remove,apples,3
+Can you take out 8 gelato,remove,gelato,8
+Take out 7 tissues,remove,tissues,7
+Drop 3 watermelon,remove,watermelon,3
+Remove 4 of bread,remove,bread,4
+Put in 14 foil,add,foil,14
+I don't need 17 bulbs,remove,bulbs,17
+I want to add 15 wrap,add,wrap,15
+Remove 17 treats from my cart,remove,treats,17
+Remove 19 more bellpeppers,remove,bellpeppers,19
+I'd like to remove 19 mushrooms,remove,mushrooms,19
+Delete 2 shampoo,remove,shampoo,2
+Please include 8 foil,add,foil,8
+Add 16 blueberries to my cart,add,blueberries,16
+I need 10 potatoes added,add,potatoes,10
+Include 19 sugar,add,sugar,19
+Remove 8 toothpaste from my cart,remove,toothpaste,8
+Remove 14 eggs,remove,eggs,14
+Please delete 1 rice,remove,rice,1
+Take away 1 more blueberries,remove,blueberries,1
+I want to remove 1 bread,remove,bread,1
+I want 4 cucumbers,add,cucumbers,4
+Please add 9 juice,add,juice,9
+Take away 11 sweetpotatoes,remove,sweetpotatoes,11
+Take away 14 more gelato,remove,gelato,14
+Please include 15 gelato,add,gelato,15
+I'll take 18 conditioner,add,conditioner,18
+I need 1 oliveoil,add,oliveoil,1
+Throw in 3 pasta,add,pasta,3
+Need 1 lemons,add,lemons,1
+Cancel 1 onions,remove,onions,1
+I'd like 7 oranges,add,oranges,7
+Remove 12 more tomatoes,remove,tomatoes,12
+Could you remove 5 raspberries,remove,raspberries,5
+Add 3 avocados,add,avocados,3
+Remove 11 of vegetables,remove,vegetables,11
+Remove 13 eggs from my cart,remove,eggs,13
+I'd like 19 bananas,add,bananas,19
+I'd like 6 granola,add,granola,6
+Delete 15 rice from my cart,remove,rice,15
+Please take away 10 bananas,remove,bananas,10
+Can you remove 17 paper,remove,paper,17
+Take away 8 batteries,remove,batteries,8
+I want 9 tea,add,tea,9
+Need 15 beef,add,beef,15
+Can you take out 16 yogurt,remove,yogurt,16
+Put 16 salt in my cart,add,salt,16
+Could you add 14 sunfloweroil,add,sunfloweroil,14
+Add 1 more bread,add,bread,1
+Put 6 chicken in the shopping cart,add,chicken,6
+Can you take out 5 eggplant,remove,eggplant,5
+Add 3 more coffee,add,coffee,3
+Add 5 tomatoes please,add,tomatoes,5
+Take 8 oatmeal out of my cart,remove,oatmeal,8
+I want to take out 1 soap,remove,soap,1
+Please add 7 bread,add,bread,7
+I need 14 milk,add,milk,14
+I want to remove 20 cheddar,remove,cheddar,20
+I'd like to add 9 yogurt,add,yogurt,9
+Remove 16 of cucumbers,remove,cucumbers,16
+Please include 1 pepper,add,pepper,1
+Add 9 more foil,add,foil,9
+Remove 4 units of pineapple,remove,pineapple,4
+Put 4 zucchini in my cart,add,zucchini,4
+Please put 20 litter in my cart,add,litter,20
+Put in 2 cheddar,add,cheddar,2
+Remove 20 packs of brownsugar,remove,brownsugar,20
+Get rid of 16 apples,remove,apples,16
+Get rid of 19 sunfloweroil,remove,sunfloweroil,19
+I'd like to add 20 cereal,add,cereal,20
+I want to add 19 pineapple,add,pineapple,19
+Remove 9 units of garlic,remove,garlic,9
+Cancel 20 bulbs,remove,bulbs,20
+Can you add 12 blueberries,add,blueberries,12
+Put 17 soda in the shopping cart,add,soda,17
+Include 12 granola in my order,add,granola,12
+Please grab 12 onions,add,onions,12
+Delete 14 toothpaste from my cart,remove,toothpaste,14
+Please include 3 cheddar,add,cheddar,3
+Could you remove 2 cereal,remove,cereal,2
+Remove 11 of fries,remove,fries,11
+Add 2 packs of diapers,add,diapers,2
+Please include 17 bread,add,bread,17
+Remove 14 of mozzarella,remove,mozzarella,14
+Get rid of 14 rice,remove,rice,14
+Take away 10 juice,remove,juice,10
+Get rid of 2 kibble,remove,kibble,2
+Add 10 of rice,add,rice,10
+Remove 10 more pizza,remove,pizza,10
+Cancel 11 coffee,remove,coffee,11
+Add 5 units of milk,add,milk,5
+Throw in 18 wipes,add,wipes,18
+Delete 4 vegetables,remove,vegetables,4
+Take out 9 cola,remove,cola,9
+Get me 20 salmon,add,salmon,20
+Please remove 15 bulbs,remove,bulbs,15
+Can you remove 11 cucumbers,remove,cucumbers,11
+Remove 10 units of vegetables,remove,vegetables,10
+Include 18 pineapple,add,pineapple,18
+Please put 5 spaghetti in my cart,add,spaghetti,5
+Add 14 more sugar,add,sugar,14
+Include 3 paper,add,paper,3
+Add 17 batteries,add,batteries,17
+Add 1 packs of conditioner,add,conditioner,1
+Include 6 vegetables in my order,add,vegetables,6
+Please delete 2 detergent,remove,detergent,2
+Get rid of 10 wash,remove,wash,10
+Can you take out 8 bellpeppers,remove,bellpeppers,8
+Please include 3 spaghetti,add,spaghetti,3
+Take away 10 pepper,remove,pepper,10
+Add 5 pasta to my cart,add,pasta,5
+Please include 20 wash,add,wash,20
+I'll take 1 pizza,add,pizza,1
+Remove 1 potatoes from my cart,remove,potatoes,1
+I'll take 7 lemonade,add,lemonade,7
+Could you remove 2 treats,remove,treats,2
+Delete 3 bulbs from my cart,remove,bulbs,3
+Please remove 17 flour,remove,flour,17
+Get me 15 bananas,add,bananas,15
+Remove 15 units of paper,remove,paper,15
+Take out 6 coffee,remove,coffee,6
+I'd like to add 14 sugar,add,sugar,14
+I'd like to add 14 broccoli,add,broccoli,14
+Throw in 9 salt,add,salt,9
+Remove 18 of pasta,remove,pasta,18
+I want to take out 18 spinach,remove,spinach,18
+I'd like to add 3 butter,add,butter,3
+Please grab 20 spinach,add,spinach,20
+Delete 3 broccoli,remove,broccoli,3
+Add 16 packs of conditioner,add,conditioner,16
+Remove 4 more juice,remove,juice,4
+Take away 3 more potatoes,remove,potatoes,3
+Remove 10 units of zucchini,remove,zucchini,10
+Throw in 13 cheddar,add,cheddar,13
+I want to remove 5 pepper,remove,pepper,5
+Take out 5 cheddar,remove,cheddar,5
+I'd like to remove 12 oliveoil,remove,oliveoil,12
+I need 14 salt,add,salt,14
+Please remove 14 oranges,remove,oranges,14
+Take away 20 diapers,remove,diapers,20
+Include 5 treats,add,treats,5
+Remove 19 milk please,remove,milk,19
+Please include 8 tissues,add,tissues,8
+I want to add 20 conditioner,add,conditioner,20
+Drop 14 cheddar,remove,cheddar,14
+Could you add 10 avocados,add,avocados,10
+Add 10 tuna please,add,tuna,10
+Please grab 15 bellpeppers,add,bellpeppers,15
+Remove 9 pizza from my cart,remove,pizza,9
+Delete 5 soda from my cart,remove,soda,5
+Put 9 pasta in my cart,add,pasta,9
+Delete 8 flour from my cart,remove,flour,8
+Please delete 19 mango,remove,mango,19
+Remove 11 paper from my cart,remove,paper,11
+Please delete 13 lemons,remove,lemons,13
+Take 9 raspberries out,remove,raspberries,9
+Take out 6 eggs,remove,eggs,6
+I don't need 5 foil,remove,foil,5
+Take away 6 more bellpeppers,remove,bellpeppers,6
+Can you take out 20 spaghetti,remove,spaghetti,20
+Delete 10 towels from my cart,remove,towels,10
+Add 16 more coffee,add,coffee,16
+I want to add 19 tuna,add,tuna,19
+Take away 20 pepper,remove,pepper,20
+Remove 3 packs of beef,remove,beef,3
+Drop 10 spinach,remove,spinach,10
+Add 14 salmon for me,add,salmon,14
+Get rid of 17 diapers,remove,diapers,17
+Take out 10 avocados,remove,avocados,10
+Remove 12 mozzarella,remove,mozzarella,12
+Add 12 more paper,add,paper,12
+Add 18 brownsugar to my cart,add,brownsugar,18
+I want to take out 11 detergent,remove,detergent,11
+Could you add 15 oliveoil,add,oliveoil,15
+Could you remove 19 watermelon,remove,watermelon,19
+Add 11 juice please,add,juice,11
+Add 1 vegetables please,add,vegetables,1
+Remove 9 salt,remove,salt,9
+Put in 1 litter,add,litter,1
+Get me 11 raspberries,add,raspberries,11
+I'd like to remove 16 avocados,remove,avocados,16
+I want 2 soda,add,soda,2
+Add 14 quinoa please,add,quinoa,14
+Please add 9 spinach,add,spinach,9
+Put in 5 beef,add,beef,5
+Put in 19 quinoa,add,quinoa,19
+Can you remove 19 yogurt,remove,yogurt,19
+Can you take out 5 coffee,remove,coffee,5
+Can you add 11 chicken,add,chicken,11
+Take 1 bags out of my cart,remove,bags,1
+Delete 20 cereal from my cart,remove,cereal,20
+Please grab 12 apples,add,apples,12
+Take out 9 juice,remove,juice,9
+Can you remove 9 tea,remove,tea,9
+Remove 16 of gelato,remove,gelato,16
+Remove 19 packs of bread,remove,bread,19
+Take 12 gelato out of my cart,remove,gelato,12
+Could you add 15 bread,add,bread,15
+I'd like 5 spaghetti,add,spaghetti,5
+Add 1 more limes,add,limes,1
+I'd like 10 beef,add,beef,10
+I need to remove 9 cheddar,remove,cheddar,9
+Remove 3 packs of soap,remove,soap,3
+Please take away 19 butter,remove,butter,19
+Please take away 12 raspberries,remove,raspberries,12
+Get me 4 toothbrush,add,toothbrush,4
+Put 11 foil in my cart,add,foil,11
+Need 19 pepper,add,pepper,19
+Include 17 detergent,add,detergent,17
+Please take away 13 pizza,remove,pizza,13
+Remove 5 packs of yogurt,remove,yogurt,5
+I'll take 17 yogurt,add,yogurt,17
+I'd like 19 kibble,add,kibble,19
+Remove 2 coffee from my cart,remove,coffee,2
+I want to take out 6 spinach,remove,spinach,6
+Put 7 blueberries in the shopping cart,add,blueberries,7
+Could you add 13 carrots,add,carrots,13
+Cancel 11 bulbs,remove,bulbs,11
+Take away 11 more bananas,remove,bananas,11
+Please add 6 broccoli,add,broccoli,6
+Delete 7 tea from my cart,remove,tea,7
+Add 8 more milk,add,milk,8
+Please take away 18 coffee,remove,coffee,18
+I want 20 shampoo,add,shampoo,20
+Add 15 butter for me,add,butter,15
+Put 9 batteries in my cart,add,batteries,9
+Put in 13 bulbs,add,bulbs,13
+Take 10 tea out,remove,tea,10
+Could you remove 16 lemons,remove,lemons,16
+I don't need 14 wash,remove,wash,14
+I'd like to remove 15 cucumbers,remove,cucumbers,15
+Remove 13 mango,remove,mango,13
+I want to take out 18 detergent,remove,detergent,18
+Could you remove 4 cereal,remove,cereal,4
+Please put 18 limes in my cart,add,limes,18
+Delete 19 paper from my cart,remove,paper,19
+Add 20 packs of bread,add,bread,20
+Take away 5 tissues,remove,tissues,5
+Add 16 units of kibble,add,kibble,16
+Can you add 9 detergent,add,detergent,9
+I need to remove 15 sunfloweroil,remove,sunfloweroil,15
+Get rid of 9 salt,remove,salt,9
+Cancel 3 garlic,remove,garlic,3
+Can you take out 9 bananas,remove,bananas,9
+Throw in 4 broccoli,add,broccoli,4
+Include 7 spinach in my order,add,spinach,7
+Put in 20 salt,add,salt,20
+Please add 17 mango,add,mango,17
+Add 2 units of tissues,add,tissues,2
+Take out 17 sweetpotatoes,remove,sweetpotatoes,17
+Take away 13 more diapers,remove,diapers,13
+I want to remove 11 beef,remove,beef,11
+Please grab 18 yogurt,add,yogurt,18
+Please include 18 gelato,add,gelato,18
+Include 7 mushrooms in my order,add,mushrooms,7
+Can I get 6 gelato,add,gelato,6
+Please delete 15 tuna,remove,tuna,15
+I'd like 6 bread,add,bread,6
+Remove 9 more oranges,remove,oranges,9
+Remove 1 yogurt,remove,yogurt,1
+Throw in 6 oliveoil,add,oliveoil,6
+I want to add 15 tea,add,tea,15
+Remove 3 bread please,remove,bread,3
+Remove 10 units of bananas,remove,bananas,10
+I'll take 4 blueberries,add,blueberries,4
+Can you remove 4 avocados,remove,avocados,4
+Remove 7 mango from my cart,remove,mango,7
+Take away 18 more gelato,remove,gelato,18
+Add 8 toothbrush,add,toothbrush,8
+Take away 2 more avocados,remove,avocados,2
+Add 7 packs of bread,add,bread,7
+Please remove 12 soap,remove,soap,12
+Remove 20 units of lemonade,remove,lemonade,20
+I'd like to remove 20 zucchini,remove,zucchini,20
+Remove 9 more zucchini,remove,zucchini,9
+Include 6 foil in my order,add,foil,6
+Put 3 juice in my cart,add,juice,3
+Throw in 5 watermelon,add,watermelon,5
+I'd like to remove 9 raspberries,remove,raspberries,9
+I need 3 pizza,add,pizza,3
+I'd like 19 sugar,add,sugar,19
+Please grab 17 chicken,add,chicken,17
+I'll take 3 towels,add,towels,3
+Please include 16 tea,add,tea,16
+I don't need 4 milk,remove,milk,4
+I'll take 4 pepper,add,pepper,4
+Take out 14 tea,remove,tea,14
+Remove 18 packs of pizza,remove,pizza,18
+I'd like to remove 10 sweetpotatoes,remove,sweetpotatoes,10
+Can you take out 13 pizza,remove,pizza,13
+I'd like 6 detergent,add,detergent,6
+Add 2 oliveoil to my cart,add,oliveoil,2
+Include 4 salmon in my order,add,salmon,4
+Take away 5 more shampoo,remove,shampoo,5
+I want to remove 13 diapers,remove,diapers,13
+Take 20 granola out,remove,granola,20
+Add 3 units of bulbs,add,bulbs,3
+Please grab 5 chicken,add,chicken,5
+I want to add 11 tomatoes,add,tomatoes,11
+Can you add 1 mango,add,mango,1
+Add 17 of toothpaste,add,toothpaste,17
+I want to remove 6 mushrooms,remove,mushrooms,6
+Could you remove 13 bread,remove,bread,13
+Please remove 6 shampoo,remove,shampoo,6
+Take out 14 beef,remove,beef,14
+Put in 7 strawberries,add,strawberries,7
+Remove 9 milk please,remove,milk,9
+Need 7 limes,add,limes,7
+Remove 8 packs of mushrooms,remove,mushrooms,8
+Add 2 pepper for me,add,pepper,2
+Please grab 8 wash,add,wash,8
+Remove 19 apples please,remove,apples,19
+Can you add 8 zucchini,add,zucchini,8
+I want 20 flour,add,flour,20
+I'd like to remove 12 oliveoil,remove,oliveoil,12
+Add 19 wrap,add,wrap,19
+Remove 16 fries from my cart,remove,fries,16
+Drop 17 wash,remove,wash,17
+Remove 11 pasta from my cart,remove,pasta,11
+I'd like to remove 3 cola,remove,cola,3
+Add 6 carrots please,add,carrots,6
+Add 17 oatmeal please,add,oatmeal,17
+I want to take out 6 coffee,remove,coffee,6
+I'd like 4 garlic,add,garlic,4
+Need 19 oliveoil,add,oliveoil,19
+I want to remove 10 cola,remove,cola,10
+Include 9 coffee in my order,add,coffee,9
+Take away 5 more milk,remove,milk,5
+I'd like 11 eggplant,add,eggplant,11
+I need 9 oliveoil added,add,oliveoil,9
+Please take away 10 toothbrush,remove,toothbrush,10
+Take away 14 more wipes,remove,wipes,14
+Cancel 18 lemons,remove,lemons,18
+Please put 16 juice in my cart,add,juice,16
+Put 14 raspberries in the shopping cart,add,raspberries,14
+Include 4 strawberries in my order,add,strawberries,4
+Please take away 8 coffee,remove,coffee,8
+Could you remove 13 spaghetti,remove,spaghetti,13
+Delete 19 gelato,remove,gelato,19
+I'll take 18 gelato,add,gelato,18
+Remove 5 units of yogurt,remove,yogurt,5
+Remove 1 of beef,remove,beef,1
+Put 17 yogurt in the shopping cart,add,yogurt,17
+Add 20 sweetpotatoes to my cart,add,sweetpotatoes,20
+Could you remove 17 coffee,remove,coffee,17
+Cancel 20 apples,remove,apples,20
+Add 20 packs of foil,add,foil,20
+Take away 18 garlic,remove,garlic,18
+Please take away 17 cucumbers,remove,cucumbers,17
+Drop 2 toothpaste,remove,toothpaste,2
+Can you take out 5 granola,remove,granola,5
+Please delete 7 detergent,remove,detergent,7
+Remove 6 brownsugar please,remove,brownsugar,6
+Take 10 towels out,remove,towels,10
+Put 17 zucchini in the shopping cart,add,zucchini,17
+I want to take out 15 coffee,remove,coffee,15
+I'd like to add 17 gelato,add,gelato,17
+Could you add 11 blueberries,add,blueberries,11
+Throw in 20 spaghetti,add,spaghetti,20
+I want to remove 17 mango,remove,mango,17
+Can you take out 18 diapers,remove,diapers,18
+Please add 3 paper,add,paper,3
+I need 13 bananas,add,bananas,13
+Can you add 6 water,add,water,6
+Add 15 soap please,add,soap,15
+Add 8 pepper for me,add,pepper,8
+Need 6 litter,add,litter,6
+Remove 19 more avocados,remove,avocados,19
+Need 12 lemonade,add,lemonade,12
+Need 6 beef,add,beef,6
+Include 2 juice in my order,add,juice,2
+Put 15 soda in my cart,add,soda,15
+Can you add 14 tuna,add,tuna,14
+Delete 5 wrap from my cart,remove,wrap,5
+Remove 8 raspberries,remove,raspberries,8
+Add 6 of toothbrush,add,toothbrush,6
+I want to remove 3 oranges,remove,oranges,3
+Remove 18 packs of bellpeppers,remove,bellpeppers,18
+Need 2 yogurt,add,yogurt,2
+Take 5 watermelon out of my cart,remove,watermelon,5
+I want to remove 20 bellpeppers,remove,bellpeppers,20
+Add 6 more eggplant,add,eggplant,6
+I'd like 19 batteries,add,batteries,19
+Remove 19 milk please,remove,milk,19
+Take out 4 salt,remove,salt,4
+Please take away 12 vegetables,remove,vegetables,12
+I want to add 12 eggs,add,eggs,12
+Please delete 3 mozzarella,remove,mozzarella,3
+Put 13 salmon in the shopping cart,add,salmon,13
+Throw in 16 gelato,add,gelato,16
+Add 3 more brownsugar,add,brownsugar,3
+Need 11 cola,add,cola,11
+Please take away 12 sweetpotatoes,remove,sweetpotatoes,12
+Need 20 cola,add,cola,20
+Get me 19 onions,add,onions,19
+Could you remove 18 kibble,remove,kibble,18
+Take away 14 more soda,remove,soda,14
+Put 19 eggs in the shopping cart,add,eggs,19
+Add 6 soda for me,add,soda,6
+Take 14 cheddar out of my cart,remove,cheddar,14
+Please delete 10 wipes,remove,wipes,10
+Cancel 12 fries,remove,fries,12
+I'd like 17 towels,add,towels,17
+Could you remove 17 soap,remove,soap,17
+Please put 17 carrots in my cart,add,carrots,17
+Take away 17 wipes,remove,wipes,17
+I want to add 6 coffee,add,coffee,6
+Add 2 more potatoes,add,potatoes,2
+Remove 10 units of carrots,remove,carrots,10
+Take 15 shampoo out of my cart,remove,shampoo,15
+I want to take out 6 onions,remove,onions,6
+Please grab 2 avocados,add,avocados,2
+Please include 5 strawberries,add,strawberries,5
+Remove 10 units of butter,remove,butter,10
+Drop 1 potatoes,remove,potatoes,1
+Add 18 more bread,add,bread,18
+Add 17 packs of butter,add,butter,17
+Put 14 zucchini in my cart,add,zucchini,14
+Put in 19 lemons,add,lemons,19
+Throw in 15 flour,add,flour,15
+Please delete 4 gelato,remove,gelato,4
+Need 2 kibble,add,kibble,2
+Remove 6 more soda,remove,soda,6
+Delete 17 kibble from my cart,remove,kibble,17
+Can you remove 7 tomatoes,remove,tomatoes,7
+I'll take 18 bulbs,add,bulbs,18
+Please include 5 rice,add,rice,5
+Remove 15 pizza,remove,pizza,15
+Please add 5 spinach,add,spinach,5
+Please take away 15 bread,remove,bread,15
+I'd like to add 9 garlic,add,garlic,9
+Take away 3 bags,remove,bags,3
+Please include 14 tomatoes,add,tomatoes,14
+I need 12 gelato added,add,gelato,12
+I need to remove 7 zucchini,remove,zucchini,7
+Remove 1 packs of tomatoes,remove,tomatoes,1
+I want to remove 8 tomatoes,remove,tomatoes,8
+Add 4 brownsugar to my cart,add,brownsugar,4
+I don't need 8 beef,remove,beef,8
+Remove 16 packs of bread,remove,bread,16
+Add 1 zucchini please,add,zucchini,1
+Get me 10 spinach,add,spinach,10
+I'd like to add 18 kibble,add,kibble,18
+Include 18 tomatoes,add,tomatoes,18
+Include 5 toothpaste,add,toothpaste,5
+Include 6 wipes,add,wipes,6
+Please remove 8 bulbs,remove,bulbs,8
+Get rid of 6 tea,remove,tea,6
+Could you remove 20 milk,remove,milk,20
+Take 4 bellpeppers out,remove,bellpeppers,4
+I want to add 10 wipes,add,wipes,10
+I want to take out 3 broccoli,remove,broccoli,3
+Add 3 foil to my cart,add,foil,3
+I'd like 6 bulbs,add,bulbs,6
+Please grab 8 water,add,water,8
+Remove 16 of pasta,remove,pasta,16
+I want to remove 11 toothbrush,remove,toothbrush,11
+Add 16 juice to my cart,add,juice,16
+Delete 19 tea from my cart,remove,tea,19
+Take 13 butter out of my cart,remove,butter,13
+Take out 8 rice,remove,rice,8
+Include 8 strawberries in my order,add,strawberries,8
+Take out 8 shampoo,remove,shampoo,8
+Get me 15 shampoo,add,shampoo,15
+Remove 11 strawberries,remove,strawberries,11
+Can I get 18 cucumbers,add,cucumbers,18
+Remove 1 litter please,remove,litter,1
+Delete 2 litter from my cart,remove,litter,2
+Can I get 10 lemonade,add,lemonade,10
+Remove 13 blueberries from my cart,remove,blueberries,13
+Get me 16 cola,add,cola,16
+Take away 13 more raspberries,remove,raspberries,13
+Include 6 potatoes,add,potatoes,6
+Please remove 17 eggplant,remove,eggplant,17
+Include 3 oranges in my order,add,oranges,3
+I need to remove 10 eggplant,remove,eggplant,10
+Remove 17 of carrots,remove,carrots,17
+Remove 20 water from my cart,remove,water,20
+Take 3 bags out of my cart,remove,bags,3
+Remove 3 packs of limes,remove,limes,3
+Please delete 7 shampoo,remove,shampoo,7
+Take out 13 apples,remove,apples,13
+Delete 17 spinach from my cart,remove,spinach,17
+Need 6 oliveoil,add,oliveoil,6
+Please include 10 shampoo,add,shampoo,10
+Delete 7 diapers,remove,diapers,7
+Take 6 brownsugar out,remove,brownsugar,6
+Need 6 diapers,add,diapers,6
+Can you take out 5 cola,remove,cola,5
+Remove 14 more bellpeppers,remove,bellpeppers,14
+Add 16 flour to my cart,add,flour,16
+Put 2 eggplant in the shopping cart,add,eggplant,2
+Remove 17 of eggplant,remove,eggplant,17
+I need 14 beef added,add,beef,14
+Remove 17 of soda,remove,soda,17
+Remove 18 foil from my cart,remove,foil,18
+I'll take 4 detergent,add,detergent,4
+Please include 10 garlic,add,garlic,10
+Remove 14 blueberries,remove,blueberries,14
+Could you add 17 brownsugar,add,brownsugar,17
+Get me 15 oranges,add,oranges,15
+Put 1 bags in the shopping cart,add,bags,1
+Take out 19 cereal,remove,cereal,19
+Add 2 yogurt,add,yogurt,2
+Add 12 conditioner please,add,conditioner,12
+Could you remove 12 wash,remove,wash,12
+Get me 7 soda,add,soda,7
+Cancel 16 yogurt,remove,yogurt,16
+Add 20 of spinach,add,spinach,20
+Take away 4 wash,remove,wash,4
+Get rid of 2 soda,remove,soda,2
+Add 1 of toothbrush,add,toothbrush,1
+Can you take out 17 oranges,remove,oranges,17
+Could you add 11 chicken,add,chicken,11
+Remove 4 juice from my cart,remove,juice,4
+Put in 5 oatmeal,add,oatmeal,5
+I'd like to add 12 pineapple,add,pineapple,12
+Remove 7 units of water,remove,water,7
+I want to add 17 cola,add,cola,17
+Remove 4 carrots please,remove,carrots,4
+I need to remove 6 butter,remove,butter,6
+Remove 18 units of bags,remove,bags,18
+Take 5 bananas out of my cart,remove,bananas,5
+Add 9 units of lemonade,add,lemonade,9
+I want to add 15 water,add,water,15
+Take out 12 oliveoil,remove,oliveoil,12
+I want to take out 14 paper,remove,paper,14
+Cancel 11 juice,remove,juice,11
+Add 18 of bananas,add,bananas,18
+Cancel 17 mushrooms,remove,mushrooms,17
+I want to take out 8 pineapple,remove,pineapple,8
+Get me 8 mozzarella,add,mozzarella,8
+Could you add 9 sugar,add,sugar,9
+I want to remove 18 cola,remove,cola,18
+Take 16 toothbrush out of my cart,remove,toothbrush,16
+Remove 5 more pasta,remove,pasta,5
+Take 10 chicken out of my cart,remove,chicken,10
+Throw in 13 limes,add,limes,13
+Take away 19 water,remove,water,19
+Please include 2 avocados,add,avocados,2
+Remove 6 detergent please,remove,detergent,6
+Delete 6 potatoes from my cart,remove,potatoes,6
+Take away 1 conditioner,remove,conditioner,1
+Remove 7 of limes,remove,limes,7
+I need 5 flour added,add,flour,5
+Drop 1 blueberries,remove,blueberries,1
+I want to remove 16 quinoa,remove,quinoa,16
+Add 6 more conditioner,add,conditioner,6
+Remove 18 potatoes from my cart,remove,potatoes,18
+Add 20 tuna for me,add,tuna,20
+Add 3 of granola,add,granola,3
+Add 7 packs of soap,add,soap,7
+Include 9 juice,add,juice,9
+Add 13 units of watermelon,add,watermelon,13
+I need 19 juice,add,juice,19
+I'd like to add 8 toothbrush,add,toothbrush,8
+Please put 2 garlic in my cart,add,garlic,2
+I need to remove 8 onions,remove,onions,8
+Can you add 20 tissues,add,tissues,20
+Can you add 11 mango,add,mango,11
+Please grab 6 onions,add,onions,6
+I want 10 kibble,add,kibble,10
+Could you add 2 onions,add,onions,2
+Include 11 salt,add,salt,11
+Take out 15 potatoes,remove,potatoes,15
+Please grab 7 garlic,add,garlic,7
+I'd like to remove 15 strawberries,remove,strawberries,15
+I'd like 13 paper,add,paper,13
+Remove 2 coffee please,remove,coffee,2
+Please include 4 bread,add,bread,4
+Add 15 of wrap,add,wrap,15
+Need 14 flour,add,flour,14
+Add 6 tissues for me,add,tissues,6
+Remove 14 salmon please,remove,salmon,14
+Remove 13 more cereal,remove,cereal,13
+Delete 3 butter from my cart,remove,butter,3
+Add 17 more pasta,add,pasta,17
+I need 18 spinach,add,spinach,18
+Put in 3 bread,add,bread,3
+Remove 19 units of tissues,remove,tissues,19
+Could you remove 12 quinoa,remove,quinoa,12
+I want to take out 12 toothpaste,remove,toothpaste,12
+Add 9 of tissues,add,tissues,9
+I want to take out 3 tuna,remove,tuna,3
+Put 12 tissues in the shopping cart,add,tissues,12
+Could you remove 15 cheddar,remove,cheddar,15
+I'd like to add 3 garlic,add,garlic,3
+Please put 4 strawberries in my cart,add,strawberries,4
+I need 1 rice added,add,rice,1
+Add 2 more butter,add,butter,2
+Remove 9 oatmeal please,remove,oatmeal,9
+Put 8 pepper in the shopping cart,add,pepper,8
+Remove 6 pineapple,remove,pineapple,6
+Take out 6 water,remove,water,6
+Please put 20 pineapple in my cart,add,pineapple,20
+Put 13 raspberries in my cart,add,raspberries,13
+Delete 16 kibble from my cart,remove,kibble,16
+I need to remove 16 raspberries,remove,raspberries,16
+Get me 19 mango,add,mango,19
+Drop 13 detergent,remove,detergent,13
+Get me 2 broccoli,add,broccoli,2
+Take out 15 paper,remove,paper,15
+Remove 13 of rice,remove,rice,13
+Take 19 gelato out,remove,gelato,19
+I'd like to remove 18 granola,remove,granola,18
+Throw in 8 tea,add,tea,8
+I need 3 pizza added,add,pizza,3
+Remove 11 more zucchini,remove,zucchini,11
+I want to take out 14 sweetpotatoes,remove,sweetpotatoes,14
+Remove 17 units of litter,remove,litter,17
+Can you take out 14 shampoo,remove,shampoo,14
+Add 13 soap,add,soap,13
+I want to add 4 water,add,water,4
+Can I get 6 vegetables,add,vegetables,6
+Please put 2 bread in my cart,add,bread,2
+Add 2 gelato for me,add,gelato,2
+Get rid of 19 oatmeal,remove,oatmeal,19
+Remove 15 units of soap,remove,soap,15
+Take 13 butter out of my cart,remove,butter,13
+Add 20 more tea,add,tea,20
+Take 16 onions out of my cart,remove,onions,16
+Could you add 18 salmon,add,salmon,18
+Include 2 raspberries in my order,add,raspberries,2
+Please grab 15 gelato,add,gelato,15
+I'll take 2 conditioner,add,conditioner,2
+Remove 1 eggs from my cart,remove,eggs,1
+Take 6 rice out of my cart,remove,rice,6
+Remove 18 packs of soap,remove,soap,18
+Put 7 zucchini in my cart,add,zucchini,7
+I need 12 bellpeppers,add,bellpeppers,12
+Take away 15 conditioner,remove,conditioner,15
+Please add 5 spinach,add,spinach,5
+Remove 1 milk from my cart,remove,milk,1
+Can you take out 10 watermelon,remove,watermelon,10
+Put 7 treats in my cart,add,treats,7
+Put 8 coffee in my cart,add,coffee,8
+Remove 10 units of zucchini,remove,zucchini,10
+Can I get 1 soda,add,soda,1
+Please put 17 yogurt in my cart,add,yogurt,17
+I want to remove 19 tea,remove,tea,19
+Put 5 gelato in the shopping cart,add,gelato,5
+Delete 1 eggplant from my cart,remove,eggplant,1
+I need to remove 10 raspberries,remove,raspberries,10
+I want to take out 15 spaghetti,remove,spaghetti,15
+Drop 14 toothbrush,remove,toothbrush,14
+I'll take 20 foil,add,foil,20
+Take away 7 more diapers,remove,diapers,7
+Add 1 packs of tuna,add,tuna,1
+Remove 8 of apples,remove,apples,8
+Add 11 of cucumbers,add,cucumbers,11
+Add 1 of diapers,add,diapers,1
+I want to remove 8 milk,remove,milk,8
+Can I get 10 butter,add,butter,10
+Add 11 packs of watermelon,add,watermelon,11
+Take 10 toothpaste out of my cart,remove,toothpaste,10
+Remove 8 more salmon,remove,salmon,8
+I'd like to remove 18 apples,remove,apples,18
+Can you take out 11 spinach,remove,spinach,11
+Get rid of 15 potatoes,remove,potatoes,15
+Add 8 packs of spaghetti,add,spaghetti,8
+Take out 13 gelato,remove,gelato,13
+Please add 17 carrots,add,carrots,17
+I'll take 12 limes,add,limes,12
+I need 4 pepper added,add,pepper,4
+Delete 10 raspberries,remove,raspberries,10
+Include 4 wash in my order,add,wash,4
+Include 19 blueberries in my order,add,blueberries,19
+Add 20 cola to my cart,add,cola,20
+Need 17 soap,add,soap,17
+I need to remove 9 foil,remove,foil,9
+Remove 18 more zucchini,remove,zucchini,18
+Get me 3 juice,add,juice,3
+I need 8 tuna added,add,tuna,8
+Please put 12 tomatoes in my cart,add,tomatoes,12
+Can I get 5 batteries,add,batteries,5
+Take 1 oliveoil out of my cart,remove,oliveoil,1
+I need to remove 12 butter,remove,butter,12
+Take away 17 tuna,remove,tuna,17
+Put 19 carrots in the shopping cart,add,carrots,19
+Take out 9 rice,remove,rice,9
+Delete 12 batteries,remove,batteries,12
+Put 15 gelato in my cart,add,gelato,15
+Need 2 shampoo,add,shampoo,2
+I'd like to remove 15 brownsugar,remove,brownsugar,15
+Delete 14 yogurt from my cart,remove,yogurt,14
+Add 11 more water,add,water,11
+Get me 15 tea,add,tea,15
+Delete 20 bananas,remove,bananas,20
+Throw in 17 wash,add,wash,17
+Throw in 14 conditioner,add,conditioner,14
+Get rid of 3 bananas,remove,bananas,3
+Add 7 salt,add,salt,7
+Take away 11 bananas,remove,bananas,11
+I'd like to add 12 beef,add,beef,12
+Add 12 coffee for me,add,coffee,12
+Add 6 shampoo to my cart,add,shampoo,6
+I want to remove 9 tuna,remove,tuna,9
+Remove 15 potatoes please,remove,potatoes,15
+Remove 9 of yogurt,remove,yogurt,9
+Add 16 units of batteries,add,batteries,16
+Add 15 more rice,add,rice,15
+Could you add 13 lemons,add,lemons,13
+Put in 20 vegetables,add,vegetables,20
+Please put 12 beef in my cart,add,beef,12
+Add 9 units of sugar,add,sugar,9
+Remove 15 of pineapple,remove,pineapple,15
+Delete 12 bulbs,remove,bulbs,12
+Could you add 14 soap,add,soap,14
+Could you remove 12 bags,remove,bags,12
+Add 19 wipes to my cart,add,wipes,19
+Add 11 granola for me,add,granola,11
+Put in 5 fries,add,fries,5
+I need 20 brownsugar,add,brownsugar,20
+I'd like to add 19 strawberries,add,strawberries,19
+Get rid of 10 batteries,remove,batteries,10
+Add 7 cucumbers,add,cucumbers,7
+Take out 16 milk,remove,milk,16
+Could you remove 10 pasta,remove,pasta,10
+I need 1 vegetables,add,vegetables,1
+I need 6 raspberries,add,raspberries,6
+Take away 5 more gelato,remove,gelato,5
+Take out 5 coffee,remove,coffee,5
+Remove 18 tissues please,remove,tissues,18
+Include 8 oliveoil,add,oliveoil,8
+Put 5 yogurt in my cart,add,yogurt,5
+I want to take out 18 eggs,remove,eggs,18
+Could you remove 19 mushrooms,remove,mushrooms,19
+Add 4 spinach,add,spinach,4
+I need 10 kibble,add,kibble,10
+Add 8 raspberries,add,raspberries,8
+I need to remove 18 chicken,remove,chicken,18
+I'd like to add 11 watermelon,add,watermelon,11
+Remove 16 oranges please,remove,oranges,16
+Remove 13 units of batteries,remove,batteries,13
+Add 8 apples please,add,apples,8
+Add 18 flour for me,add,flour,18
+Remove 9 water,remove,water,9
+Include 14 pasta,add,pasta,14
+I want 20 tuna,add,tuna,20
+Please add 18 towels,add,towels,18
+I want to remove 16 mushrooms,remove,mushrooms,16
+Drop 16 broccoli,remove,broccoli,16
+Remove 11 packs of strawberries,remove,strawberries,11
+I don't need 16 pizza,remove,pizza,16
+Put 13 pepper in my cart,add,pepper,13
+Drop 18 soap,remove,soap,18
+Add 15 more mushrooms,add,mushrooms,15
+I'd like 20 kibble,add,kibble,20
+Include 12 conditioner in my order,add,conditioner,12
+Cancel 15 juice,remove,juice,15
+I need 2 toothpaste added,add,toothpaste,2
+I don't need 9 water,remove,water,9
+Add 16 oatmeal please,add,oatmeal,16
+Remove 2 more mozzarella,remove,mozzarella,2
+Include 8 towels in my order,add,towels,8
+Can you add 17 butter,add,butter,17
+Remove 9 units of coffee,remove,coffee,9
+Get rid of 18 sugar,remove,sugar,18
+Take away 13 treats,remove,treats,13
+Drop 5 tea,remove,tea,5
+I'd like to add 8 milk,add,milk,8
+Please grab 14 granola,add,granola,14
+Need 17 rice,add,rice,17
+Get me 5 juice,add,juice,5
+I don't need 9 toothbrush,remove,toothbrush,9
+Please include 14 bags,add,bags,14
+Include 14 batteries in my order,add,batteries,14
+Take 9 strawberries out of my cart,remove,strawberries,9
+Add 13 bags,add,bags,13
+Please add 18 milk,add,milk,18
+I'd like 12 treats,add,treats,12
+Could you remove 14 tea,remove,tea,14
+Put 17 coffee in the shopping cart,add,coffee,17
+Add 13 packs of cereal,add,cereal,13
+Get me 5 tea,add,tea,5
+Remove 14 more lemonade,remove,lemonade,14
+Can you take out 14 bellpeppers,remove,bellpeppers,14
+I'll take 2 tissues,add,tissues,2
+Please grab 2 tea,add,tea,2
+Include 8 towels in my order,add,towels,8
+Add 1 more cucumbers,add,cucumbers,1
+Can I get 20 strawberries,add,strawberries,20
+Add 12 more salt,add,salt,12
+Add 5 wash for me,add,wash,5
+I want to add 9 gelato,add,gelato,9
+I need 5 zucchini,add,zucchini,5
+Please remove 3 cereal,remove,cereal,3
+I need 11 granola,add,granola,11
+Take out 12 vegetables,remove,vegetables,12
+Get rid of 3 watermelon,remove,watermelon,3
+Take 6 soap out of my cart,remove,soap,6
+Add 18 lemons please,add,lemons,18
+Please put 4 garlic in my cart,add,garlic,4
+I'll take 16 potatoes,add,potatoes,16
+Add 7 cola for me,add,cola,7
+Take 4 treats out,remove,treats,4
+I want to add 1 broccoli,add,broccoli,1
+I don't need 20 carrots,remove,carrots,20
+Please include 12 raspberries,add,raspberries,12
+Include 8 oatmeal in my order,add,oatmeal,8
+Can you add 10 apples,add,apples,10
+I want to add 4 bags,add,bags,4
+Remove 7 packs of coffee,remove,coffee,7
+Put 7 eggs in my cart,add,eggs,7
+Remove 14 beef please,remove,beef,14
+I'll take 4 gelato,add,gelato,4
+Remove 7 more mushrooms,remove,mushrooms,7
+Need 19 blueberries,add,blueberries,19
+Take 14 sunfloweroil out of my cart,remove,sunfloweroil,14
+Throw in 2 spinach,add,spinach,2
+Can I get 20 cucumbers,add,cucumbers,20
+Put in 3 tissues,add,tissues,3
+Please put 18 wrap in my cart,add,wrap,18
+Add 11 of soda,add,soda,11
+Could you remove 6 juice,remove,juice,6
+Delete 16 tomatoes,remove,tomatoes,16
+Remove 5 packs of eggs,remove,eggs,5
+Delete 3 water from my cart,remove,water,3
+Remove 8 units of gelato,remove,gelato,8
+Remove 18 packs of juice,remove,juice,18
+Add 5 batteries for me,add,batteries,5
+I'd like to remove 15 bread,remove,bread,15
+Delete 14 water from my cart,remove,water,14
+Put 7 juice in the shopping cart,add,juice,7
+Add 5 packs of quinoa,add,quinoa,5
+Drop 3 carrots,remove,carrots,3
+Put 8 fries in my cart,add,fries,8
+Please take away 20 strawberries,remove,strawberries,20
+Add 17 packs of tissues,add,tissues,17
+Add 14 rice for me,add,rice,14
+Get me 20 strawberries,add,strawberries,20
+I want 18 gelato,add,gelato,18
+I need 15 litter added,add,litter,15
+I need 12 spaghetti,add,spaghetti,12
+I want to take out 9 milk,remove,milk,9
+Please grab 14 milk,add,milk,14
+I'd like 18 watermelon,add,watermelon,18
+Add 8 more lemonade,add,lemonade,8
+Please remove 19 yogurt,remove,yogurt,19
+I'd like to remove 20 vegetables,remove,vegetables,20
+Add 11 more toothpaste,add,toothpaste,11
+Add 15 more oranges,add,oranges,15
+Remove 6 packs of bread,remove,packs of bread,6
+Remove 8 more tea,remove,tea,8
+Add 13 of spinach,add,spinach,13
+Add 6 of conditioner,add,conditioner,6
+I need 5 salt added,add,salt,5
+Remove 9 detergent please,remove,detergent,9
+I want to remove 17 garlic,remove,garlic,17
+Please put 18 lemons in my cart,add,lemons,18
+Please add 3 granola,add,granola,3
+Add 10 salmon please,add,salmon,10
+Take away 13 more chicken,remove,chicken,13
+Please put 7 spaghetti in my cart,add,spaghetti,7
+Add 12 spinach for me,add,spinach,12
+I want to take out 8 foil,remove,foil,8
+Put 10 treats in my cart,add,treats,10
+Add 9 packs of toothpaste,add,toothpaste,9
+I need to remove 10 sugar,remove,sugar,10
