@@ -97,9 +97,9 @@ sft_config = SFTConfig(
 
     # --- A100 OPTIMIZED BATCH SETTINGS ---
     # IA3 has fewer parameters, so we can use larger batches
-    per_device_train_batch_size=16,  # Doubled from LoRA version
-    per_device_eval_batch_size=16,
-    gradient_accumulation_steps=2,   # Effective batch = 16*2 = 32
+    per_device_train_batch_size=4,  # Doubled from LoRA version
+    per_device_eval_batch_size=4,
+    gradient_accumulation_steps=8,   # Effective batch = 16*2 = 32
     gradient_checkpointing=True,
     # -------------------------------------
 
