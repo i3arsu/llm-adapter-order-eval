@@ -65,6 +65,7 @@ model = AutoModelForCausalLM.from_pretrained(
 
 # Enable gradient checkpointing for memory efficiency
 model.gradient_checkpointing_enable()
+model = prepare_model_for_kbit_training(model)  # Prepares model for quantization-aware training
 
 # IA3 Configuration
 # IA3 works by learning scaling vectors for key, value, and feedforward layers
