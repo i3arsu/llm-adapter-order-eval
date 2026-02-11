@@ -90,7 +90,7 @@ sft_config = SFTConfig(
     
     # --- DATASET PARAMETERS ---
     dataset_text_field="text",
-    max_seq_length=1024,
+    max_length=1024,
     packing=True,
     # --------------------------
 

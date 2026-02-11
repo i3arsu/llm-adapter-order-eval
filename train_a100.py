@@ -83,7 +83,7 @@ sft_config = SFTConfig(
     
     # --- DATASET PARAMETERS ---
     dataset_text_field="text",
-    max_seq_length=1024,  # Increased from 512 (A100 can handle this easily)
+    max_length=1024,  # Increased from 512 (A100 can handle this easily)
     packing=True,  # Enable packing for efficiency with variable-length sequences
     # --------------------------
 
