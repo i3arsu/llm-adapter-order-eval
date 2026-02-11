@@ -12,7 +12,27 @@ from trl import SFTTrainer, SFTConfig # <--- KORISTIMO SFTConfig
 
 # --- KONFIGURACIJA ---
 MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"
-OUTPUT_DIR = "./adapters/llama3-retail-adapter_v2"
+
+# Auto-generate naming from model and config
+def extract_model_name(model_id):
+    # Extract short name like "llama3.1" from "meta-llama/Llama-3.1-8B-Instruct"
+    name = model_id.split("/")[-1].lower()
+    if "llama-3.1" in name or "llama3.1" in name:
+        return "llama3.1"
+    elif "llama-3" in name or "llama3" in name:
+        return "llama3"
+    elif "mistral" in name:
+        return "mistral"
+    elif "gemma" in name:
+        return "gemma"
+    else:
+        return name.split("-")[0]
+
+MODEL_SHORT_NAME = extract_model_name(MODEL_ID)
+ADAPTER_TYPE = "lora"  # Will be used in naming
+
+# Generate output directory and model names
+OUTPUT_DIR = f"./{ADAPTER_TYPE}-{MODEL_SHORT_NAME}-checkpoints"
 
 login(token=os.getenv("HF_TOKEN"))
 
@@ -129,7 +149,9 @@ print("Počinjem optimizirani trening na RTX 3070...")
 trainer.train()
 
 # 4. Spremanje
-new_model_name = "llama3-retail-3070-final"
+import os
+os.makedirs("./adapters", exist_ok=True)
+new_model_name = f"./adapters/{ADAPTER_TYPE}-{MODEL_SHORT_NAME}"
 trainer.model.save_pretrained(new_model_name)
 tokenizer.save_pretrained(new_model_name)
 print(f"Gotovo! Model spremljen u: {new_model_name}")
