@@ -60,7 +60,7 @@ model = AutoModelForCausalLM.from_pretrained(
     torch_dtype=torch.bfloat16,  # Native BF16 support on A100
     device_map="auto",
     use_cache=False,
-    attn_implementation="flash_attention_2"  # A100 supports Flash Attention 2
+    attn_implementation="eager"  # A100 supports Flash Attention 2
 )
 
 # Enable gradient checkpointing for memory efficiency
