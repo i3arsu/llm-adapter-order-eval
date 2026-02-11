@@ -7,11 +7,14 @@ from transformers import (
     AutoTokenizer,
     BitsAndBytesConfig
 )
+from huggingface_hub import login
 from trl import SFTTrainer, SFTConfig # <--- KORISTIMO SFTConfig
 
 # --- KONFIGURACIJA ---
 MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"
 OUTPUT_DIR = "./adapters/llama3-retail-adapter_v2"
+
+login(token=os.getenv("HF_TOKEN"))
 
 # 1. Priprema Podataka
 # ---------------------------------------------------------

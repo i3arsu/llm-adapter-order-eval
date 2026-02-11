@@ -1,6 +1,7 @@
 import torch
 import pandas as pd
 from datasets import Dataset
+from huggingface_hub import login
 from peft import LoraConfig, prepare_model_for_kbit_training
 from transformers import (
     AutoModelForCausalLM,
@@ -15,6 +16,8 @@ import json
 # --- CONFIGURATION ---
 MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"
 OUTPUT_DIR = "./adapters/llama3-retail-adapter_a100"
+
+login(token=os.getenv("HF_TOKEN"))
 
 # 1. Data Preparation
 # ---------------------------------------------------------
