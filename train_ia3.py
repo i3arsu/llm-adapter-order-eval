@@ -14,7 +14,27 @@ import json
 
 # --- CONFIGURATION ---
 MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"
-OUTPUT_DIR = "./adapters/llama3-retail-ia3-a100"
+
+# Auto-generate naming from model and config
+def extract_model_name(model_id):
+    # Extract short name like "llama3.1" from "meta-llama/Llama-3.1-8B-Instruct"
+    name = model_id.split("/")[-1].lower()
+    if "llama-3.1" in name or "llama3.1" in name:
+        return "llama3.1"
+    elif "llama-3" in name or "llama3" in name:
+        return "llama3"
+    elif "mistral" in name:
+        return "mistral"
+    elif "gemma" in name:
+        return "gemma"
+    else:
+        return name.split("-")[0]
+
+MODEL_SHORT_NAME = extract_model_name(MODEL_ID)
+ADAPTER_TYPE = "ia3"  # Will be used in naming
+
+# Generate output directory and model names
+OUTPUT_DIR = f"./{ADAPTER_TYPE}-{MODEL_SHORT_NAME}-checkpoints"
 
 # 1. Data Preparation
 # ---------------------------------------------------------
@@ -164,7 +184,8 @@ total_training_time = training_end_time - training_start_time
 
 # 4. Save Final Model
 # ---------------------------------------------------------
-new_model_name = "llama3-retail-ia3-a100-final"
+os.makedirs("./adapters", exist_ok=True)
+new_model_name = f"./adapters/{ADAPTER_TYPE}-{MODEL_SHORT_NAME}"
 trainer.model.save_pretrained(new_model_name)
 tokenizer.save_pretrained(new_model_name)
 print(f"Training complete! IA3 adapter saved to: {new_model_name}")
@@ -172,9 +193,10 @@ print(f"Training complete! IA3 adapter saved to: {new_model_name}")
 # Optional: Save merged model
 print("\nMerging IA3 adapter with base model...")
 merged_model = trainer.model.merge_and_unload()
-merged_model.save_pretrained(f"{new_model_name}-merged")
-tokenizer.save_pretrained(f"{new_model_name}-merged")
-print(f"Merged model saved to: {new_model_name}-merged")
+merged_model_name = f"./adapters/{ADAPTER_TYPE}-{MODEL_SHORT_NAME}-merged"
+merged_model.save_pretrained(merged_model_name)
+tokenizer.save_pretrained(merged_model_name)
+print(f"Merged model saved to: {merged_model_name}")
 
 # 5. Calculate and Display Metrics
 # ---------------------------------------------------------
