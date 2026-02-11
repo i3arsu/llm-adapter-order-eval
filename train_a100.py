@@ -245,7 +245,7 @@ metrics = {
         "effective_batch_size": sft_config.per_device_train_batch_size * sft_config.gradient_accumulation_steps,
         "learning_rate": sft_config.learning_rate,
         "num_epochs": sft_config.num_train_epochs,
-        "max_seq_length": sft_config.max_seq_length,
+        "max_length": sft_config.max_length,
     },
     "dataset": {
         "train_samples": len(train_dataset),
