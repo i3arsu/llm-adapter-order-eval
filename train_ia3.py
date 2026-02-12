@@ -263,8 +263,8 @@ metrics = {
     "model_id": MODEL_ID,
     "adapter_type": "IA3",
     "training_config": {
-        "target_modules": ia3_config.target_modules,
-        "feedforward_modules": ia3_config.feedforward_modules,
+        "target_modules": list(ia3_config.target_modules),
+        "feedforward_modules": list(ia3_config.feedforward_modules),
         "batch_size": sft_config.per_device_train_batch_size,
         "gradient_accumulation_steps": sft_config.gradient_accumulation_steps,
         "effective_batch_size": sft_config.per_device_train_batch_size * sft_config.gradient_accumulation_steps,
