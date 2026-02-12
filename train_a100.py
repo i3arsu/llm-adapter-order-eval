@@ -81,7 +81,6 @@ tokenizer.pad_token = tokenizer.eos_token
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_ID,
     torch_dtype=torch.bfloat16,  # Native BF16 support on A100
-    device_map="auto",
     use_cache=False,
     attn_implementation="eager"  # A100 supports Flash Attention 2
 )

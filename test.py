@@ -10,9 +10,12 @@ login(token=os.getenv("HF_TOKEN"))
 
 # --- POSTAVKE ---
 base_model_id = "meta-llama/Llama-3.1-8B-Instruct"
-adapter_path = "./adapters/llama3-retail-3070-final" 
+adapters_dir = "./adapters"
 input_csv_file = "shopping_cart_final_normalized.csv" # Tvoj ulazni file
-output_csv_file = "test_results.csv"
+output_dir = "./results"
+
+# Create output directory if it doesn't exist
+os.makedirs(output_dir, exist_ok=True)
 
 # 1. Konfiguracija (4-bit)
 bnb_config = BitsAndBytesConfig(
@@ -34,17 +37,24 @@ model = AutoModelForCausalLM.from_pretrained(
 tokenizer = AutoTokenizer.from_pretrained(base_model_id)
 tokenizer.pad_token = tokenizer.eos_token
 
-# 3. Spajanje Adaptera
-print(f"Spajam adapter: {adapter_path}...")
-try:
-    model = PeftModel.from_pretrained(model, adapter_path)
-    model.eval()
-except Exception as e:
-    print(f"GREŠKA: {e}")
+# 3. Pronalaženje svih "-merged" adaptera
+print(f"Tražim -merged adaptere u '{adapters_dir}'...")
+available_adapters = []
+if os.path.exists(adapters_dir):
+    for folder in os.listdir(adapters_dir):
+        folder_path = os.path.join(adapters_dir, folder)
+        if os.path.isdir(folder_path) and "-merged" in folder:
+            available_adapters.append(folder_path)
+            print(f"  Pronađen adapter: {folder}")
+
+if not available_adapters:
+    print(f"GREŠKA: Nema -merged adaptera pronađenih u '{adapters_dir}'!")
     exit()
 
+print(f"Ukupno pronađeno {len(available_adapters)} -merged adapter(a).")
+
 # 4. Funkcija za predikciju
-def predict_intent(user_input):
+def predict_intent(user_input, model):
     prompt = f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
 Analyze the user request and extract action, product, and quantity into JSON format.<|eot_id|><|start_header_id|>user<|end_header_id|>
@@ -86,44 +96,62 @@ df_input = pd.read_csv(input_csv_file, header=None)
 # Pretpostavljamo da je tekst pitanja u prvom stupcu (indeks 0)
 test_sentences = df_input[0].tolist()
 
-print(f"Ukupno pronađeno {len(test_sentences)} primjera.")
+print(f"Ukupno pronađeno {len(test_sentences)} primjera.\n")
 
-# Lista za spremanje rezultata
-data_for_csv = []
-
-print("\n--- Pokrećem Testiranje ---\n")
-
-for i, sentence in enumerate(test_sentences):
-    # Ispis napretka svakih 50 primjera da znaš da radi
-    if (i + 1) % 50 == 0:
-        print(f"Obrađujem {i+1}/{len(test_sentences)}...")
-
-    raw_response = predict_intent(sentence)
+# --- TESTIRANJE ZA SVAKI ADAPTER ---
+for adapter_path in available_adapters:
+    adapter_name = os.path.basename(adapter_path)
+    output_csv_file = os.path.join(output_dir, f"test_results_{adapter_name}.csv")
     
-    # Pokušaj parsiranja JSON-a da ga razbijemo u stupce
-    action = ""
-    product = ""
-    quantity = ""
+    print(f"\n{'='*60}")
+    print(f"Pokrećem testiranje za adapter: {adapter_name}")
+    print(f"{'='*60}\n")
     
+    # Učitavamo adapter
+    print(f"Spajam adapter: {adapter_path}...")
     try:
-        parsed = json.loads(raw_response)
-        action = parsed.get("action", "")
-        product = parsed.get("product", "")
-        quantity = parsed.get("quantity", "")
-    except json.JSONDecodeError:
-        # Ako je JSON neispravan, ostavljamo prazno ili upisujemo error
-        action = "ERROR"
+        current_model = PeftModel.from_pretrained(model, adapter_path)
+        current_model.eval()
+    except Exception as e:
+        print(f"GREŠKA pri učitavanju {adapter_path}: {e}")
+        continue
+    
+    # Lista za spremanje rezultata
+    data_for_csv = []
+    
+    print("Pokrećem Testiranje...\n")
+    
+    for i, sentence in enumerate(test_sentences):
+        # Ispis napretka svakih 50 primjera da znaš da radi
+        if (i + 1) % 50 == 0:
+            print(f"Obrađujem {i+1}/{len(test_sentences)}...")
+    
+        raw_response = predict_intent(sentence, current_model)
         
-    # Dodavanje u listu za CSV (samo traženi stupci)
-    data_for_csv.append({
-        "User Input": sentence,
-        "llm_action": action,
-        "llm_product": product,
-        "llm_quantity": quantity,
-    })
-
-# Spremanje u CSV pomoću pandasa
-df = pd.DataFrame(data_for_csv)
-df.to_csv(output_csv_file, index=False, encoding='utf-8')
-
-print(f"\nGotovo! Rezultati spremljeni u '{output_csv_file}'")
+        # Pokušaj parsiranja JSON-a da ga razbijemo u stupce
+        action = ""
+        product = ""
+        quantity = ""
+        
+        try:
+            parsed = json.loads(raw_response)
+            action = parsed.get("action", "")
+            product = parsed.get("product", "")
+            quantity = parsed.get("quantity", "")
+        except json.JSONDecodeError:
+            # Ako je JSON neispravan, ostavljamo prazno ili upisujemo error
+            action = "ERROR"
+            
+        # Dodavanje u listu za CSV (samo traženi stupci)
+        data_for_csv.append({
+            "User Input": sentence,
+            "llm_action": action,
+            "llm_product": product,
+            "llm_quantity": quantity,
+        })
+    
+    # Spremanje u CSV pomoću pandasa
+    df = pd.DataFrame(data_for_csv)
+    df.to_csv(output_csv_file, index=False, encoding='utf-8')
+    
+    print(f"\nGotovo! Rezultati za '{adapter_name}' spremljeni u '{output_csv_file}'\n")
