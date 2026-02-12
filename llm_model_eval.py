@@ -5,7 +5,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 # Load the CSV file
-retail_dataset_queries = pd.read_csv("Retail_Dataset_1000.csv")
+retail_dataset_queries = pd.read_csv("shopping_cart_final_normalized.csv")
 
 
 def extract_json_object(text):
