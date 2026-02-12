@@ -78,7 +78,6 @@ tokenizer.pad_token = tokenizer.eos_token
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_ID,
     torch_dtype=torch.bfloat16,  # Native BF16 support on A100
-    device_map="auto",
     use_cache=False,
     attn_implementation="eager"  # A100 supports Flash Attention 2
 )
@@ -119,7 +118,7 @@ sft_config = SFTConfig(
     # IA3 has fewer parameters, so we can use larger batches
     per_device_train_batch_size=4,  # Doubled from LoRA version
     per_device_eval_batch_size=4,
-    gradient_accumulation_steps=8,   # Effective batch = 16*2 = 32
+    gradient_accumulation_steps=2,
     gradient_checkpointing=True,
     # -------------------------------------
 
