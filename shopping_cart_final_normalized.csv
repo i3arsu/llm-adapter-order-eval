@@ -1,4 +1,4 @@
-User Input,action,product,quantity
+user_input,action,product,quantity
 Throw in 20 juice,add,juice,20
 Put 13 onions in my cart,add,onions,13
 Remove 4 beef,remove,beef,4
