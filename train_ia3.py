@@ -1,6 +1,7 @@
 import torch
 import pandas as pd
 from datasets import Dataset
+from huggingface_hub import login
 from peft import IA3Config, get_peft_model, prepare_model_for_kbit_training
 from transformers import (
     AutoModelForCausalLM,
@@ -35,6 +36,8 @@ ADAPTER_TYPE = "ia3"  # Will be used in naming
 
 # Generate output directory and model names
 OUTPUT_DIR = f"./{ADAPTER_TYPE}-{MODEL_SHORT_NAME}-checkpoints"
+
+login(token=os.getenv("HF_TOKEN"))
 
 # 1. Data Preparation
 # ---------------------------------------------------------

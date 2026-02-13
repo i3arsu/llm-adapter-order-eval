@@ -7,6 +7,7 @@ from transformers import (
     AutoTokenizer,
     BitsAndBytesConfig
 )
+from huggingface_hub import login
 from trl import SFTTrainer, SFTConfig # <--- KORISTIMO SFTConfig
 
 # --- KONFIGURACIJA ---
@@ -32,6 +33,8 @@ ADAPTER_TYPE = "lora"  # Will be used in naming
 
 # Generate output directory and model names
 OUTPUT_DIR = f"./{ADAPTER_TYPE}-{MODEL_SHORT_NAME}-checkpoints"
+
+login(token=os.getenv("HF_TOKEN"))
 
 # 1. Priprema Podataka
 # ---------------------------------------------------------

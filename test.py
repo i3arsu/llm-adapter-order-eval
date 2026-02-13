@@ -4,6 +4,9 @@ import pandas as pd
 import os
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+from huggingface_hub import login
+
+login(token=os.getenv("HF_TOKEN"))
 
 # --- POSTAVKE ---
 base_model_id = "meta-llama/Llama-3.1-8B-Instruct"
