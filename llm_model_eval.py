@@ -23,7 +23,18 @@ def extract_json_object(text):
     return {}
 
 
-MODEL_IDS = ["mistralai/Mistral-7B-v0.1", "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", "microsoft/phi-4", "google/gemma-3-4b-pt", "ibm-granite/granite-3.3-8b-base", "meta-llama/Llama-3.1-8B", "meta-llama/Llama-3.2-3B", "Qwen/Qwen3-4B", "Qwen/Qwen3-8B"]
+MODEL_IDS = [
+    #"mistralai/Mistral-7B-v0.1",
+    #"deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", 
+    #"deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
+    #"microsoft/phi-4", 
+    #"google/gemma-3-4b-pt", 
+    "ibm-granite/granite-3.3-8b-base", 
+    #"meta-llama/Llama-3.1-8B", 
+    #"meta-llama/Llama-3.2-3B", 
+    "Qwen/Qwen3-4B", 
+    "Qwen/Qwen3-8B"
+    ]
 
 SYSTEM_PROMPT = """
 You are a shopping-cart assistant whose only job is to parse the user request and output a single JSON object with this exact schema:
