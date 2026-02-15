@@ -28,9 +28,9 @@ MODEL_IDS = [
     #"deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", 
     #"deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
     #"microsoft/phi-4", 
-    "google/gemma-3-4b-pt", 
+    #"google/gemma-3-4b-pt", 
     # "ibm-granite/granite-3.3-8b-base", 
-    #"meta-llama/Llama-3.1-8B", 
+   "meta-llama/Llama-3.1-8B", 
     #"meta-llama/Llama-3.2-3B", 
     # "Qwen/Qwen3-4B", 
     # "Qwen/Qwen3-8B"
