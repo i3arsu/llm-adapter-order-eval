@@ -167,7 +167,8 @@ for MODEL_ID in MODEL_IDS:
         # ------------------
         
         report_to="tensorboard",  # Enable TensorBoard logging
-        logging_dir=f"{OUTPUT_DIR}/logs"
+        logging_dir=f"{OUTPUT_DIR}/logs",
+        ddp_find_unused_parameters=False
     )
 
     trainer = SFTTrainer(
@@ -178,6 +179,8 @@ for MODEL_ID in MODEL_IDS:
         processing_class=tokenizer,
         args=sft_config
     )
+
+    is_main_process = trainer.is_world_process_zero()
 
     print("Starting A100-optimized training...")
     print(f"Effective batch size: {sft_config.per_device_train_batch_size * sft_config.gradient_accumulation_steps}")
@@ -200,46 +203,55 @@ for MODEL_ID in MODEL_IDS:
 
     # 4. Save Final Model
     # ---------------------------------------------------------
-    os.makedirs("./adapters", exist_ok=True)
-    new_model_name = f"./adapters/{ADAPTER_TYPE}-{MODEL_SHORT_NAME}"
-    trainer.model.save_pretrained(new_model_name)
-    tokenizer.save_pretrained(new_model_name)
-    print(f"Training complete! Model saved to: {new_model_name}")
+    if is_main_process:
+        os.makedirs("./adapters", exist_ok=True)
+        new_model_name = f"./adapters/{ADAPTER_TYPE}-{MODEL_SHORT_NAME}"
+        trainer.model.save_pretrained(new_model_name)
+        tokenizer.save_pretrained(new_model_name)
+        print(f"Training complete! Model saved to: {new_model_name}")
 
-    # Optional: Save merged model (LoRA + base model)
-    print("\nMerging LoRA adapters with base model...")
-    merged_model = trainer.model.merge_and_unload()
-    merged_model_name = f"./adapters/{ADAPTER_TYPE}-{MODEL_SHORT_NAME}-merged"
-    merged_model.save_pretrained(merged_model_name)
-    tokenizer.save_pretrained(merged_model_name)
-    print(f"Merged model saved to: {merged_model_name}")
+        # Optional: Save merged model (LoRA + base model)
+        print("\nMerging LoRA adapters with base model...")
+        merged_model = trainer.model.merge_and_unload()
+        merged_model_name = f"./adapters/{ADAPTER_TYPE}-{MODEL_SHORT_NAME}-merged"
+        merged_model.save_pretrained(merged_model_name)
+        tokenizer.save_pretrained(merged_model_name)
+        print(f"Merged model saved to: {merged_model_name}")
+    else:
+        new_model_name = f"./adapters/{ADAPTER_TYPE}-{MODEL_SHORT_NAME}"
 
     # 5. Calculate and Display Metrics
     # ---------------------------------------------------------
-    print("\n" + "="*70)
-    print("TRAINING METRICS SUMMARY")
-    print("="*70)
+    if is_main_process:
+        print("\n" + "="*70)
+        print("TRAINING METRICS SUMMARY")
+        print("="*70)
 
     # Training time
     hours = int(total_training_time // 3600)
     minutes = int((total_training_time % 3600) // 60)
     seconds = int(total_training_time % 60)
-    print(f"\n📊 Training Time:")
-    print(f"   Total: {total_training_time:.2f} seconds ({hours}h {minutes}m {seconds}s)")
-    print(f"   Per Epoch: {total_training_time / sft_config.num_train_epochs:.2f} seconds")
+    if is_main_process:
+        print(f"\n📊 Training Time:")
+        print(f"   Total: {total_training_time:.2f} seconds ({hours}h {minutes}m {seconds}s)")
+        print(f"   Per Epoch: {total_training_time / sft_config.num_train_epochs:.2f} seconds")
 
     # Adapter size
     adapter_path = f"{new_model_name}/adapter_model.safetensors"
-    if os.path.exists(adapter_path):
-        adapter_size_bytes = os.path.getsize(adapter_path)
-        adapter_size_mb = adapter_size_bytes / (1024 * 1024)
-        print(f"\n💾 Adapter Size:")
-        print(f"   {adapter_size_mb:.2f} MB ({adapter_size_bytes:,} bytes)")
+    if is_main_process:
+        if os.path.exists(adapter_path):
+            adapter_size_bytes = os.path.getsize(adapter_path)
+            adapter_size_mb = adapter_size_bytes / (1024 * 1024)
+            print(f"\n💾 Adapter Size:")
+            print(f"   {adapter_size_mb:.2f} MB ({adapter_size_bytes:,} bytes)")
+        else:
+            print(f"\n⚠️  Adapter file not found at {adapter_path}")
+            adapter_size_mb = None
     else:
-        print(f"\n⚠️  Adapter file not found at {adapter_path}")
+        adapter_size_mb = None
 
     # Training metrics from history
-    if trainer.state.log_history:
+    if is_main_process and trainer.state.log_history:
         # Get final evaluation loss
         eval_losses = [log['eval_loss'] for log in trainer.state.log_history if 'eval_loss' in log]
         train_losses = [log['loss'] for log in trainer.state.log_history if 'loss' in log]
@@ -258,19 +270,21 @@ for MODEL_ID in MODEL_IDS:
     # Training speed
     total_samples = len(train_dataset) * sft_config.num_train_epochs
     samples_per_second = total_samples / total_training_time
-    print(f"\n⚡ Training Speed:")
-    print(f"   {samples_per_second:.2f} samples/second")
-    print(f"   {total_samples / total_training_time * 60:.2f} samples/minute")
+    if is_main_process:
+        print(f"\n⚡ Training Speed:")
+        print(f"   {samples_per_second:.2f} samples/second")
+        print(f"   {total_samples / total_training_time * 60:.2f} samples/minute")
 
     # GPU utilization info
-    if torch.cuda.is_available():
+    if is_main_process and torch.cuda.is_available():
         print(f"\n🎮 GPU Information:")
         print(f"   Device: {torch.cuda.get_device_name(0)}")
         print(f"   Memory Allocated: {torch.cuda.memory_allocated(0) / 1024**3:.2f} GB")
         print(f"   Memory Reserved: {torch.cuda.memory_reserved(0) / 1024**3:.2f} GB")
         print(f"   Max Memory Allocated: {torch.cuda.max_memory_allocated(0) / 1024**3:.2f} GB")
 
-    print("\n" + "="*70)
+    if is_main_process:
+        print("\n" + "="*70)
 
     # 6. Save Metrics to JSON
     # ---------------------------------------------------------
@@ -308,53 +322,57 @@ for MODEL_ID in MODEL_IDS:
         }
     }
 
-    metrics_file = f"{new_model_name}/training_metrics.json"
-    with open(metrics_file, 'w') as f:
-        json.dump(metrics, indent=2, fp=f)
+    if is_main_process:
+        metrics_file = f"{new_model_name}/training_metrics.json"
+        with open(metrics_file, 'w') as f:
+            json.dump(metrics, indent=2, fp=f)
 
-    print(f"\n✅ Metrics saved to: {metrics_file}")
+        print(f"\n✅ Metrics saved to: {metrics_file}")
 
     # 7. Create a simple metrics visualization
     # ---------------------------------------------------------
-    print("\n📊 Creating loss visualization...")
+    if is_main_process:
+        print("\n📊 Creating loss visualization...")
 
-    try:
-        import matplotlib.pyplot as plt
-        
-        # Extract losses with their steps
-        eval_data = [(log.get('step', i), log['eval_loss']) 
-                     for i, log in enumerate(trainer.state.log_history) if 'eval_loss' in log]
-        train_data = [(log.get('step', i), log['loss']) 
-                      for i, log in enumerate(trainer.state.log_history) if 'loss' in log]
-        
-        if eval_data or train_data:
-            plt.figure(figsize=(12, 6))
+    if is_main_process:
+        try:
+            import matplotlib.pyplot as plt
             
-            if train_data:
-                steps, losses = zip(*train_data)
-                plt.plot(steps, losses, label='Training Loss', alpha=0.7, linewidth=2)
+            # Extract losses with their steps
+            eval_data = [(log.get('step', i), log['eval_loss']) 
+                         for i, log in enumerate(trainer.state.log_history) if 'eval_loss' in log]
+            train_data = [(log.get('step', i), log['loss']) 
+                          for i, log in enumerate(trainer.state.log_history) if 'loss' in log]
             
-            if eval_data:
-                steps, losses = zip(*eval_data)
-                plt.plot(steps, losses, label='Validation Loss', alpha=0.7, linewidth=2, marker='o')
-            
-            plt.xlabel('Training Steps', fontsize=12)
-            plt.ylabel('Loss', fontsize=12)
-            plt.title('Training and Validation Loss Over Time', fontsize=14, fontweight='bold')
-            plt.legend(fontsize=11)
-            plt.grid(True, alpha=0.3)
-            plt.tight_layout()
-            
-            plot_path = f"{new_model_name}/loss_curve.png"
-            plt.savefig(plot_path, dpi=150)
-            print(f"✅ Loss curve saved to: {plot_path}")
-            plt.close()
-    except ImportError:
-        print("⚠️  matplotlib not available, skipping visualization")
-    except Exception as e:
-        print(f"⚠️  Could not create visualization: {e}")
+            if eval_data or train_data:
+                plt.figure(figsize=(12, 6))
+                
+                if train_data:
+                    steps, losses = zip(*train_data)
+                    plt.plot(steps, losses, label='Training Loss', alpha=0.7, linewidth=2)
+                
+                if eval_data:
+                    steps, losses = zip(*eval_data)
+                    plt.plot(steps, losses, label='Validation Loss', alpha=0.7, linewidth=2, marker='o')
+                
+                plt.xlabel('Training Steps', fontsize=12)
+                plt.ylabel('Loss', fontsize=12)
+                plt.title('Training and Validation Loss Over Time', fontsize=14, fontweight='bold')
+                plt.legend(fontsize=11)
+                plt.grid(True, alpha=0.3)
+                plt.tight_layout()
+                
+                plot_path = f"{new_model_name}/loss_curve.png"
+                plt.savefig(plot_path, dpi=150)
+                print(f"✅ Loss curve saved to: {plot_path}")
+                plt.close()
+        except ImportError:
+            print("⚠️  matplotlib not available, skipping visualization")
+        except Exception as e:
+            print(f"⚠️  Could not create visualization: {e}")
 
-    print(f"\n🎉 Training complete for {MODEL_SHORT_NAME} with full metrics!")
+    if is_main_process:
+        print(f"\n🎉 Training complete for {MODEL_SHORT_NAME} with full metrics!")
     
     # Clear GPU memory for next model
     del model, trainer, tokenizer
