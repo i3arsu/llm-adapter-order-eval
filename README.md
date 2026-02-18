@@ -25,3 +25,17 @@ qdel jobid (just first part)
 
 force stop
 qdel -W force jobid
+
+
+check queue status
+qstat | grep "Q gpu"
+
+how many in queue
+qstat | grep "Q gpu" | wc -l
+
+qstat -f <jobid> | egrep "exec_host|exec_vnode|resources_used"
+
+ssh to exec_host that is exec_vnode
+ssh <node>
+
+nvidia-smi
