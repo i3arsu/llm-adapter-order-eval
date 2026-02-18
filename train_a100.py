@@ -15,14 +15,13 @@ import json
 
 # --- CONFIGURATION ---
 MODEL_IDS = [
-    "mistralai/Mistral-7B-v0.1",
     "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", 
     "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
     "microsoft/phi-4", 
-    "google/gemma-3-4b-pt", 
-    "ibm-granite/granite-3.3-8b-base", 
-    "meta-llama/Llama-3.1-8B", 
-    "meta-llama/Llama-3.2-3B", 
+    "google/gemma-3-4b-it",
+    "ibm-granite/granite-3.3-8b-instruct", 
+    "meta-llama/Llama-3.1-8B-Instruct", 
+    "meta-llama/Llama-3.2-3B-Instruct", 
     "Qwen/Qwen3-4B", 
     "Qwen/Qwen3-8B"
 ]
@@ -55,28 +54,15 @@ def is_data_valid(row):
     return str(row['product']).lower() in str(row['user_input']).lower()
 
 df = df[df.apply(is_data_valid, axis=1)]
+print(f"Total valid samples: {len(df)}")
 
-def format_instruction(row):
-    return f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+# Keep raw data - will format per-model inside loop
+raw_dataset = Dataset.from_pandas(df[['user_input', 'action', 'product', 'quantity']])
+dataset_split = raw_dataset.train_test_split(test_size=0.2, seed=42)
+raw_train_dataset = dataset_split['train']
+raw_eval_dataset = dataset_split['test']
 
-Analyze the user request and extract action, product, and quantity into JSON format.<|eot_id|><|start_header_id|>user<|end_header_id|>
-
-{row['user_input']}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
-{{
-    "action": "{row['action']}",
-    "product": "{row['product']}",
-    "quantity": {row['quantity']}
-}}<|eot_id|>"""
-
-df['text'] = df.apply(format_instruction, axis=1)
-full_dataset = Dataset.from_pandas(df[['text']])
-
-dataset_split = full_dataset.train_test_split(test_size=0.2, seed=42)
-train_dataset = dataset_split['train']
-eval_dataset = dataset_split['test']
-
-print(f"Training set: {len(train_dataset)} | Validation: {len(eval_dataset)}")
+print(f"Training set: {len(raw_train_dataset)} | Validation: {len(raw_eval_dataset)}")
 
 # Main training loop for multiple models
 # ---------------------------------------------------------
@@ -94,6 +80,28 @@ for MODEL_ID in MODEL_IDS:
 
     tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
     tokenizer.pad_token = tokenizer.eos_token
+
+    # Format data using this model's chat template
+    print("Formatting training data with model-specific chat template...")
+    
+    SYSTEM_PROMPT = "Analyze the user request and extract action, product, and quantity into JSON format."
+    
+    def format_with_chat_template(example):
+        messages = [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": example['user_input']},
+            {"role": "assistant", "content": f'{{"action": "{example["action"]}", "product": "{example["product"]}", "quantity": {example["quantity"]}}}'}
+        ]
+        try:
+            text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=False)
+        except Exception as e:
+            # Fallback for models without chat template
+            print(f"Warning: No chat template, using simple format. Error: {e}")
+            text = f"{SYSTEM_PROMPT}\n\nUser: {example['user_input']}\n\nAssistant: {{\"action\": \"{example['action']}\", \"product\": \"{example['product']}\", \"quantity\": {example['quantity']}}}"
+        return {"text": text}
+    
+    train_dataset = raw_train_dataset.map(format_with_chat_template, remove_columns=raw_train_dataset.column_names)
+    eval_dataset = raw_eval_dataset.map(format_with_chat_template, remove_columns=raw_eval_dataset.column_names)
 
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_ID,
@@ -305,7 +313,7 @@ for MODEL_ID in MODEL_IDS:
         "dataset": {
             "train_samples": len(train_dataset),
             "eval_samples": len(eval_dataset),
-            "total_samples": len(full_dataset),
+            "total_samples": len(raw_dataset),
         },
         "results": {
             "training_time_seconds": round(total_training_time, 2),
