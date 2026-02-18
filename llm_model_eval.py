@@ -24,16 +24,16 @@ def extract_json_object(text):
 
 
 MODEL_IDS = [
-    "mistralai/Mistral-7B-v0.1",
-    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", 
-    "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
-    "microsoft/phi-4", 
+    # "mistralai/Mistral-7B-v0.1",
+    # "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", 
+    # "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
+    # "microsoft/phi-4", 
     "google/gemma-3-4b-pt", 
-    "ibm-granite/granite-3.3-8b-base", 
-    "meta-llama/Llama-3.1-8B", 
-    "meta-llama/Llama-3.2-3B", 
-    "Qwen/Qwen3-4B", 
-    "Qwen/Qwen3-8B"
+    # "ibm-granite/granite-3.3-8b-base", 
+    # "meta-llama/Llama-3.1-8B", 
+    # "meta-llama/Llama-3.2-3B", 
+    # "Qwen/Qwen3-4B", 
+    # "Qwen/Qwen3-8B"
     ]
 
 SYSTEM_PROMPT = """
@@ -145,6 +145,7 @@ for model_id in MODEL_IDS:
             llm_quantity = response_data.get("quantity", 0)
 
             result = {
+                "raw_response": response,
                 "llm_action": llm_action,
                 "llm_product": llm_product,
                 "llm_quantity": llm_quantity,
@@ -157,6 +158,7 @@ for model_id in MODEL_IDS:
             print(f"JSON decode error: {e}")
             # continue
             result = {
+                "raw_response": response,
                 "llm_action": "",
                 "llm_product": "",
                 "llm_quantity": 0,
