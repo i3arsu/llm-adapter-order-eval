@@ -5,7 +5,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 # Load the CSV file
-retail_dataset_queries = pd.read_csv("shopping_cart_final_normalized.csv")
+retail_dataset_queries = pd.read_csv("shopping_cart_final_normalized.csv").head(1)
 
 
 def extract_json_object(text):
@@ -24,16 +24,15 @@ def extract_json_object(text):
 
 
 MODEL_IDS = [
-    # "mistralai/Mistral-7B-v0.1",
-    # "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", 
-    # "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
-    # "microsoft/phi-4", 
-    "google/gemma-3-4b-pt", 
-    # "ibm-granite/granite-3.3-8b-base", 
-    # "meta-llama/Llama-3.1-8B", 
-    # "meta-llama/Llama-3.2-3B", 
-    # "Qwen/Qwen3-4B", 
-    # "Qwen/Qwen3-8B"
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", 
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
+    "microsoft/phi-4", 
+    # "google/gemma-3-4b-it",
+    "ibm-granite/granite-3.3-8b-instruct", 
+    "meta-llama/Llama-3.1-8B-Instruct", 
+    "meta-llama/Llama-3.2-3B-Instruct", 
+    "Qwen/Qwen3-4B", 
+    "Qwen/Qwen3-8B"
     ]
 
 SYSTEM_PROMPT = """
@@ -76,13 +75,22 @@ bnb_config = BitsAndBytesConfig(
 )
 
 
-def build_prompt(user_input):
-    return f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-
-{SYSTEM_PROMPT}<|eot_id|><|start_header_id|>user<|end_header_id|>
-
-{user_input}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-"""
+def build_prompt(user_input, tokenizer):
+    # Same structure as your Ollama approach - just format it for the model
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": user_input}
+    ]
+    
+    # Use the model's native chat template (equivalent to what Ollama does internally)
+    try:
+        prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    except Exception as e:
+        # Fallback for base models without chat template
+        print(f"Warning: No chat template found, using simple concatenation. Error: {e}")
+        prompt = f"{SYSTEM_PROMPT}\n\nUser: {user_input}\n\nAssistant:"
+    
+    return prompt
 
 
 def load_model_and_tokenizer(model_id):
@@ -100,7 +108,7 @@ def load_model_and_tokenizer(model_id):
 
 
 def get_response(user_input, model, tokenizer):
-    prompt = build_prompt(user_input)
+    prompt = build_prompt(user_input, tokenizer)
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
     with torch.no_grad():
@@ -111,16 +119,22 @@ def get_response(user_input, model, tokenizer):
             pad_token_id=tokenizer.eos_token_id,
         )
 
+    # Decode without skipping special tokens first to see what's happening
+    full_output_with_tokens = tokenizer.decode(outputs[0], skip_special_tokens=False)
     full_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
-
-    try:
-        response_part = full_output.split("assistant")[-1].strip()
-        if "{" in response_part:
-            start_idx = response_part.find("{")
-            end_idx = response_part.rfind("}") + 1
-            response_part = response_part[start_idx:end_idx]
-    except Exception:
-        response_part = full_output
+    
+    print(f"\n--- DEBUG: Full output with tokens ---")
+    print(full_output_with_tokens)
+    print(f"\n--- DEBUG: Full output (clean) ---")
+    print(full_output)
+    
+    # Extract only the newly generated part (after the prompt)
+    prompt_length = len(tokenizer.decode(inputs['input_ids'][0], skip_special_tokens=True))
+    response_part = full_output[prompt_length:].strip()
+    
+    print(f"\n--- DEBUG: Extracted response ---")
+    print(response_part)
+    print("---\n")
 
     return response_part
 
