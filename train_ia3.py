@@ -12,18 +12,19 @@ from trl import SFTTrainer, SFTConfig
 import time
 import os
 import json
+import gc
 
 # --- CONFIGURATION ---
 MODEL_IDS = [
     "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", 
-    "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
-    "microsoft/phi-4", 
+    # "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
+    # "microsoft/phi-4",
     "google/gemma-3-4b-it",
     "ibm-granite/granite-3.3-8b-instruct", 
     "meta-llama/Llama-3.1-8B-Instruct", 
     "meta-llama/Llama-3.2-3B-Instruct", 
     "Qwen/Qwen3-4B", 
-    "Qwen/Qwen3-8B"
+    # "Qwen/Qwen3-8B"
 ]
 
 ADAPTER_TYPE = "ia3"  # Will be used in naming
@@ -104,9 +105,11 @@ for MODEL_ID in MODEL_IDS:
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_ID,
         torch_dtype=torch.bfloat16,  # Native BF16 support on A100
-        use_cache=False,
         attn_implementation="eager"  # A100 supports Flash Attention 2
     )
+    
+    # Set use_cache after model loading for compatibility with all models
+    model.config.use_cache = False
 
     # Enable gradient checkpointing for memory efficiency
     model.gradient_checkpointing_enable()
@@ -226,6 +229,11 @@ for MODEL_ID in MODEL_IDS:
         merged_model.save_pretrained(merged_model_name)
         tokenizer.save_pretrained(merged_model_name)
         print(f"Merged model saved to: {merged_model_name}")
+        
+        # Delete merged model to free memory
+        del merged_model
+        torch.cuda.empty_cache()
+        gc.collect()
     else:
         new_model_name = f"./adapters/{ADAPTER_TYPE}-{MODEL_SHORT_NAME}"
 
@@ -297,41 +305,40 @@ for MODEL_ID in MODEL_IDS:
 
     # 6. Save Metrics to JSON
     # ---------------------------------------------------------
-    metrics = {
-        "model_id": MODEL_ID,
-        "adapter_type": "IA3",
-        "training_config": {
-            "target_modules": list(ia3_config.target_modules),
-            "feedforward_modules": list(ia3_config.feedforward_modules),
-            "batch_size": sft_config.per_device_train_batch_size,
-            "gradient_accumulation_steps": sft_config.gradient_accumulation_steps,
-            "effective_batch_size": sft_config.per_device_train_batch_size * sft_config.gradient_accumulation_steps,
-            "learning_rate": sft_config.learning_rate,
-            "num_epochs": sft_config.num_train_epochs,
-            "max_length": sft_config.max_length,
-            "weight_decay": sft_config.weight_decay,
-        },
-        "dataset": {
-            "train_samples": len(train_dataset),
-            "eval_samples": len(eval_dataset),
-            "total_samples": len(raw_dataset),
-        },
-        "results": {
-            "training_time_seconds": round(total_training_time, 2),
-            "training_time_formatted": f"{hours}h {minutes}m {seconds}s",
-            "adapter_size_mb": round(adapter_size_mb, 2) if adapter_size_mb else None,
-            "final_eval_loss": round(eval_losses[-1], 4) if eval_losses else None,
-            "best_eval_loss": round(min(eval_losses), 4) if eval_losses else None,
-            "final_train_loss": round(train_losses[-1], 4) if train_losses else None,
-            "samples_per_second": round(samples_per_second, 2),
-        },
-        "hardware": {
-            "gpu_name": torch.cuda.get_device_name(0) if torch.cuda.is_available() else None,
-            "max_memory_allocated_gb": round(torch.cuda.max_memory_allocated(0) / 1024**3, 2) if torch.cuda.is_available() else None,
-        }
-    }
-
     if is_main_process:
+        metrics = {
+            "model_id": MODEL_ID,
+            "adapter_type": "IA3",
+            "training_config": {
+                "target_modules": list(ia3_config.target_modules),
+                "feedforward_modules": list(ia3_config.feedforward_modules),
+                "batch_size": sft_config.per_device_train_batch_size,
+                "gradient_accumulation_steps": sft_config.gradient_accumulation_steps,
+                "effective_batch_size": sft_config.per_device_train_batch_size * sft_config.gradient_accumulation_steps,
+                "learning_rate": sft_config.learning_rate,
+                "num_epochs": sft_config.num_train_epochs,
+                "max_length": sft_config.max_length,
+                "weight_decay": sft_config.weight_decay,
+            },
+            "dataset": {
+                "train_samples": len(train_dataset),
+                "eval_samples": len(eval_dataset),
+                "total_samples": len(raw_dataset),
+            },
+            "results": {
+                "training_time_seconds": round(total_training_time, 2),
+                "training_time_formatted": f"{hours}h {minutes}m {seconds}s",
+                "adapter_size_mb": round(adapter_size_mb, 2) if adapter_size_mb else None,
+                "final_eval_loss": round(eval_losses[-1], 4) if eval_losses else None,
+                "best_eval_loss": round(min(eval_losses), 4) if eval_losses else None,
+                "final_train_loss": round(train_losses[-1], 4) if train_losses else None,
+                "samples_per_second": round(samples_per_second, 2),
+            },
+            "hardware": {
+                "gpu_name": torch.cuda.get_device_name(0) if torch.cuda.is_available() else None,
+                "max_memory_allocated_gb": round(torch.cuda.max_memory_allocated(0) / 1024**3, 2) if torch.cuda.is_available() else None,
+            }
+        }
         metrics_file = f"{new_model_name}/training_metrics.json"
         with open(metrics_file, 'w') as f:
             json.dump(metrics, indent=2, fp=f)
@@ -386,6 +393,18 @@ for MODEL_ID in MODEL_IDS:
     # Clear GPU memory for next model
     del model, trainer, tokenizer
     torch.cuda.empty_cache()
+    gc.collect()
+    
+    # Synchronize all processes before moving to next model
+    if torch.distributed.is_initialized():
+        torch.distributed.barrier()
+    
+    # Additional cleanup for distributed training
+    if torch.cuda.is_available():
+        for i in range(torch.cuda.device_count()):
+            with torch.cuda.device(i):
+                torch.cuda.empty_cache()
+                torch.cuda.synchronize()
 
 print("\n" + "="*70)
 print("✅ All models trained successfully!")
