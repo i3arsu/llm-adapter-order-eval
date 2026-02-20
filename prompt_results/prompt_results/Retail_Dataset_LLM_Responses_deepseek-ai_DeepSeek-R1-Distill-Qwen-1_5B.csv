@@ -1,0 +1,2001 @@
+llm_action,llm_product,llm_quantity
+remove,20 juice,1
+remove,onions,13
+remove,beef,1
+add,fries,6
+remove,mozzarella,1
+add,bread,5
+,,0
+remove,gelato,9
+remove,lemonade,1
+remove,soda,1
+remove,18 mushrooms,1
+add,detergent,5
+remove,milk,10
+add,toothpaste,9
+remove,garlic,1
+add,packs of chicken,17
+remove,watermelon,15
+remove,sunfloweroil,1
+add,milk,20
+remove,towels,1
+remove,batteries,1
+remove,15 mangoes,1
+remove,broccoli,6
+add,onions,14
+remove,diapers,19
+add,pepper,17
+remove,gelato,1
+,,0
+remove,oranges,1
+remove,raspberries,18
+remove,9 packs of granola,1
+,,0
+,,0
+add,yogurt,1
+remove,butter,1
+remove,apples,1
+remove,milk,1
+,,0
+remove,treats,1
+remove,bananas,1
+,,0
+remove,vegetables,1
+,,0
+add,pizza,12
+remove,cucumbers,18
+remove,salmon,6
+add,units of gelato,3
+remove,batteries,20
+remove,flour,17
+remove,wipes,3
+add,salt,13
+add,towels,17
+remove,potatoes,8
+,,0
+remove,treats,1
+remove,fries,20
+,,0
+,,0
+remove,1 vegetables,1
+add,wipes,7
+add,milk,10
+remove,eggs,5
+remove,milk,2
+remove,tea,18
+remove,milk,15
+remove,tea,7
+remove,pasta,1
+,,0
+remove,gelato,1
+add,12 bread,1
+remove,peeps,1
+remove,raspberries,6
+,,0
+add,olive oil,3
+,,0
+add,spinach,9
+remove,strawberries,1
+remove,bread,1
+remove,pasta,1
+remove,toothbrush,15
+remove,gelsation,1
+remove,yogurt,5
+,,0
+remove,toothbrush,1
+remove,bread,1
+add,16 brownsugar,1
+,,0
+remove,17 oliveoil,17
+add,milk,1
+remove,paper<|eot_id>,6
+remove,bellpeppers,2
+remove,mangoes,20
+,,0
+remove,toothbrush,1
+remove,zucchini,5
+remove,oranges,3
+remove,kibble,1
+add,diapers,7
+remove,mushrooms,13
+,,0
+remove,lemonade,1
+,,0
+,,0
+remove,potatoes,1
+remove,diapers,1
+remove,bags,13
+add,20 gelato,1
+remove,juice<,1
+remove,tomatoes,1
+remove,paper,1
+remove,bananas,1
+add,apples,1
+,,0
+remove,lemonade,6
+remove,tuna,1
+remove,soaps,1
+remove,apples,1
+remove,kibble,1
+add,juice,8
+remove,tea,1
+remove,shampoo,3
+add,toothbrush,12
+remove,oliveoil,1
+remove,juice,1
+,,0
+remove,bulbs,3
+remove,sugar,1
+add,20 cereal,1
+add,water,1
+add,yogurt,1
+remove,shampoo,2
+remove,spaghetti,17
+,,0
+remove,11 soda,1
+remove,towels,1
+remove,soaps,1
+remove,tuna,1
+remove,coffee,12
+remove,limes,1
+remove,soap,4
+remove,mozzarella,13
+remove,eggplant,1
+remove,pineapple,19
+remove,lemonade,9
+remove,strawberries,1
+remove,shampoo,16
+remove,13 olive oil,1
+remove,chicken<|eot_id|>,1
+remove,avocados,1
+remove,soda,20
+remove,yogurts,10
+remove,wrap,2
+remove,bulbs,7
+remove,cereals,18
+remove,wash<|eot_id|>,1
+remove,mushrooms,7
+add,soda,1
+remove,toothbrush,1
+remove,quinoa,1
+remove,pizza,2
+remove,colas,2
+,,0
+remove,wash<|eot_id|>,10
+,,0
+remove,toothpaste,4
+remove,wash,1
+remove,spaghetti,1
+,,0
+remove,coffee,1
+remove,cheddar,1
+remove,carrots,1
+remove,bulbs,14
+remove,toothpaste,7
+remove,treats,5
+,,0
+remove,blueberries,14
+add,diapers,4
+add,sugar,14
+,,0
+,,0
+remove,chicken,2
+remove,shampoo,1
+remove,milk,1
+remove,mozzarella,12
+add,water,10
+remove,16 cola,1
+add,eggs,1
+remove,garlic,15
+add,zucchini,9
+remove,bread,1
+remove,raspberries,12
+,,0
+remove,kibble,1
+add,bellpeppers,13
+remove,pepper,1
+remove,wipes,6
+,,0
+remove,soda,14
+add,foil,1
+,,0
+,,0
+remove,sweetpotatoes,3
+remove,tomatoes,1
+remove,10 bellpeppers,1
+,,0
+add,sweetpotatoes,1
+remove,apples,1
+remove,yogurts,15
+,,0
+,,0
+remove,soda,1
+remove,oatmeal cookies,6
+remove,spinach,14
+remove,salmon,1
+add,"cheda...,",5
+remove,15 kibble,1
+remove,avocados,1
+remove,15 batteries,1
+remove,salt,1
+add,toothbrush,1
+remove,potatoes,1
+remove,eggs,1
+add,blueberries,14
+remove,raspberries,5
+remove,toothpaste,9
+add,pizza,1
+remove,paper,1
+remove,flour,1
+remove,toothpaste,8
+remove,grab,1
+remove,14 blueberries,1
+add,yogurts,2
+add,litter for me,1
+remove,apples,1
+remove,16 potatoes,1
+remove,soaps,16
+remove,grape,1
+remove,quinoa,1
+remove,raspberries,11
+remove,vegetables,1
+add,towels,1
+remove,9 potatoes,1
+add,tea,8
+,,0
+add,soda,1
+remove,yogurts,1
+remove,bags,1
+add,colas,6
+remove,soda,1
+remove,gelato,14
+remove,cucumbers,1
+add,bread,7
+remove,juice,14
+remove,tomatoes,5
+remove,sugar,1
+remove,yogur<|eot_id|>,17
+remove,bananas,1
+remove,wrap,2
+remove,eggs,15
+remove,sweetpotatoes,1
+,,0
+remove,watermelon,10
+add,gels,4
+remove,colas,1
+remove,pasta,1
+add,toothpaste,14
+remove,watermelon,1
+remove,potatoes,4
+remove,toothbrushes,13
+remove,wash,3
+remove,avocados,16
+remove,7 soda,1
+add,bulbs,1
+remove,water,8
+add,quinoa,19
+remove,towels,1
+add,cans of soda,3
+remove,gelsolate,1
+,,0
+remove,vegetables,1
+remove,juice,2
+remove,blueberries,12
+add,apples,1
+remove,chicken,1
+remove,wipes,9
+add,pizza,1
+remove,pineapple,20
+remove,bulbs,19
+add,10 cola,10
+remove,chicken,1
+add,flour,1
+add,fries,9
+add,mushrooms,1
+remove,potatoes,1
+remove,avocados,1
+remove,pineapple,2
+remove,juice,4
+remove,milk,20
+add,batteries,4
+remove,salt,1
+remove,diapers,1
+remove,juice,18
+add,apples,1
+add,diapsids,14
+add,oliveoil,15
+remove,coffee,20
+remove,rice,1
+remove,pasta,8
+add,sweetpotatoes,1
+add,16 treats,1
+remove,gels,1
+remove,batteries,3
+remove,butterflies,1
+remove,gels,2
+remove,lemons,20
+add,soaps,8
+remove,salmon,5
+,,0
+add,bread,15
+remove,flour,3
+remove,mushrooms,1
+remove,4 packs of oranges,1
+add,raspberries,1
+remove,12 treats,1
+add,limes,13
+remove,eggs,20
+add,salt packs,17
+remove,tomatoes,1
+remove,15 packs of foil,1
+,,0
+remove,sunfloweroil,1
+remove,apples,1
+remove,tuna,1
+add,toothbrush,1
+remove,diypappes,2
+remove,bread,1
+remove,juice,4
+,,0
+,,0
+remove,broccoli,1
+remove,bags,1
+add,eggplant,1
+remove,9 limes,1
+remove,chicken,1
+remove,pineapple,7
+add,water,17
+remove,oatmeal,1
+remove,zucchini,3
+remove,water,6
+remove,bananas,18
+remove,eggplant,1
+,,0
+remove,salt,1
+remove,tomatoes,1
+,,0
+,,0
+add,cans of soda,3
+remove,cereal,1
+add,yogurt,12
+remove,15 wrap,1
+remove,milk,1
+remove,juice,1
+,,0
+add,Please put 15 fries in my cart.,1
+remove,16 potatoes,16
+add,"foil<|eot_id|>,<|start_header_id|>product<|eot_id|>,<|start_header_id|> quantity: 8",8
+remove,gelsate,1
+remove,raspberries,9
+remove,eggs,1
+,,0
+remove,water,1
+remove,butter,4
+remove,foil,1
+remove,vegetables,3
+remove,fries,3
+remove,beef,1
+remove,packs of bananas,1
+remove,brownsugar,1
+remove,soaps,7
+add,potatoes,9
+remove,tea,1
+add,colas,10
+remove,cheddar,1
+remove,salmon,1
+add,fries,1
+,,0
+remove,foil,1
+remove,beef,1
+remove,milk,1
+remove,5 toys,1
+remove,sugar,1
+remove,4 tea,1
+add,kibble packs,5
+remove,milk,16
+remove,soaps,10
+remove,14 limes,1
+add,soaps,1
+remove,gels,15
+remove,sunfloweroil,20
+remove,milk,2
+remove,tuna,20
+add,potatoes,9
+remove,spaghetti,1
+remove,water,8
+remove,quinoa,1
+add,watermelon,1
+add,watermelon,6
+add,pepper,1
+add,17 sunfloweroil,1
+remove,vegetables,1
+remove,oliveoil,8
+,,0
+remove,broccoli,1
+add,tea,1
+remove,wipes,1
+add,pineapple,9
+remove,detergent,20
+remove,pasta,1
+add,apples,1
+,,0
+,,0
+,,0
+remove,pepper,1
+remove,soap<|eot_id|>,15
+add,pineapple,2
+remove,bellpeppers,10
+add,tea,17
+remove,wrap,14
+remove,beef,1
+remove,apples,1
+remove,litter,12
+remove,pasta,1
+remove,strawberries,1
+remove,cola,1
+remove,juice,1
+add,2 garlic,2
+add,potatoes,1
+remove,vegetables,1
+,,0
+remove,packs of coffee,1
+remove,bananas,2
+add,lemons,3
+add,tea,1
+remove,gels,1
+remove,juice,17
+,,0
+remove,mangoes,1
+remove,cereal,1
+remove,conditioner,5
+add,jui...5,1
+add,pasta,1
+,,0
+remove,cheddar,20
+remove,soaps,8
+,,0
+remove,sweetpotatoes,6
+,,0
+,,0
+add,fries,1
+remove,soaps,2
+remove,bulbs,8
+remove,bellpeppers,1
+add,beef,7
+remove,7 mozzarella,1
+remove,bananas,16
+add,foil,1
+remove,juice,16
+,,0
+,,0
+add,milk,15
+remove,cucumbers,7
+remove,diapers,1
+remove,bellpeppers,7
+remove,chicken,1
+add,bellpeppers,2
+remove,conditioner,4
+remove,strawberries,1
+remove,yogurts,1
+remove,cereal,1
+,,0
+remove,shameless,1
+remove,mangoes,5
+add,13 treats,1
+add,16 treats,1
+,,0
+,,0
+add,diapers,1
+remove,10 diapers,1
+add,gelsolate,1
+,,0
+remove,oatmeal,1
+remove,flour,4
+,,0
+add,bread,16
+remove,14 chicken,1
+remove,eggplant,18
+remove,wipes,7
+remove,soaps,3
+remove,broccoli,1
+remove,cereal,2
+remove,garlic,1
+add,tomatoes,1
+add,cheddar,1
+add,cans of soda,3
+remove,brownsugar,1
+,,0
+add,watermelon,1
+remove,tissues,1
+remove,milk,1
+add,granola,10
+add,bags,12
+remove,rice,5
+,,0
+remove,toothbrush,1
+remove,gelato,1
+add,garlic,5
+remove,avocados,1
+remove,wash,1
+,,0
+remove,shampoo,1
+remove,broccoli,1
+add,wipes,20
+,,0
+remove,butter,10
+remove,wipes,1
+add,litter,1
+remove,juice,2
+,,0
+remove,shamans,1
+remove,coffee,1
+remove,kibble,1
+remove,salmon,10
+remove,pepper,1
+remove,towels,10
+remove,conditioner,1
+remove,gelsates,15
+,,0
+remove,brownsugar,10
+remove,tea,1
+,,0
+add,paper,1
+remove,wipes,10
+remove,kibble,1
+add,colas,1
+remove,shampoo,8
+remove,rice,1
+remove,salmon,1
+remove,juice,17
+add,broccoli,1
+remove,tuna,1
+remove,potatoes,1
+add,7 kibble,1
+add,soaps,3
+remove,eggs,1
+remove,2 packs of soap,2
+,,0
+,,0
+,,0
+remove,added juice,1
+remove,towels,9
+remove,colas,2
+remove,carrots,4
+remove,bags,4
+remove,avocados,10
+add,sunfloweroil,13
+remove,soaps,2
+remove,eggs,1
+remove,tea,1
+,,0
+add,16 wrap,1
+remove,raspberries,20
+remove,spaghetti,17
+remove,cucumbers,18
+remove,cereal,2
+remove,towels,14
+add,folds,12
+remove,batteries,3
+add,pineapple,8
+remove,vegetables,1
+remove,towels,1
+remove,sunfloweroil,1
+,,0
+add,sweetpotatoes,1
+add,broccoli,1
+remove,spaghetti,1
+remove,breads,2
+add,rice,1
+remove,spinach,10
+remove,mozzarella,10
+remove,coffee,1
+add,wipes,8
+add,4 lemons,1
+remove,sugar packs,1
+add,sweetpotatoes,1
+remove,wrap,13
+remove,vegetables,1
+add,oatmeal,15
+remove,milk,1
+remove,mango,1
+remove,cucumbers,1
+add,new books,3
+remove,coffee,1
+remove,toothpaste,12
+remove,juice,4
+add,sweetpotatoes,7
+remove,quinoa,1
+add,milk,1
+remove,potatoes,1
+remove,juice,18
+add,butter,7
+remove,detergent,6
+remove,salmon,1
+remove,bulbs,11
+remove,onions,9
+remove,eggs,3
+,,0
+remove,bananas,1
+remove,salmon,2
+remove,gelato,1
+add,butter,12
+remove,butter,6
+remove,spaghetti,2
+remove,sunfloweroil,1
+remove,litter,1
+add,gelsates,2
+add,broccoli,1
+,,0
+remove,spaghetti,5
+add,bread,1
+remove,pasta,1
+,,0
+,,0
+remove,garlic,5
+remove,mozzarella,1
+remove,detergent,3
+remove,oatmeal,4
+,,0
+remove,sweetpotatoes,1
+,,0
+remove,bananas,1
+remove,spaghetti,2
+,,0
+add,apples,3
+remove,rice,1
+remove,apples,1
+add,oliveoil,5
+remove,lemons,1
+remove,juice,12
+remove,apples,1
+add,tea,1
+remove,coffee,1
+remove,beef,1
+add,bulbs,17
+remove,garlands,1
+add,gels,3
+add,shampoo,1
+remove,toothpaste,5
+add,14 rice,14
+remove,cereal,1
+remove,cheddar,1
+add,eggs,1
+remove,potatoes,1
+remove,butter,4
+,,0
+add,breads,3
+remove,9 juice,1
+remove,bread,10
+remove,broccoli,1
+add,19 rice,1
+remove,gelato,16
+remove,foil<|eot_id|>,6
+add,blueberries,3
+remove,treats,1
+add,colas,9
+remove,oliveoil,16
+add,gelsato,20
+remove,paper,1
+add,14 packs of brownsugar,1
+remove,bread,1
+remove,potatoes,10
+remove,soda,3
+remove,wipes,20
+remove,pepper,1
+remove,oatmeal,18
+,,0
+remove,onions,1
+add,litter,4
+remove,eggs,4
+remove,raspberries,1
+,,0
+remove,sweetpotatoes,1
+remove,bread,4
+add,milk packs,1
+add,tissues,12
+remove,yogurts,6
+remove,bags,1
+add,6 sweetpotatoes,1
+remove,broccoli,1
+remove,onions,20
+remove,pineapple,2
+remove,tissues packs,5
+remove,gelato,1
+remove,lemonade,1
+remove,raspberries,1
+remove,tuna,1
+add,cans of soda,3
+add,brownsugar,1
+add,bellpeppers,1
+remove,garlic,1
+remove,oatmeal,1
+remove,wash,3
+remove,potatoes,1
+remove,wipes,10
+remove,18 eggs,1
+remove,beef,1
+remove,gels,8
+remove,packs of strawberries,1
+remove,20 kibble,1
+add,water,12
+remove,lemonade,10
+remove,lemons,1
+add,toothpaste,16
+remove,sweetpotatoes,1
+add,onions,13
+remove,5 bulbs,1
+remove,chicken,1
+add,bananas,15
+remove,jucie,12
+remove,eggplant,1
+add,conditioner,1
+remove,batteries,1
+remove,bags,1
+add,juice,2
+remove,conditioner,1
+remove,cucumbers,17
+add,apples,1
+remove,conditioner,15
+remove,mushrooms,1
+remove,apples,2
+,,0
+remove,bulbs,2
+remove,gelato,1
+add,bread,15
+remove,strawberries,1
+remove,water,15
+remove,blueberries,1
+remove,conditioner,1
+remove,15 mushrooms,1
+add,quinoa,1
+remove,9 spaghetti,1
+remove,pepper,1
+remove,salmon,1
+add,strawberries,9
+,,0
+,,0
+,,0
+remove,broccoli,1
+remove,colas,2
+,,0
+remove,blueberries,1
+remove,7 granola,1
+,,0
+remove,salmon,3
+remove,onions,16
+remove,sunfloweroil,1
+remove,coffee,14
+remove,yogurthy,18
+remove,towels,9
+remove,conditioner,7
+remove,vegetables,7
+add,water,1
+add,butter,8
+remove,bread,20
+,,0
+,,0
+remove,15 bellpeppers,1
+remove,tissues,4
+remove,blueberries,2
+remove,lemons,1
+remove,chicken,13
+remove,litter,1
+remove,brownsugar,10
+add,cans,3
+add,milk,1
+remove,bananas,20
+add,spaghetti,17
+remove,pepper,1
+add,cans of soda,3
+remove,fries,8
+remove,juice,4
+,,0
+add,foil,3
+remove,salmon,1
+remove,brownsugar,4
+remove,beef,16
+remove,mozzarella,1
+add,20 coffee,1
+,,0
+remove,lemonade,8
+remove,onions,5
+add,bananas,1
+remove,watermelon,15
+add,treats,5
+remove,bananas,4
+remove,juice,2
+add,toothbrush,5
+,,0
+add,tea,2
+remove,4 paper,1
+add,gelsato,7
+remove,coffee,1
+remove,conditioner,1
+,,0
+remove,13 milk,1
+remove,diapers,6
+remove,apples,1
+add,pineapple,4
+remove,tuna,1
+remove,eggs,1
+remove,20 limes,1
+remove,apples,1
+remove,flour,10
+remove,sweetpotatoes,1
+add,gels...l,1
+remove,coffee,13
+remove,watermelon,1
+remove,salt,1
+remove,diapers,1
+remove,10 oranges,10
+remove,salmon,1
+,,0
+add,blueberries,6
+,,0
+add,apples,1
+,,0
+remove,salmon,15
+remove,blueberries,3
+remove,spaghetti,4
+remove,lemonade,1
+remove,oranges,10
+add,12 bread,1
+remove,beef,1
+add,raspberries,7
+remove,lemons,1
+,,0
+,,0
+remove,toothpaste,6
+remove,shampoo,1
+remove,zucchini<|eot_id|>,20
+remove,diapers,1
+add,oliveoil,2
+remove,oranges,1
+remove,wipes,4
+,,0
+add,towels,20
+add,please put 6 vegetables in my cart,6
+remove,potatoes,15
+add,13 packs of pizza,13
+add,potatoes,1
+remove,kibble,10
+add,flour,1
+remove,20 packs of chicken,20
+remove,sunfloweroil,1
+remove,sugar,1
+remove,detergent,7
+remove,oranges,1
+remove,tea,1
+add,potatoes,1
+remove,eggplant,1
+remove,pineapple,1
+add,zucchini,4
+add,litter,18
+remove,onions,8
+remove,bread,1
+add,blueberries,20
+add,sugar cubes,5
+remove,mozzarella,16
+remove,tomatoes,1
+remove,mushrooms,1
+remove,pepper,1
+remove,batteries,1
+remove,12 packs of tissues,1
+remove,blueberries,17
+add,carrots,8
+remove,mozzarella,4
+,,0
+remove,7 tea,1
+,,0
+remove,milk,1
+remove,salmon,4
+add,zucchini,4
+remove,paper<,1
+,,0
+,,0
+remove,11 water,1
+remove,bread,7
+add,tuna,2
+remove,gels,15
+,,0
+remove,1,1
+remove,conditioner,20
+remove,wrap,1
+,,0
+add,oatmeal,7
+remove,tomatoes,1
+remove,detergent,15
+add,pasta,1
+remove,water,2
+,,0
+remove,toothbrush,2
+remove,juice,5
+remove,spinach,1
+remove,mozzarella,1
+remove,raspberries,15
+,,0
+remove,18 cola,1
+add,mangoes,1
+remove,gelsate,1
+remove,wash<|eot_id|>,10
+remove,bananas,6
+remove,18 watermelon,1
+,,0
+remove,strawberries,20
+remove,yogurt,20
+remove,quinoa,6
+add,blueberries,9
+remove,wipes,20
+remove,cheddar,1
+remove,lemonade,9
+add,colas,2
+,,0
+remove,bread,12
+remove,cheddar,7
+remove,tissues,16
+remove,vegetables,1
+remove,limes,1
+remove,12 packs of flour,1
+remove,gelato,1
+remove,pepper,1
+add,tuna,1
+remove,milk,14
+add,soaps,15
+remove,coffee,1
+add,Please put 7 juice in my cart,1
+,,0
+remove,carrots,1
+,,0
+remove,pears,1
+add,apples,1
+remove,strawberries,5
+remove,limes,1
+,,0
+remove,sunfloweroil,1
+remove,bananas,1
+add,eggplant,15
+add,shampoo,1
+add,sugar,1
+remove,butter,1
+add,14 salmon,1
+remove,butterfly,1
+remove,units of bulbs,1
+remove,raspberry,1
+remove,soda,1
+,,0
+,,0
+add,bread,10
+remove,apples,1
+,,0
+remove,yogurts,15
+,,0
+remove,rice,20
+remove,pasta,20
+remove,water<|eot_id|>,10
+,,0
+add,bags,5
+remove,sweetpotatoes,1
+remove,gels,1
+remove,litter,20
+remove,wash,1
+remove,strawberries,1
+add,17 mangoes,1
+remove,19 bulbs,1
+remove,foil,5
+remove,cola,1
+add,cereal,7
+remove,18 rice,1
+add,blueberries,1
+remove,quinoa,1
+remove,toothpaste,4
+remove,bread,1
+remove,gelato,2
+remove,tea,1
+add,soda,12
+add,cheddar,2
+remove,treats,1
+remove,shampoo,1
+remove,gels,1
+remove,spinach,1
+remove,milk,1
+remove,wash,1
+remove,19 pizza,1
+remove,milk,10
+remove,lemonade,1
+,,0
+remove,bellpeppers,1
+add,19 wipes,1
+add,yogurt,4
+remove,toothpaste,8
+remove,shampoo,1
+add,19 juice,1
+remove,9 bulbs,1
+,,0
+remove,mozzarella,1
+remove,avocados,5
+add,pasta,9
+remove,butterflies,10
+remove,salmon,1
+add,apples,2
+,,0
+,,0
+remove,paper,1
+remove,potatoes,1
+remove,bellpeppers,20
+remove,15 packs of coffee,1
+remove,yogurts,12
+,,0
+remove,12 granola,1
+remove,water packs,1
+remove,bread,1
+remove,14 eggplant,1
+remove,toothpaste,3
+remove,blueberries,1
+,,0
+remove,yogurt,10
+,,0
+add,16 packs of avocados,1
+remove,tuna,1
+add,kibble,20
+remove,quinoa,9
+remove,flour,1
+remove,avocados,1
+remove,sunfloweroil,15
+add,colas,6
+remove,blueberries,1
+remove,limes,9
+remove,litter,20
+remove,rice,1
+remove,19 soap,1
+remove,towels,1
+remove,potatoes,1
+remove,mushrooms,6
+add,juc...,1
+remove,sunfloweroil,1
+remove,wash,1
+,,0
+add,oatmeal,2
+,,0
+remove,soda,1
+remove,coffee,12
+remove,blueberries,8
+add,19 oliveoil,1
+remove,oliveoil,1
+remove,20 brownsugar,1
+add,eggs,2
+add,15 lemons,1
+,,0
+add,oatmeal,1
+remove,pizza,13
+add,milk,1
+remove,wipes,8
+remove,pizza,3
+add,water,5
+,,0
+remove,eggs,1
+add,mushrooms,20
+remove,milk,1
+add,towels,3
+remove,strawberries,1
+remove,spinach,6
+remove,yogurt,20
+remove,tea,1
+remove,apples,2
+remove,treats,1
+remove,rice,1
+add,spinach,20
+add,pasta,1
+,,0
+remove,soaps,1
+remove,milk,1
+remove,gelsation,1
+,,0
+add,19 packs of broccoli,19
+remove,onions,16
+remove,sugar,1
+remove,juice,1
+remove,diapers,17
+remove,juice,14
+remove,bellpeppers,1
+remove,bread,1
+remove,cereal,1
+remove,raspberries,16
+remove,butter,1
+,,0
+add,potatoes,5
+remove,broccoli,1
+remove,blueberries,7
+remove,mushrooms,15
+remove,2 kibble,1
+remove,batteries,2
+add,flour,1
+remove,19 bulbs,1
+remove,soda,1
+remove,salmon,1
+add,detergent,1
+remove,tea,1
+,,0
+add,cucumbers,1
+remove,oliveoil,20
+remove,kibble,1
+,,0
+add,11 limes,1
+remove,cucumbers,12
+,,0
+remove,beef,1
+,,0
+remove,gelato,18
+remove,18 cola,1
+remove,coffee,2
+remove,litter,1
+remove,bread,1
+remove,beef,1
+remove,fries,14
+remove,foil,1
+remove,cheddar,1
+add,pepper,20
+add,coffee,18
+remove,18 bags,1
+remove,tuna,15
+,,0
+add,chicken,13
+add,bread,13
+remove,apples,3
+remove,gelato,1
+remove,tissues,1
+remove,watermelon,3
+remove,bread,1
+remove,foil,14
+remove,17 bulbs,1
+add,wrap,15
+remove,treats,1
+remove,bellpeppers,1
+remove,19 mushrooms,1
+remove,shammas,2
+,,0
+add,blueberries,1
+add,potatoes,10
+remove,19 sugar,1
+remove,toothpaste,1
+remove,14 eggs,1
+remove,rice,1
+remove,blueberries,1
+remove,bread,1
+remove,cucumbers,1
+,,0
+remove,sweetpotatoes,1
+remove,gelsates,14
+,,0
+remove,condenserine,1
+remove,oliveoil,1
+remove,pasta,1
+remove,lemons,1
+remove,onions,1
+remove,oranges,1
+remove,12 tomatoes,1
+remove,raspberries,5
+add,avocados,3
+remove,vegetables,1
+remove,13 eggs,1
+remove,bananas,1
+remove,grapes,1
+remove,15 rice,1
+remove,bananas,10
+,,0
+remove,batteries,8
+remove,tea,1
+remove,beef,1
+remove,yogurt,16
+remove,salt,1
+add,14 sunfloweroil,1
+add,bread,1
+remove,chicken,6
+remove,eggplant,5
+add,coffee,3
+add,tomatoes,5
+,,0
+remove,soaps,1
+add,7 bread,1
+remove,milk,14
+,,0
+add,yogurt,9
+remove,cucumbers,1
+add,apples,3
+add,foil,9
+remove,pineapple,1
+remove,zucchini,4
+add,20 litter,1
+remove,cheddar,1
+remove,brownsugar,20
+,,0
+remove,sunfloweroil,1
+add,cereal,1
+add,pineapple,1
+,,0
+remove,20 bulbs,20
+,,0
+add,soda,17
+remove,12 granola,1
+remove,onions,1
+remove,toothpaste,14
+,,0
+remove,cereal,1
+remove,fries,1
+add,packs of diapers,2
+remove,bread,1
+remove,mozzarella,1
+remove,rice,1
+remove,juice,10
+remove,kibble,2
+add,rice,10
+,,0
+remove,coffee,1
+add,milk,5
+remove,wipes,18
+remove,vegetables,4
+remove,cola,1
+remove,salmon,20
+remove,bulbs,15
+remove,cucumbers,11
+remove,vegetables,10
+remove,apples,1
+add,spaghetti,5
+add,sugar,14
+remove,paper,1
+add,batteries,1
+remove,conditioner,1
+remove,vegetables,6
+remove,detergent,2
+remove,wash,10
+remove,bellpeppers,8
+remove,spaghetti,1
+remove,pepper,10
+add,pasta,5
+remove,wash<|eot_id|>,20
+remove,pizza,1
+,,0
+remove,lemonade,1
+remove,treats,1
+remove,bulbs,3
+remove,flour,1
+remove,bananas,15
+,,0
+remove,coffee,1
+,,0
+add,broccoli,1
+,,0
+remove,pasta,1
+remove,spinach,18
+add,butter,3
+remove,spinach,1
+remove,broccoli,3
+add,conditioner packs,1
+remove,juice,4
+remove,potatoes,3
+remove,zucchini,1
+,,0
+,,0
+,,0
+remove,oliveoil,1
+remove,salt,1
+remove,oranges,1
+remove,diapers,20
+add,apples,5
+remove,milk,1
+,,0
+add,conditioner,20
+remove,cheddar,1
+add,avocados,10
+add,tuna,10
+remove,bellpeppers,1
+remove,9 pizza,1
+remove,soda,5
+remove,pasta,9
+remove,flour,1
+,,0
+remove,11 paper,1
+remove,lemons,1
+remove,raspberries,9
+remove,eggs,1
+remove,foil,1
+,,0
+remove,spaghetti,20
+remove,towels,10
+add,coffee,16
+add,19 tuna,1
+,,0
+remove,beef,3
+remove,spinach,1
+add,salmon,14
+remove,diabsie,17
+remove,avocados,10
+remove,mozzarella,1
+,,0
+add,brownsugar,18
+,,0
+add,15 oliveoil,1
+remove,watermelon,1
+add,11 juice,1
+add,vegetables,1
+remove,salt,1
+remove,litter,1
+remove,raspberries,11
+remove,avocados,1
+remove,soda,1
+add,quinoa,1
+,,0
+remove,beef,1
+remove,quinoa,1
+remove,yogurt,1
+,,0
+add,chicken,1
+,,0
+,,0
+remove,apples,1
+remove,juice,9
+remove,tea,1
+remove,gelato,1
+remove,packs of bread,1
+remove,gelsate,1
+,,0
+remove,spaghetti,5
+add,limes,1
+remove,beef,10
+,,0
+remove,3 packs of soap,1
+remove,butter,19
+remove,raspberries,1
+remove,toothbrush,4
+remove,11 foil,1
+,,0
+,,0
+remove,pizza,13
+remove,frogs,1
+remove,yogurts,1
+remove,kibble,1
+remove,2 coffee,2
+remove,spinach,1
+add,blueberries,7
+add,carrots,1
+remove,buses,2
+remove,bananas,11
+add,broccoli,1
+remove,7 tea,1
+add,milk,8
+remove,coffee,1
+remove,shamesmarts,20
+,,0
+remove,batteries,1
+,,0
+remove,tea,10
+remove,lemons,1
+remove,wash<|eot_id|>,1
+remove,cucumbers,15
+remove,mango,1
+remove,detergent,18
+remove,cereal,1
+add,18 limes,1
+remove,19 paper,1
+add,packs of bread,20
+remove,tissues,5
+,,0
+add,detergent,9
+remove,sunfloweroil,1
+remove,salt,1
+remove,garlic,1
+remove,bananas,9
+remove,broccoli,1
+remove,spinach,1
+remove,salt,1
+,,0
+add,tissues,2
+,,0
+remove,diapers,13
+remove,beef,1
+remove,yogurts,1
+,,0
+,,0
+remove,gels,6
+remove,tuna,15
+remove,bread,1
+,,0
+remove,yogurt,1
+remove,apple,1
+,,0
+remove,3 bread,1
+remove,bananas,1
+remove,blueberries,4
+add,cans of soda,3
+,,0
+remove,gelsates,18
+add,toothbrush,1
+remove,avocados,2
+add,breads packs,7
+,,0
+remove,lemonade,20
+remove,zucchini,20
+remove,zucchini,1
+,,0
+add,jubes,3
+remove,watermelon,1
+remove,raspberries,1
+remove,pizza,1
+remove,sugar,1
+remove,chicken,1
+remove,towels,3
+,,0
+remove,milk,1
+remove,pepper,1
+remove,tea,1
+remove,18 packs of pizza,1
+remove,sweetpotatoes,10
+remove,pizza,1
+remove,detergent,6
+add,oliveoil,2
+,,0
+remove,shampoo,5
+remove,diapers,1
+,,0
+add,units of bulbs,3
+remove,chicken,1
+add,11 tomatoes,1
+add,mangoes,1
+add,toothpaste,17
+remove,mushrooms,1
+remove,bread,1
+remove,shamans,1
+remove,beef,1
+remove,strawberry,1
+remove,milk,1
+remove,limes,7
+remove,mushrooms,1
+add,peppers,2
+remove,wash<|eot_id|>,1
+remove,apples,1
+add,zucchini,8
+remove,flour,20
+remove,oliveoil,1
+,,0
+remove,fries,1
+remove,wash,1
+remove,11 pasta,1
+remove,colas,3
+add,carrots,6
+add,oatmeal,17
+remove,coffee,1
+remove,garlic,1
+add,apples,5
+remove,colas,10
+remove,coffee,9
+remove,milk,5
+remove,eggplant,1
+add,olive oil,3
+remove,toothbrush,10
+remove,wipes,14
+remove,lemons,1
+add,16 juice,1
+remove,raspberries,14
+add,cans of soda,3
+remove,coffee,1
+remove,spaghetti,1
+remove,19 gelato,1
+remove,gelsates,18
+remove,yogurts,5
+remove,beef,1
+remove,yogurts,17
+add,sweetpotatoes,20
+remove,coffee,1
+remove,apples,20
+add,folds,20
+remove,garlic,1
+remove,cucumbers,17
+remove,toothpaste,2
+remove,granola,5
+remove,detergent,7
+remove,brownsugar,1
+remove,towels,10
+remove,zucchini,17
+remove,coffee,15
+add,gelsolate,1
+,,0
+remove,apples,1
+,,0
+remove,diapers,18
+add,paper<|eot_id|>,1
+remove,banana,1
+add,water<|eot_id|>,6
+,,0
+add,peppers,8
+add,cans of soda,3
+remove,avocados,1
+,,0
+remove,beef,1
+,,0
+remove,soda,15
+add,tuna,1
+remove,5 wrap,1
+,,0
+,,0
+,,0
+remove,bellpeppers,1
+add,apples,3
+remove,watermelon,5
+remove,bellpeppers,20
+add,eggplant,6
+remove,batteries,1
+remove,milk,1
+,,0
+remove,vegetables,1
+add,12 eggs,1
+remove,mozzarella,3
+add,salmon,13
+,,0
+add,apples,1
+,,0
+remove,sweetpotatoes,1
+remove,colas,2
+remove,onions,19
+remove,kibble,1
+remove,soda,14
+add,eggs,19
+add,soda,6
+add,cheddar,1
+remove,wipes,10
+remove,fries,1
+remove,towels,17
+remove,soaps,1
+add,carrots,1
+remove,wipes,17
+,,0
+add,potatoes,2
+,,0
+remove,shampoo,1
+remove,onions,6
+remove,avocados,1
+remove,strawberries,5
+remove,butter,10
+remove,potatoes,1
+add,bread,1
+,,0
+remove,zucchini,14
+remove,lemons,1
+remove,flour,1
+remove,gelato,4
+remove,kibble,1
+remove,soda,1
+remove,17 kibble,1
+remove,tomatoes,1
+,,0
+remove,rice,5
+remove,pizza,1
+add,spinach,5
+remove,breads,15
+,,0
+remove,bags,3
+remove,14 tomatoes,1
+,,0
+remove,zucchini,7
+remove,tomatoes,1
+remove,tomatoes,1
+add,brownsugar,4
+remove,beef,1
+remove,breads,1
+add,apples,2
+remove,spinach,10
+,,0
+remove,apples,1
+remove,toothpaste,1
+remove,wipes,6
+remove,bulbs,1
+remove,tea,6
+remove,milk,20
+remove,bellpeppers,4
+add,wipes,10
+remove,broccoli,1
+add,foil,3
+remove,buses,2
+remove,water,1
+remove,pasta,1
+remove,toothbrush,1
+add,16 juice,1
+remove,19 tea,1
+remove,13 butter,0
+remove,rice,1
+,,0
+,,0
+,,0
+remove,11 strawberries,1
+remove,cucumbers,18
+remove,1 litter,1
+remove,litter,1
+remove,lemonade,10
+remove,blueberries,1
+remove,colas,16
+remove,raspberries,13
+remove,apples,1
+remove,eggplant,1
+,,0
+remove,eggplant,1
+remove,carrots,1
+remove,water,1
+remove,bags,3
+remove,limes,3
+remove,shamans,7
+remove,apples,1
+remove,spinach,17
+add,apples,3
+,,0
+remove,diabs,7
+remove,brownsugar,6
+,,0
+remove,colas,5
+remove,bellpeppers,1
+add,flour,1
+remove,eggplant,2
+remove,eggplant,1
+remove,beef,1
+remove,soda,1
+remove,18 foil,1
+remove,soda,1
+,,0
+remove,14 blueberries,1
+add,brownsugar,1
+remove,oranges,1
+remove,bags,1
+remove,cereal,1
+add,yogurt,2
+add,conditioner,12
+remove,wash,1
+remove,soda,1
+remove,yogurts,16
+add,spinach,20
+remove,wash,4
+remove,soda,2
+add,toothbrush,1
+remove,oranges,1
+add,chicken,1
+remove,4 juice,1
+,,0
+add,pineapple,1
+remove,water,1
+add,cola,1
+remove,carrots,1
+remove,butterflies,1
+,,0
+remove,bananas,5
+add,lemonade,9
+,,0
+remove,oliveoil,12
+,,0
+remove,juice,1
+add,bananas,18
+remove,mushrooms,1
+remove,pineapple,1
+remove,mozzarella,1
+add,sugar,9
+remove,colas,18
+remove,toothbrush,16
+remove,pasta,1
+remove,chicken,1
+remove,limes,1
+remove,water,19
+remove,avocates,2
+remove,detergent,1
+remove,potatoes,6
+remove,conditioner,1
+remove,limes,1
+remove,flour,1
+remove,blueberries,1
+remove,quinoa,1
+add,conditioner,6
+remove,18 potatoes,1
+add,tuna,20
+,,0
+,,0
+remove,9 juice,1
+add,watermelon,13
+remove,jubes,19
+add,toothbrush,1
+add,garlic,2
+remove,onions,8
+add,tissues,2
+,,0
+remove,onions,1
+remove,kibble,10
+add,onions,2
+,,0
+remove,potatoes,15
+remove,garlic,1
+remove,strawberries,1
+remove,paper,13
+remove,coffee,1
+remove,bread,1
+,,0
+remove,flour,1
+add,tissues,6
+remove,salmon,1
+remove,cereal,13
+remove,butter,3
+add,pasta,17
+remove,spoon,1
+remove,bread,1
+remove,tissues,1
+remove,quinoa,1
+remove,toothpaste,12
+add,tissues,9
+remove,tuna,1
+remove,tissues,12
+remove,cheddar,1
+add,garlic,3
+add,berries,4
+remove,nix,1
+add,butter,2
+remove,oatmeal,1
+remove,pepper,8
+remove,pineapple,1
+remove,water,1
+add,pineapple,1
+remove,raspberries,13
+remove,16 kibble,1
+remove,raspberries,1
+,,0
+remove,detergent,1
+remove,apple,1
+,,0
+remove,rice,1
+,,0
+remove,18 granola,1
+remove,peeps,1
+remove,pizza,1
+remove,zucchini,1
+remove,sweetpotatoes,14
+,,0
+remove,shampoo,1
+add,soaps,13
+add,water,4
+remove,vegetables,6
+add,bread,2
+add,gels,2
+remove,oatmeal,19
+,,0
+remove,13 butter,0
+add,tea,20
+remove,onions,16
+add,salmon,1
+remove,raspberry,2
+remove,gelato,1
+remove,conditioner,2
+remove,eggs,1
+remove,rice,6
+remove,packs of soap,1
+remove,zucchini,7
+remove,bellpeppers,12
+,,0
+add,spinach,5
+,,0
+remove,watermelon,10
+remove,treats,1
+add,coffee,8
+remove,zucchini,1
+,,0
+add,yogurt,1
+,,0
+add,gelsates,5
+remove,eggplant,1
+remove,raspberries,10
+remove,spaghetti,15
+remove,toothbrush,1
+remove,foil,2
+,,0
+add,tuna,1
+remove,apples,1
+add,cucumbers,11
+add,diapers,1
+remove,milk,1
+remove,butterflies,10
+,,0
+remove,toothpaste,10
+remove,salmon,1
+remove,apples,1
+remove,spinach,1
+remove,potatoes,15
+,,0
+,,0
+add,carrots,1
+remove,limes,12
+remove,pepper,1
+remove,raspberries,10
+,,0
+add,blueberries,3
+add,20 cola,1
+remove,soapsuds,1
+remove,foil,1
+remove,zucchini,1
+remove,juc...,3
+remove,tuna,1
+add,tomatoes,1
+remove,batteries,5
+,,0
+,,0
+remove,tuna,1
+add,carrots,19
+remove,rice,1
+remove,batteries,12
+add,gelsate,15
+remove,shampoo,1
+remove,brownsugar,15
+remove,yogurts,14
+add,water,11
+remove,tea,15
+remove,bananas,2
+remove,wash,1
+,,0
+remove,bananas,3
+add,salt,1
+remove,bananas,1
+add,beef,1
+add,coffee,12
+add,shamanshampoo,6
+remove,tuna,1
+remove,potatoes,1
+remove,yogurthy,9
+add,batteries,1
+add,rice,15
+add,13 lemons,1
+remove,vegetables,20
+add,beef,1
+add,units of sugar,9
+remove,pineapple,15
+remove,12 bulbs,1
+,,0
+remove,bags,1
+add,19 wipes,1
+add,11 granola,1
+remove,fries,5
+remove,brownsugar,20
+add,19 strawberries,1
+remove,batteries,10
+add,cucumbers,7
+remove,milk,16
+remove,pasta,1
+remove,vegetables,1
+remove,raspberry,1
+remove,gelsates,5
+remove,coffee,1
+remove,tissues,1
+,,0
+remove,yogurts,5
+remove,eggs,18
+remove,mushrooms,1
+remove,spinach,4
+remove,kibble,10
+add,raspberries,8
+remove,chicken,1
+add,watermelon,1
+remove,16 oranges,1
+remove,batteries,1
+add,apples,8
+add,flour,1
+remove,9 water,1
+,,0
+remove,tuna,1
+add,18 towels,1
+remove,mushrooms,1
+remove,broccoli,1
+remove,packs of strawberries,1
+remove,pizza,1
+remove,pepper,13
+remove,soaps,18
+add,apples,1
+remove,kibble,1
+remove,conditioner,1
+remove,juice,15
+remove,toothpaste,2
+remove,water,1
+add,oatmeal,1
+,,0
+remove,towels,8
+add,17 butter,1
+remove,coffee,1
+remove,sugar,1
+remove,treats,1
+remove,tea,5
+add,milk,1
+remove,granola,1
+remove,rice,1
+,,0
+remove,toothbrush,1
+remove,14 bags,1
+remove,14 batteries,1
+remove,strawberries,9
+add,bags,13
+add,milk,1
+remove,treats,1
+remove,tea,1
+add,coffee,17
+add,13 packs of cereal,1
+remove,tea,5
+add,apples,1
+remove,bellpeppers,1
+remove,tissues,2
+remove,tea,1
+remove,towels,8
+add,cucumbers,1
+remove,strawberry,2
+add,salt,12
+add,wash,5
+add,cans of soda,3
+remove,zucchini,1
+remove,cereal,1
+remove,grains,11
+remove,vegetables,12
+remove,watermelon,3
+remove,soaps,6
+add,lemons,1
+add,garlic,4
+remove,potatoes,1
+add,colas,7
+remove,treats,4
+add,broccoli,1
+remove,carrots,1
+remove,12 raspberries,1
+,,0
+,,0
+add,bags,4
+remove,coffee packs,1
+remove,eggs,1
+remove,beef,1
+remove,gelato,4
+remove,7 mushrooms,1
+remove,blueberries,1
+remove,sunfloweroil,1
+remove,spinach,1
+remove,cucumbers,20
+remove,tissues,3
+add,wrap in my cart,18
+add,soda,11
+remove,juice<,1
+remove,tomatoes,1
+remove,packs of eggs,1
+remove,water,3
+remove,gelsation,1
+remove,packs of juice,1
+add,batteries,5
+remove,bread,15
+remove,14 water,1
+remove,juice,7
+add,quinoa,5
+remove,carrots,3
+remove,fries,1
+remove,strawberries,20
+add,packs of tissues,17
+add,rice,14
+remove,strawberry,1
+remove,gelato,18
+add,litters,5
+remove,spaghetti,12
+remove,milk,1
+remove,milk,1
+remove,watermelon,18
+add,lemonade,8
+remove,yogurt,1
+remove,vegetables,1
+add,toothpaste,11
+add,oranges of soda,15
+remove,breads,1
+remove,tea,1
+add,spinach,13
+add,conditioner,6
+add,bananas of banana,3
+remove,detergent,1
+remove,garlic,1
+add,lemons,1
+,,0
+add,salmon,10
+remove,chicken,1
+add,spaghetti,7
+add,spinach,12
+remove,foil,8
+remove,10 treats,1
+add,toothpaste,9
+,,0

@@ -7,7 +7,7 @@ import numpy as np
 
 # Paths
 correct_answers_path = 'shopping_cart_final_normalized.csv'
-models_dir = 'results'  # folder with model CSV files
+models_dir = 'prompt_results/prompt_results'  # folder with model CSV files
 model_files = [f for f in os.listdir(models_dir) if f.endswith('.csv')]
 
 # Columns to compare (correct answers vs model predictions)
@@ -54,8 +54,8 @@ for model_file in model_files:
             continue
         
         # Compare strings after stripping whitespace and converting to string
-        y_true_col = df_truth_subset[corr_col].astype(str).str.strip().str.lower()
-        y_pred_col = df_model_subset[mod_col].astype(str).str.strip().str.lower()
+        y_true_col = df_truth_subset[corr_col].fillna('').astype(str).str.strip().str.lower()
+        y_pred_col = df_model_subset[mod_col].fillna('').astype(str).str.strip().str.lower()
 
         # Create binary matches for this column
         matches = (y_true_col == y_pred_col).astype(int)
@@ -83,8 +83,8 @@ for model_file in model_files:
         # Alternative: Calculate macro-average F1 across individual columns
         column_f1_scores = []
         for i, (corr_col, mod_col) in enumerate(zip(correct_answer_columns, model_answer_columns)):
-            y_true_col = df_truth_subset[corr_col].astype(str).str.strip().str.lower()
-            y_pred_col = df_model_subset[mod_col].astype(str).str.strip().str.lower()
+            y_true_col = df_truth_subset[corr_col].fillna('').astype(str).str.strip().str.lower()
+            y_pred_col = df_model_subset[mod_col].fillna('').astype(str).str.strip().str.lower()
             
             # Get unique labels for this column
             unique_labels = sorted(set(y_true_col.unique()) | set(y_pred_col.unique()))
