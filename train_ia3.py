@@ -20,7 +20,7 @@ MODEL_IDS = [
     # "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
     # "microsoft/phi-4",
     "google/gemma-3-4b-it",
-    "ibm-granite/granite-3.3-8b-instruct", 
+    "ibm-granite/granite-3.3-2b-instruct", 
     "meta-llama/Llama-3.1-8B-Instruct", 
     "meta-llama/Llama-3.2-3B-Instruct", 
     "Qwen/Qwen3-4B", 
@@ -148,7 +148,7 @@ for MODEL_ID in MODEL_IDS:
         per_device_train_batch_size=4,  # Doubled from LoRA version
         per_device_eval_batch_size=4,
         gradient_accumulation_steps=2,
-        gradient_checkpointing=True,
+        gradient_checkpointing=False,  # Disabled: IA3 + gradient checkpointing causes DDP issues
         # -------------------------------------
 
         # --- TRAINING PARAMETERS ---
