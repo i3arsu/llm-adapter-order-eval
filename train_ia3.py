@@ -2,11 +2,10 @@ import torch
 import pandas as pd
 from datasets import Dataset
 from huggingface_hub import login
-from peft import IA3Config, get_peft_model, prepare_model_for_kbit_training
+from peft import IA3Config, get_peft_model
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
-    BitsAndBytesConfig
 )
 from trl import SFTTrainer, SFTConfig
 import time
@@ -113,7 +112,7 @@ for MODEL_ID in MODEL_IDS:
 
     # NOTE: IA3 is lightweight, gradient checkpointing not needed and causes DDP issues
     # model.gradient_checkpointing_enable()
-    model = prepare_model_for_kbit_training(model)  # Prepares model for quantization-aware training
+    #model = prepare_model_for_kbit_training(model)  # Prepares model for quantization-aware training
 
     # IA3 Configuration
     # IA3 works by learning scaling vectors for key, value, and feedforward layers
