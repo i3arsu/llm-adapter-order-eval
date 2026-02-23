@@ -134,7 +134,7 @@ for MODEL_ID in MODEL_IDS:
         # --- DATASET PARAMETERS ---
         dataset_text_field="text",
         max_length=1024,  # Increased from 512 (A100 can handle this easily)
-        packing=True,  # Enable packing for efficiency with variable-length sequences
+        packing=False,  # Disabled: packing + gradient checkpointing can cause cross-contamination in DDP
         # --------------------------
 
         # --- A100 OPTIMIZED BATCH SETTINGS ---
@@ -179,7 +179,7 @@ for MODEL_ID in MODEL_IDS:
         
         report_to="tensorboard",  # Enable TensorBoard logging
         logging_dir=f"{OUTPUT_DIR}/logs",
-        ddp_find_unused_parameters=False
+        ddp_find_unused_parameters=True
     )
 
     trainer = SFTTrainer(
@@ -340,7 +340,7 @@ for MODEL_ID in MODEL_IDS:
         }
         metrics_file = f"{new_model_name}/training_metrics.json"
         with open(metrics_file, 'w') as f:
-            json.dump(metrics, indent=2, fp=f)
+            json.dump(metrics, f, indent=2)
 
         print(f"\n✅ Metrics saved to: {metrics_file}")
 
