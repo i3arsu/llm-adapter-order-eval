@@ -9,7 +9,8 @@ lora-llama3.1-retail/
 adapters/
 lora-tiny-llama3.1-retail/
 test_results.txt
-
+trening.pbs
+testiranje.pbs
 
 # C extensions
 *.so
@@ -217,3 +218,6 @@ adapter_v1.zip
 .vscode/settings.json
 test_results_detailed.txt
 adapters.rar
+testiranje.pbs
+.gitignore
+.gitignore
