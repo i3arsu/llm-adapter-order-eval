@@ -112,7 +112,11 @@ for MODEL_ID in MODEL_IDS:
 
     # NOTE: IA3 is lightweight, gradient checkpointing not needed and causes DDP issues
     # model.gradient_checkpointing_enable()
+<<<<<<< HEAD
     #model = prepare_model_for_kbit_training(model)  # Prepares model for quantization-aware training
+=======
+    model = prepare_model_for_kbit_training(model)  # Prepares model for quantization-aware training
+>>>>>>> c4fb8d4e715cd76336f74ca41a5d933106ecc34a
 
     # IA3 Configuration
     # IA3 works by learning scaling vectors for key, value, and feedforward layers
@@ -120,8 +124,11 @@ for MODEL_ID in MODEL_IDS:
         task_type="CAUSAL_LM",
         target_modules=["k_proj", "v_proj", "down_proj"],  # All modules to adapt
         feedforward_modules=["down_proj"],  # FFN modules (must be subset of target_modules)
+<<<<<<< HEAD
         target_modules=["k_proj", "v_proj", "down_proj"],  # All modules to adapt
         feedforward_modules=["down_proj"],  # FFN modules (must be subset of target_modules)
+=======
+>>>>>>> c4fb8d4e715cd76336f74ca41a5d933106ecc34a
         inference_mode=False,
     )
 
@@ -142,7 +149,10 @@ for MODEL_ID in MODEL_IDS:
         dataset_text_field="text",
         max_length=1024,
         packing=False,  # Disabled: packing + gradient checkpointing causes DDP cross-contamination
+<<<<<<< HEAD
         packing=False,  # Disabled: packing + gradient checkpointing causes DDP cross-contamination
+=======
+>>>>>>> c4fb8d4e715cd76336f74ca41a5d933106ecc34a
         # --------------------------
 
         # --- A100 OPTIMIZED BATCH SETTINGS ---
@@ -157,7 +167,10 @@ for MODEL_ID in MODEL_IDS:
         # --- TRAINING PARAMETERS ---
         num_train_epochs=3,
         learning_rate=1e-3,  # IA3 typically uses higher LR than LoRA, but 8e-3 was too aggressive
+<<<<<<< HEAD
         learning_rate=1e-3,  # IA3 typically uses higher LR than LoRA, but 8e-3 was too aggressive
+=======
+>>>>>>> c4fb8d4e715cd76336f74ca41a5d933106ecc34a
         warmup_ratio=0.03,
         fp16=False,
         bf16=True,
@@ -191,7 +204,10 @@ for MODEL_ID in MODEL_IDS:
         report_to="tensorboard",
         logging_dir=f"{OUTPUT_DIR}/logs",
         ddp_find_unused_parameters=True
+<<<<<<< HEAD
         ddp_find_unused_parameters=True
+=======
+>>>>>>> c4fb8d4e715cd76336f74ca41a5d933106ecc34a
     )
 
     trainer = SFTTrainer(
@@ -209,6 +225,7 @@ for MODEL_ID in MODEL_IDS:
         except AttributeError:
             # Some models don't support _set_static_graph, continue without it
             pass
+<<<<<<< HEAD
     
     # Enable static graph for DDP stability with IA3
     if torch.distributed.is_initialized():
@@ -217,6 +234,8 @@ for MODEL_ID in MODEL_IDS:
         except AttributeError:
             # Some models don't support _set_static_graph, continue without it
             pass
+=======
+>>>>>>> c4fb8d4e715cd76336f74ca41a5d933106ecc34a
 
     is_main_process = trainer.is_world_process_zero()
 
@@ -363,7 +382,10 @@ for MODEL_ID in MODEL_IDS:
         metrics_file = f"{new_model_name}/training_metrics.json"
         with open(metrics_file, 'w') as f:
             json.dump(metrics, f, indent=2)
+<<<<<<< HEAD
             json.dump(metrics, f, indent=2)
+=======
+>>>>>>> c4fb8d4e715cd76336f74ca41a5d933106ecc34a
 
         print(f"\n✅ Metrics saved to: {metrics_file}")
 
