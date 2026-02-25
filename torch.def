@@ -1,0 +1,28 @@
+Bootstrap: docker
+From: pytorch/pytorch:2.7.1-cuda11.8-cudnn9-devel
+
+%post
+
+    export http_proxy="http://10.150.1.1:3128"
+    export https_proxy="http://10.150.1.1:3128"
+    export ftp_proxy="http://10.150.1.1:3128"
+
+    apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
+
+    python -m pip install --no-cache-dir --upgrade pip
+    python -m pip install --no-cache-dir \
+        transformers==4.57.3 \
+        datasets==4.4.2 \
+        tokenizers==0.22.2 \
+        peft==0.18.1 \
+        trl==0.26.2 \
+        accelerate==1.12.0 \
+        bitsandbytes==0.49.1 \
+        pandas==2.3.3 \
+        huggingface-hub==0.36.0 \
+        python-dotenv==1.2.1 \
+        tensorboard==2.20.0 \
+        matplotlib
+
+%runscript
+    exec "$@"

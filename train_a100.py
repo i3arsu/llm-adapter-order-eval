@@ -106,8 +106,9 @@ for MODEL_ID in MODEL_IDS:
 
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_ID,
-        torch_dtype=torch.bfloat16,  # Native BF16 support on A100
-        attn_implementation="eager"  # A100 supports Flash Attention 2
+        dtype=torch.bfloat16,  # Native BF16 support on A100
+        device_map={"":  int(os.environ.get("LOCAL_RANK", 0))},
+        attn_implementation="eager"  # Flash Attention 2 not available, using eager
     )
     
     # Set use_cache after model loading for compatibility with all models
@@ -134,7 +135,8 @@ for MODEL_ID in MODEL_IDS:
         # --- DATASET PARAMETERS ---
         dataset_text_field="text",
         max_length=1024,  # Increased from 512 (A100 can handle this easily)
-        packing=True,  # Enable packing for efficiency with variable-length sequences
+        packing=False,  # Disabled due to attention implementation constraints
+        #packing=True,
         # --------------------------
 
         # --- A100 OPTIMIZED BATCH SETTINGS ---
@@ -142,6 +144,7 @@ for MODEL_ID in MODEL_IDS:
         per_device_eval_batch_size=8,   # Match training batch size
         gradient_accumulation_steps=4,  # Reduced from 16 (effective batch = 8*4 = 32)
         gradient_checkpointing=True,
+        gradient_checkpointing_kwargs={"use_reentrant": False},
         # -------------------------------------
 
         # --- TRAINING PARAMETERS ---
@@ -156,7 +159,7 @@ for MODEL_ID in MODEL_IDS:
         optim="adamw_torch_fused",  # Faster than paged_adamw on A100
         adam_beta1=0.9,
         adam_beta2=0.999,
-        weight_decay=0.01,
+        weight_decay=0.0,
         max_grad_norm=1.0,
         # -------------------
         
@@ -179,7 +182,7 @@ for MODEL_ID in MODEL_IDS:
         
         report_to="tensorboard",  # Enable TensorBoard logging
         logging_dir=f"{OUTPUT_DIR}/logs",
-        ddp_find_unused_parameters=False
+        ddp_find_unused_parameters=True  # Required for distributed training with LoRA adapters
     )
 
     trainer = SFTTrainer(
@@ -340,7 +343,8 @@ for MODEL_ID in MODEL_IDS:
         }
         metrics_file = f"{new_model_name}/training_metrics.json"
         with open(metrics_file, 'w') as f:
-            json.dump(metrics, indent=2, fp=f)
+            json.dump(metrics, f, indent=2)
+            json.dump(metrics, f, indent=2)
 
         print(f"\n✅ Metrics saved to: {metrics_file}")
 
