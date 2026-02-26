@@ -147,7 +147,8 @@ for MODEL_ID in MODEL_IDS:
         per_device_train_batch_size=4,  # Doubled from LoRA version
         per_device_eval_batch_size=4,
         gradient_accumulation_steps=2,
-        gradient_checkpointing=False,  # Disabled: IA3 + gradient checkpointing causes DDP issues
+        gradient_checkpointing=True,
+        gradient_checkpointing_kwargs={"use_reentrant": False},
         # -------------------------------------
 
         # --- TRAINING PARAMETERS ---
