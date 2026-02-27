@@ -90,6 +90,9 @@ test_sentences = df_input[0].tolist()
 print(f"Ukupno pronađeno {len(test_sentences)} primjera.\n")
 
 # --- TESTIRANJE ZA SVAKI ADAPTER ---
+skipped_adapters = []
+tested_adapters = []
+
 for adapter_path in available_adapters:
     adapter_name = os.path.basename(adapter_path)
     
@@ -99,6 +102,17 @@ for adapter_path in available_adapters:
     
     output_csv_file = os.path.join(adapter_result_dir, "test_results.csv")
     metadata_file = os.path.join(adapter_result_dir, "metadata.json")
+    
+    # Check if adapter has already been fully tested
+    if os.path.exists(metadata_file):
+        print(f"\n{'='*60}")
+        print(f"⊘ Adapter već je testiran: {adapter_name}")
+        print(f"{'='*60}")
+        print(f"Preskačem - rezultati postoje u: {adapter_result_dir}\n")
+        skipped_adapters.append(adapter_name)
+        continue
+    
+    tested_adapters.append(adapter_name)
     
     print(f"\n{'='*60}")
     print(f"Pokrećem testiranje za adapter: {adapter_name}")
@@ -229,7 +243,16 @@ for adapter_path in available_adapters:
 print(f"\n{'='*60}")
 print("TESTIRANJE ZAVRŠENO!")
 print(f"{'='*60}")
-print(f"Svi rezultati su spremljeni u '{output_dir}' folder")
+print(f"\nTesrirani adapteri ({len(tested_adapters)}):")  # Shows which adapters were tested in this run
+for adapter in tested_adapters:
+    print(f"  ✓ {adapter}")
+
+if skipped_adapters:
+    print(f"\nPreskočeni adapteri - već su testirani ({len(skipped_adapters)}):")
+    for adapter in skipped_adapters:
+        print(f"  ⊘ {adapter}")
+
+print(f"\nSvi rezultati su spremljeni u '{output_dir}' folder")
 print(f"Svaki adapter ima svoju podfolder sa:")
 print(f"  - test_results.csv (detaljni rezultati)")
 print(f"  - metadata.json (statistika i metapodaci)")
