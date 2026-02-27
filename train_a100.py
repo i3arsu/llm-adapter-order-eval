@@ -20,7 +20,7 @@ MODEL_IDS = [
     # "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B", 
     # "microsoft/phi-4",
     "google/gemma-3-4b-it",
-    "ibm-granite/granite-3.3-8b-instruct", 
+    "ibm-granite/granite-3.3-2b-instruct", 
     "meta-llama/Llama-3.1-8B-Instruct", 
     "meta-llama/Llama-3.2-3B-Instruct", 
     "Qwen/Qwen3-4B", 
