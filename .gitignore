@@ -21,6 +21,8 @@ adapteri_test.*
 /lora-llama3-checkpoints
 /lora-llama3.1-checkpoints
 /lora-qwen3-checkpoints
+debug*
+*.pbs
 
 # C extensions
 *.so

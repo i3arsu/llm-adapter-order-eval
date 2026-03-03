@@ -5,9 +5,17 @@ import os
 from datetime import datetime
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
-from huggingface_hub import login
 
-login(token=os.getenv("HF_TOKEN"))
+# Suppress warnings
+os.environ['TRANSFORMERS_VERBOSITY'] = 'warning'
+
+# FIXED: Graceful HF login with fallback
+try:
+    from huggingface_hub import login
+    if os.getenv("HF_TOKEN"):
+        login(token=os.getenv("HF_TOKEN"), add_to_git_credential=False)
+except Exception as e:
+    print(f"⚠️  Warning: Could not login to HuggingFace: {e}\n")
 
 # --- POSTAVKE ---
 adapters_dir = "./adapters"
@@ -167,19 +175,30 @@ for adapter_path in available_adapters:
     # Učitavamo merged model (adapter + base model su već spojeni)
     print(f"Učitavam merged model: {adapter_path}...")
     try:
+        # FIXED: Use dtype instead of deprecated torch_dtype, and use bfloat16 to match quantization_config
         current_model = AutoModelForCausalLM.from_pretrained(
             adapter_path,
             quantization_config=bnb_config,
             device_map="auto",
             trust_remote_code=True,
-            torch_dtype=torch.float16
+            dtype=torch.float16
         )
         current_model.eval()
         
-        tokenizer = AutoTokenizer.from_pretrained(adapter_path, trust_remote_code=True)
+        # FIXED: Add fix_mistral_regex to address tokenizer warning (only for Mistral models)
+        fix_regex = "mistral" in adapter_path.lower()
+        tokenizer = AutoTokenizer.from_pretrained(
+            adapter_path, 
+            trust_remote_code=True,
+            fix_mistral_regex=fix_regex
+        )
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
+        
+        # Get device info
+        device = next(current_model.parameters()).device
         print(f"✓ Model i tokenizer učitani")
+        print(f"  - Device: {device}")
         print(f"  - Chat template available: {tokenizer.chat_template is not None}")
     except Exception as e:
         print(f"GREŠKA pri učitavanju {adapter_path}: {e}")
