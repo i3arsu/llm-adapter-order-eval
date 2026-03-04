@@ -7,7 +7,7 @@ import numpy as np
 
 # Paths
 correct_answers_path = 'shopping_cart_final_normalized.csv'
-models_dir = 'prompt_results/prompt_results'  # folder with model CSV files
+models_dir = 'ia3_results'  # folder with model CSV files
 model_files = [f for f in os.listdir(models_dir) if f.endswith('.csv')]
 
 # Columns to compare (correct answers vs model predictions)
@@ -53,9 +53,14 @@ for model_file in model_files:
             print(f"Correct answers missing column '{corr_col}', skipping model '{model_file}'.")
             continue
         
-        # Compare strings after stripping whitespace and converting to string
-        y_true_col = df_truth_subset[corr_col].fillna('').astype(str).str.strip().str.lower()
-        y_pred_col = df_model_subset[mod_col].fillna('').astype(str).str.strip().str.lower()
+        # For quantity column, convert to int first to avoid float/int mismatch (20 vs 20.0)
+        if corr_col == 'quantity':
+            y_true_col = pd.to_numeric(df_truth_subset[corr_col], errors='coerce').fillna(0).astype(int).astype(str)
+            y_pred_col = pd.to_numeric(df_model_subset[mod_col], errors='coerce').fillna(0).astype(int).astype(str)
+        else:
+            # Compare strings after stripping whitespace and converting to string
+            y_true_col = df_truth_subset[corr_col].fillna('').astype(str).str.strip().str.lower()
+            y_pred_col = df_model_subset[mod_col].fillna('').astype(str).str.strip().str.lower()
 
         # Create binary matches for this column
         matches = (y_true_col == y_pred_col).astype(int)
@@ -83,8 +88,13 @@ for model_file in model_files:
         # Alternative: Calculate macro-average F1 across individual columns
         column_f1_scores = []
         for i, (corr_col, mod_col) in enumerate(zip(correct_answer_columns, model_answer_columns)):
-            y_true_col = df_truth_subset[corr_col].fillna('').astype(str).str.strip().str.lower()
-            y_pred_col = df_model_subset[mod_col].fillna('').astype(str).str.strip().str.lower()
+            # For quantity column, convert to int first to avoid float/int mismatch
+            if corr_col == 'quantity':
+                y_true_col = pd.to_numeric(df_truth_subset[corr_col], errors='coerce').fillna(0).astype(int).astype(str)
+                y_pred_col = pd.to_numeric(df_model_subset[mod_col], errors='coerce').fillna(0).astype(int).astype(str)
+            else:
+                y_true_col = df_truth_subset[corr_col].fillna('').astype(str).str.strip().str.lower()
+                y_pred_col = df_model_subset[mod_col].fillna('').astype(str).str.strip().str.lower()
             
             # Get unique labels for this column
             unique_labels = sorted(set(y_true_col.unique()) | set(y_pred_col.unique()))
@@ -146,7 +156,7 @@ for i, v in enumerate(results_df['exact_match_f1']):
         fontsize=18,
         fontweight='bold')
 
-plt.xticks(rotation=45, ha='right', fontsize=16, fontweight='bold')
+plt.xticks(rotation=0, ha='center', fontsize=16, fontweight='bold')
 plt.ylim(0, 1)
 plt.grid(axis='y', alpha=0.3)
 
