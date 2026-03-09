@@ -1,0 +1,12 @@
+{
+  "adapter_name": "lora-qwen3-merged",
+  "adapter_path": "./adapters/lora-qwen3-merged",
+  "test_timestamp": "2026-02-27T12:51:56.638389",
+  "model_type": "merged (adapter + base model)",
+  "total_tests": 2001,
+  "successful_parses": 2001,
+  "failed_parses": 0,
+  "success_rate": "100.00%",
+  "test_duration_seconds": 3723.970146,
+  "avg_time_per_test": "1.8611"
+}

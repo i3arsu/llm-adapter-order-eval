@@ -17,10 +17,12 @@ lora-gemma-checkpoints
 lora-granite-checkpoints
 treniranje_adaptera.*
 adapteri_test.*
-/results
 /lora-llama3-checkpoints
 /lora-llama3.1-checkpoints
 /lora-qwen3-checkpoints
+debug*
+*.pbs
+/lora-deepseek-checkpoints-json
 
 # C extensions
 *.so
@@ -237,3 +239,4 @@ torch.def
 
 # Macos DS_Store
 .DS_Store
+prompt_train_fewshot.o881975

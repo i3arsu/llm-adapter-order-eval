@@ -1,0 +1,12 @@
+{
+  "adapter_name": "lora-llama3.1-merged",
+  "adapter_path": "./adapters/lora-llama3.1-merged",
+  "test_timestamp": "2026-02-27T12:03:27.075071",
+  "model_type": "merged (adapter + base model)",
+  "total_tests": 2001,
+  "successful_parses": 2001,
+  "failed_parses": 0,
+  "success_rate": "100.00%",
+  "test_duration_seconds": 2903.60253,
+  "avg_time_per_test": "1.4511"
+}

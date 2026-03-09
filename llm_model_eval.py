@@ -1,4 +1,5 @@
 import json
+import os
 import pandas as pd
 import re
 import torch
@@ -7,6 +8,13 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 # Load the CSV file
 retail_dataset_queries = pd.read_csv("shopping_cart_final_normalized.csv")
+
+try:
+    from huggingface_hub import login
+    if os.getenv("HF_TOKEN"):
+        login(token=os.getenv("HF_TOKEN"), add_to_git_credential=False)
+except Exception as e:
+    print(f"⚠️  Warning: Could not login to HuggingFace: {e}\n")
 
 
 def extract_json_object(text):
@@ -30,12 +38,12 @@ def extract_json_object(text):
 MODEL_IDS = [
     # "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", 
     # "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-    "google/gemma-3-4b-it",
-    "ibm-granite/granite-3.3-2b-instruct", 
-    "meta-llama/Llama-3.1-8B-Instruct", 
-    "meta-llama/Llama-3.2-3B-Instruct", 
+    #"google/gemma-3-4b-it",
+    #"ibm-granite/granite-3.3-2b-instruct", 
+    #"meta-llama/Llama-3.1-8B-Instruct", 
+    #"meta-llama/Llama-3.2-3B-Instruct", 
     "Qwen/Qwen3-4B", 
-    "Qwen/Qwen3-8B"
+    #"Qwen/Qwen3-8B"
     ]
 
 SYSTEM_PROMPT = """
@@ -162,7 +170,7 @@ print("Starting sequential processing...")
 for model_id in MODEL_IDS:
     results = []
     sanitized_model_name = re.sub(r'[/:.]', '_', model_id)
-    output_filename = f"Retail_Dataset_LLM_Responses_{sanitized_model_name}.csv"
+    output_filename = f"./prompt_results/fewshot/Retail_Dataset_LLM_Responses_{sanitized_model_name}.csv"
     
     print(f"\n{'='*60}")
     print(f"Processing with model: {model_id}")

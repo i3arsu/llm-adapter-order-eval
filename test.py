@@ -5,9 +5,17 @@ import os
 from datetime import datetime
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
-from huggingface_hub import login
 
-login(token=os.getenv("HF_TOKEN"))
+# Suppress warnings
+os.environ['TRANSFORMERS_VERBOSITY'] = 'warning'
+
+# FIXED: Graceful HF login with fallback
+try:
+    from huggingface_hub import login
+    if os.getenv("HF_TOKEN"):
+        login(token=os.getenv("HF_TOKEN"), add_to_git_credential=False)
+except Exception as e:
+    print(f"⚠️  Warning: Could not login to HuggingFace: {e}\n")
 
 # --- POSTAVKE ---
 adapters_dir = "./adapters"
@@ -136,6 +144,9 @@ test_sentences = df_input['user_input'].tolist()
 print(f"Ukupno pronađeno {len(test_sentences)} primjera.\n")
 
 # --- TESTIRANJE ZA SVAKI ADAPTER ---
+skipped_adapters = []
+tested_adapters = []
+
 for adapter_path in available_adapters:
     adapter_name = os.path.basename(adapter_path)
     
@@ -146,6 +157,17 @@ for adapter_path in available_adapters:
     output_csv_file = os.path.join(adapter_result_dir, "test_results.csv")
     metadata_file = os.path.join(adapter_result_dir, "metadata.json")
     
+    # Check if adapter has already been fully tested
+    if os.path.exists(metadata_file):
+        print(f"\n{'='*60}")
+        print(f"⊘ Adapter već je testiran: {adapter_name}")
+        print(f"{'='*60}")
+        print(f"Preskačem - rezultati postoje u: {adapter_result_dir}\n")
+        skipped_adapters.append(adapter_name)
+        continue
+    
+    tested_adapters.append(adapter_name)
+    
     print(f"\n{'='*60}")
     print(f"Pokrećem testiranje za adapter: {adapter_name}")
     print(f"{'='*60}\n")
@@ -153,19 +175,30 @@ for adapter_path in available_adapters:
     # Učitavamo merged model (adapter + base model su već spojeni)
     print(f"Učitavam merged model: {adapter_path}...")
     try:
+        # FIXED: Use dtype instead of deprecated torch_dtype, and use bfloat16 to match quantization_config
         current_model = AutoModelForCausalLM.from_pretrained(
             adapter_path,
             quantization_config=bnb_config,
             device_map="auto",
             trust_remote_code=True,
-            torch_dtype=torch.float16
+            dtype=torch.float16
         )
         current_model.eval()
         
-        tokenizer = AutoTokenizer.from_pretrained(adapter_path, trust_remote_code=True)
+        # FIXED: Add fix_mistral_regex to address tokenizer warning (only for Mistral models)
+        fix_regex = "mistral" in adapter_path.lower()
+        tokenizer = AutoTokenizer.from_pretrained(
+            adapter_path, 
+            trust_remote_code=True,
+            fix_mistral_regex=fix_regex
+        )
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
+        
+        # Get device info
+        device = next(current_model.parameters()).device
         print(f"✓ Model i tokenizer učitani")
+        print(f"  - Device: {device}")
         print(f"  - Chat template available: {tokenizer.chat_template is not None}")
     except Exception as e:
         print(f"GREŠKA pri učitavanju {adapter_path}: {e}")
@@ -289,7 +322,16 @@ for adapter_path in available_adapters:
 print(f"\n{'='*60}")
 print("TESTIRANJE ZAVRŠENO!")
 print(f"{'='*60}")
-print(f"Svi rezultati su spremljeni u '{output_dir}' folder")
+print(f"\nTesrirani adapteri ({len(tested_adapters)}):")  # Shows which adapters were tested in this run
+for adapter in tested_adapters:
+    print(f"  ✓ {adapter}")
+
+if skipped_adapters:
+    print(f"\nPreskočeni adapteri - već su testirani ({len(skipped_adapters)}):")
+    for adapter in skipped_adapters:
+        print(f"  ⊘ {adapter}")
+
+print(f"\nSvi rezultati su spremljeni u '{output_dir}' folder")
 print(f"Svaki adapter ima svoju podfolder sa:")
 print(f"  - test_results.csv (detaljni rezultati)")
 print(f"  - metadata.json (statistika i metapodaci)")

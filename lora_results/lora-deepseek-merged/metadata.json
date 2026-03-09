@@ -1,0 +1,12 @@
+{
+  "adapter_name": "lora-deepseek-merged",
+  "adapter_path": "./adapters/lora-deepseek-merged",
+  "test_timestamp": "2026-02-27T09:46:51.157802",
+  "model_type": "merged (adapter + base model)",
+  "total_tests": 2001,
+  "successful_parses": 238,
+  "failed_parses": 1763,
+  "success_rate": "11.89%",
+  "test_duration_seconds": 5659.753639,
+  "avg_time_per_test": "2.8285"
+}
