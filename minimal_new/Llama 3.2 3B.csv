@@ -1,0 +1,8876 @@
+raw_response,llm_action,llm_product,llm_quantity
+"{""action"": ""add"", ""product"": ""juice"", ""quantity"": 20}",add,juice,20
+"{
+  ""action"": ""add"",
+  ""product"": ""onions"",
+  ""quantity"": 13
+}",add,onions,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""beef"",
+  ""quantity"": 4
+}",remove,beef,4
+"{
+  ""action"": ""add"",
+  ""product"": ""fries"",
+  ""quantity"": 6
+}",add,fries,6
+"{
+  ""action"": ""add"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 13
+}",add,mozzarella,13
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 5
+}",add,bread,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""litter"",
+  ""quantity"": 17
+}",remove,litter,17
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 9
+}",add,gelato,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemonade"",
+  ""quantity"": 1
+}",remove,lemonade,1
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 4
+}",add,soda,4
+"{""action"": ""remove"", ""product"": ""mushrooms"", ""quantity"": 18}",remove,mushrooms,18
+"{
+  ""action"": ""add"",
+  ""product"": ""detergent"",
+  ""quantity"": 5
+}",add,detergent,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 10
+}",remove,milk,10
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 9
+}",add,toothpaste,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""garlic"",
+  ""quantity"": 1
+}",remove,garlic,1
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 17
+}",add,chicken,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""watermelon"",
+  ""quantity"": 15
+}",remove,watermelon,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""sunfloweroil"",
+  ""quantity"": 9
+}",remove,sunfloweroil,9
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 20
+}",add,milk,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""towels"",
+  ""quantity"": 18
+}",remove,towels,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""batteries"",
+  ""quantity"": 5
+}",remove,batteries,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 15
+}",remove,mango,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""broccoli"",
+  ""quantity"": 6
+}",remove,broccoli,6
+"{
+  ""action"": ""add"",
+  ""product"": ""onions"",
+  ""quantity"": 14
+}",add,onions,14
+"{""action"": ""remove"", ""product"": ""diapers"", ""quantity"": 1}",remove,diapers,1
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 17
+}",add,pepper,17
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 10
+}",add,gelato,10
+"{""action"": ""add"", ""product"": ""12 conditioner"", ""quantity"": 12}",add,12 conditioner,12
+"{
+  ""action"": ""add"",
+  ""product"": ""oranges"",
+  ""quantity"": 17
+}",add,oranges,17
+"{""action"": ""remove"", ""product"": ""raspberries"", ""quantity"": 18}",remove,raspberries,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""granola"",
+  ""quantity"": 9
+}",remove,granola,9
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 8
+}",add,gelato,8
+"{""action"": ""add"", ""product"": ""blueberries"", ""quantity"": 18}",add,blueberries,18
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 1
+}",add,yogurt,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""19 butter"",
+  ""quantity"": 19
+}",remove,19 butter,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 2
+}",remove,apples,2
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 8
+}",add,milk,8
+"{
+  ""action"": ""add"",
+  ""product"": ""pizza"",
+  ""quantity"": 15
+}",add,pizza,15
+"{""action"": ""add"", ""product"": ""treats"", ""quantity"": 11}",add,treats,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 5
+}",remove,bananas,5
+"Here's the extracted information in JSON format:
+
+{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 13
+}",add,wrap,13
+"{
+  ""action"": ""add"",
+  ""product"": ""vegetables"",
+  ""quantity"": 14
+}",add,vegetables,14
+"{ ""action"": ""add"", ""product"": ""tissues"", ""quantity"": 11 }",add,tissues,11
+"{
+  ""action"": ""add"",
+  ""product"": ""pizza"",
+  ""quantity"": 12
+}",add,pizza,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 18
+}",remove,cucumbers,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 6
+}",remove,salmon,6
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 3
+}",add,gelato,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""batteries"",
+  ""quantity"": 20
+}",remove,batteries,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""flour"",
+  ""quantity"": 17
+}",remove,flour,17
+"{
+  ""action"": ""add"",
+  ""product"": ""wipes"",
+  ""quantity"": 3
+}",add,wipes,3
+"{
+  ""action"": ""add"",
+  ""product"": ""salt"",
+  ""quantity"": 13
+}",add,salt,13
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 17
+}",add,towels,17
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 8
+}",add,potatoes,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""pepper"",
+  ""quantity"": 2
+}",remove,pepper,2
+"{""action"": ""remove"", ""product"": ""treats"", ""quantity"": 16}",remove,treats,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""fries"",
+  ""quantity"": 20
+}",remove,fries,20
+"{
+  ""action"": ""add"",
+  ""product"": ""cheddar"",
+  ""quantity"": 11
+}",add,cheddar,11
+"{""action"": ""add"", ""product"": ""paper"", ""quantity"": 8}",add,paper,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 1
+}",remove,vegetables,1
+"{
+  ""action"": ""add"",
+  ""product"": ""wipes"",
+  ""quantity"": 7
+}",add,wipes,7
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 10
+}",add,milk,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggs"",
+  ""quantity"": 5
+}",remove,eggs,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 2
+}",remove,milk,2
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 18
+}",add,tea,18
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 15
+}",add,milk,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 7
+}",remove,tea,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""pasta"",
+  ""quantity"": 2
+}",remove,pasta,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""flour"",
+  ""quantity"": 9
+}",remove,flour,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 10
+}",remove,gelato,10
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 12
+}",add,bread,12
+"{""action"": ""remove"", ""product"": ""7 tea"", ""quantity"": 1}",remove,7 tea,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 6
+}",remove,raspberries,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""pizza"",
+  ""quantity"": 20
+}",remove,pizza,20
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 9
+}",add,oliveoil,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": 6
+}",remove,foil,6
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 9
+}",add,spinach,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 18
+}",remove,strawberries,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""17 bread"",
+  ""quantity"": 17
+}",remove,17 bread,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""pasta"",
+  ""quantity"": 1
+}",remove,pasta,1
+"{""action"": ""remove"", ""product"": ""toothbrush"", ""quantity"": 15}",remove,toothbrush,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 8
+}",remove,gelato,8
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 5
+}",add,yogurt,5
+"{""action"": ""add"", ""product"": ""12 tuna"", ""quantity"": 12}",add,12 tuna,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""12 toothbrush"",
+  ""quantity"": 12
+}",remove,12 toothbrush,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 9
+}",remove,bread,9
+"{
+  ""action"": ""add"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 16
+}",add,brownsugar,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 6
+}",remove,yogurt,6
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 17
+}",add,oliveoil,17
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 1
+}",add,milk,1
+"Since you didn't specify an action, I'll assume it's an 'add' action. Here's the extracted information in JSON format:
+
+{ ""action"": ""add"", ""product"": ""paper"", ""quantity"": 6 }",add,paper,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 2
+}",remove,bellpeppers,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 20
+}",remove,mango,20
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 18
+}",add,bread,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 2
+}",remove,toothbrush,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""zucchini"",
+  ""quantity"": 5
+}",remove,zucchini,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""oranges"",
+  ""quantity"": 3
+}",remove,oranges,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""kibble"",
+  ""quantity"": 14
+}",remove,kibble,14
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 7
+}",add,diapers,7
+"{""action"": ""remove"", ""product"": ""mushrooms"", ""quantity"": 13}",remove,mushrooms,13
+"{
+  ""action"": ""add"",
+  ""product"": ""detergent"",
+  ""quantity"": 16
+}",add,detergent,16
+"{
+  ""action"": ""add"",
+  ""product"": ""lemonade"",
+  ""quantity"": 13
+}",add,lemonade,13
+"{
+  ""action"": ""add"",
+  ""product"": ""mango"",
+  ""quantity"": 11
+}",add,mango,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 2
+}",remove,juice,2
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 15
+}",add,potatoes,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""diapers"",
+  ""quantity"": 1
+}",remove,diapers,1
+"{""action"": ""remove"", ""product"": ""bags"", ""quantity"": 13}",remove,bags,13
+"{""action"": ""add"", ""product"": ""gelato"", ""quantity"": 20}",add,gelato,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""17 juice"",
+  ""quantity"": 17
+}",remove,17 juice,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 13
+}",remove,tomatoes,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""paper"",
+  ""quantity"": 18
+}",remove,paper,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 16
+}",remove,bananas,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 2
+}",remove,gelato,2
+"{""action"": ""add"", ""product"": ""5 juice"", ""quantity"": 5}",add,5 juice,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemonade"",
+  ""quantity"": 6
+}",remove,lemonade,6
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 9
+}",add,tuna,9
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 14
+}",add,soap,14
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 1
+}",add,diapers,1
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 15
+}",add,kibble,15
+"{
+  ""action"": ""add"",
+  ""product"": ""8 juice"",
+  ""quantity"": 8
+}",add,8 juice,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 2
+}",remove,tea,2
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 3
+}",add,shampoo,3
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 12
+}",add,toothbrush,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 8
+}",remove,oliveoil,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 7
+}",remove,juice,7
+"{""action"": ""add"", ""product"": ""paper"", ""quantity"": 14}",add,paper,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 3
+}",remove,bulbs,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""sugar"",
+  ""quantity"": 17
+}",remove,sugar,17
+"{
+  ""action"": ""add"",
+  ""product"": ""cereal"",
+  ""quantity"": 20
+}",add,cereal,20
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 19
+}",add,water,19
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 17
+}",add,yogurt,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 2
+}",remove,shampoo,2
+"{
+  ""action"": ""add"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 17
+}",add,spaghetti,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""19 soap"",
+  ""quantity"": 1
+}",remove,19 soap,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""11 soda"",
+  ""quantity"": 11
+}",remove,11 soda,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""towels"",
+  ""quantity"": 19
+}",remove,towels,19
+"{
+  ""action"": ""add"",
+  ""product"": ""17 soap"",
+  ""quantity"": 17
+}",add,17 soap,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""tuna"",
+  ""quantity"": 3
+}",remove,tuna,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 12
+}",remove,coffee,12
+"{""action"": ""remove"", ""product"": ""limes"", ""quantity"": 11}",remove,limes,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 4
+}",remove,soap,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 13
+}",remove,mozzarella,13
+"{""action"": ""remove"", ""product"": ""eggplant"", ""quantity"": 8}",remove,eggplant,8
+"{
+  ""action"": ""add"",
+  ""product"": ""pineapple"",
+  ""quantity"": 19
+}",add,pineapple,19
+"{
+  ""action"": ""add"",
+  ""product"": ""lemonade"",
+  ""quantity"": 9
+}",add,lemonade,9
+"{
+  ""action"": ""add"",
+  ""product"": ""strawberries"",
+  ""quantity"": 13
+}",add,strawberries,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 16
+}",remove,shampoo,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 13
+}",remove,oliveoil,13
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 13
+}",add,chicken,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""avocados"",
+  ""quantity"": 1
+}",remove,avocados,1
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 20
+}",add,soda,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 10
+}",remove,yogurt,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""wrap"",
+  ""quantity"": 2
+}",remove,wrap,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 7
+}",remove,bulbs,7
+"{""action"": ""remove"", ""product"": ""cereal"", ""quantity"": 18}",remove,cereal,18
+"{ ""action"": ""add"", ""product"": ""5 wash"", ""quantity"": 5 }",add,5 wash,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 7
+}",remove,mushrooms,7
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 12
+}",add,soda,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 1
+}",remove,toothbrush,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""quinoa"",
+  ""quantity"": 17
+}",remove,quinoa,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""pizza"",
+  ""quantity"": 2
+}",remove,pizza,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""cola"",
+  ""quantity"": 2
+}",remove,cola,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 19
+}",remove,blueberries,19
+"{ ""action"": ""add"", ""product"": ""10 wash"", ""quantity"": 10 }",add,10 wash,10
+"{
+  ""action"": ""add"",
+  ""product"": ""lemons"",
+  ""quantity"": 19
+}",add,lemons,19
+"{""action"": ""remove"", ""product"": ""toothpaste"", ""quantity"": 4}",remove,toothpaste,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""11 wash"",
+  ""quantity"": 11
+}",remove,11 wash,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 13
+}",remove,spaghetti,13
+"{
+  ""action"": ""add"",
+  ""product"": ""19 cheddar"",
+  ""quantity"": 19
+}",add,19 cheddar,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 16
+}",remove,coffee,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 14
+}",remove,cheddar,14
+"{
+  ""action"": ""add"",
+  ""product"": ""carrots"",
+  ""quantity"": 9
+}",add,carrots,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 14
+}",remove,bulbs,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 7
+}",remove,toothpaste,7
+"{
+  ""action"": ""add"",
+  ""product"": ""treats"",
+  ""quantity"": 10
+}",add,treats,10
+"{""action"": ""remove"", ""product"": ""granola"", ""quantity"": 2}",remove,granola,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 14
+}",remove,blueberries,14
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 4
+}",add,diapers,4
+"{
+  ""action"": ""add"",
+  ""product"": ""sugar"",
+  ""quantity"": 14
+}",add,sugar,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 18
+}",remove,gelato,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 18
+}",remove,gelato,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""chicken"",
+  ""quantity"": 2
+}",remove,chicken,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 1
+}",remove,shampoo,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 11
+}",remove,milk,11
+"{
+  ""action"": ""add"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 12
+}",add,mozzarella,12
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 10
+}",add,water,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""cola"",
+  ""quantity"": 16
+}",remove,cola,16
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 14
+}",add,eggs,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""garlic"",
+  ""quantity"": 15
+}",remove,garlic,15
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 9
+}",add,zucchini,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 4
+}",remove,bread,4
+"{""action"": ""add"", ""product"": ""raspberries"", ""quantity"": 12}",add,raspberries,12
+"{
+  ""action"": ""add"",
+  ""product"": ""sugar"",
+  ""quantity"": 15
+}",add,sugar,15
+"{ ""action"": ""remove"", ""product"": ""kibble"", ""quantity"": 16 }",remove,kibble,16
+"{""action"": ""add"", ""product"": ""bellpeppers"", ""quantity"": 13}",add,bellpeppers,13
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 16
+}",add,pepper,16
+"{
+  ""action"": ""add"",
+  ""product"": ""wipes"",
+  ""quantity"": 6
+}",add,wipes,6
+"{""action"": ""add"", ""product"": ""18 cheddar"", ""quantity"": 18}",add,18 cheddar,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 14
+}",remove,soda,14
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 1
+}",add,foil,1
+"{""action"": ""add"", ""product"": ""14 toothpaste"", ""quantity"": 1}",add,14 toothpaste,1
+"{
+  ""action"": ""add"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 6
+}",add,oatmeal,6
+"{""action"": ""add"", ""product"": ""sweetpotatoes"", ""quantity"": 3}",add,sweetpotatoes,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 9
+}",remove,tomatoes,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 10
+}",remove,bellpeppers,10
+"{
+  ""action"": ""add"",
+  ""product"": ""sunfloweroil"",
+  ""quantity"": 3
+}",add,sunfloweroil,3
+"{
+  ""action"": ""add"",
+  ""product"": ""sweetpotatoes"",
+  ""quantity"": 11
+}",add,sweetpotatoes,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 17
+}",remove,apples,17
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 15
+}",add,yogurt,15
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 1
+}",add,soda,1
+"{
+  ""action"": ""add"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 16
+}",add,oatmeal,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 18
+}",remove,soda,18
+"{""action"": ""remove"", ""product"": ""oatmeal"", ""quantity"": 6}",remove,oatmeal,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""spinach"",
+  ""quantity"": 14
+}",remove,spinach,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 9
+}",remove,salmon,9
+"{""action"": ""add"", ""product"": ""19 cheddar"", ""quantity"": 19}",add,19 cheddar,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""kibble"",
+  ""quantity"": 15
+}",remove,kibble,15
+"{""action"": ""remove"", ""product"": ""avocados"", ""quantity"": 16}",remove,avocados,16
+"{""action"": ""add"", ""product"": ""batteries"", ""quantity"": 15}",add,batteries,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""salt"",
+  ""quantity"": 15
+}",remove,salt,15
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 15
+}",add,toothbrush,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 19
+}",remove,potatoes,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggs"",
+  ""quantity"": 9
+}",remove,eggs,9
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 14
+}",add,blueberries,14
+"{
+  ""action"": ""add"",
+  ""product"": ""raspberries"",
+  ""quantity"": 5
+}",add,raspberries,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""9 toothpaste"",
+  ""quantity"": 9
+}",remove,9 toothpaste,9
+"{
+  ""action"": ""add"",
+  ""product"": ""pizza"",
+  ""quantity"": 14
+}",add,pizza,14
+"{""action"": ""add"", ""product"": ""paper"", ""quantity"": 1}",add,paper,1
+"{
+  ""action"": ""add"",
+  ""product"": ""flour"",
+  ""quantity"": 9
+}",add,flour,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 8
+}",remove,toothpaste,8
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 8
+}",add,bread,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 14
+}",remove,blueberries,14
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 2
+}",add,yogurt,2
+"{
+  ""action"": ""add"",
+  ""product"": ""16 litter"",
+  ""quantity"": 16
+}",add,16 litter,16
+"{
+  ""action"": ""add"",
+  ""product"": ""apples"",
+  ""quantity"": 14
+}",add,apples,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 16
+}",remove,potatoes,16
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 16
+}",add,soap,16
+"{
+  ""action"": ""add"",
+  ""product"": ""19 cheddar"",
+  ""quantity"": 19
+}",add,19 cheddar,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""quinoa"",
+  ""quantity"": 2
+}",remove,quinoa,2
+"{
+  ""action"": ""add"",
+  ""product"": ""raspberries"",
+  ""quantity"": 11
+}",add,raspberries,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 2
+}",remove,vegetables,2
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 9
+}",add,towels,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 9
+}",remove,potatoes,9
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 8
+}",add,tea,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""pepper"",
+  ""quantity"": 4
+}",remove,pepper,4
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 18
+}",add,soda,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 13
+}",remove,yogurt,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 2
+}",remove,bags,2
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 6
+}",add,cola,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 13
+}",remove,soda,13
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 14
+}",add,gelato,14
+"{""action"": ""remove"", ""product"": ""cucumbers"", ""quantity"": 16}",remove,cucumbers,16
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 7
+}",add,bread,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 14
+}",remove,juice,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 5
+}",remove,tomatoes,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""sugar"",
+  ""quantity"": 17
+}",remove,sugar,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 17
+}",remove,yogurt,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 3
+}",remove,bananas,3
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 20
+}",add,wrap,20
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 15
+}",add,eggs,15
+"{ ""action"": ""remove"", ""product"": ""sweetpotatoes"", ""quantity"": 12 }",remove,sweetpotatoes,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""kibble"",
+  ""quantity"": 14
+}",remove,kibble,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""watermelon"",
+  ""quantity"": 10
+}",remove,watermelon,10
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 4
+}",add,gelato,4
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 1
+}",add,cola,1
+"{""action"": ""remove"", ""product"": ""10 pasta"", ""quantity"": 10}",remove,10 pasta,10
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 14
+}",add,toothpaste,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""watermelon"",
+  ""quantity"": 19
+}",remove,watermelon,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 4
+}",remove,potatoes,4
+"{
+  ""action"": ""add"",
+  ""product"": ""13 toothbrush"",
+  ""quantity"": 1
+}",add,13 toothbrush,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""wash"",
+  ""quantity"": 3
+}",remove,wash,3
+"{
+  ""action"": ""add"",
+  ""product"": ""avocados"",
+  ""quantity"": 16
+}",add,avocados,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 7
+}",remove,soda,7
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 5
+}",add,bulbs,5
+"{""action"": ""add"", ""product"": ""8 water"", ""quantity"": 8}",add,8 water,8
+"{
+  ""action"": ""add"",
+  ""product"": ""quinoa"",
+  ""quantity"": 19
+}",add,quinoa,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""towels"",
+  ""quantity"": 1
+}",remove,towels,1
+"Here's the analysis of the user's message in JSON format:
+
+{
+  ""action"": ""remove"",
+  ""product"": ""litter"",
+  ""quantity"": 6
+}",remove,litter,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 14
+}",remove,gelato,14
+"{""action"": ""add"", ""product"": ""9 gelato"", ""quantity"": 9}",add,9 gelato,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 6
+}",remove,vegetables,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 2
+}",remove,juice,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 12
+}",remove,blueberries,12
+"{
+  ""action"": ""add"",
+  ""product"": ""apples"",
+  ""quantity"": 1
+}",add,apples,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""chicken"",
+  ""quantity"": 3
+}",remove,chicken,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""wipes"",
+  ""quantity"": 9
+}",remove,wipes,9
+"{
+  ""action"": ""add"",
+  ""product"": ""pizza"",
+  ""quantity"": 11
+}",add,pizza,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""pineapple"",
+  ""quantity"": 20
+}",remove,pineapple,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 19
+}",remove,bulbs,19
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 10
+}",add,cola,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""chicken"",
+  ""quantity"": 8
+}",remove,chicken,8
+"{
+  ""action"": ""add"",
+  ""product"": ""flour"",
+  ""quantity"": 14
+}",add,flour,14
+"{
+  ""action"": ""add"",
+  ""product"": ""fries"",
+  ""quantity"": 9
+}",add,fries,9
+"{
+  ""action"": ""add"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 19
+}",add,mushrooms,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 18
+}",remove,potatoes,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""avocados"",
+  ""quantity"": 9
+}",remove,avocados,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""pineapple"",
+  ""quantity"": 2
+}",remove,pineapple,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 4
+}",remove,juice,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 20
+}",remove,milk,20
+"{
+  ""action"": ""add"",
+  ""product"": ""batteries"",
+  ""quantity"": 4
+}",add,batteries,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""salt"",
+  ""quantity"": 10
+}",remove,salt,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""diapers"",
+  ""quantity"": 18
+}",remove,diapers,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""18 juice"",
+  ""quantity"": 18
+}",remove,18 juice,18
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 15
+}",add,wrap,15
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 14
+}",add,diapers,14
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 15
+}",add,oliveoil,15
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 20
+}",add,coffee,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""rice"",
+  ""quantity"": 3
+}",remove,rice,3
+"{
+  ""action"": ""add"",
+  ""product"": ""pasta"",
+  ""quantity"": 8
+}",add,pasta,8
+"{ ""action"": ""add"", ""product"": ""sweetpotatoes"", ""quantity"": 14 }",add,sweetpotatoes,14
+"{
+  ""action"": ""add"",
+  ""product"": ""treats"",
+  ""quantity"": 16
+}",add,treats,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 7
+}",remove,gelato,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""batteries"",
+  ""quantity"": 3
+}",remove,batteries,3
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 11
+}",add,butter,11
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 20
+}",add,gelato,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemons"",
+  ""quantity"": 20
+}",remove,lemons,20
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 8
+}",add,soap,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 5
+}",remove,salmon,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 12
+}",remove,soap,12
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 15
+}",add,bread,15
+"{""action"": ""remove"", ""product"": ""flour"", ""quantity"": 3}",remove,flour,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 8
+}",remove,mushrooms,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""oranges"",
+  ""quantity"": 4
+}",remove,oranges,4
+"{ ""action"": ""add"", ""product"": ""raspberries"", ""quantity"": 19 }",add,raspberries,19
+"{
+  ""action"": ""add"",
+  ""product"": ""treats"",
+  ""quantity"": 12
+}",add,treats,12
+"{
+  ""action"": ""add"",
+  ""product"": ""limes"",
+  ""quantity"": 13
+}",add,limes,13
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 20
+}",add,eggs,20
+"{
+  ""action"": ""add"",
+  ""product"": ""salt"",
+  ""quantity"": 17
+}",add,salt,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 19
+}",remove,tomatoes,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": 15
+}",remove,foil,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 14
+}",remove,cheddar,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""sunfloweroil"",
+  ""quantity"": 8
+}",remove,sunfloweroil,8
+"{
+  ""action"": ""add"",
+  ""product"": ""apples"",
+  ""quantity"": 2
+}",add,apples,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""tuna"",
+  ""quantity"": 6
+}",remove,tuna,6
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 19
+}",add,toothbrush,19
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 2
+}",add,diapers,2
+"{""action"": ""add"", ""product"": ""bread"", ""quantity"": 5}",add,bread,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 4
+}",remove,juice,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 16
+}",remove,detergent,16
+"{
+  ""action"": ""add"",
+  ""product"": ""oranges"",
+  ""quantity"": 4
+}",add,oranges,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""broccoli"",
+  ""quantity"": 11
+}",remove,broccoli,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 12
+}",remove,bags,12
+"{
+  ""action"": ""add"",
+  ""product"": ""eggplant"",
+  ""quantity"": 19
+}",add,eggplant,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""limes"",
+  ""quantity"": 9
+}",remove,limes,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""chicken"",
+  ""quantity"": 19
+}",remove,chicken,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""pineapple"",
+  ""quantity"": 7
+}",remove,pineapple,7
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 17
+}",add,water,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 1
+}",remove,oatmeal,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""zucchini"",
+  ""quantity"": 3
+}",remove,zucchini,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 6
+}",remove,water,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 18
+}",remove,bananas,18
+"{
+  ""action"": ""add"",
+  ""product"": ""eggplant"",
+  ""quantity"": 9
+}",add,eggplant,9
+"{
+  ""action"": ""add"",
+  ""product"": ""mango"",
+  ""quantity"": 20
+}",add,mango,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""salt"",
+  ""quantity"": 10
+}",remove,salt,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 7
+}",remove,tomatoes,7
+"{""action"": ""add"", ""product"": ""raspberries"", ""quantity"": 10}",add,raspberries,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemonade"",
+  ""quantity"": 10
+}",remove,lemonade,10
+"Since ""Need 7 wrap"" implies adding 7 wraps to the cart, I'll extract the following information:
+
+* action: 'add'
+* product: 'wrap'
+* quantity: 7
+
+Here's the response in JSON format:
+
+```
+{""action"": ""add"", ""product"": ""wrap"", ""quantity"": 7}
+```",add,wrap,7
+"{
+  ""action"": ""add"",
+  ""product"": ""cereal"",
+  ""quantity"": 4
+}",add,cereal,4
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 12
+}",add,yogurt,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""wrap"",
+  ""quantity"": 15
+}",remove,wrap,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 7
+}",remove,milk,7
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 1
+}",add,juice,1
+"{
+  ""action"": ""add"",
+  ""product"": ""mango"",
+  ""quantity"": 14
+}",add,mango,14
+"{
+  ""action"": ""add"",
+  ""product"": ""fries"",
+  ""quantity"": 15
+}",add,fries,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 16
+}",remove,potatoes,16
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 8
+}",add,foil,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""17 gelato"",
+  ""quantity"": 17
+}",remove,17 gelato,17
+"{""action"": ""remove"", ""product"": ""raspberries"", ""quantity"": 9}",remove,raspberries,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggs"",
+  ""quantity"": 5
+}",remove,eggs,5
+"{
+  ""action"": ""add"",
+  ""product"": ""garlic"",
+  ""quantity"": 16
+}",add,garlic,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 5
+}",remove,water,5
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 4
+}",add,butter,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": 19
+}",remove,foil,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 3
+}",remove,vegetables,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""fries"",
+  ""quantity"": 3
+}",remove,fries,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""beef"",
+  ""quantity"": 17
+}",remove,beef,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 5
+}",remove,bananas,5
+"{
+  ""action"": ""add"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 4
+}",add,brownsugar,4
+"{""action"": ""remove"", ""product"": ""7 soap"", ""quantity"": 7}",remove,7 soap,7
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 9
+}",add,potatoes,9
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 6
+}",add,tea,6
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 10
+}",add,cola,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 3
+}",remove,cheddar,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 19
+}",remove,salmon,19
+"{
+  ""action"": ""add"",
+  ""product"": ""fries"",
+  ""quantity"": 1
+}",add,fries,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 1
+}",remove,tea,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": 9
+}",remove,foil,9
+"{
+  ""action"": ""add"",
+  ""product"": ""17 beef"",
+  ""quantity"": 17
+}",add,17 beef,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 18
+}",remove,milk,18
+"{
+  ""action"": ""add"",
+  ""product"": ""oranges"",
+  ""quantity"": 10
+}",add,oranges,10
+"{""action"": ""add"", ""product"": ""brownsugar"", ""quantity"": 16}",add,brownsugar,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 4
+}",remove,tea,4
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 5
+}",add,kibble,5
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 16
+}",add,milk,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 10
+}",remove,soap,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""limes"",
+  ""quantity"": 14
+}",remove,limes,14
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 13
+}",add,soap,13
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 15
+}",add,gelato,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""sunfloweroil"",
+  ""quantity"": 20
+}",remove,sunfloweroil,20
+"{""action"": ""remove"", ""product"": ""milk"", ""quantity"": 2}",remove,milk,2
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 20
+}",add,tuna,20
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 9
+}",add,potatoes,9
+"{""action"": ""add"", ""product"": ""spaghetti"", ""quantity"": 3}",add,spaghetti,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 8
+}",remove,water,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""quinoa"",
+  ""quantity"": 12
+}",remove,quinoa,12
+"{
+  ""action"": ""add"",
+  ""product"": ""watermelon"",
+  ""quantity"": 20
+}",add,watermelon,20
+"{
+  ""action"": ""add"",
+  ""product"": ""watermelon"",
+  ""quantity"": 6
+}",add,watermelon,6
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 14
+}",add,pepper,14
+"{ ""action"": ""add"", ""product"": ""sunfloweroil"", ""quantity"": 17 }",add,sunfloweroil,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 19
+}",remove,vegetables,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 8
+}",remove,oliveoil,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 6
+}",remove,mango,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""broccoli"",
+  ""quantity"": 8
+}",remove,broccoli,8
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 1
+}",add,tea,1
+"{
+  ""action"": ""add"",
+  ""product"": ""wipes"",
+  ""quantity"": 1
+}",add,wipes,1
+"{
+  ""action"": ""add"",
+  ""product"": ""pineapple"",
+  ""quantity"": 9
+}",add,pineapple,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 20
+}",remove,detergent,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""pasta"",
+  ""quantity"": 8
+}",remove,pasta,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 5
+}",remove,raspberries,5
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 7
+}",add,butter,7
+"{
+  ""action"": ""add"",
+  ""product"": ""apples"",
+  ""quantity"": 16
+}",add,apples,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""7 pepper"",
+  ""quantity"": 1
+}",remove,7 pepper,1
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 9
+}",add,pepper,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 15
+}",remove,soap,15
+"{
+  ""action"": ""add"",
+  ""product"": ""pineapple"",
+  ""quantity"": 2
+}",add,pineapple,2
+"{""action"": ""remove"", ""product"": ""bellpeppers"", ""quantity"": 10}",remove,bellpeppers,10
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 17
+}",add,tea,17
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 14
+}",add,wrap,14
+"{
+  ""action"": ""add"",
+  ""product"": ""beef"",
+  ""quantity"": 20
+}",add,beef,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 5
+}",remove,apples,5
+"Since the user mentioned ""12 litter"" without specifying the product name, I will assume the product name is ""litter"". However, I will also note that the quantity is likely meant to be 12, not ""litter"".
+
+Here's the extracted information in JSON format:
+
+{ ""action"": ""remove"", ""product"": ""litter"", ""quantity"": 12 }",remove,litter,12
+"{
+  ""action"": ""add"",
+  ""product"": ""pasta"",
+  ""quantity"": 11
+}",add,pasta,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 7
+}",remove,strawberries,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""cola"",
+  ""quantity"": 13
+}",remove,cola,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""12 of juice"",
+  ""quantity"": 12
+}",remove,12 of juice,12
+"{
+  ""action"": ""add"",
+  ""product"": ""garlic"",
+  ""quantity"": 2
+}",add,garlic,2
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 1
+}",add,potatoes,1
+"{""action"": ""remove"", ""product"": ""11 vegetables"", ""quantity"": 11}",remove,11 vegetables,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 12
+}",remove,mango,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 11
+}",remove,coffee,11
+"{
+  ""action"": ""add"",
+  ""product"": ""bananas"",
+  ""quantity"": 2
+}",add,bananas,2
+"{
+  ""action"": ""add"",
+  ""product"": ""lemons"",
+  ""quantity"": 3
+}",add,lemons,3
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 15
+}",add,tea,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 20
+}",remove,gelato,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""17 juice"",
+  ""quantity"": 17
+}",remove,17 juice,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 7
+}",remove,mozzarella,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 9
+}",remove,mango,9
+"{""action"": ""remove"", ""product"": ""cereal"", ""quantity"": 13}",remove,cereal,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""conditioner"",
+  ""quantity"": 5
+}",remove,conditioner,5
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 5
+}",add,juice,5
+"{
+  ""action"": ""add"",
+  ""product"": ""pasta"",
+  ""quantity"": 1
+}",add,pasta,1
+"Since you didn't specify an action, I'll assume you want to add 5 papers to the cart. Here's the extracted information in JSON format:
+
+```
+{
+  ""action"": ""add"",
+  ""product"": ""paper"",
+  ""quantity"": 5
+}
+```",add,paper,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 20
+}",remove,cheddar,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 8
+}",remove,soap,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 19
+}",remove,mango,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""sweetpotatoes"",
+  ""quantity"": 6
+}",remove,sweetpotatoes,6
+"{""action"": ""add"", ""product"": ""avocados"", ""quantity"": 9}",add,avocados,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""broccoli"",
+  ""quantity"": 14
+}",remove,broccoli,14
+"{
+  ""action"": ""add"",
+  ""product"": ""fries"",
+  ""quantity"": 18
+}",add,fries,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 12
+}",remove,soap,12
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 8
+}",add,bulbs,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 2
+}",remove,bellpeppers,2
+"{
+  ""action"": ""add"",
+  ""product"": ""beef"",
+  ""quantity"": 7
+}",add,beef,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 7
+}",remove,mozzarella,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 16
+}",remove,bananas,16
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 17
+}",add,foil,17
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 16
+}",add,juice,16
+"{
+  ""action"": ""add"",
+  ""product"": ""paper"",
+  ""quantity"": 15
+}",add,paper,15
+"{
+  ""action"": ""add"",
+  ""product"": ""bags"",
+  ""quantity"": 12
+}",add,bags,12
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 15
+}",add,milk,15
+"{""action"": ""remove"", ""product"": ""cucumbers"", ""quantity"": 7}",remove,cucumbers,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""diapers"",
+  ""quantity"": 8
+}",remove,diapers,8
+"{
+  ""action"": ""add"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 7
+}",add,bellpeppers,7
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 18
+}",add,chicken,18
+"{
+  ""action"": ""add"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 2
+}",add,bellpeppers,2
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 4
+}",add,conditioner,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 20
+}",remove,strawberries,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 7
+}",remove,yogurt,7
+"{
+  ""action"": ""add"",
+  ""product"": ""cereal"",
+  ""quantity"": 6
+}",add,cereal,6
+"{""action"": ""add"", ""product"": ""tissues"", ""quantity"": 14}",add,tissues,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 14
+}",remove,shampoo,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 5
+}",remove,mango,5
+"{""action"": ""add"", ""product"": ""treats"", ""quantity"": 13}",add,treats,13
+"{
+  ""action"": ""add"",
+  ""product"": ""treats"",
+  ""quantity"": 16
+}",add,treats,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 7
+}",remove,mango,7
+"Here's the extracted information in JSON format:
+
+{
+  ""action"": ""add"",
+  ""product"": ""10 litter"",
+  ""quantity"": 10
+}",add,10 litter,10
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 17
+}",add,diapers,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""diapers"",
+  ""quantity"": 10
+}",remove,diapers,10
+"{""action"": ""add"", ""product"": ""gelato"", ""quantity"": 10}",add,gelato,10
+"{""action"": ""add"", ""product"": ""bellpeppers"", ""quantity"": 15}",add,bellpeppers,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 4
+}",remove,oatmeal,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""flour"",
+  ""quantity"": 4
+}",remove,flour,4
+"{""action"": ""add"", ""product"": ""paper"", ""quantity"": 3}",add,paper,3
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 16
+}",add,bread,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""chicken"",
+  ""quantity"": 14
+}",remove,chicken,14
+"{""action"": ""remove"", ""product"": ""eggplant"", ""quantity"": 18}",remove,eggplant,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""wipes"",
+  ""quantity"": 7
+}",remove,wipes,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 3
+}",remove,soap,3
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 11
+}",add,broccoli,11
+"{
+  ""action"": ""add"",
+  ""product"": ""cereal"",
+  ""quantity"": 2
+}",add,cereal,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""garlic"",
+  ""quantity"": 8
+}",remove,garlic,8
+"{
+  ""action"": ""add"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 12
+}",add,tomatoes,12
+"{
+  ""action"": ""add"",
+  ""product"": ""19 cheddar"",
+  ""quantity"": 19
+}",add,19 cheddar,19
+"{""action"": ""add"", ""product"": ""paper"", ""quantity"": 11}",add,paper,11
+"{
+  ""action"": ""add"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 7
+}",add,brownsugar,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 2
+}",remove,yogurt,2
+"{
+  ""action"": ""add"",
+  ""product"": ""watermelon"",
+  ""quantity"": 9
+}",add,watermelon,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""tissues"",
+  ""quantity"": 13
+}",remove,tissues,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 13
+}",remove,milk,13
+"{
+  ""action"": ""add"",
+  ""product"": ""granola"",
+  ""quantity"": 10
+}",add,granola,10
+"{
+  ""action"": ""add"",
+  ""product"": ""bags"",
+  ""quantity"": 12
+}",add,bags,12
+"{
+  ""action"": ""add"",
+  ""product"": ""rice"",
+  ""quantity"": 5
+}",add,rice,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""chicken"",
+  ""quantity"": 12
+}",remove,chicken,12
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 16
+}",add,toothbrush,16
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 1
+}",add,gelato,1
+"{
+  ""action"": ""add"",
+  ""product"": ""garlic"",
+  ""quantity"": 5
+}",add,garlic,5
+"{ ""action"": ""add"", ""product"": ""avocados"", ""quantity"": 13 }",add,avocados,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""8 wash"",
+  ""quantity"": 8
+}",remove,8 wash,8
+"{
+  ""action"": ""add"",
+  ""product"": ""raspberries"",
+  ""quantity"": 3
+}",add,raspberries,3
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 9
+}",add,shampoo,9
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 11
+}",add,broccoli,11
+"{
+  ""action"": ""add"",
+  ""product"": ""wipes"",
+  ""quantity"": 20
+}",add,wipes,20
+"{
+  ""action"": ""add"",
+  ""product"": ""eggplant"",
+  ""quantity"": 1
+}",add,eggplant,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 10
+}",remove,butter,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""12 packs of wipes"",
+  ""quantity"": 12
+}",remove,12 packs of wipes,12
+"{""action"": ""add"", ""product"": ""16 litter"", ""quantity"": 16}",add,16 litter,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 2
+}",remove,juice,2
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 14
+}",add,spinach,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 8
+}",remove,shampoo,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 7
+}",remove,coffee,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""19 kibble"",
+  ""quantity"": 19
+}",remove,19 kibble,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 10
+}",remove,salmon,10
+"Since ""Throw in 3 pepper"" implies adding 3 pepper to the cart, I will extract the following information:
+
+* action: 'add'
+* product: 'pepper'
+* quantity: 3
+
+Here's the response in JSON format:
+
+```
+{""action"": ""add"", ""product"": ""pepper"", ""quantity"": 3}
+```",add,pepper,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""towels"",
+  ""quantity"": 10
+}",remove,towels,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""conditioner"",
+  ""quantity"": 6
+}",remove,conditioner,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 15
+}",remove,gelato,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 1
+}",remove,toothpaste,1
+"{ ""action"": ""remove"", ""product"": ""brownsugar"", ""quantity"": 10 }",remove,brownsugar,10
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 9
+}",add,tea,9
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 5
+}",add,bulbs,5
+"{
+  ""action"": ""add"",
+  ""product"": ""paper"",
+  ""quantity"": 19
+}",add,paper,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""wipes"",
+  ""quantity"": 10
+}",remove,wipes,10
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 9
+}",add,kibble,9
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 1
+}",add,cola,1
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 8
+}",add,shampoo,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""rice"",
+  ""quantity"": 16
+}",remove,rice,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 18
+}",remove,salmon,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 17
+}",remove,juice,17
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 5
+}",add,broccoli,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""tuna"",
+  ""quantity"": 19
+}",remove,tuna,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 3
+}",remove,potatoes,3
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 7
+}",add,kibble,7
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 3
+}",add,soap,3
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 11
+}",add,eggs,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 2
+}",remove,soap,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 5
+}",remove,cheddar,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""pepper"",
+  ""quantity"": 9
+}",remove,pepper,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""17 gelato"",
+  ""quantity"": 17
+}",remove,17 gelato,17
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 14
+}",add,juice,14
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 9
+}",add,towels,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""cola"",
+  ""quantity"": 2
+}",remove,cola,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""carrots"",
+  ""quantity"": 4
+}",remove,carrots,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 4
+}",remove,bags,4
+"{
+  ""action"": ""add"",
+  ""product"": ""avocados"",
+  ""quantity"": 10
+}",add,avocados,10
+"{""action"": ""add"", ""product"": ""sunfloweroil"", ""quantity"": 13}",add,sunfloweroil,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 2
+}",remove,soap,2
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 6
+}",add,eggs,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 3
+}",remove,tea,3
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 4
+}",add,bulbs,4
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 16
+}",add,wrap,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 20
+}",remove,raspberries,20
+"{
+  ""action"": ""add"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 17
+}",add,spaghetti,17
+"{""action"": ""remove"", ""product"": ""cucumbers"", ""quantity"": 18}",remove,cucumbers,18
+"{
+  ""action"": ""add"",
+  ""product"": ""cereal"",
+  ""quantity"": 2
+}",add,cereal,2
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 14
+}",add,towels,14
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 12
+}",add,foil,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""batteries"",
+  ""quantity"": 3
+}",remove,batteries,3
+"{
+  ""action"": ""add"",
+  ""product"": ""pineapple"",
+  ""quantity"": 8
+}",add,pineapple,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 11
+}",remove,vegetables,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""towels"",
+  ""quantity"": 9
+}",remove,towels,9
+"{""action"": ""remove"", ""product"": ""sunfloweroil"", ""quantity"": 4}",remove,sunfloweroil,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 7
+}",remove,mango,7
+"{ ""action"": ""add"", ""product"": ""sweetpotatoes"", ""quantity"": 16 }",add,sweetpotatoes,16
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 9
+}",add,broccoli,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 13
+}",remove,spaghetti,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 2
+}",remove,bread,2
+"{
+  ""action"": ""add"",
+  ""product"": ""rice"",
+  ""quantity"": 19
+}",add,rice,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""spinach"",
+  ""quantity"": 10
+}",remove,spinach,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 10
+}",remove,mozzarella,10
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 14
+}",add,coffee,14
+"{
+  ""action"": ""add"",
+  ""product"": ""wipes"",
+  ""quantity"": 8
+}",add,wipes,8
+"{
+  ""action"": ""add"",
+  ""product"": ""lemons"",
+  ""quantity"": 4
+}",add,lemons,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""sugar"",
+  ""quantity"": 9
+}",remove,sugar,9
+"{ ""action"": ""add"", ""product"": ""sweetpotatoes"", ""quantity"": 9 }",add,sweetpotatoes,9
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 13
+}",add,wrap,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 12
+}",remove,vegetables,12
+"{
+  ""action"": ""add"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 15
+}",add,oatmeal,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 9
+}",remove,milk,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 19
+}",remove,mango,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 19
+}",remove,cucumbers,19
+"{ ""action"": ""add"", ""product"": ""shampoo"", ""quantity"": 3 }",add,shampoo,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 18
+}",remove,coffee,18
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 12
+}",add,toothpaste,12
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 4
+}",add,juice,4
+"{
+  ""action"": ""add"",
+  ""product"": ""sweetpotatoes"",
+  ""quantity"": 7
+}",add,sweetpotatoes,7
+"{
+  ""action"": ""add"",
+  ""product"": ""quinoa"",
+  ""quantity"": 13
+}",add,quinoa,13
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 20
+}",add,milk,20
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 15
+}",add,potatoes,15
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 18
+}",add,juice,18
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 7
+}",add,butter,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 6
+}",remove,detergent,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 16
+}",remove,salmon,16
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 11
+}",add,bulbs,11
+"{""action"": ""add"", ""product"": ""onions"", ""quantity"": 9}",add,onions,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggs"",
+  ""quantity"": 3
+}",remove,eggs,3
+"{""action"": ""add"", ""product"": ""beef"", ""quantity"": 8}",add,beef,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 7
+}",remove,bananas,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 2
+}",remove,salmon,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 19
+}",remove,gelato,19
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 12
+}",add,butter,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 6
+}",remove,butter,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 2
+}",remove,spaghetti,2
+"{""action"": ""remove"", ""product"": ""sunfloweroil"", ""quantity"": 11}",remove,sunfloweroil,11
+"Since ""litter"" is not a product name, I will assume that the user is trying to remove an item. Here's the extracted information:
+
+{ ""action"": ""remove"", ""product"": ""litter"", ""quantity"": 19 }",remove,litter,19
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 2
+}",add,gelato,2
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 19
+}",add,broccoli,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 16
+}",remove,spaghetti,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 5
+}",remove,spaghetti,5
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 18
+}",add,bread,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""pasta"",
+  ""quantity"": 16
+}",remove,pasta,16
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 18
+}",add,tea,18
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 6
+}",add,wrap,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""garlic"",
+  ""quantity"": 5
+}",remove,garlic,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 2
+}",remove,mozzarella,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 3
+}",remove,detergent,3
+"{""action"": ""add"", ""product"": ""oatmeal"", ""quantity"": 4}",add,oatmeal,4
+"{""action"": ""add"", ""product"": ""brownsugar"", ""quantity"": 6}",add,brownsugar,6
+"{""action"": ""remove"", ""product"": ""sweetpotatoes"", ""quantity"": 15}",remove,sweetpotatoes,15
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 14
+}",add,foil,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 15
+}",remove,bananas,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 2
+}",remove,spaghetti,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": 16
+}",remove,foil,16
+"{""action"": ""add"", ""product"": ""20 oliveoil"", ""quantity"": 20}",add,20 oliveoil,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""rice"",
+  ""quantity"": 13
+}",remove,rice,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 19
+}",remove,apples,19
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 5
+}",add,oliveoil,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemons"",
+  ""quantity"": 13
+}",remove,lemons,13
+"{""action"": ""remove"", ""product"": ""12 juice"", ""quantity"": 12}",remove,12 juice,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 6
+}",remove,apples,6
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 1
+}",add,tea,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 9
+}",remove,coffee,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""beef"",
+  ""quantity"": 6
+}",remove,beef,6
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 17
+}",add,bulbs,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""garlic packs"",
+  ""quantity"": 16
+}",remove,garlic packs,16
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 3
+}",add,gelato,3
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 18
+}",add,shampoo,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 5
+}",remove,toothpaste,5
+"{
+  ""action"": ""add"",
+  ""product"": ""rice"",
+  ""quantity"": 14
+}",add,rice,14
+"{
+  ""action"": ""add"",
+  ""product"": ""cereal"",
+  ""quantity"": 18
+}",add,cereal,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 5
+}",remove,cheddar,5
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 10
+}",add,eggs,10
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 17
+}",add,potatoes,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 4
+}",remove,butter,4
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 15
+}",add,towels,15
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 3
+}",add,bread,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""9 juice"",
+  ""quantity"": 9
+}",remove,9 juice,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 10
+}",remove,bread,10
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 20
+}",add,broccoli,20
+"{
+  ""action"": ""add"",
+  ""product"": ""rice"",
+  ""quantity"": 19
+}",add,rice,19
+"{""action"": ""remove"", ""product"": ""gelato"", ""quantity"": 16}",remove,gelato,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": 6
+}",remove,foil,6
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 3
+}",add,blueberries,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""treats"",
+  ""quantity"": 18
+}",remove,treats,18
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 9
+}",add,cola,9
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 16
+}",add,oliveoil,16
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 20
+}",add,gelato,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""paper"",
+  ""quantity"": 17
+}",remove,paper,17
+"{ ""action"": ""add"", ""product"": ""brownsugar"", ""quantity"": 14 }",add,brownsugar,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 15
+}",remove,bread,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 10
+}",remove,potatoes,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 3
+}",remove,soda,3
+"{""action"": ""remove"", ""product"": ""20 wipes"", ""quantity"": 20}",remove,20 wipes,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""pepper"",
+  ""quantity"": 1
+}",remove,pepper,1
+"{""action"": ""add"", ""product"": ""oatmeal"", ""quantity"": 18}",add,oatmeal,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 20
+}",remove,water,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""onions"",
+  ""quantity"": 19
+}",remove,onions,19
+"{
+  ""action"": ""add"",
+  ""product"": ""litter"",
+  ""quantity"": 4
+}",add,litter,4
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 4
+}",add,eggs,4
+"{""action"": ""add"", ""product"": ""11 raspberries"", ""quantity"": 11}",add,11 raspberries,11
+"{""action"": ""add"", ""product"": ""raspberries"", ""quantity"": 14}",add,raspberries,14
+"{""action"": ""add"", ""product"": ""sweetpotatoes"", ""quantity"": 5}",add,sweetpotatoes,5
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 4
+}",add,bread,4
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 18
+}",add,milk,18
+"{
+  ""action"": ""add"",
+  ""product"": ""tissues"",
+  ""quantity"": 12
+}",add,tissues,12
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 6
+}",add,yogurt,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 18
+}",remove,bags,18
+"{""action"": ""add"", ""product"": ""sweetpotatoes"", ""quantity"": 6}",add,sweetpotatoes,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""broccoli"",
+  ""quantity"": 13
+}",remove,broccoli,13
+"{
+  ""action"": ""add"",
+  ""product"": ""onions"",
+  ""quantity"": 20
+}",add,onions,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""pineapple"",
+  ""quantity"": 2
+}",remove,pineapple,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""tissues"",
+  ""quantity"": 5
+}",remove,tissues,5
+"{""action"": ""remove"", ""product"": ""gelato"", ""quantity"": 5}",remove,gelato,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemonade"",
+  ""quantity"": 18
+}",remove,lemonade,18
+"{""action"": ""remove"", ""product"": ""raspberries"", ""quantity"": 9}",remove,raspberries,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""tuna"",
+  ""quantity"": 4
+}",remove,tuna,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 5
+}",remove,apples,5
+"{
+  ""action"": ""add"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 11
+}",add,brownsugar,11
+"{
+  ""action"": ""add"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 18
+}",add,bellpeppers,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""garlic"",
+  ""quantity"": 13
+}",remove,garlic,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 10
+}",remove,oatmeal,10
+"{ ""action"": ""remove"", ""product"": ""wash"", ""quantity"": 3 }",remove,wash,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 19
+}",remove,potatoes,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""wipes"",
+  ""quantity"": 10
+}",remove,wipes,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggs"",
+  ""quantity"": 18
+}",remove,eggs,18
+"{""action"": ""add"", ""product"": ""11 beef"", ""quantity"": 11}",add,11 beef,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 8
+}",remove,gelato,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 10
+}",remove,strawberries,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""kibble"",
+  ""quantity"": 20
+}",remove,kibble,20
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 12
+}",add,water,12
+"{""action"": ""remove"", ""product"": ""lemonade"", ""quantity"": 10}",remove,lemonade,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemons"",
+  ""quantity"": 15
+}",remove,lemons,15
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 16
+}",add,toothpaste,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""sweetpotatoes"",
+  ""quantity"": 11
+}",remove,sweetpotatoes,11
+"{""action"": ""add"", ""product"": ""onions"", ""quantity"": 13}",add,onions,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 5
+}",remove,bulbs,5
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 1
+}",add,chicken,1
+"{
+  ""action"": ""add"",
+  ""product"": ""bananas"",
+  ""quantity"": 15
+}",add,bananas,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 12
+}",remove,juice,12
+"{
+  ""action"": ""add"",
+  ""product"": ""eggplant"",
+  ""quantity"": 5
+}",add,eggplant,5
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 11
+}",add,conditioner,11
+"{
+  ""action"": ""add"",
+  ""product"": ""batteries"",
+  ""quantity"": 19
+}",add,batteries,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 10
+}",remove,bags,10
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 2
+}",add,juice,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""conditioner"",
+  ""quantity"": 11
+}",remove,conditioner,11
+"{""action"": ""add"", ""product"": ""cucumbers"", ""quantity"": 17}",add,cucumbers,17
+"{
+  ""action"": ""add"",
+  ""product"": ""lemons"",
+  ""quantity"": 10
+}",add,lemons,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""conditioner"",
+  ""quantity"": 15
+}",remove,conditioner,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 6
+}",remove,mushrooms,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 2
+}",remove,apples,2
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 8
+}",add,oliveoil,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 2
+}",remove,bulbs,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 17
+}",remove,gelato,17
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 15
+}",add,bread,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 13
+}",remove,strawberries,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 15
+}",remove,water,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 5
+}",remove,blueberries,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""conditioner"",
+  ""quantity"": 7
+}",remove,conditioner,7
+"{""action"": ""add"", ""product"": ""mushrooms"", ""quantity"": 15}",add,mushrooms,15
+"{
+  ""action"": ""add"",
+  ""product"": ""quinoa"",
+  ""quantity"": 16
+}",add,quinoa,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 9
+}",remove,spaghetti,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""11 pepper"",
+  ""quantity"": 11
+}",remove,11 pepper,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 11
+}",remove,salmon,11
+"{
+  ""action"": ""add"",
+  ""product"": ""strawberries"",
+  ""quantity"": 9
+}",add,strawberries,9
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 2
+}",add,yogurt,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 9
+}",remove,detergent,9
+"{
+  ""action"": ""add"",
+  ""product"": ""mango"",
+  ""quantity"": 8
+}",add,mango,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""broccoli"",
+  ""quantity"": 13
+}",remove,broccoli,13
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 2
+}",add,cola,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": 10
+}",remove,foil,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 1
+}",remove,blueberries,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""granola"",
+  ""quantity"": 7
+}",remove,granola,7
+"{ ""action"": ""add"", ""product"": ""tissues"", ""quantity"": 11 }",add,tissues,11
+"{
+  ""action"": ""add"",
+  ""product"": ""salmon"",
+  ""quantity"": 3
+}",add,salmon,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""onions"",
+  ""quantity"": 16
+}",remove,onions,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""sunfloweroil"",
+  ""quantity"": 2
+}",remove,sunfloweroil,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 14
+}",remove,coffee,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 18
+}",remove,yogurt,18
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 9
+}",add,towels,9
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 7
+}",add,conditioner,7
+"{""action"": ""remove"", ""product"": ""vegetables"", ""quantity"": 7}",remove,vegetables,7
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 1
+}",add,water,1
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 8
+}",add,butter,8
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 20
+}",add,bread,20
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 15
+}",add,oliveoil,15
+"{
+  ""action"": ""add"",
+  ""product"": ""watermelon"",
+  ""quantity"": 12
+}",add,watermelon,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 15
+}",remove,bellpeppers,15
+"{
+  ""action"": ""add"",
+  ""product"": ""tissues"",
+  ""quantity"": 4
+}",add,tissues,4
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 2
+}",add,blueberries,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemons"",
+  ""quantity"": 2
+}",remove,lemons,2
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 13
+}",add,chicken,13
+"Here is the extracted information in JSON format:
+
+{
+  ""action"": ""remove"",
+  ""product"": ""litter"",
+  ""quantity"": 18
+}",remove,litter,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 10
+}",remove,brownsugar,10
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 7
+}",add,wrap,7
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 14
+}",add,milk,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 20
+}",remove,bananas,20
+"{
+  ""action"": ""add"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 17
+}",add,spaghetti,17
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 9
+}",add,pepper,9
+"{""action"": ""remove"", ""product"": ""cereal"", ""quantity"": 15}",remove,cereal,15
+"{""action"": ""add"", ""product"": ""fries"", ""quantity"": 8}",add,fries,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 4
+}",remove,juice,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 18
+}",remove,yogurt,18
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 3
+}",add,foil,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 7
+}",remove,salmon,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 4
+}",remove,brownsugar,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""beef"",
+  ""quantity"": 16
+}",remove,beef,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 12
+}",remove,mozzarella,12
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 20
+}",add,coffee,20
+"{""action"": ""add"", ""product"": ""lemons"", ""quantity"": 8}",add,lemons,8
+"{""action"": ""remove"", ""product"": ""lemonade"", ""quantity"": 8}",remove,lemonade,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""onions"",
+  ""quantity"": 5
+}",remove,onions,5
+"{
+  ""action"": ""add"",
+  ""product"": ""bananas"",
+  ""quantity"": 18
+}",add,bananas,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""watermelon"",
+  ""quantity"": 15
+}",remove,watermelon,15
+"{
+  ""action"": ""add"",
+  ""product"": ""treats"",
+  ""quantity"": 5
+}",add,treats,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 4
+}",remove,bananas,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 2
+}",remove,juice,2
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 5
+}",add,toothbrush,5
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 14
+}",add,soda,14
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 2
+}",add,tea,2
+"{""action"": ""remove"", ""product"": ""paper"", ""quantity"": 4}",remove,paper,4
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 7
+}",add,gelato,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 16
+}",remove,coffee,16
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 17
+}",add,conditioner,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 2
+}",remove,shampoo,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 13
+}",remove,milk,13
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 6
+}",add,diapers,6
+"{""action"": ""add"", ""product"": ""mushrooms"", ""quantity"": 12}",add,mushrooms,12
+"{
+  ""action"": ""add"",
+  ""product"": ""pineapple"",
+  ""quantity"": 4
+}",add,pineapple,4
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 6
+}",add,tuna,6
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 2
+}",add,eggs,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""limes"",
+  ""quantity"": 20
+}",remove,limes,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 16
+}",remove,apples,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""flour"",
+  ""quantity"": 10
+}",remove,flour,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""sweetpotatoes"",
+  ""quantity"": 3
+}",remove,sweetpotatoes,3
+"{""action"": ""add"", ""product"": ""gelato"", ""quantity"": 13}",add,gelato,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 13
+}",remove,coffee,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""watermelon"",
+  ""quantity"": 17
+}",remove,watermelon,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""salt"",
+  ""quantity"": 19
+}",remove,salt,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""diapers"",
+  ""quantity"": 17
+}",remove,diapers,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""oranges"",
+  ""quantity"": 10
+}",remove,oranges,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 1
+}",remove,salmon,1
+"{""action"": ""add"", ""product"": ""detergent"", ""quantity"": 9}",add,detergent,9
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 6
+}",add,blueberries,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""20 conditioner"",
+  ""quantity"": 20
+}",remove,20 conditioner,20
+"{
+  ""action"": ""add"",
+  ""product"": ""9 mango"",
+  ""quantity"": 9
+}",add,9 mango,9
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 16
+}",add,shampoo,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 15
+}",remove,salmon,15
+"{""action"": ""add"", ""product"": ""blueberries"", ""quantity"": 3}",add,blueberries,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 4
+}",remove,spaghetti,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemonade"",
+  ""quantity"": 16
+}",remove,lemonade,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""oranges"",
+  ""quantity"": 10
+}",remove,oranges,10
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 12
+}",add,bread,12
+"{ ""action"": ""remove"", ""product"": ""beef"", ""quantity"": 19 }",remove,beef,19
+"{
+  ""action"": ""add"",
+  ""product"": ""raspberries"",
+  ""quantity"": 7
+}",add,raspberries,7
+"{
+  ""action"": ""add"",
+  ""product"": ""lemons"",
+  ""quantity"": 6
+}",add,lemons,6
+"{
+  ""action"": ""add"",
+  ""product"": ""wipes"",
+  ""quantity"": 19
+}",add,wipes,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""granola"",
+  ""quantity"": 2
+}",remove,granola,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 6
+}",remove,toothpaste,6
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 1
+}",add,shampoo,1
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 20
+}",add,zucchini,20
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 17
+}",add,diapers,17
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 2
+}",add,oliveoil,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""oranges"",
+  ""quantity"": 10
+}",remove,oranges,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""wipes"",
+  ""quantity"": 4
+}",remove,wipes,4
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 1
+}",add,toothpaste,1
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 20
+}",add,towels,20
+"{
+  ""action"": ""add"",
+  ""product"": ""vegetables"",
+  ""quantity"": 6
+}",add,vegetables,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 15
+}",remove,potatoes,15
+"{
+  ""action"": ""add"",
+  ""product"": ""pizza packs"",
+  ""quantity"": 13
+}",add,pizza packs,13
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 4
+}",add,potatoes,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""kibble"",
+  ""quantity"": 10
+}",remove,kibble,10
+"{
+  ""action"": ""add"",
+  ""product"": ""flour"",
+  ""quantity"": 9
+}",add,flour,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""chicken"",
+  ""quantity"": 20
+}",remove,chicken,20
+"{
+  ""action"": ""add"",
+  ""product"": ""sunfloweroil"",
+  ""quantity"": 1
+}",add,sunfloweroil,1
+"{
+  ""action"": ""add"",
+  ""product"": ""sugar"",
+  ""quantity"": 18
+}",add,sugar,18
+"{
+  ""action"": ""add"",
+  ""product"": ""detergent"",
+  ""quantity"": 7
+}",add,detergent,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""oranges"",
+  ""quantity"": 13
+}",remove,oranges,13
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 19
+}",add,tea,19
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 13
+}",add,potatoes,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggplant"",
+  ""quantity"": 9
+}",remove,eggplant,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""pineapple"",
+  ""quantity"": 12
+}",remove,pineapple,12
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 4
+}",add,zucchini,4
+"{
+  ""action"": ""add"",
+  ""product"": ""litter"",
+  ""quantity"": 18
+}",add,litter,18
+"{""action"": ""remove"", ""product"": ""onions"", ""quantity"": 8}",remove,onions,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""14 bread"",
+  ""quantity"": 14
+}",remove,14 bread,14
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 20
+}",add,blueberries,20
+"{""action"": ""add"", ""product"": ""sugar"", ""quantity"": 4}",add,sugar,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 16
+}",remove,mozzarella,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 11
+}",remove,tomatoes,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 7
+}",remove,mushrooms,7
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 12
+}",add,pepper,12
+"{""action"": ""remove"", ""product"": ""batteries"", ""quantity"": 16}",remove,batteries,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""tissues"",
+  ""quantity"": 12
+}",remove,tissues,12
+"{""action"": ""remove"", ""product"": ""blueberries"", ""quantity"": 17}",remove,blueberries,17
+"{
+  ""action"": ""add"",
+  ""product"": ""carrots"",
+  ""quantity"": 8
+}",add,carrots,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 4
+}",remove,mozzarella,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 10
+}",remove,mozzarella,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 7
+}",remove,tea,7
+"{
+  ""action"": ""add"",
+  ""product"": ""oranges"",
+  ""quantity"": 1
+}",add,oranges,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 4
+}",remove,milk,4
+"{
+  ""action"": ""add"",
+  ""product"": ""salmon"",
+  ""quantity"": 4
+}",add,salmon,4
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 4
+}",add,zucchini,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""paper"",
+  ""quantity"": 9
+}",remove,paper,9
+"{
+  ""action"": ""add"",
+  ""product"": ""batteries"",
+  ""quantity"": 18
+}",add,batteries,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 19
+}",remove,mango,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""11 water"",
+  ""quantity"": 11
+}",remove,11 water,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 7
+}",remove,bread,7
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 2
+}",add,tuna,2
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 15
+}",add,gelato,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 2
+}",remove,soda,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 1
+}",remove,soap,1
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 20
+}",add,conditioner,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""wrap"",
+  ""quantity"": 4
+}",remove,wrap,4
+"{""action"": ""add"", ""product"": ""spaghetti"", ""quantity"": 17}",add,spaghetti,17
+"{""action"": ""add"", ""product"": ""oatmeal"", ""quantity"": 7}",add,oatmeal,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 16
+}",remove,tomatoes,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 15
+}",remove,detergent,15
+"{
+  ""action"": ""add"",
+  ""product"": ""pasta"",
+  ""quantity"": 13
+}",add,pasta,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 2
+}",remove,water,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 6
+}",remove,raspberries,6
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 2
+}",add,toothbrush,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 5
+}",remove,juice,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""spinach"",
+  ""quantity"": 15
+}",remove,spinach,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 18
+}",remove,mozzarella,18
+"{""action"": ""remove"", ""product"": ""raspberries"", ""quantity"": 15}",remove,raspberries,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""carrots"",
+  ""quantity"": 6
+}",remove,carrots,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""cola"",
+  ""quantity"": 18
+}",remove,cola,18
+"Since ""wrap"" is not a product, it's not included in the output. Here's the extracted information in JSON format:
+
+{
+  ""action"": ""remove"",
+  ""product"": ""wrap"",
+  ""quantity"": 10
+}",remove,wrap,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 7
+}",remove,gelato,7
+"{ ""action"": ""add"", ""product"": ""10 wash"", ""quantity"": 10 }",add,10 wash,10
+"{
+  ""action"": ""add"",
+  ""product"": ""bananas"",
+  ""quantity"": 6
+}",add,bananas,6
+"{""action"": ""add"", ""product"": ""18 watermelon"", ""quantity"": 18}",add,18 watermelon,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 20
+}",remove,blueberries,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 20
+}",remove,strawberries,20
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 20
+}",add,yogurt,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""quinoa"",
+  ""quantity"": 6
+}",remove,quinoa,6
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 9
+}",add,blueberries,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""wipes"",
+  ""quantity"": 20
+}",remove,wipes,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 18
+}",remove,cheddar,18
+"{ ""action"": ""remove"", ""product"": ""lemonade"", ""quantity"": 9 }",remove,lemonade,9
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 2
+}",add,cola,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 2
+}",remove,bellpeppers,2
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 12
+}",add,bread,12
+"{
+  ""action"": ""add"",
+  ""product"": ""cheddar"",
+  ""quantity"": 7
+}",add,cheddar,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""tissues"",
+  ""quantity"": 16
+}",remove,tissues,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 11
+}",remove,vegetables,11
+"{""action"": ""remove"", ""product"": ""limes"", ""quantity"": 12}",remove,limes,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""flour"",
+  ""quantity"": 12
+}",remove,flour,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""14 gelato"",
+  ""quantity"": 14
+}",remove,14 gelato,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""pepper"",
+  ""quantity"": 6
+}",remove,pepper,6
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 13
+}",add,tuna,13
+"{""action"": ""remove"", ""product"": ""milk"", ""quantity"": 14}",remove,milk,14
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 15
+}",add,soap,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 11
+}",remove,coffee,11
+"{
+  ""action"": ""add"",
+  ""product"": ""7 juice"",
+  ""quantity"": 7
+}",add,7 juice,7
+"{
+  ""action"": ""add"",
+  ""product"": ""flour"",
+  ""quantity"": 10
+}",add,flour,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""carrots"",
+  ""quantity"": 9
+}",remove,carrots,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 9
+}",remove,spaghetti,9
+"{""action"": ""add"", ""product"": ""rice"", ""quantity"": 15}",add,rice,15
+"{
+  ""action"": ""add"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 11
+}",add,mushrooms,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 5
+}",remove,strawberries,5
+"{""action"": ""add"", ""product"": ""limes"", ""quantity"": 7}",add,limes,7
+"Since ""wrap"" is not in the cart, we can't determine the action. However, we can determine the product and quantity.
+
+{ ""action"": ""remove"", ""product"": ""wrap"", ""quantity"": 8 }",remove,wrap,8
+"{""action"": ""add"", ""product"": ""sunfloweroil"", ""quantity"": 8}",add,sunfloweroil,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 17
+}",remove,bananas,17
+"{
+  ""action"": ""add"",
+  ""product"": ""eggplant"",
+  ""quantity"": 15
+}",add,eggplant,15
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 14
+}",add,shampoo,14
+"{
+  ""action"": ""add"",
+  ""product"": ""sugar"",
+  ""quantity"": 11
+}",add,sugar,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 19
+}",remove,butter,19
+"{
+  ""action"": ""add"",
+  ""product"": ""salmon"",
+  ""quantity"": 14
+}",add,salmon,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 15
+}",remove,butter,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 9
+}",remove,bulbs,9
+"{
+  ""action"": ""add"",
+  ""product"": ""raspberries"",
+  ""quantity"": 4
+}",add,raspberries,4
+"{""action"": ""remove"", ""product"": ""soda"", ""quantity"": 14}",remove,soda,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 20
+}",remove,mango,20
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 1
+}",add,oliveoil,1
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 10
+}",add,bread,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 16
+}",remove,apples,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 20
+}",remove,bread,20
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 15
+}",add,yogurt,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 20
+}",remove,bags,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""rice"",
+  ""quantity"": 20
+}",remove,rice,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""pasta"",
+  ""quantity"": 20
+}",remove,pasta,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 10
+}",remove,water,10
+"{
+  ""action"": ""add"",
+  ""product"": ""paper"",
+  ""quantity"": 3
+}",add,paper,3
+"{
+  ""action"": ""add"",
+  ""product"": ""bags"",
+  ""quantity"": 5
+}",add,bags,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""sweetpotatoes"",
+  ""quantity"": 8
+}",remove,sweetpotatoes,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""11 gelato"",
+  ""quantity"": 11
+}",remove,11 gelato,11
+"{""action"": ""remove"", ""product"": ""litter"", ""quantity"": 20}",remove,litter,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""wash"",
+  ""quantity"": 1
+}",remove,wash,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 2
+}",remove,strawberries,2
+"{""action"": ""add"", ""product"": ""17 mango"", ""quantity"": 17}",add,17 mango,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 19
+}",remove,bulbs,19
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 5
+}",add,foil,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""cola"",
+  ""quantity"": 18
+}",remove,cola,18
+"{
+  ""action"": ""add"",
+  ""product"": ""cereal"",
+  ""quantity"": 7
+}",add,cereal,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""rice"",
+  ""quantity"": 18
+}",remove,rice,18
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 14
+}",add,blueberries,14
+"{""action"": ""remove"", ""product"": ""quinoa"", ""quantity"": 9}",remove,quinoa,9
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 4
+}",add,toothpaste,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 15
+}",remove,bread,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 2
+}",remove,gelato,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 20
+}",remove,tea,20
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 12
+}",add,soda,12
+"{
+  ""action"": ""add"",
+  ""product"": ""cheddar"",
+  ""quantity"": 2
+}",add,cheddar,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""treats"",
+  ""quantity"": 3
+}",remove,treats,3
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 3
+}",add,shampoo,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 9
+}",remove,gelato,9
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 1
+}",add,spinach,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 5
+}",remove,milk,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""wash"",
+  ""quantity"": 16
+}",remove,wash,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""pizza"",
+  ""quantity"": 19
+}",remove,pizza,19
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 10
+}",add,milk,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemonade"",
+  ""quantity"": 12
+}",remove,lemonade,12
+"{
+  ""action"": ""add"",
+  ""product"": ""lemonade"",
+  ""quantity"": 12
+}",add,lemonade,12
+"{""action"": ""add"", ""product"": ""bellpeppers"", ""quantity"": 9}",add,bellpeppers,9
+"{
+  ""action"": ""add"",
+  ""product"": ""wipes"",
+  ""quantity"": 19
+}",add,wipes,19
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 4
+}",add,yogurt,4
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 8
+}",add,toothpaste,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 12
+}",remove,shampoo,12
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 19
+}",add,juice,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 9
+}",remove,bulbs,9
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 9
+}",add,wrap,9
+"{
+  ""action"": ""add"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 16
+}",add,mozzarella,16
+"{""action"": ""remove"", ""product"": ""avocados"", ""quantity"": 5}",remove,avocados,5
+"{
+  ""action"": ""add"",
+  ""product"": ""pasta"",
+  ""quantity"": 9
+}",add,pasta,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 10
+}",remove,butter,10
+"{
+  ""action"": ""add"",
+  ""product"": ""salmon"",
+  ""quantity"": 5
+}",add,salmon,5
+"{
+  ""action"": ""add"",
+  ""product"": ""apples"",
+  ""quantity"": 2
+}",add,apples,2
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 19
+}",add,toothpaste,19
+"{""action"": ""add"", ""product"": ""butter"", ""quantity"": 12}",add,butter,12
+"{""action"": ""remove"", ""product"": ""paper"", ""quantity"": 3}",remove,paper,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 20
+}",remove,potatoes,20
+"{""action"": ""add"", ""product"": ""bellpeppers"", ""quantity"": 20}",add,bellpeppers,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 15
+}",remove,coffee,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 12
+}",remove,yogurt,12
+"{""action"": ""remove"", ""product"": ""wrap"", ""quantity"": 20}",remove,wrap,20
+"{
+  ""action"": ""add"",
+  ""product"": ""granola"",
+  ""quantity"": 12
+}",add,granola,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 9
+}",remove,water,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 19
+}",remove,bread,19
+"{
+  ""action"": ""add"",
+  ""product"": ""eggplant"",
+  ""quantity"": 14
+}",add,eggplant,14
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 3
+}",add,toothpaste,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 4
+}",remove,blueberries,4
+"{""action"": ""add"", ""product"": ""1 batteries"", ""quantity"": 1}",add,1 batteries,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 10
+}",remove,yogurt,10
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 16
+}",add,soap,16
+"{
+  ""action"": ""add"",
+  ""product"": ""avocados"",
+  ""quantity"": 16
+}",add,avocados,16
+"{""action"": ""add"", ""product"": ""16 tuna"", ""quantity"": 16}",add,16 tuna,16
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 20
+}",add,kibble,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""quinoa"",
+  ""quantity"": null
+}",,,0
+"{""action"": ""add"", ""product"": ""flour"", ""quantity"": 15}",add,flour,15
+"{
+  ""action"": ""add"",
+  ""product"": ""avocados"",
+  ""quantity"": 17
+}",add,avocados,17
+"{ ""action"": ""remove"", ""product"": ""sunfloweroil"", ""quantity"": 15 }",remove,sunfloweroil,15
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 6
+}",add,cola,6
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 5
+}",add,blueberries,5
+"{""action"": ""remove"", ""product"": ""limes"", ""quantity"": 9}",remove,limes,9
+"Based on your message, I extracted the following information:
+
+{
+  ""action"": ""remove"",
+  ""product"": ""litter"",
+  ""quantity"": 20
+}",remove,litter,20
+"{""action"": ""remove"", ""product"": ""17 rice"", ""quantity"": 17}",remove,17 rice,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 19
+}",remove,soap,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""towels"",
+  ""quantity"": 13
+}",remove,towels,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 4
+}",remove,potatoes,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 6
+}",remove,mushrooms,6
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 3
+}",add,juice,3
+"{
+  ""action"": ""add"",
+  ""product"": ""sunfloweroil"",
+  ""quantity"": 16
+}",add,sunfloweroil,16
+"{ ""action"": ""remove"", ""product"": ""17 wash"", ""quantity"": 17 }",remove,17 wash,17
+"{
+  ""action"": ""add"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 14
+}",add,spaghetti,14
+"{
+  ""action"": ""add"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 2
+}",add,oatmeal,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 3
+}",remove,mango,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 10
+}",remove,soda,10
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 12
+}",add,coffee,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 8
+}",remove,blueberries,8
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 19
+}",add,oliveoil,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 19
+}",remove,oliveoil,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 20
+}",remove,brownsugar,20
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 2
+}",add,eggs,2
+"{
+  ""action"": ""add"",
+  ""product"": ""lemons"",
+  ""quantity"": 15
+}",add,lemons,15
+"{""action"": ""remove"", ""product"": ""cheddar"", ""quantity"": 6}",remove,cheddar,6
+"{
+  ""action"": ""add"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 1
+}",add,oatmeal,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""pizza"",
+  ""quantity"": 13
+}",remove,pizza,13
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 13
+}",add,milk,13
+"{""action"": ""remove"", ""product"": ""wipes"", ""quantity"": 8}",remove,wipes,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""pizza"",
+  ""quantity"": 3
+}",remove,pizza,3
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 5
+}",add,water,5
+"{""action"": ""add"", ""product"": ""limes"", ""quantity"": 4}",add,limes,4
+"{""action"": ""remove"", ""product"": ""eggs"", ""quantity"": 9}",remove,eggs,9
+"{
+  ""action"": ""add"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 20
+}",add,mushrooms,20
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 1
+}",add,milk,1
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 3
+}",add,towels,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 7
+}",remove,strawberries,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""spinach"",
+  ""quantity"": 6
+}",remove,spinach,6
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 20
+}",add,yogurt,20
+"{""action"": ""remove"", ""product"": ""13 tea"", ""quantity"": 1}",remove,13 tea,1
+"{
+  ""action"": ""add"",
+  ""product"": ""apples"",
+  ""quantity"": 20
+}",add,apples,20
+"{
+  ""action"": ""add"",
+  ""product"": ""treats"",
+  ""quantity"": 14
+}",add,treats,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""9 rice"",
+  ""quantity"": 9
+}",remove,9 rice,9
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 20
+}",add,spinach,20
+"{
+  ""action"": ""add"",
+  ""product"": ""pasta"",
+  ""quantity"": 14
+}",add,pasta,14
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 11
+}",add,bulbs,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""11 soap"",
+  ""quantity"": 11
+}",remove,11 soap,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 3
+}",remove,milk,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 9
+}",remove,gelato,9
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 4
+}",add,pepper,4
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 19
+}",add,broccoli,19
+"{
+  ""action"": ""add"",
+  ""product"": ""onions"",
+  ""quantity"": 16
+}",add,onions,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""sugar"",
+  ""quantity"": 19
+}",remove,sugar,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 8
+}",remove,juice,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""diapers"",
+  ""quantity"": 17
+}",remove,diapers,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""14 juice"",
+  ""quantity"": 14
+}",remove,14 juice,14
+"{ ""action"": ""add"", ""product"": ""bellpeppers"", ""quantity"": 1 }",add,bellpeppers,1
+"{""action"": ""add"", ""product"": ""11 bread"", ""quantity"": 11}",add,11 bread,11
+"{
+  ""action"": ""add"",
+  ""product"": ""cereal"",
+  ""quantity"": 5
+}",add,cereal,5
+"{""action"": ""remove"", ""product"": ""raspberries"", ""quantity"": 16}",remove,raspberries,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 16
+}",remove,butter,16
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 13
+}",add,eggs,13
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 5
+}",add,potatoes,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""broccoli"",
+  ""quantity"": 14
+}",remove,broccoli,14
+"{""action"": ""add"", ""product"": ""blueberries"", ""quantity"": 7}",add,blueberries,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 15
+}",remove,mushrooms,15
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 2
+}",add,kibble,2
+"{
+  ""action"": ""add"",
+  ""product"": ""batteries"",
+  ""quantity"": 2
+}",add,batteries,2
+"{
+  ""action"": ""add"",
+  ""product"": ""flour"",
+  ""quantity"": 11
+}",add,flour,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 19
+}",remove,bulbs,19
+"{""action"": ""remove"", ""product"": ""soda"", ""quantity"": 6}",remove,soda,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 16
+}",remove,salmon,16
+"{
+  ""action"": ""add"",
+  ""product"": ""detergent"",
+  ""quantity"": 14
+}",add,detergent,14
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 6
+}",add,tea,6
+"{""action"": ""remove"", ""product"": ""toothbrush"", ""quantity"": 6}",remove,toothbrush,6
+"{
+  ""action"": ""add"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 1
+}",add,cucumbers,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 20
+}",remove,oliveoil,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""kibble"",
+  ""quantity"": 12
+}",remove,kibble,12
+"{
+  ""action"": ""add"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 1
+}",add,mushrooms,1
+"{
+  ""action"": ""add"",
+  ""product"": ""limes"",
+  ""quantity"": 11
+}",add,limes,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 12
+}",remove,cucumbers,12
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 19
+}",add,eggs,19
+"{
+  ""action"": ""add"",
+  ""product"": ""beef"",
+  ""quantity"": 1
+}",add,beef,1
+"{""action"": ""add"", ""product"": ""5 soap"", ""quantity"": 5}",add,5 soap,5
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 18
+}",add,gelato,18
+"{""action"": ""add"", ""product"": ""cola"", ""quantity"": 18}",add,cola,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 2
+}",remove,coffee,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""litter"",
+  ""quantity"": 1
+}",remove,litter,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 13
+}",remove,bread,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""beef"",
+  ""quantity"": 11
+}",remove,beef,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""fries"",
+  ""quantity"": 14
+}",remove,fries,14
+"{""action"": ""remove"", ""product"": ""foil"", ""quantity"": 19}",remove,foil,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 13
+}",remove,cheddar,13
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 20
+}",add,pepper,20
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 18
+}",add,coffee,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 18
+}",remove,bags,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""tuna"",
+  ""quantity"": 15
+}",remove,tuna,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""13 pepper"",
+  ""quantity"": 1
+}",remove,13 pepper,1
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 13
+}",add,chicken,13
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 13
+}",add,bread,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 3
+}",remove,apples,3
+"{""action"": ""remove"", ""product"": ""gelato"", ""quantity"": 8}",remove,gelato,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""tissues"",
+  ""quantity"": 7
+}",remove,tissues,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""watermelon"",
+  ""quantity"": 3
+}",remove,watermelon,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 4
+}",remove,bread,4
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 14
+}",add,foil,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 17
+}",remove,bulbs,17
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 15
+}",add,wrap,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""treats"",
+  ""quantity"": 17
+}",remove,treats,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 19
+}",remove,bellpeppers,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 19
+}",remove,mushrooms,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 2
+}",remove,shampoo,2
+"{""action"": ""add"", ""product"": ""8 foil"", ""quantity"": 8}",add,8 foil,8
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 16
+}",add,blueberries,16
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 10
+}",add,potatoes,10
+"{""action"": ""add"", ""product"": ""sugar"", ""quantity"": 19}",add,sugar,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 8
+}",remove,toothpaste,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggs"",
+  ""quantity"": 14
+}",remove,eggs,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""rice"",
+  ""quantity"": 1
+}",remove,rice,1
+"{""action"": ""remove"", ""product"": ""blueberries"", ""quantity"": 1}",remove,blueberries,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 1
+}",remove,bread,1
+"{
+  ""action"": ""add"",
+  ""product"": ""cucumber"",
+  ""quantity"": 4
+}",add,cucumber,4
+"{
+  ""action"": ""add"",
+  ""product"": ""9 juice"",
+  ""quantity"": 9
+}",add,9 juice,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""sweetpotatoes"",
+  ""quantity"": 11
+}",remove,sweetpotatoes,11
+"{""action"": ""remove"", ""product"": ""gelato"", ""quantity"": 14}",remove,gelato,14
+"{""action"": ""add"", ""product"": ""15 gelato"", ""quantity"": 15}",add,15 gelato,15
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 18
+}",add,conditioner,18
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 1
+}",add,oliveoil,1
+"{""action"": ""add"", ""product"": ""pasta"", ""quantity"": 3}",add,pasta,3
+"{
+  ""action"": ""add"",
+  ""product"": ""lemons"",
+  ""quantity"": 1
+}",add,lemons,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""onions"",
+  ""quantity"": 1
+}",remove,onions,1
+"{
+  ""action"": ""add"",
+  ""product"": ""oranges"",
+  ""quantity"": 7
+}",add,oranges,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 12
+}",remove,tomatoes,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 5
+}",remove,raspberries,5
+"{
+  ""action"": ""add"",
+  ""product"": ""avocados"",
+  ""quantity"": 3
+}",add,avocados,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 11
+}",remove,vegetables,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggs"",
+  ""quantity"": 13
+}",remove,eggs,13
+"{
+  ""action"": ""add"",
+  ""product"": ""bananas"",
+  ""quantity"": 19
+}",add,bananas,19
+"{
+  ""action"": ""add"",
+  ""product"": ""granola"",
+  ""quantity"": 6
+}",add,granola,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""rice"",
+  ""quantity"": 15
+}",remove,rice,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 10
+}",remove,bananas,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""paper"",
+  ""quantity"": 17
+}",remove,paper,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""batteries"",
+  ""quantity"": 8
+}",remove,batteries,8
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 9
+}",add,tea,9
+"{
+  ""action"": ""add"",
+  ""product"": ""beef"",
+  ""quantity"": 15
+}",add,beef,15
+"{""action"": ""remove"", ""product"": ""yogurt"", ""quantity"": 16}",remove,yogurt,16
+"{
+  ""action"": ""add"",
+  ""product"": ""salt"",
+  ""quantity"": 16
+}",add,salt,16
+"{""action"": ""add"", ""product"": ""sunfloweroil"", ""quantity"": 14}",add,sunfloweroil,14
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 1
+}",add,bread,1
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 6
+}",add,chicken,6
+"{""action"": ""remove"", ""product"": ""eggplant"", ""quantity"": 5}",remove,eggplant,5
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 3
+}",add,coffee,3
+"{
+  ""action"": ""add"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 5
+}",add,tomatoes,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 8
+}",remove,oatmeal,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 1
+}",remove,soap,1
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 7
+}",add,bread,7
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 14
+}",add,milk,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 20
+}",remove,cheddar,20
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 9
+}",add,yogurt,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 16
+}",remove,cucumbers,16
+"{""action"": ""add"", ""product"": ""1 pepper"", ""quantity"": 1}",add,1 pepper,1
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 9
+}",add,foil,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""pineapple"",
+  ""quantity"": 4
+}",remove,pineapple,4
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 4
+}",add,zucchini,4
+"{
+  ""action"": ""add"",
+  ""product"": ""litter"",
+  ""quantity"": 20
+}",add,litter,20
+"{
+  ""action"": ""add"",
+  ""product"": ""cheddar"",
+  ""quantity"": 2
+}",add,cheddar,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 20
+}",remove,brownsugar,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 16
+}",remove,apples,16
+"{""action"": ""remove"", ""product"": ""sunfloweroil"", ""quantity"": 19}",remove,sunfloweroil,19
+"{
+  ""action"": ""add"",
+  ""product"": ""cereal"",
+  ""quantity"": 20
+}",add,cereal,20
+"{
+  ""action"": ""add"",
+  ""product"": ""pineapple"",
+  ""quantity"": 19
+}",add,pineapple,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""garlic"",
+  ""quantity"": 9
+}",remove,garlic,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 20
+}",remove,bulbs,20
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 12
+}",add,blueberries,12
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 17
+}",add,soda,17
+"{""action"": ""add"", ""product"": ""12 granola"", ""quantity"": 12}",add,12 granola,12
+"{
+  ""action"": ""add"",
+  ""product"": ""onions"",
+  ""quantity"": 12
+}",add,onions,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 14
+}",remove,toothpaste,14
+"{""action"": ""add"", ""product"": ""cheddar"", ""quantity"": 3}",add,cheddar,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""cereal"",
+  ""quantity"": 2
+}",remove,cereal,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""fries"",
+  ""quantity"": 11
+}",remove,fries,11
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 2
+}",add,diapers,2
+"{""action"": ""add"", ""product"": ""17 bread"", ""quantity"": 17}",add,17 bread,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 14
+}",remove,mozzarella,14
+"{""action"": ""remove"", ""product"": ""14 rice"", ""quantity"": 14}",remove,14 rice,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 10
+}",remove,juice,10
+"{""action"": ""remove"", ""product"": ""kibble"", ""quantity"": 2}",remove,kibble,2
+"{
+  ""action"": ""add"",
+  ""product"": ""rice"",
+  ""quantity"": 10
+}",add,rice,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""pizza"",
+  ""quantity"": 10
+}",remove,pizza,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 11
+}",remove,coffee,11
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 5
+}",add,milk,5
+"To analyze the message, I'll break it down into three pieces of information:
+
+- action: 'add'
+- product: 'wipes'
+- quantity: 18
+
+Here's the result in JSON format:
+```
+{""action"": ""add"", ""product"": ""wipes"", ""quantity"": 18}
+```",add,wipes,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 4
+}",remove,vegetables,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""cola"",
+  ""quantity"": 9
+}",remove,cola,9
+"{
+  ""action"": ""add"",
+  ""product"": ""salmon"",
+  ""quantity"": 20
+}",add,salmon,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 15
+}",remove,bulbs,15
+"{""action"": ""remove"", ""product"": ""cucumbers"", ""quantity"": 11}",remove,cucumbers,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 10
+}",remove,vegetables,10
+"{""action"": ""add"", ""product"": ""18 pineapple"", ""quantity"": 18}",add,18 pineapple,18
+"{
+  ""action"": ""add"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 5
+}",add,spaghetti,5
+"{
+  ""action"": ""add"",
+  ""product"": ""sugar"",
+  ""quantity"": 14
+}",add,sugar,14
+"{""action"": ""add"", ""product"": ""paper"", ""quantity"": 3}",add,paper,3
+"{
+  ""action"": ""add"",
+  ""product"": ""batteries"",
+  ""quantity"": 17
+}",add,batteries,17
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 1
+}",add,conditioner,1
+"{""action"": ""add"", ""product"": ""vegetables"", ""quantity"": 6}",add,vegetables,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 2
+}",remove,detergent,2
+"{""action"": ""remove"", ""product"": ""10 wash"", ""quantity"": 10}",remove,10 wash,10
+"{""action"": ""remove"", ""product"": ""bellpeppers"", ""quantity"": 8}",remove,bellpeppers,8
+"{""action"": ""add"", ""product"": ""spaghetti"", ""quantity"": 3}",add,spaghetti,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""pepper"",
+  ""quantity"": 10
+}",remove,pepper,10
+"{
+  ""action"": ""add"",
+  ""product"": ""pasta"",
+  ""quantity"": 5
+}",add,pasta,5
+"{""action"": ""add"", ""product"": ""20 wash"", ""quantity"": 20}",add,20 wash,20
+"{
+  ""action"": ""add"",
+  ""product"": ""pizza"",
+  ""quantity"": 1
+}",add,pizza,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 1
+}",remove,potatoes,1
+"{
+  ""action"": ""add"",
+  ""product"": ""lemonade"",
+  ""quantity"": 7
+}",add,lemonade,7
+"{""action"": ""remove"", ""product"": ""treats"", ""quantity"": ""2""}",,,0
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 3
+}",remove,bulbs,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""flour"",
+  ""quantity"": 1
+}",remove,flour,1
+"{
+  ""action"": ""add"",
+  ""product"": ""bananas"",
+  ""quantity"": 15
+}",add,bananas,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""paper"",
+  ""quantity"": 15
+}",remove,paper,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 6
+}",remove,coffee,6
+"{
+  ""action"": ""add"",
+  ""product"": ""sugar"",
+  ""quantity"": 14
+}",add,sugar,14
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 14
+}",add,broccoli,14
+"Since ""throw in 9 salt"" implies adding 9 units of salt to the cart, here's the extracted information in JSON format:
+
+{ ""action"": ""add"", ""product"": ""salt"", ""quantity"": 9 }",add,salt,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""pasta"",
+  ""quantity"": 18
+}",remove,pasta,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""spinach"",
+  ""quantity"": 18
+}",remove,spinach,18
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 3
+}",add,butter,3
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 20
+}",add,spinach,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""broccoli"",
+  ""quantity"": 3
+}",remove,broccoli,3
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 16
+}",add,conditioner,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 4
+}",remove,juice,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 3
+}",remove,potatoes,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""zucchini"",
+  ""quantity"": 10
+}",remove,zucchini,10
+"{""action"": ""add"", ""product"": ""13 cheddar"", ""quantity"": 13}",add,13 cheddar,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""pepper"",
+  ""quantity"": 5
+}",remove,pepper,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 5
+}",remove,cheddar,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 12
+}",remove,oliveoil,12
+"{""action"": ""add"", ""product"": ""salt"", ""quantity"": 14}",add,salt,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""oranges"",
+  ""quantity"": 14
+}",remove,oranges,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""diapers"",
+  ""quantity"": 20
+}",remove,diapers,20
+"Here's the extracted information in JSON format:
+
+{
+  ""action"": ""add"",
+  ""product"": ""treats"",
+  ""quantity"": 5
+}",add,treats,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 19
+}",remove,milk,19
+"{""action"": ""add"", ""product"": ""tissues"", ""quantity"": 8}",add,tissues,8
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 20
+}",add,conditioner,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 14
+}",remove,cheddar,14
+"{""action"": ""add"", ""product"": ""avocados"", ""quantity"": 10}",add,avocados,10
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 10
+}",add,tuna,10
+"{
+  ""action"": ""add"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 15
+}",add,bellpeppers,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""9 pizza"",
+  ""quantity"": 9
+}",remove,9 pizza,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 5
+}",remove,soda,5
+"{
+  ""action"": ""add"",
+  ""product"": ""pasta"",
+  ""quantity"": 9
+}",add,pasta,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""flour"",
+  ""quantity"": 8
+}",remove,flour,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 19
+}",remove,mango,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""paper"",
+  ""quantity"": 11
+}",remove,paper,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemons"",
+  ""quantity"": 13
+}",remove,lemons,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 9
+}",remove,raspberries,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggs"",
+  ""quantity"": 6
+}",remove,eggs,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": null
+}",,,0
+"{""action"": ""remove"", ""product"": ""bellpeppers"", ""quantity"": 6}",remove,bellpeppers,6
+"{""action"": ""remove"", ""product"": ""spaghetti"", ""quantity"": 20}",remove,spaghetti,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""towels"",
+  ""quantity"": 10
+}",remove,towels,10
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 16
+}",add,coffee,16
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 19
+}",add,tuna,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""pepper"",
+  ""quantity"": 20
+}",remove,pepper,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""beef packs"",
+  ""quantity"": 3
+}",remove,beef packs,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""spinach"",
+  ""quantity"": 10
+}",remove,spinach,10
+"{
+  ""action"": ""add"",
+  ""product"": ""salmon"",
+  ""quantity"": 14
+}",add,salmon,14
+"{""action"": ""remove"", ""product"": ""diapers"", ""quantity"": 17}",remove,diapers,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""avocados"",
+  ""quantity"": 10
+}",remove,avocados,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 12
+}",remove,mozzarella,12
+"{
+  ""action"": ""add"",
+  ""product"": ""paper"",
+  ""quantity"": 12
+}",add,paper,12
+"{
+  ""action"": ""add"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 18
+}",add,brownsugar,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 11
+}",remove,detergent,11
+"{""action"": ""add"", ""product"": ""oliveoil"", ""quantity"": 15}",add,oliveoil,15
+"{ ""action"": ""remove"", ""product"": ""watermelon"", ""quantity"": 19 }",remove,watermelon,19
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 11
+}",add,juice,11
+"{
+  ""action"": ""add"",
+  ""product"": ""vegetables"",
+  ""quantity"": 1
+}",add,vegetables,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""salt"",
+  ""quantity"": 9
+}",remove,salt,9
+"Since ""litter"" is not a product, I will assume it's a typo and the user meant to say ""dirt"". However, I couldn't find any information about a product called ""dirt"". 
+
+Assuming the user meant to say ""dirt"" but didn't specify a product, I will return a default value for the product. 
+
+Here's the result in JSON format:
+
+{ ""action"": ""remove"", ""product"": ""dirt"", ""quantity"": 1 }",remove,dirt,1
+"{""action"": ""add"", ""product"": ""raspberries"", ""quantity"": 11}",add,raspberries,11
+"{""action"": ""remove"", ""product"": ""avocados"", ""quantity"": 16}",remove,avocados,16
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 2
+}",add,soda,2
+"{
+  ""action"": ""add"",
+  ""product"": ""quinoa"",
+  ""quantity"": 14
+}",add,quinoa,14
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 9
+}",add,spinach,9
+"{
+  ""action"": ""add"",
+  ""product"": ""beef"",
+  ""quantity"": 5
+}",add,beef,5
+"{
+  ""action"": ""add"",
+  ""product"": ""19 quinoa"",
+  ""quantity"": 19
+}",add,19 quinoa,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 19
+}",remove,yogurt,19
+"{""action"": ""remove"", ""product"": ""coffee"", ""quantity"": 5}",remove,coffee,5
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 11
+}",add,chicken,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 1
+}",remove,bags,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""cereal"",
+  ""quantity"": 20
+}",remove,cereal,20
+"{
+  ""action"": ""add"",
+  ""product"": ""apples"",
+  ""quantity"": 12
+}",add,apples,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""9 juice"",
+  ""quantity"": 9
+}",remove,9 juice,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""9 tea"",
+  ""quantity"": 9
+}",remove,9 tea,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 16
+}",remove,gelato,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 19
+}",remove,bread,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 12
+}",remove,gelato,12
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 15
+}",add,bread,15
+"{
+  ""action"": ""add"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 5
+}",add,spaghetti,5
+"{
+  ""action"": ""add"",
+  ""product"": ""limes"",
+  ""quantity"": 1
+}",add,limes,1
+"{
+  ""action"": ""add"",
+  ""product"": ""beef"",
+  ""quantity"": 10
+}",add,beef,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 9
+}",remove,cheddar,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 3
+}",remove,soap,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 19
+}",remove,butter,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 12
+}",remove,raspberries,12
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 4
+}",add,toothbrush,4
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 11
+}",add,foil,11
+"{
+  ""action"": ""add"",
+  ""product"": ""19 pepper"",
+  ""quantity"": 19
+}",add,19 pepper,19
+"{""action"": ""add"", ""product"": ""detergent"", ""quantity"": 17}",add,detergent,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""pizza"",
+  ""quantity"": 13
+}",remove,pizza,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 5
+}",remove,yogurt,5
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 17
+}",add,yogurt,17
+"{
+  ""action"": ""add"",
+  ""product"": ""19 kibble"",
+  ""quantity"": 19
+}",add,19 kibble,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 2
+}",remove,coffee,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""spinach"",
+  ""quantity"": 6
+}",remove,spinach,6
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 7
+}",add,blueberries,7
+"{
+  ""action"": ""add"",
+  ""product"": ""carrots"",
+  ""quantity"": 13
+}",add,carrots,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 11
+}",remove,bulbs,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 11
+}",remove,bananas,11
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 6
+}",add,broccoli,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 7
+}",remove,tea,7
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 8
+}",add,milk,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 18
+}",remove,coffee,18
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 20
+}",add,shampoo,20
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 15
+}",add,butter,15
+"{
+  ""action"": ""add"",
+  ""product"": ""batteries"",
+  ""quantity"": 9
+}",add,batteries,9
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 13
+}",add,bulbs,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 10
+}",remove,tea,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemons"",
+  ""quantity"": 16
+}",remove,lemons,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""14 wash"",
+  ""quantity"": 14
+}",remove,14 wash,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 15
+}",remove,cucumbers,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 13
+}",remove,mango,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 18
+}",remove,detergent,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""cereal"",
+  ""quantity"": 4
+}",remove,cereal,4
+"{
+  ""action"": ""add"",
+  ""product"": ""limes"",
+  ""quantity"": 18
+}",add,limes,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""paper"",
+  ""quantity"": 19
+}",remove,paper,19
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 20
+}",add,bread,20
+"{""action"": ""remove"", ""product"": ""tissues"", ""quantity"": 5}",remove,tissues,5
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 16
+}",add,kibble,16
+"{
+  ""action"": ""add"",
+  ""product"": ""detergent"",
+  ""quantity"": 9
+}",add,detergent,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""sunfloweroil"",
+  ""quantity"": 15
+}",remove,sunfloweroil,15
+"{""action"": ""remove"", ""product"": ""salt"", ""quantity"": 9}",remove,salt,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""garlic"",
+  ""quantity"": 3
+}",remove,garlic,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 9
+}",remove,bananas,9
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 4
+}",add,broccoli,4
+"{""action"": ""add"", ""product"": ""spinach"", ""quantity"": 7}",add,spinach,7
+"Since the user mentioned ""salt"" without specifying any quantity, and the action is not explicitly mentioned, I will assume the action is 'add' and the quantity is 20. Here's the extracted information in JSON format:
+
+{ ""action"": ""add"", ""product"": ""salt"", ""quantity"": 20 }",add,salt,20
+"{
+  ""action"": ""add"",
+  ""product"": ""mango"",
+  ""quantity"": 17
+}",add,mango,17
+"{ ""action"": ""add"", ""product"": ""tissues"", ""quantity"": 2 }",add,tissues,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""sweetpotatoes"",
+  ""quantity"": 17
+}",remove,sweetpotatoes,17
+"{""action"": ""remove"", ""product"": ""diapers"", ""quantity"": 13}",remove,diapers,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""beef"",
+  ""quantity"": 11
+}",remove,beef,11
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 18
+}",add,yogurt,18
+"{""action"": ""add"", ""product"": ""18 gelato"", ""quantity"": 18}",add,18 gelato,18
+"{""action"": ""add"", ""product"": ""mushrooms"", ""quantity"": 7}",add,mushrooms,7
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 6
+}",add,gelato,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""tuna"",
+  ""quantity"": 15
+}",remove,tuna,15
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 6
+}",add,bread,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""oranges"",
+  ""quantity"": 9
+}",remove,oranges,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 1
+}",remove,yogurt,1
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 6
+}",add,oliveoil,6
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 15
+}",add,tea,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 3
+}",remove,bread,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 10
+}",remove,bananas,10
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 4
+}",add,blueberries,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""avocados"",
+  ""quantity"": 4
+}",remove,avocados,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 7
+}",remove,mango,7
+"{""action"": ""remove"", ""product"": ""gelato"", ""quantity"": 18}",remove,gelato,18
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 8
+}",add,toothbrush,8
+"{""action"": ""remove"", ""product"": ""avocados"", ""quantity"": 2}",remove,avocados,2
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 7
+}",add,bread,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""12 soap"",
+  ""quantity"": 12
+}",remove,12 soap,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemonade"",
+  ""quantity"": 20
+}",remove,lemonade,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""zucchini"",
+  ""quantity"": 20
+}",remove,zucchini,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""zucchini"",
+  ""quantity"": 9
+}",remove,zucchini,9
+"{""action"": ""add"", ""product"": ""foil"", ""quantity"": 6}",add,foil,6
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 3
+}",add,juice,3
+"{""action"": ""add"", ""product"": ""watermelon"", ""quantity"": 5}",add,watermelon,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 9
+}",remove,raspberries,9
+"{
+  ""action"": ""add"",
+  ""product"": ""pizza"",
+  ""quantity"": 3
+}",add,pizza,3
+"{
+  ""action"": ""add"",
+  ""product"": ""sugar"",
+  ""quantity"": 19
+}",add,sugar,19
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 17
+}",add,chicken,17
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 3
+}",add,towels,3
+"{""action"": ""add"", ""product"": ""16 tea"", ""quantity"": 16}",add,16 tea,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 4
+}",remove,milk,4
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 4
+}",add,pepper,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""14 tea"",
+  ""quantity"": 14
+}",remove,14 tea,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""pizzas"",
+  ""quantity"": 18
+}",remove,pizzas,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""sweetpotatoes"",
+  ""quantity"": 10
+}",remove,sweetpotatoes,10
+"{""action"": ""remove"", ""product"": ""13 pizza"", ""quantity"": 13}",remove,13 pizza,13
+"{
+  ""action"": ""add"",
+  ""product"": ""detergent"",
+  ""quantity"": 6
+}",add,detergent,6
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 2
+}",add,oliveoil,2
+"{""action"": ""add"", ""product"": ""salmon"", ""quantity"": 4}",add,salmon,4
+"{""action"": ""remove"", ""product"": ""shampoo"", ""quantity"": 5}",remove,shampoo,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""diapers"",
+  ""quantity"": 13
+}",remove,diapers,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""20 granola"",
+  ""quantity"": 20
+}",remove,20 granola,20
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 3
+}",add,bulbs,3
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 5
+}",add,chicken,5
+"{
+  ""action"": ""add"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 11
+}",add,tomatoes,11
+"{
+  ""action"": ""add"",
+  ""product"": ""mango"",
+  ""quantity"": 1
+}",add,mango,1
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 17
+}",add,toothpaste,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 6
+}",remove,mushrooms,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 13
+}",remove,bread,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 6
+}",remove,shampoo,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""14 beef"",
+  ""quantity"": 14
+}",remove,14 beef,14
+"{
+  ""action"": ""add"",
+  ""product"": ""strawberries"",
+  ""quantity"": 7
+}",add,strawberries,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 9
+}",remove,milk,9
+"{
+  ""action"": ""add"",
+  ""product"": ""limes"",
+  ""quantity"": 7
+}",add,limes,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 8
+}",remove,mushrooms,8
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 2
+}",add,pepper,2
+"{
+  ""action"": ""add"",
+  ""product"": ""wash"",
+  ""quantity"": 8
+}",add,wash,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 19
+}",remove,apples,19
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 8
+}",add,zucchini,8
+"{
+  ""action"": ""add"",
+  ""product"": ""flour"",
+  ""quantity"": 20
+}",add,flour,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 12
+}",remove,oliveoil,12
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 19
+}",add,wrap,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""fries"",
+  ""quantity"": 16
+}",remove,fries,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""wash"",
+  ""quantity"": 17
+}",remove,wash,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""11 pasta"",
+  ""quantity"": 11
+}",remove,11 pasta,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""cola"",
+  ""quantity"": 3
+}",remove,cola,3
+"{
+  ""action"": ""add"",
+  ""product"": ""carrots"",
+  ""quantity"": 6
+}",add,carrots,6
+"{
+  ""action"": ""add"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 17
+}",add,oatmeal,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 6
+}",remove,coffee,6
+"{
+  ""action"": ""add"",
+  ""product"": ""garlic"",
+  ""quantity"": 4
+}",add,garlic,4
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 19
+}",add,oliveoil,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""cola"",
+  ""quantity"": 10
+}",remove,cola,10
+"{""action"": ""add"", ""product"": ""coffee"", ""quantity"": 9}",add,coffee,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 5
+}",remove,milk,5
+"{
+  ""action"": ""add"",
+  ""product"": ""eggplant"",
+  ""quantity"": 11
+}",add,eggplant,11
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 9
+}",add,oliveoil,9
+"{ ""action"": ""remove"", ""product"": ""toothbrush"", ""quantity"": 10 }",remove,toothbrush,10
+"{""action"": ""remove"", ""product"": ""wipes"", ""quantity"": 14}",remove,wipes,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemons"",
+  ""quantity"": 18
+}",remove,lemons,18
+"{
+  ""action"": ""add"",
+  ""product"": ""16 juice"",
+  ""quantity"": 16
+}",add,16 juice,16
+"{
+  ""action"": ""add"",
+  ""product"": ""raspberries"",
+  ""quantity"": 14
+}",add,raspberries,14
+"{""action"": ""add"", ""product"": ""strawberries"", ""quantity"": 4}",add,strawberries,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 8
+}",remove,coffee,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 13
+}",remove,spaghetti,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 19
+}",remove,gelato,19
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 18
+}",add,gelato,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 5
+}",remove,yogurt,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""beef"",
+  ""quantity"": 1
+}",remove,beef,1
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 17
+}",add,yogurt,17
+"{
+  ""action"": ""add"",
+  ""product"": ""sweetpotatoes"",
+  ""quantity"": 20
+}",add,sweetpotatoes,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 17
+}",remove,coffee,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 20
+}",remove,apples,20
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 20
+}",add,foil,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""garlic"",
+  ""quantity"": 18
+}",remove,garlic,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 17
+}",remove,cucumbers,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 2
+}",remove,toothpaste,2
+"{""action"": ""remove"", ""product"": ""granola"", ""quantity"": 5}",remove,granola,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 7
+}",remove,detergent,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 6
+}",remove,brownsugar,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""towels"",
+  ""quantity"": 10
+}",remove,towels,10
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 17
+}",add,zucchini,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 15
+}",remove,coffee,15
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 17
+}",add,gelato,17
+"{""action"": ""add"", ""product"": ""blueberries"", ""quantity"": 11}",add,blueberries,11
+"{""action"": ""add"", ""product"": ""spaghetti"", ""quantity"": 20}",add,spaghetti,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""mango"",
+  ""quantity"": 17
+}",remove,mango,17
+"{""action"": ""remove"", ""product"": ""diapers"", ""quantity"": 18}",remove,diapers,18
+"{""action"": ""add"", ""product"": ""paper"", ""quantity"": 3}",add,paper,3
+"{
+  ""action"": ""add"",
+  ""product"": ""bananas"",
+  ""quantity"": 13
+}",add,bananas,13
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 6
+}",add,water,6
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 15
+}",add,soap,15
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 8
+}",add,pepper,8
+"Since ""litter"" is not a product name, I'll assume it's a typo and you meant to say ""liter"". However, I couldn't find any information about a product called ""liter"". 
+
+Assuming you meant to say ""liter"" and it's a product, I'll create a response. But please note that I couldn't verify the product name.
+
+{ ""action"": ""add"", ""product"": ""liter"", ""quantity"": 6 }",add,liter,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""avocados"",
+  ""quantity"": 19
+}",remove,avocados,19
+"{
+  ""action"": ""add"",
+  ""product"": ""lemonade"",
+  ""quantity"": 12
+}",add,lemonade,12
+"{
+  ""action"": ""add"",
+  ""product"": ""beef"",
+  ""quantity"": 6
+}",add,beef,6
+"{""action"": ""add"", ""product"": ""juice"", ""quantity"": 2}",add,juice,2
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 15
+}",add,soda,15
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 14
+}",add,tuna,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""wrap"",
+  ""quantity"": 5
+}",remove,wrap,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 8
+}",remove,raspberries,8
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 6
+}",add,toothbrush,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""oranges"",
+  ""quantity"": 3
+}",remove,oranges,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 18
+}",remove,bellpeppers,18
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 2
+}",add,yogurt,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""watermelon"",
+  ""quantity"": 5
+}",remove,watermelon,5
+"{""action"": ""remove"", ""product"": ""bellpeppers"", ""quantity"": 20}",remove,bellpeppers,20
+"{
+  ""action"": ""add"",
+  ""product"": ""eggplant"",
+  ""quantity"": 6
+}",add,eggplant,6
+"{
+  ""action"": ""add"",
+  ""product"": ""batteries"",
+  ""quantity"": 19
+}",add,batteries,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 19
+}",remove,milk,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""salt"",
+  ""quantity"": 4
+}",remove,salt,4
+"{""action"": ""remove"", ""product"": ""vegetables"", ""quantity"": 12}",remove,vegetables,12
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 12
+}",add,eggs,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 3
+}",remove,mozzarella,3
+"{
+  ""action"": ""add"",
+  ""product"": ""salmon"",
+  ""quantity"": 13
+}",add,salmon,13
+"{""action"": ""add"", ""product"": ""gelato"", ""quantity"": 16}",add,gelato,16
+"{
+  ""action"": ""add"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 3
+}",add,brownsugar,3
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 11
+}",add,cola,11
+"{ ""action"": ""remove"", ""product"": ""sweetpotatoes"", ""quantity"": 12 }",remove,sweetpotatoes,12
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 20
+}",add,cola,20
+"{""action"": ""add"", ""product"": ""onions"", ""quantity"": 19}",add,onions,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""18 kibble"",
+  ""quantity"": 18
+}",remove,18 kibble,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 14
+}",remove,soda,14
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 19
+}",add,eggs,19
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 6
+}",add,soda,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 14
+}",remove,cheddar,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""wipes"",
+  ""quantity"": 10
+}",remove,wipes,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""fries"",
+  ""quantity"": 12
+}",remove,fries,12
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 17
+}",add,towels,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""17 soap"",
+  ""quantity"": 17
+}",remove,17 soap,17
+"{
+  ""action"": ""add"",
+  ""product"": ""carrots"",
+  ""quantity"": 17
+}",add,carrots,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""wipes"",
+  ""quantity"": 17
+}",remove,wipes,17
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 6
+}",add,coffee,6
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 2
+}",add,potatoes,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""carrots"",
+  ""quantity"": 10
+}",remove,carrots,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 15
+}",remove,shampoo,15
+"{""action"": ""remove"", ""product"": ""onions"", ""quantity"": 6}",remove,onions,6
+"{
+  ""action"": ""add"",
+  ""product"": ""avocados"",
+  ""quantity"": 2
+}",add,avocados,2
+"{""action"": ""add"", ""product"": ""strawberries"", ""quantity"": 5}",add,strawberries,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 10
+}",remove,butter,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 1
+}",remove,potatoes,1
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 18
+}",add,bread,18
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 17
+}",add,butter,17
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 14
+}",add,zucchini,14
+"{
+  ""action"": ""add"",
+  ""product"": ""lemons"",
+  ""quantity"": 19
+}",add,lemons,19
+"{""action"": ""add"", ""product"": ""flour"", ""quantity"": 15}",add,flour,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 4
+}",remove,gelato,4
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 2
+}",add,kibble,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 6
+}",remove,soda,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""kibble"",
+  ""quantity"": 17
+}",remove,kibble,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 7
+}",remove,tomatoes,7
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 18
+}",add,bulbs,18
+"{""action"": ""add"", ""product"": ""5 rice"", ""quantity"": 5}",add,5 rice,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""pizza"",
+  ""quantity"": 15
+}",remove,pizza,15
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 5
+}",add,spinach,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 15
+}",remove,bread,15
+"{
+  ""action"": ""add"",
+  ""product"": ""garlic"",
+  ""quantity"": 9
+}",add,garlic,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 3
+}",remove,bags,3
+"{""action"": ""add"", ""product"": ""tomatoes"", ""quantity"": 14}",add,tomatoes,14
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 12
+}",add,gelato,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""zucchini"",
+  ""quantity"": 7
+}",remove,zucchini,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 1
+}",remove,tomatoes,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 8
+}",remove,tomatoes,8
+"{
+  ""action"": ""add"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 4
+}",add,brownsugar,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""beef"",
+  ""quantity"": null
+}",,,0
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 16
+}",remove,bread,16
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 1
+}",add,zucchini,1
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 10
+}",add,spinach,10
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 18
+}",add,kibble,18
+"{""action"": ""add"", ""product"": ""tomatoes"", ""quantity"": 18}",add,tomatoes,18
+"{ ""action"": ""add"", ""product"": ""5 toothpaste"", ""quantity"": 5 }",add,5 toothpaste,5
+"{""action"": ""add"", ""product"": ""wipes"", ""quantity"": 6}",add,wipes,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 8
+}",remove,bulbs,8
+"{""action"": ""remove"", ""product"": ""6 tea"", ""quantity"": 6}",remove,6 tea,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 20
+}",remove,milk,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 4
+}",remove,bellpeppers,4
+"{
+  ""action"": ""add"",
+  ""product"": ""wipes"",
+  ""quantity"": 10
+}",add,wipes,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""broccoli"",
+  ""quantity"": 3
+}",remove,broccoli,3
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 3
+}",add,foil,3
+"{
+  ""action"": ""add"",
+  ""product"": ""bulbs"",
+  ""quantity"": 6
+}",add,bulbs,6
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 8
+}",add,water,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""pasta"",
+  ""quantity"": 16
+}",remove,pasta,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 11
+}",remove,toothbrush,11
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 16
+}",add,juice,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 19
+}",remove,tea,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 13
+}",remove,butter,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""rice"",
+  ""quantity"": 8
+}",remove,rice,8
+"{""action"": ""add"", ""product"": ""strawberries"", ""quantity"": 8}",add,strawberries,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 8
+}",remove,shampoo,8
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 15
+}",add,shampoo,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 11
+}",remove,strawberries,11
+"{
+  ""action"": ""add"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 18
+}",add,cucumbers,18
+"Since ""litter"" is not a product mentioned in the message, I will assume it's a typo and the user meant to say ""liter"". However, I will not extract any information as there is no product mentioned.
+
+But if we consider ""litter"" as a product, here's the response:
+
+{ ""action"": ""remove"", ""product"": ""litter"", ""quantity"": 1 }",remove,litter,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""litter"",
+  ""quantity"": 2
+}",remove,litter,2
+"{
+  ""action"": ""add"",
+  ""product"": ""lemonade"",
+  ""quantity"": 10
+}",add,lemonade,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 13
+}",remove,blueberries,13
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 16
+}",add,cola,16
+"{""action"": ""remove"", ""product"": ""raspberries"", ""quantity"": 13}",remove,raspberries,13
+"{""action"": ""add"", ""product"": ""potatoes"", ""quantity"": 6}",add,potatoes,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggplant"",
+  ""quantity"": 17
+}",remove,eggplant,17
+"{""action"": ""add"", ""product"": ""oranges"", ""quantity"": 3}",add,oranges,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggplant"",
+  ""quantity"": 10
+}",remove,eggplant,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""carrots"",
+  ""quantity"": 17
+}",remove,carrots,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 20
+}",remove,water,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 3
+}",remove,bags,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""limes"",
+  ""quantity"": 3
+}",remove,limes,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""shampoo"",
+  ""quantity"": 7
+}",remove,shampoo,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 13
+}",remove,apples,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""spinach"",
+  ""quantity"": 17
+}",remove,spinach,17
+"{
+  ""action"": ""add"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 6
+}",add,oliveoil,6
+"{""action"": ""add"", ""product"": ""shampoo"", ""quantity"": 10}",add,shampoo,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""diapers"",
+  ""quantity"": 7
+}",remove,diapers,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 6
+}",remove,brownsugar,6
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 6
+}",add,diapers,6
+"{""action"": ""remove"", ""product"": ""cola"", ""quantity"": 5}",remove,cola,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""bellpeppers"",
+  ""quantity"": 14
+}",remove,bellpeppers,14
+"{
+  ""action"": ""add"",
+  ""product"": ""flour"",
+  ""quantity"": 16
+}",add,flour,16
+"{
+  ""action"": ""add"",
+  ""product"": ""eggplant"",
+  ""quantity"": 2
+}",add,eggplant,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggplant"",
+  ""quantity"": 17
+}",remove,eggplant,17
+"{
+  ""action"": ""add"",
+  ""product"": ""beef"",
+  ""quantity"": 14
+}",add,beef,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 17
+}",remove,soda,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": 18
+}",remove,foil,18
+"{
+  ""action"": ""add"",
+  ""product"": ""detergent"",
+  ""quantity"": 4
+}",add,detergent,4
+"{""action"": ""add"", ""product"": ""10 garlic"", ""quantity"": 10}",add,10 garlic,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 14
+}",remove,blueberries,14
+"{""action"": ""add"", ""product"": ""brownsugar"", ""quantity"": 17}",add,brownsugar,17
+"{
+  ""action"": ""add"",
+  ""product"": ""oranges"",
+  ""quantity"": 15
+}",add,oranges,15
+"{
+  ""action"": ""add"",
+  ""product"": ""bags"",
+  ""quantity"": 1
+}",add,bags,1
+"{""action"": ""remove"", ""product"": ""19 cereal"", ""quantity"": 1}",remove,19 cereal,1
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 2
+}",add,yogurt,2
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 12
+}",add,conditioner,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""wash"",
+  ""quantity"": 12
+}",remove,wash,12
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 7
+}",add,soda,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 16
+}",remove,yogurt,16
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 20
+}",add,spinach,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""wash"",
+  ""quantity"": 4
+}",remove,wash,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""soda"",
+  ""quantity"": 2
+}",remove,soda,2
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 1
+}",add,toothbrush,1
+"{""action"": ""remove"", ""product"": ""oranges"", ""quantity"": 17}",remove,oranges,17
+"{
+  ""action"": ""add"",
+  ""product"": ""chicken"",
+  ""quantity"": 11
+}",add,chicken,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 4
+}",remove,juice,4
+"{""action"": ""add"", ""product"": ""oatmeal"", ""quantity"": 5}",add,oatmeal,5
+"{
+  ""action"": ""add"",
+  ""product"": ""pineapple"",
+  ""quantity"": 12
+}",add,pineapple,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 7
+}",remove,water,7
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 17
+}",add,cola,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""carrots"",
+  ""quantity"": 4
+}",remove,carrots,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 6
+}",remove,butter,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""bags"",
+  ""quantity"": 18
+}",remove,bags,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 5
+}",remove,bananas,5
+"{ ""action"": ""add"", ""product"": ""lemonade"", ""quantity"": 9 }",add,lemonade,9
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 15
+}",add,water,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 12
+}",remove,oliveoil,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""paper"",
+  ""quantity"": 14
+}",remove,paper,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 11
+}",remove,juice,11
+"{
+  ""action"": ""add"",
+  ""product"": ""bananas"",
+  ""quantity"": 18
+}",add,bananas,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 17
+}",remove,mushrooms,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""pineapple"",
+  ""quantity"": 8
+}",remove,pineapple,8
+"{
+  ""action"": ""add"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 8
+}",add,mozzarella,8
+"{
+  ""action"": ""add"",
+  ""product"": ""sugar"",
+  ""quantity"": 9
+}",add,sugar,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""cola"",
+  ""quantity"": 18
+}",remove,cola,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""16 toothbrush"",
+  ""quantity"": 1
+}",remove,16 toothbrush,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""pasta"",
+  ""quantity"": 5
+}",remove,pasta,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""chicken"",
+  ""quantity"": 10
+}",remove,chicken,10
+"{""action"": ""add"", ""product"": ""limes"", ""quantity"": 13}",add,limes,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 19
+}",remove,water,19
+"{""action"": ""add"", ""product"": ""avocados"", ""quantity"": 2}",add,avocados,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 6
+}",remove,detergent,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 6
+}",remove,potatoes,6
+"{""action"": ""remove"", ""product"": ""conditioner"", ""quantity"": 1}",remove,conditioner,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""limes"",
+  ""quantity"": 7
+}",remove,limes,7
+"{
+  ""action"": ""add"",
+  ""product"": ""flour"",
+  ""quantity"": 5
+}",add,flour,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""blueberries"",
+  ""quantity"": 1
+}",remove,blueberries,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""quinoa"",
+  ""quantity"": 16
+}",remove,quinoa,16
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 6
+}",add,conditioner,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 18
+}",remove,potatoes,18
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 20
+}",add,tuna,20
+"{
+  ""action"": ""add"",
+  ""product"": ""granola"",
+  ""quantity"": 3
+}",add,granola,3
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 7
+}",add,soap,7
+"{""action"": ""add"", ""product"": ""9 juice"", ""quantity"": 9}",add,9 juice,9
+"{ ""action"": ""add"", ""product"": ""watermelon"", ""quantity"": 13 }",add,watermelon,13
+"{
+  ""action"": ""add"",
+  ""product"": ""19 juice"",
+  ""quantity"": 19
+}",add,19 juice,19
+"{
+  ""action"": ""add"",
+  ""product"": ""toothbrush"",
+  ""quantity"": 8
+}",add,toothbrush,8
+"{
+  ""action"": ""add"",
+  ""product"": ""garlic"",
+  ""quantity"": 2
+}",add,garlic,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""onions"",
+  ""quantity"": 8
+}",remove,onions,8
+"{""action"": ""add"", ""product"": ""tissues"", ""quantity"": 20}",add,tissues,20
+"{
+  ""action"": ""add"",
+  ""product"": ""mango"",
+  ""quantity"": 11
+}",add,mango,11
+"{
+  ""action"": ""add"",
+  ""product"": ""onions"",
+  ""quantity"": 6
+}",add,onions,6
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 10
+}",add,kibble,10
+"{
+  ""action"": ""add"",
+  ""product"": ""onions"",
+  ""quantity"": 2
+}",add,onions,2
+"Here's the extracted information in JSON format:
+
+{
+  ""action"": ""add"",
+  ""product"": ""salt"",
+  ""quantity"": 11
+}",add,salt,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 15
+}",remove,potatoes,15
+"{
+  ""action"": ""add"",
+  ""product"": ""garlic"",
+  ""quantity"": 7
+}",add,garlic,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 15
+}",remove,strawberries,15
+"{""action"": ""add"", ""product"": ""paper"", ""quantity"": 13}",add,paper,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 2
+}",remove,coffee,2
+"{""action"": ""add"", ""product"": ""4 bread"", ""quantity"": 4}",add,4 bread,4
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 15
+}",add,wrap,15
+"{
+  ""action"": ""add"",
+  ""product"": ""flour"",
+  ""quantity"": 14
+}",add,flour,14
+"{
+  ""action"": ""add"",
+  ""product"": ""tissues"",
+  ""quantity"": 6
+}",add,tissues,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 14
+}",remove,salmon,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""cereal"",
+  ""quantity"": 13
+}",remove,cereal,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 3
+}",remove,butter,3
+"{
+  ""action"": ""add"",
+  ""product"": ""pasta"",
+  ""quantity"": 17
+}",add,pasta,17
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 18
+}",add,spinach,18
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 3
+}",add,bread,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""tissues"",
+  ""quantity"": 19
+}",remove,tissues,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""quinoa"",
+  ""quantity"": 12
+}",remove,quinoa,12
+"{""action"": ""remove"", ""product"": ""toothpaste"", ""quantity"": 12}",remove,toothpaste,12
+"{
+  ""action"": ""add"",
+  ""product"": ""tissues"",
+  ""quantity"": 9
+}",add,tissues,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""tuna"",
+  ""quantity"": 3
+}",remove,tuna,3
+"{""action"": ""add"", ""product"": ""tissues"", ""quantity"": 12}",add,tissues,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""cheddar"",
+  ""quantity"": 15
+}",remove,cheddar,15
+"{
+  ""action"": ""add"",
+  ""product"": ""garlic"",
+  ""quantity"": 3
+}",add,garlic,3
+"{
+  ""action"": ""add"",
+  ""product"": ""strawberries"",
+  ""quantity"": 4
+}",add,strawberries,4
+"{
+  ""action"": ""add"",
+  ""product"": ""rice"",
+  ""quantity"": 1
+}",add,rice,1
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 2
+}",add,butter,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 9
+}",remove,oatmeal,9
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 8
+}",add,pepper,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""pineapple"",
+  ""quantity"": 6
+}",remove,pineapple,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 6
+}",remove,water,6
+"{
+  ""action"": ""add"",
+  ""product"": ""pineapple"",
+  ""quantity"": 20
+}",add,pineapple,20
+"{
+  ""action"": ""add"",
+  ""product"": ""raspberries"",
+  ""quantity"": 13
+}",add,raspberries,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""kibble"",
+  ""quantity"": 16
+}",remove,kibble,16
+"{""action"": ""remove"", ""product"": ""raspberries"", ""quantity"": 16}",remove,raspberries,16
+"{
+  ""action"": ""add"",
+  ""product"": ""mango"",
+  ""quantity"": 19
+}",add,mango,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 13
+}",remove,detergent,13
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 2
+}",add,broccoli,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""paper"",
+  ""quantity"": 15
+}",remove,paper,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""rice"",
+  ""quantity"": 13
+}",remove,rice,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 19
+}",remove,gelato,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""granola"",
+  ""quantity"": 18
+}",remove,granola,18
+"{""action"": ""add"", ""product"": ""8 tea"", ""quantity"": 8}",add,8 tea,8
+"{
+  ""action"": ""add"",
+  ""product"": ""pizza"",
+  ""quantity"": 3
+}",add,pizza,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""zucchini"",
+  ""quantity"": 11
+}",remove,zucchini,11
+"{""action"": ""remove"", ""product"": ""sweetpotatoes"", ""quantity"": 14}",remove,sweetpotatoes,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""litter"",
+  ""quantity"": 17
+}",remove,litter,17
+"{""action"": ""remove"", ""product"": ""14 shampoo"", ""quantity"": 1}",remove,14 shampoo,1
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 13
+}",add,soap,13
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 4
+}",add,water,4
+"{
+  ""action"": ""add"",
+  ""product"": ""vegetables"",
+  ""quantity"": 6
+}",add,vegetables,6
+"{
+  ""action"": ""add"",
+  ""product"": ""bread"",
+  ""quantity"": 2
+}",add,bread,2
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 2
+}",add,gelato,2
+"{""action"": ""remove"", ""product"": ""19 oatmeal"", ""quantity"": 1}",remove,19 oatmeal,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 15
+}",remove,soap,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 13
+}",remove,butter,13
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 20
+}",add,tea,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""onions"",
+  ""quantity"": 16
+}",remove,onions,16
+"{
+  ""action"": ""add"",
+  ""product"": ""salmon"",
+  ""quantity"": 18
+}",add,salmon,18
+"{""action"": ""add"", ""product"": ""raspberries"", ""quantity"": 2}",add,raspberries,2
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 15
+}",add,gelato,15
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 2
+}",add,conditioner,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggs"",
+  ""quantity"": 1
+}",remove,eggs,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""rice"",
+  ""quantity"": 6
+}",remove,rice,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 18
+}",remove,soap,18
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 7
+}",add,zucchini,7
+"{""action"": ""add"", ""product"": ""bellpeppers"", ""quantity"": 12}",add,bellpeppers,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""conditioner"",
+  ""quantity"": 15
+}",remove,conditioner,15
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 5
+}",add,spinach,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 1
+}",remove,milk,1
+"{""action"": ""remove"", ""product"": ""watermelon"", ""quantity"": 10}",remove,watermelon,10
+"{
+  ""action"": ""add"",
+  ""product"": ""treats"",
+  ""quantity"": 7
+}",add,treats,7
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 8
+}",add,coffee,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""zucchini"",
+  ""quantity"": 10
+}",remove,zucchini,10
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 1
+}",add,soda,1
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 17
+}",add,yogurt,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 19
+}",remove,tea,19
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 5
+}",add,gelato,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggplant"",
+  ""quantity"": 1
+}",remove,eggplant,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 10
+}",remove,raspberries,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 15
+}",remove,spaghetti,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""14 toothbrush"",
+  ""quantity"": 1
+}",remove,14 toothbrush,1
+"{
+  ""action"": ""add"",
+  ""product"": ""foil"",
+  ""quantity"": 20
+}",add,foil,20
+"{
+  ""action"": ""remove"",
+  ""product"": ""diapers"",
+  ""quantity"": 7
+}",remove,diapers,7
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna packs"",
+  ""quantity"": 1
+}",add,tuna packs,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 8
+}",remove,apples,8
+"{
+  ""action"": ""add"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 11
+}",add,cucumbers,11
+"{
+  ""action"": ""add"",
+  ""product"": ""diapers"",
+  ""quantity"": 1
+}",add,diapers,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 8
+}",remove,milk,8
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 10
+}",add,butter,10
+"{ ""action"": ""add"", ""product"": ""watermelon"", ""quantity"": 11 }",add,watermelon,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 10
+}",remove,toothpaste,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""salmon"",
+  ""quantity"": 8
+}",remove,salmon,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""apples"",
+  ""quantity"": 18
+}",remove,apples,18
+"{""action"": ""remove"", ""product"": ""spinach"", ""quantity"": 11}",remove,spinach,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 15
+}",remove,potatoes,15
+"{
+  ""action"": ""add"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 8
+}",add,spaghetti,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""13 gelato"",
+  ""quantity"": 13
+}",remove,13 gelato,13
+"{
+  ""action"": ""add"",
+  ""product"": ""carrots"",
+  ""quantity"": 17
+}",add,carrots,17
+"{
+  ""action"": ""add"",
+  ""product"": ""limes"",
+  ""quantity"": 12
+}",add,limes,12
+"{
+  ""action"": ""add"",
+  ""product"": ""pepper"",
+  ""quantity"": 4
+}",add,pepper,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""raspberries"",
+  ""quantity"": 10
+}",remove,raspberries,10
+"{""action"": ""add"", ""product"": ""4 wash"", ""quantity"": 4}",add,4 wash,4
+"{""action"": ""add"", ""product"": ""blueberries"", ""quantity"": 19}",add,blueberries,19
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 20
+}",add,cola,20
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 17
+}",add,soap,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": 9
+}",remove,foil,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""zucchini"",
+  ""quantity"": 18
+}",remove,zucchini,18
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 3
+}",add,juice,3
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 8
+}",add,tuna,8
+"{
+  ""action"": ""add"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 12
+}",add,tomatoes,12
+"{
+  ""action"": ""add"",
+  ""product"": ""batteries"",
+  ""quantity"": 5
+}",add,batteries,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""oliveoil"",
+  ""quantity"": 1
+}",remove,oliveoil,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""butter"",
+  ""quantity"": 12
+}",remove,butter,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""tuna"",
+  ""quantity"": 17
+}",remove,tuna,17
+"{
+  ""action"": ""add"",
+  ""product"": ""carrots"",
+  ""quantity"": 19
+}",add,carrots,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""9 rice"",
+  ""quantity"": 9
+}",remove,9 rice,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""batteries"",
+  ""quantity"": 12
+}",remove,batteries,12
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 15
+}",add,gelato,15
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 2
+}",add,shampoo,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 15
+}",remove,brownsugar,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 14
+}",remove,yogurt,14
+"{
+  ""action"": ""add"",
+  ""product"": ""water"",
+  ""quantity"": 11
+}",add,water,11
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 15
+}",add,tea,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 20
+}",remove,bananas,20
+"{""action"": ""remove"", ""product"": ""17 wash"", ""quantity"": 17}",remove,17 wash,17
+"{""action"": ""add"", ""product"": ""14 conditioner"", ""quantity"": 14}",add,14 conditioner,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 3
+}",remove,bananas,3
+"{
+  ""action"": ""add"",
+  ""product"": ""salt"",
+  ""quantity"": 7
+}",add,salt,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""bananas"",
+  ""quantity"": 11
+}",remove,bananas,11
+"{
+  ""action"": ""add"",
+  ""product"": ""beef"",
+  ""quantity"": 12
+}",add,beef,12
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 12
+}",add,coffee,12
+"{
+  ""action"": ""add"",
+  ""product"": ""shampoo"",
+  ""quantity"": 6
+}",add,shampoo,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""tuna"",
+  ""quantity"": 9
+}",remove,tuna,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""potatoes"",
+  ""quantity"": 15
+}",remove,potatoes,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 9
+}",remove,yogurt,9
+"{
+  ""action"": ""add"",
+  ""product"": ""batteries"",
+  ""quantity"": 16
+}",add,batteries,16
+"{
+  ""action"": ""add"",
+  ""product"": ""rice"",
+  ""quantity"": 15
+}",add,rice,15
+"{""action"": ""add"", ""product"": ""lemons"", ""quantity"": 13}",add,lemons,13
+"Here's the extracted information in JSON format:
+
+{
+  ""action"": ""add"",
+  ""product"": ""vegetables"",
+  ""quantity"": 20
+}",add,vegetables,20
+"{
+  ""action"": ""add"",
+  ""product"": ""beef"",
+  ""quantity"": 12
+}",add,beef,12
+"{
+  ""action"": ""add"",
+  ""product"": ""sugar"",
+  ""quantity"": 9
+}",add,sugar,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""pineapple"",
+  ""quantity"": 15
+}",remove,pineapple,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""bulbs"",
+  ""quantity"": 12
+}",remove,bulbs,12
+"{
+  ""action"": ""add"",
+  ""product"": ""soap"",
+  ""quantity"": 14
+}",add,soap,14
+"{""action"": ""remove"", ""product"": ""bags"", ""quantity"": 12}",remove,bags,12
+"{
+  ""action"": ""add"",
+  ""product"": ""wipes"",
+  ""quantity"": 19
+}",add,wipes,19
+"{
+  ""action"": ""add"",
+  ""product"": ""granola"",
+  ""quantity"": 11
+}",add,granola,11
+"{
+  ""action"": ""add"",
+  ""product"": ""fries"",
+  ""quantity"": 5
+}",add,fries,5
+"{
+  ""action"": ""add"",
+  ""product"": ""brownsugar"",
+  ""quantity"": 20
+}",add,brownsugar,20
+"{
+  ""action"": ""add"",
+  ""product"": ""strawberries"",
+  ""quantity"": 19
+}",add,strawberries,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""batteries"",
+  ""quantity"": 10
+}",remove,batteries,10
+"{
+  ""action"": ""add"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 7
+}",add,cucumbers,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 16
+}",remove,milk,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""pasta"",
+  ""quantity"": 10
+}",remove,pasta,10
+"{
+  ""action"": ""add"",
+  ""product"": ""vegetables"",
+  ""quantity"": 1
+}",add,vegetables,1
+"{
+  ""action"": ""add"",
+  ""product"": ""raspberries"",
+  ""quantity"": 6
+}",add,raspberries,6
+"{""action"": ""remove"", ""product"": ""gelato"", ""quantity"": 5}",remove,gelato,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 5
+}",remove,coffee,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""tissues"",
+  ""quantity"": 18
+}",remove,tissues,18
+"{""action"": ""add"", ""product"": ""oliveoil"", ""quantity"": 8}",add,oliveoil,8
+"{
+  ""action"": ""add"",
+  ""product"": ""yogurt"",
+  ""quantity"": 5
+}",add,yogurt,5
+"{""action"": ""remove"", ""product"": ""eggs"", ""quantity"": 18}",remove,eggs,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 19
+}",remove,mushrooms,19
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 4
+}",add,spinach,4
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 10
+}",add,kibble,10
+"{
+  ""action"": ""add"",
+  ""product"": ""raspberries"",
+  ""quantity"": 8
+}",add,raspberries,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""chicken"",
+  ""quantity"": 18
+}",remove,chicken,18
+"{ ""action"": ""add"", ""product"": ""watermelon"", ""quantity"": 11 }",add,watermelon,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""oranges"",
+  ""quantity"": 16
+}",remove,oranges,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""batteries"",
+  ""quantity"": 13
+}",remove,batteries,13
+"{
+  ""action"": ""add"",
+  ""product"": ""apples"",
+  ""quantity"": 8
+}",add,apples,8
+"{
+  ""action"": ""add"",
+  ""product"": ""flour"",
+  ""quantity"": 18
+}",add,flour,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""9 water"",
+  ""quantity"": 9
+}",remove,9 water,9
+"{""action"": ""add"", ""product"": ""14 pasta"", ""quantity"": 14}",add,14 pasta,14
+"{
+  ""action"": ""add"",
+  ""product"": ""tuna"",
+  ""quantity"": 20
+}",add,tuna,20
+"{
+  ""action"": ""add"",
+  ""product"": ""towels"",
+  ""quantity"": 18
+}",add,towels,18
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 16
+}",remove,mushrooms,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""broccoli"",
+  ""quantity"": 16
+}",remove,broccoli,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 11
+}",remove,strawberries,11
+"{""action"": ""remove"", ""product"": ""pizza"", ""quantity"": 16}",remove,pizza,16
+"{
+  ""action"": ""add"",
+  ""product"": ""13 pepper"",
+  ""quantity"": 13
+}",add,13 pepper,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 18
+}",remove,soap,18
+"{
+  ""action"": ""add"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 15
+}",add,mushrooms,15
+"{
+  ""action"": ""add"",
+  ""product"": ""kibble"",
+  ""quantity"": 20
+}",add,kibble,20
+"{""action"": ""add"", ""product"": ""12 conditioner"", ""quantity"": 12}",add,12 conditioner,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 15
+}",remove,juice,15
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 2
+}",add,toothpaste,2
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 9
+}",remove,water,9
+"{
+  ""action"": ""add"",
+  ""product"": ""oatmeal"",
+  ""quantity"": 16
+}",add,oatmeal,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""mozzarella"",
+  ""quantity"": 2
+}",remove,mozzarella,2
+"{""action"": ""add"", ""product"": ""towels"", ""quantity"": 8}",add,towels,8
+"{
+  ""action"": ""add"",
+  ""product"": ""butter"",
+  ""quantity"": 17
+}",add,butter,17
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 9
+}",remove,coffee,9
+"{""action"": ""remove"", ""product"": ""sugar"", ""quantity"": 18}",remove,sugar,18
+"{""action"": ""remove"", ""product"": ""treats"", ""quantity"": 13}",remove,treats,13
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 5
+}",remove,tea,5
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 8
+}",add,milk,8
+"{
+  ""action"": ""add"",
+  ""product"": ""14 granola"",
+  ""quantity"": 14
+}",add,14 granola,14
+"{
+  ""action"": ""add"",
+  ""product"": ""rice"",
+  ""quantity"": 17
+}",add,rice,17
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 5
+}",add,juice,5
+"{""action"": ""remove"", ""product"": ""toothbrush"", ""quantity"": 9}",remove,toothbrush,9
+"{""action"": ""add"", ""product"": ""14 bags"", ""quantity"": 14}",add,14 bags,14
+"{""action"": ""add"", ""product"": ""batteries"", ""quantity"": 14}",add,batteries,14
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 9
+}",remove,strawberries,9
+"{
+  ""action"": ""add"",
+  ""product"": ""bags"",
+  ""quantity"": 13
+}",add,bags,13
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 18
+}",add,milk,18
+"{
+  ""action"": ""add"",
+  ""product"": ""treats"",
+  ""quantity"": 12
+}",add,treats,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""14 tea"",
+  ""quantity"": 14
+}",remove,14 tea,14
+"{
+  ""action"": ""add"",
+  ""product"": ""coffee"",
+  ""quantity"": 17
+}",add,coffee,17
+"{
+  ""action"": ""add"",
+  ""product"": ""cereal"",
+  ""quantity"": 13
+}",add,cereal,13
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 5
+}",add,tea,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""lemonade"",
+  ""quantity"": 14
+}",remove,lemonade,14
+"{""action"": ""remove"", ""product"": ""bellpeppers"", ""quantity"": 14}",remove,bellpeppers,14
+"{
+  ""action"": ""add"",
+  ""product"": ""tissues"",
+  ""quantity"": 2
+}",add,tissues,2
+"{
+  ""action"": ""add"",
+  ""product"": ""tea"",
+  ""quantity"": 2
+}",add,tea,2
+"{""action"": ""add"", ""product"": ""towels"", ""quantity"": 8}",add,towels,8
+"{
+  ""action"": ""add"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 1
+}",add,cucumbers,1
+"{
+  ""action"": ""add"",
+  ""product"": ""strawberries"",
+  ""quantity"": 20
+}",add,strawberries,20
+"{
+  ""action"": ""add"",
+  ""product"": ""salt"",
+  ""quantity"": 12
+}",add,salt,12
+"{
+  ""action"": ""add"",
+  ""product"": ""wash"",
+  ""quantity"": 5
+}",add,wash,5
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 9
+}",add,gelato,9
+"{
+  ""action"": ""add"",
+  ""product"": ""zucchini"",
+  ""quantity"": 5
+}",add,zucchini,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""cereal"",
+  ""quantity"": 3
+}",remove,cereal,3
+"{
+  ""action"": ""add"",
+  ""product"": ""11 granola"",
+  ""quantity"": 11
+}",add,11 granola,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 12
+}",remove,vegetables,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""watermelon"",
+  ""quantity"": 3
+}",remove,watermelon,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""soap"",
+  ""quantity"": 6
+}",remove,soap,6
+"{
+  ""action"": ""add"",
+  ""product"": ""18 lemons"",
+  ""quantity"": 18
+}",add,18 lemons,18
+"{
+  ""action"": ""add"",
+  ""product"": ""garlic"",
+  ""quantity"": 4
+}",add,garlic,4
+"{
+  ""action"": ""add"",
+  ""product"": ""potatoes"",
+  ""quantity"": 16
+}",add,potatoes,16
+"{
+  ""action"": ""add"",
+  ""product"": ""cola"",
+  ""quantity"": 7
+}",add,cola,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""treats"",
+  ""quantity"": 4
+}",remove,treats,4
+"{
+  ""action"": ""add"",
+  ""product"": ""broccoli"",
+  ""quantity"": 1
+}",add,broccoli,1
+"{
+  ""action"": ""remove"",
+  ""product"": ""carrots"",
+  ""quantity"": 20
+}",remove,carrots,20
+"{""action"": ""add"", ""product"": ""raspberries"", ""quantity"": 12}",add,raspberries,12
+"{""action"": ""add"", ""product"": ""8 oatmeal"", ""quantity"": 8}",add,8 oatmeal,8
+"{
+  ""action"": ""add"",
+  ""product"": ""apples"",
+  ""quantity"": 10
+}",add,apples,10
+"{
+  ""action"": ""add"",
+  ""product"": ""bags"",
+  ""quantity"": 4
+}",add,bags,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""coffee"",
+  ""quantity"": 7
+}",remove,coffee,7
+"{
+  ""action"": ""add"",
+  ""product"": ""eggs"",
+  ""quantity"": 7
+}",add,eggs,7
+"{
+  ""action"": ""remove"",
+  ""product"": ""beef"",
+  ""quantity"": 14
+}",remove,beef,14
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 4
+}",add,gelato,4
+"{
+  ""action"": ""remove"",
+  ""product"": ""mushrooms"",
+  ""quantity"": 7
+}",remove,mushrooms,7
+"{
+  ""action"": ""add"",
+  ""product"": ""blueberries"",
+  ""quantity"": 19
+}",add,blueberries,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""sunfloweroil"",
+  ""quantity"": 14
+}",remove,sunfloweroil,14
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 2
+}",add,spinach,2
+"{
+  ""action"": ""add"",
+  ""product"": ""cucumbers"",
+  ""quantity"": 20
+}",add,cucumbers,20
+"{
+  ""action"": ""add"",
+  ""product"": ""tissues"",
+  ""quantity"": 3
+}",add,tissues,3
+"{
+  ""action"": ""add"",
+  ""product"": ""wrap"",
+  ""quantity"": 18
+}",add,wrap,18
+"{
+  ""action"": ""add"",
+  ""product"": ""soda"",
+  ""quantity"": 11
+}",add,soda,11
+"{
+  ""action"": ""remove"",
+  ""product"": ""6 juice"",
+  ""quantity"": 6
+}",remove,6 juice,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""tomatoes"",
+  ""quantity"": 16
+}",remove,tomatoes,16
+"{
+  ""action"": ""remove"",
+  ""product"": ""eggs"",
+  ""quantity"": 5
+}",remove,eggs,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 3
+}",remove,water,3
+"{
+  ""action"": ""remove"",
+  ""product"": ""gelato"",
+  ""quantity"": 8
+}",remove,gelato,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""juice"",
+  ""quantity"": 18
+}",remove,juice,18
+"{
+  ""action"": ""add"",
+  ""product"": ""batteries"",
+  ""quantity"": 5
+}",add,batteries,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""bread"",
+  ""quantity"": 15
+}",remove,bread,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""water"",
+  ""quantity"": 14
+}",remove,water,14
+"{
+  ""action"": ""add"",
+  ""product"": ""juice"",
+  ""quantity"": 7
+}",add,juice,7
+"{
+  ""action"": ""add"",
+  ""product"": ""quinoa"",
+  ""quantity"": 5
+}",add,quinoa,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""carrots"",
+  ""quantity"": 3
+}",remove,carrots,3
+"{
+  ""action"": ""add"",
+  ""product"": ""fries"",
+  ""quantity"": 8
+}",add,fries,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""strawberries"",
+  ""quantity"": 20
+}",remove,strawberries,20
+"{
+  ""action"": ""add"",
+  ""product"": ""tissues"",
+  ""quantity"": 17
+}",add,tissues,17
+"{
+  ""action"": ""add"",
+  ""product"": ""rice"",
+  ""quantity"": 14
+}",add,rice,14
+"{
+  ""action"": ""add"",
+  ""product"": ""strawberries"",
+  ""quantity"": 20
+}",add,strawberries,20
+"{
+  ""action"": ""add"",
+  ""product"": ""gelato"",
+  ""quantity"": 18
+}",add,gelato,18
+"{
+  ""action"": ""add"",
+  ""product"": ""litter"",
+  ""quantity"": 15
+}",add,litter,15
+"{
+  ""action"": ""add"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 12
+}",add,spaghetti,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""milk"",
+  ""quantity"": 9
+}",remove,milk,9
+"{
+  ""action"": ""add"",
+  ""product"": ""milk"",
+  ""quantity"": 14
+}",add,milk,14
+"{
+  ""action"": ""add"",
+  ""product"": ""watermelon"",
+  ""quantity"": 18
+}",add,watermelon,18
+"{
+  ""action"": ""add"",
+  ""product"": ""lemonade"",
+  ""quantity"": 8
+}",add,lemonade,8
+"{
+  ""action"": ""remove"",
+  ""product"": ""yogurt"",
+  ""quantity"": 19
+}",remove,yogurt,19
+"{
+  ""action"": ""remove"",
+  ""product"": ""vegetables"",
+  ""quantity"": 20
+}",remove,vegetables,20
+"{ ""action"": ""add"", ""product"": ""toothpaste"", ""quantity"": 11 }",add,toothpaste,11
+"{
+  ""action"": ""add"",
+  ""product"": ""oranges"",
+  ""quantity"": 15
+}",add,oranges,15
+"{
+  ""action"": ""remove"",
+  ""product"": ""6 packs of bread"",
+  ""quantity"": 6
+}",remove,6 packs of bread,6
+"{
+  ""action"": ""remove"",
+  ""product"": ""tea"",
+  ""quantity"": 8
+}",remove,tea,8
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 13
+}",add,spinach,13
+"{
+  ""action"": ""add"",
+  ""product"": ""conditioner"",
+  ""quantity"": 6
+}",add,conditioner,6
+"{
+  ""action"": ""add"",
+  ""product"": ""salt"",
+  ""quantity"": 5
+}",add,salt,5
+"{
+  ""action"": ""remove"",
+  ""product"": ""detergent"",
+  ""quantity"": 9
+}",remove,detergent,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""garlic"",
+  ""quantity"": 17
+}",remove,garlic,17
+"{
+  ""action"": ""add"",
+  ""product"": ""lemons"",
+  ""quantity"": 18
+}",add,lemons,18
+"{
+  ""action"": ""add"",
+  ""product"": ""granola"",
+  ""quantity"": 3
+}",add,granola,3
+"{
+  ""action"": ""add"",
+  ""product"": ""salmon"",
+  ""quantity"": 10
+}",add,salmon,10
+"{
+  ""action"": ""remove"",
+  ""product"": ""chicken"",
+  ""quantity"": 13
+}",remove,chicken,13
+"{
+  ""action"": ""add"",
+  ""product"": ""spaghetti"",
+  ""quantity"": 7
+}",add,spaghetti,7
+"{
+  ""action"": ""add"",
+  ""product"": ""spinach"",
+  ""quantity"": 12
+}",add,spinach,12
+"{
+  ""action"": ""remove"",
+  ""product"": ""foil"",
+  ""quantity"": 8
+}",remove,foil,8
+"{
+  ""action"": ""add"",
+  ""product"": ""treats"",
+  ""quantity"": 10
+}",add,treats,10
+"{
+  ""action"": ""add"",
+  ""product"": ""toothpaste"",
+  ""quantity"": 9
+}",add,toothpaste,9
+"{
+  ""action"": ""remove"",
+  ""product"": ""sugar"",
+  ""quantity"": 10
+}",remove,sugar,10

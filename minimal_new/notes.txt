@@ -1,0 +1,18 @@
+Model Performance Results:
+================================================================================
+  model_name  exact_match_f1  exact_match_precision  exact_match_recall  exact_match_accuracy  macro_avg_f1  exact_matches  total_samples
+    Qwen3 4B           0.996                  1.000               0.992                 0.992         0.998           1983           2000
+Llama 3.1 8B           0.982                  1.000               0.965                 0.965         0.985           1929           2000
+Llama 3.2 3B           0.962                  1.000               0.927                 0.927         0.983           1854           2000
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+Best performing model (Exact Match F1): Qwen3 4B (0.996)
+Average F1 score across all models: 0.980
+Standard deviation of F1 scores: 0.017
+
+Individual column performance for best model 'Qwen3 4B':
+  action: 1.000
+  product: 0.992
+  quantity: 1.000

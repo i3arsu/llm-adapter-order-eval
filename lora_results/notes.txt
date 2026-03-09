@@ -1,0 +1,18 @@
+Model Performance Results:
+================================================================================
+  model_name  exact_match_f1  exact_match_precision  exact_match_recall  exact_match_accuracy  macro_avg_f1  exact_matches  total_samples
+Llama 3.1 8B           1.000                  1.000               1.000                 1.000         1.000           2000           2000
+Llama 3.2 3B           0.999                  1.000               0.999                 0.999         1.000           1998           2000
+    Qwen3 4B           0.999                  1.000               0.999                 0.999         0.999           1997           2000
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+Best performing model (Exact Match F1): Llama 3.1 8B (1.000)
+Average F1 score across all models: 1.000
+Standard deviation of F1 scores: 0.000
+
+Individual column performance for best model 'Llama 3.1 8B':
+  action: 1.000
+  product: 1.000
+  quantity: 1.000
